@@ -4,6 +4,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ## [Unreleased]
 ### Added
 - Job status CANCELED
+- New Panel-Dashboard to be equal to Helmut Web
 
 ### Fixed
 
