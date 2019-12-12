@@ -7,6 +7,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - New Panel-Dashboard equal to Helmut Web
 - Log entries to each Job (open via Overlay)
 - Added support for assets with same source and project id
+- Added unique assets per project filter for housekeeper
 
 ### Fixed
 
