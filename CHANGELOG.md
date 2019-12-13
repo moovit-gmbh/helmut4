@@ -6,6 +6,9 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Job status CANCELED
 - New Panel-Dashboard equal to Helmut Web
 - Log entries to each Job (open via Overlay)
+- Added support for assets with same source and project id
+- Added unique assets per project filter for housekeeper
+- Added move asset endpoint which changes all asset filepaths matching sourcePatch and sets asset to unsynced
 
 ### Fixed
 - Post Kill AME is no working properly
