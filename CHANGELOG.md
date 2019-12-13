@@ -8,6 +8,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Log entries to each Job (open via Overlay)
 
 ### Fixed
+- Post Kill AME is no working properly
 
 ### Changed
 
