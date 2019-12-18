@@ -10,7 +10,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ### Removed
 
-## [4.0.1-2019-12-18-122818](unstable)
+## [4.0.1-2019-12-18-122818] (unstable)
 ### Added
 - Job status CANCELED
 - New Panel-Dashboard equal to Helmut Web
