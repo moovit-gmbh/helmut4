@@ -3,6 +3,15 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ## [Unreleased]
 ### Added
+
+### Fixed
+
+### Changed
+
+### Removed
+
+## [4.0.1-2019-12-18-122818](unstable)
+### Added
 - Job status CANCELED
 - New Panel-Dashboard equal to Helmut Web
 - Log entries to each Job (open via Overlay)
@@ -12,9 +21,12 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - CHOOSE_FOLDER Metadata type (IO only)
 
 ### Fixed
-- Post Kill AME is no working properly
+- Post Kill AME is now working properly
+- Adding assets to Flow projects that contain assets on the root level is now working
+- Preference Tab in Helmut Webinterface was not working
 
 ### Changed
+- Cosmo Database structure - requires reindexing of existing projects to work properly
 
 ### Removed
 
@@ -153,3 +165,4 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 [unreleased]: https://helmut.tools
 [4.0.1-2019-12-06-180706]: https://helmut.tools
+[4.0.1-2019-12-18-122818]: https://helmut.tools
