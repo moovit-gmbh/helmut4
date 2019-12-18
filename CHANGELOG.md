@@ -3,6 +3,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ## [Unreleased]
 ### Added
+- Warning to Streams containing deprecated Nodes to Streamoverview
 
 ### Fixed
 
