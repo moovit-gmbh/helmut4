@@ -23,7 +23,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Fixed
 - Post Kill AME is now working properly
 - Adding assets to Flow projects that contain assets on the root level is now working
-- Preference Tab in Helmut Webinterface was not working
+- Preference Tab in Helmut Webinterface was now working
 
 ### Changed
 - Cosmo Database structure - requires reindexing of existing projects to work properly
