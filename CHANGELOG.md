@@ -7,6 +7,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - SwatIO as module and node
 
 ### Fixed
+- Exporting from Cosmo Webinterface
 
 ### Changed
 
