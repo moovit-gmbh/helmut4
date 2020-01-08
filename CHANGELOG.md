@@ -10,6 +10,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Export sequences from Cosmo Webinterface
 
 ### Changed
+- Reworked project sync icon: (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
 
 ### Removed
 
