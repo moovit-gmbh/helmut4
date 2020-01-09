@@ -5,6 +5,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Added
 - Warning to Streams containing deprecated Nodes to Streamoverview
 - SwatIO as module and node
+- Implemented multiselect for jobs in dashboard view
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
