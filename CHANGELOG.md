@@ -6,6 +6,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Warning to Streams containing deprecated Nodes to Streamoverview
 - SwatIO as module and node
 - Implemented multiselect for jobs in dashboard view (only cancel jobs is supported right now)
+- Implemented "Import Folder" functionality for premiere and after effects panels
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
