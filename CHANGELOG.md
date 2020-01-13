@@ -5,15 +5,16 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Added
 - Warning to Streams containing deprecated Nodes to Streamoverview
 - SwatIO as module and node
-- Implemented multiselect for jobs in dashboard view -> only cancel jobs is supported right now
+- Implemented multiselect for jobs in dashboard view (only cancel jobs is supported right now)
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
 - Import composition to premiere project
-- Simulaniosly add different project types (aepx,ppro,sesx) leaded to empty names for at least two created projects -> fixed
+- Simulaniosly add different project types (aepx,ppro,sesx) leaded to empty names for at least two created projects
+- Parentheses are working as expected in wildcards
 
 ### Changed
-- Reworked project sync icon: (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
+- Reworked project sync icon (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
 
 ### Removed
 
