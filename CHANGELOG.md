@@ -12,10 +12,14 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Export sequences from Cosmo Webinterface
 - Import composition to premiere project
 - Simulaniosly add different project types (aepx,ppro,sesx) leaded to empty names for at least two created projects
-- Parentheses are working as expected in wildcards
+- Parentheses are now working as expected in wildcards
+
 
 ### Changed
 - Reworked project sync icon (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
+- License tab in Webinterface is now showing the major version
+- Removed modules from license tab
+- Hiding JWT token in License tab
 
 ### Removed
 
