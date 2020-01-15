@@ -9,7 +9,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Implemented "Import Folder" functionality for premiere and after effects panels
 - Added Minimized panel view where only sync icon is visible - activates automatically with shrinking panel width
 - Added environment HELMUT_LICENSE=<License token> which has a higher priority then the Database
-- Added License count -1 for an inifite of concurrent users to licenses
+- Added license count -1 for an inifite amount of concurrent users
 - Added Node:
    - Cosmo Move Asset (global)
    - Cosmo Move Project Asset (for a single project only)
