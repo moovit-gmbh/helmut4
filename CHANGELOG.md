@@ -7,6 +7,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - SwatIO as module and node
 - Implemented multiselect for jobs in dashboard view (only cancel jobs is supported right now)
 - Implemented "Import Folder" functionality for premiere and after effects panels
+- Added minimized panel view where only sync icon is visible -> activates automatically with shrinking panel width
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
