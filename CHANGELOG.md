@@ -14,7 +14,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
    - Cosmo Move Asset (global)
    - Cosmo Move Project Asset (for a single project only)
 - Copy node between Streams (Chrome only)
-     - As a workaround Firefox and Safari, you can paste into the "Search" field to create the node
+     - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
 
 ### Fixed
@@ -31,6 +31,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Hiding JWT token in License tab
 
 ### Removed
+- Action entry Open for force-locked projects
 
 ## [4.0.1-2019-12-18-122818] (unstable)
 ### Added
