@@ -13,6 +13,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added Node:
    - Cosmo Move Asset (global)
    - Cosmo Move Project Asset (for a single project only)
+- Copy node between Streams (Chrome only)
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
