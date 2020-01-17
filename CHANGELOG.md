@@ -16,6 +16,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Copy node between Streams (Chrome only)
      - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
+- Added Helmut autologin download to users action menu
+- Released helmut linux client (docker) experimental
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
@@ -31,7 +33,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Hiding JWT token in License tab
 
 ### Removed
-- Action entry Open for force-locked projects
+- Removed action entry Open for force-locked projects
 
 ## [4.0.1-2019-12-18-122818] (unstable)
 ### Added
