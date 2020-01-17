@@ -17,7 +17,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
      - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
 - Added Helmut autologin download to users action menu
-- Released helmut linux client (docker) experimental
+- Released helmut linux client (docker; experimental)
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
