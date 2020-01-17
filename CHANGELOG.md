@@ -14,6 +14,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
    - Cosmo Move Asset (global)
    - Cosmo Move Project Asset (for a single project only)
 - Copy node between Streams (Chrome only)
+     - As a workaround Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
 
 ### Fixed
