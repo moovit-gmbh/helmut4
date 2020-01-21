@@ -26,6 +26,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Import composition to premiere project
 - Simulaniosly add different project types (aepx,ppro,sesx) leaded to empty names for at least two created projects
 - Parentheses are now working as expected in wildcards
+- Assets without mediatype (data assets) create an infinite loop when add to something else then root (/)
 
 
 ### Changed
