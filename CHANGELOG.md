@@ -32,7 +32,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - License tab in Webinterface is now showing the major version
 - Removed modules from license tab
 - Hiding JWT token in License tab
-- Wildcard %local.profile.?% to accept numbers and dezimals (eg. 12 or 12.0)
+- Wildcard %local.profile.?% to accept numbers and decimals (eg. 12 or 12.0)
 
 ### Removed
 - Removed action entry Open for force-locked projects
