@@ -18,6 +18,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
 - Added Helmut autologin download to users action menu
 - Released helmut linux client (docker; experimental)
+- Added path-mapping / variable insert at desired location (splice)
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
