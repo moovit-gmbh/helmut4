@@ -19,6 +19,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added Helmut autologin download to users action menu
 - Released helmut linux client (docker; experimental)
 - Added path-mapping / variable insert at desired location (splice)
+- Added MD5 checksum functional wildcard - %file.md5.?% (CPU intensiv!)
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
