@@ -28,7 +28,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Simulaniosly add different project types (aepx,ppro,sesx) leaded to empty names for at least two created projects
 - Parentheses are now working as expected in wildcards
 - Assets without mediatype (data assets) create an infinite loop when add to something else then root (/)
-
+- Modified date for bins inside assets tabel in webinterface and panel does not show "invalid date" anymore
 
 ### Changed
 - Reworked project sync icon (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
