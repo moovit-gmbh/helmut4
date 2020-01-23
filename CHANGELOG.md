@@ -22,6 +22,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added MD5 checksum wildcard - %file.md5.?% (CPU intensiv!)
 - Added recursive toggling synced if parent bin has been set to synced / unsynced 
 - Added restricted mode (non client mode) to Webinterface (use project tab without helmut client, eg from phone)
+- Added 'reserve license' to users tab
 
 ### Fixed
 - Export sequences from Cosmo Webinterface
