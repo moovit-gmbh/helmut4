@@ -13,6 +13,9 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added Node:
    - Cosmo Move Asset (global)
    - Cosmo Move Project Asset (for a single project only)
+   - Premiere alert with timeout (client version >= 4.0.1.92 req)
+   - Premiere prompt with timeout (client version >= 4.0.1.92 req)
+   - Premiere confirm with timeout (client version >= 4.0.1.92 req)
 - Copy node between Streams (Chrome only)
      - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
