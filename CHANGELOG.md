@@ -25,6 +25,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added 'reserve license' to users tab
 - Add direct jump to metadata set from profiles tab
 - Add typeahead (autocomplete) metadata
+- Add duplicate stream
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
