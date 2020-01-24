@@ -24,6 +24,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added restricted mode (non client mode) to Webinterface (use project tab without helmut client, eg from phone)
 - Added 'reserve license' to users tab
 - Add direct jump to metadata set from profiles tab
+- Add typeahead (autocomplete) metadata
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
