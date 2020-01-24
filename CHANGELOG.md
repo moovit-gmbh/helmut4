@@ -26,6 +26,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add direct jump to metadata set from profiles tab
 - Add typeahead (autocomplete) metadata
 - Add duplicate stream
+- Add duplicate profile
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
