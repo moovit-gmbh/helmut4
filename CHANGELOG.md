@@ -16,6 +16,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
    - Premiere alert with timeout (client version >= 4.0.1.92 req)
    - Premiere prompt with timeout (client version >= 4.0.1.92 req)
    - Premiere confirm with timeout (client version >= 4.0.1.92 req)
+   - Social Media Download (req social media downloader; third party by moovit.de)
 - Copy node between Streams (Chrome only)
      - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
@@ -30,6 +31,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add typeahead (autocomplete) metadata
 - Add duplicate stream
 - Add duplicate profile
+- Add link upload via Cosmo 
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
