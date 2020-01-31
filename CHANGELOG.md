@@ -53,9 +53,11 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Removed modules from license tab
 - Hiding JWT token in License tab
 - Wildcard %local.profile.?% to accept numbers and decimals (eg. 12 or 12.0)
+- Width of 'Type' column for Metadata
 
 ### Removed
 - Removed action entry Open for force-locked projects
+- Regex from metadata
 
 ## [4.0.1-2019-12-18-122818] (unstable)
 ### Added
