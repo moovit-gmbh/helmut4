@@ -37,7 +37,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
    - %date.month.textual.short% - Jan, Feb...  
    - %date.month.textual.?% - January, February.. of input date
    - %date.month.textual.short.?% - Jan, Feb.. of input date
-- Add WEB_EXPORT and WEB_IMPORT Events and Streams (you can still use IMPORT for Webingest)
+- Add WEB_EXPORT and WEB_IMPORT Events and Streams (you can still use IMPORT for webingest)
+- Add WEB_EXPORT support for mediafiles to webinterface
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
