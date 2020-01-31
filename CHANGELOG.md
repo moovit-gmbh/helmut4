@@ -37,6 +37,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
    - %date.month.textual.short% - Jan, Feb...  
    - %date.month.textual.?% - January, February.. of input date
    - %date.month.textual.short.?% - Jan, Feb.. of input date
+- Add WEB_EXPORT and WEB_IMPORT Events and Streams (you can still use IMPORT for Webingest)
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
@@ -54,6 +55,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Hiding JWT token in License tab
 - Wildcard %local.profile.?% to accept numbers and decimals (eg. 12 or 12.0)
 - Width of 'Type' column for Metadata
+- Web sequence export is now using WEB_EXPORT profiles instead of EXPORT)
 
 ### Removed
 - Removed action entry Open for force-locked projects
