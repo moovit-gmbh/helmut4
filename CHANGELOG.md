@@ -32,6 +32,11 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add duplicate stream
 - Add duplicate profile
 - Add link upload via Cosmo 
+- Add wildcards:
+   - %date.month.textual% - January, February..
+   - %date.month.textual.short% - Jan, Feb...  
+   - %date.month.textual.?% - January, February.. of input date
+   - %date.month.textual.short.?% - Jan, Feb.. of input date
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
