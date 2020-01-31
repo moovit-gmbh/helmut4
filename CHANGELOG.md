@@ -66,14 +66,18 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Unique assets per project filter for housekeeper
 - Move asset endpoint which changes all asset filepaths matching sourcePatch and sets asset to unsynced
 - CHOOSE_FOLDER Metadata type (IO only)
+- Updated API documentations to [Helmut4 API Docs](http://repo.moovit24.de:8080/)
 
 ### Fixed
 - Post Kill AME is now working properly
 - Adding assets to Flow projects that contain assets on the root level is now working
 - Preference Tab in Helmut Webinterface is now working
+- Profile select in Cosmo uploader stuck in certian situations
+- Metadata sorting broken when adding/removing metadata entries from other groups
+- Metadata CHOOSE_FOLDER in Premiere on Windows would return paths with forward slashes (Adobe special)
 
 ### Changed
-- Cosmo Database structure - requires reindexing of existing projects to work properly
+- Cosmo Database structure (requires reindexing of existing projects to work properly)
 
 ### Removed
 
