@@ -3,6 +3,12 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ## [Unreleased]
 ### Added
+### Fixed
+### Changed
+### Removed
+
+## [4.0.1-2020-02-04-155216] (unstable)
+### Added
 - Warning to Streams containing deprecated Nodes to Streamoverview
 - SwatIO as module and node
 - Implemented multiselect for jobs in dashboard view (only cancel jobs is supported right now)
