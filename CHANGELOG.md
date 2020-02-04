@@ -57,6 +57,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Assets without mediatype (data assets) create an infinite loop when add to something else then root (/)
 - Modified date for bins inside assets tabel in webinterface and panel does not show "invalid date" anymore
 - Metadata sorting works properly
+- Asset export is now sending the asset instead of the project path
 
 ### Changed
 - Reworked project sync icon (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
