@@ -231,3 +231,4 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 [unreleased]: https://helmut.tools
 [4.0.1-2019-12-06-180706]: https://helmut.tools
 [4.0.1-2019-12-18-122818]: https://helmut.tools
+[4.0.1-2020-02-04-155216]: https://helmut.tools
