@@ -17,8 +17,11 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
    - Premiere prompt with timeout (client version >= 4.0.1.92 req)
    - Premiere confirm with timeout (client version >= 4.0.1.92 req)
    - Social Media Download (req social media downloader; third party by moovit.de)
+   - Create new project 
+   - Import existing project 
+   - Create new Job (create jobs from withing streams)
 - Copy node between Streams (Chrome only)
-     - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
+   - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
 - Added Helmut autologin download to users action menu
 - Released helmut linux client (docker; experimental)
