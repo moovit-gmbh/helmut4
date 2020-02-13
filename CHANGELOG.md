@@ -39,6 +39,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
    - %date.month.textual.short.?% - Jan, Feb.. of input date
 - Add WEB_EXPORT and WEB_IMPORT Events and Streams (you can still use IMPORT for webingest)
 - Add WEB_EXPORT support for mediafiles to webinterface
+- User can now change their password from the user custom menu
    
 ### Fixed
 - Export sequences from Cosmo Webinterface
@@ -48,6 +49,11 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Assets without mediatype (data assets) create an infinite loop when add to something else then root (/)
 - Modified date for bins inside assets tabel in webinterface and panel does not show "invalid date" anymore
 - Metadata sorting works properly
+- Added pathmapping to watchfolder
+- Resolution condition node works properly
+- Typeahead typed metadata works properly
+- Mandatory metadata fields are now also checked within the panel
+- Profiles to group assignment and order at profiles tap of webinterface works porperly now
 
 ### Changed
 - Reworked project sync icon (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
@@ -57,6 +63,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Wildcard %local.profile.?% to accept numbers and decimals (eg. 12 or 12.0)
 - Width of 'Type' column for Metadata
 - Web sequence export is now using WEB_EXPORT profiles instead of EXPORT)
+- Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
+- Project sync process is now working in packages of 25 assets
 
 ### Removed
 - Removed action entry Open for force-locked projects
