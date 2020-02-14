@@ -20,6 +20,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
 - Project sync process is now working in packages of 25 assets
 - Improved upload counter and progress which will be resetted if no upload is currently active
+- Switch between opened projects in panel can be made by new added dropdown list, previous switch icon can be used for panel refresh
+- Typeahead metadata field now allows arbitrary inputs
 
 ### Removed
 
