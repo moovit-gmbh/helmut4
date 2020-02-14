@@ -4,6 +4,10 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ## [Unreleased]
 ### Added
 - User can now change their password from the user custom menu
+- Added push assets functionality
+  - push assets (BINS, COMPS, SEQUENCES, FOOTAGE) between AfterEffects or Premiere Projects or cross plattform
+  - simply drag and drop selection from projects window into project details page of the cosmo tab
+  - bins will be read out recursively skipping unsupported items
 
 ### Fixed
 - Added pathmapping to watchfolder
