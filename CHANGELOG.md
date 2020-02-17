@@ -24,6 +24,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Improved upload counter and progress which will be resetted if no upload is currently active
 - Switch between opened projects in panel can be made by new added dropdown list, previous switch icon can be used for panel refresh
 - Typeahead metadata field now allows arbitrary inputs
+- Message dialog can now show large text
 
 ### Removed
 
