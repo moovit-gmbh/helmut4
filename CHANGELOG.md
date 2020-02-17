@@ -4,16 +4,18 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ## [Unreleased]
 ### Added
 - User can now change their password from the user custom menu
-- Added push assets functionality
+- Add push assets functionality
   - push assets (BINS, COMPS, SEQUENCES, FOOTAGE) between AfterEffects or Premiere Projects or cross plattform
   - simply drag and drop selection from projects window into project details page of the cosmo tab
   - bins will be read out recursively skipping unsupported items
+- Add timestamp to social media downloads to force unique filenames (enables re-download)  
+- Add pathmapping to watchfolder
 
 ### Fixed
-- Added pathmapping to watchfolder
 - Resolution condition node works properly
 - Typeahead typed metadata works properly
 - Mandatory metadata fields are now also checked within the panel
+- Mandatory metadata fields are now also checked within Cosmo weupload
 - Profiles to group assignment and order at profiles tap of webinterface works porperly now
 
 ### Changed
