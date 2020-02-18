@@ -17,6 +17,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Mandatory metadata fields are now also checked within the panel
 - Mandatory metadata fields are now also checked within Cosmo weupload
 - Profiles to group assignment and order at profiles tap of webinterface works porperly now
+- !Single jobs could be handed out to multiple rendernodes simultaneously
+- WildcardCondition now matches in the correct order
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
