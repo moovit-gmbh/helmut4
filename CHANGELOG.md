@@ -10,6 +10,12 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - bins will be read out recursively skipping unsupported items
 - Add timestamp to social media downloads to force unique filenames (enables re-download)  
 - Add pathmapping to watchfolder
+- Add new access presets (user and group)
+- Add new filters
+- Add user email to webinterface, including change email (action menu)
+- Add wildcard:
+  - %user.email%
+  - %job.user.email%
 
 ### Fixed
 - Resolution condition node works properly
