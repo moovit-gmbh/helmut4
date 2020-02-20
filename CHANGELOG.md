@@ -34,6 +34,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Typeahead metadata field now allows arbitrary inputs
 - Message dialog can now show large text
 - SwatIO channel id is now type string to support wildcards
+- Wildcard replacer to support all kinds/levels of nesting now
+- Enlarged input fields in Streamdesigner are now better readable
 
 ### Removed
 
