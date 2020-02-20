@@ -39,6 +39,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - SwatIO channel id is now type string to support wildcards
 - Reworked Access Presets and added APs for all products
 - All media files of an imported folder in AE or PPRO will now be added to autoimport list
+- Wildcard replacer to support all kinds/levels of nesting now
+- Enlarged input fields in Streamdesigner are now better readable
 - Reworked project related filters
   - Group, category and template filters are now fixed filters and their values are dependent to each other
   - Removed edit filter dialog and replaced it with quick pick inline dialog
