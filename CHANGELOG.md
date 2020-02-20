@@ -25,6 +25,9 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Profiles to group assignment and order at profiles tap of webinterface works porperly now
 - !Single jobs could be handed out to multiple rendernodes simultaneously
 - WildcardCondition now matches in the correct order
+- Access preset to group assignment now woking properly
+- Rendernode assignment to profile is now working properly (third and following entries won't have double whitespaces between ',' delimiter anymore)
+- Properly handling imported assets that has been moved inside Premiere or After Effects project view before project scan -> no duplicate asset entries, one online one offline 
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
@@ -34,6 +37,12 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Typeahead metadata field now allows arbitrary inputs
 - Message dialog can now show large text
 - SwatIO channel id is now type string to support wildcards
+- Reworked Access Presets and added APs for all products
+- All media files of an imported folder in AE or PPRO will now be added to autoimport list
+- Reworked project related filters
+  - Group, category and template filters are now fixed filters and their values are dependent to each other
+  - Removed edit filter dialog and replaced it with quick pick inline dialog
+  - Moved filter saving and restoring functionality to main project page -> it will be find inside the quick restore menu
 
 ### Removed
 
