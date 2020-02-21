@@ -16,6 +16,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add wildcard:
   - %user.email%
   - %job.user.email%
+- Add curl to all images for Docker Healthchecks
 
 ### Fixed
 - Resolution condition node works properly
