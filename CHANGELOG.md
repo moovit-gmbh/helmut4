@@ -17,6 +17,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - %user.email%
   - %job.user.email%
 - Add curl to all images for Docker Healthchecks
+- Add typeahead for tag field of add project dialog
 
 ### Fixed
 - Resolution condition node works properly
@@ -29,6 +30,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Access preset to group assignment now woking properly
 - Rendernode assignment to profile is now working properly (third and following entries won't have double whitespaces between ',' delimiter anymore)
 - Properly handling imported assets that has been moved inside Premiere or After Effects project view before project scan -> no duplicate asset entries, one online one offline 
+- Display of filter lines in create search filter dialog is now working properly
+  - There was an update issue leeds to wrong filter names when lines got deleted
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
