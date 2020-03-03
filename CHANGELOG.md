@@ -19,6 +19,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add curl to all images for Docker Healthchecks
 - Add typeahead for tag field of add project dialog
 - Add 3000ms delay to connected stream
+- Add use result as current project to Create Project Node
 
 ### Fixed
 - Resolution condition node works properly
