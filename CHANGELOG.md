@@ -53,6 +53,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - Moved filter saving and restoring functionality to main project page -> it will be find inside the quick restore menu
 
 ### Removed
+- Hardcoded (double) project name check from duplicate project endpoint
 
 ## [4.0.1-2020-02-04-155216] (unstable)
 ### Added
