@@ -20,6 +20,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add typeahead for tag field of add project dialog
 - Add 3000ms delay to connected stream
 - Add use result as current project to Create Project Node
+- Add install as service to Helmut client windows installer
 
 ### Fixed
 - Resolution condition node works properly
