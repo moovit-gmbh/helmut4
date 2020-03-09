@@ -35,6 +35,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Properly handling imported assets that has been moved inside Premiere or After Effects project view before project scan -> no duplicate asset entries, one online one offline 
 - Display of filter lines in create search filter dialog is now working properly
   - There was an update issue leeds to wrong filter names when lines got deleted
+- {user.name} in profiles is now working same as %user.name%
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
