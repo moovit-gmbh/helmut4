@@ -52,6 +52,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - Group, category and template filters are now fixed filters and their values are dependent to each other
   - Removed edit filter dialog and replaced it with quick pick inline dialog
   - Moved filter saving and restoring functionality to main project page -> it will be find inside the quick restore menu
+- Metadata 'Values' and 'Default value' are now being edited using an overlay to have more space horizontally & vertically
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
