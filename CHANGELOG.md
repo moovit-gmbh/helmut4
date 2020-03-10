@@ -21,7 +21,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add 3000ms delay to connected stream
 - Add use result as current project to Create Project Node
 - Add install as service to Helmut client windows installer
-- Add Single Sign On (windows only; experimental) - requires ActiveDirectoryAuto Module - [Show Preview](https://bit.ly/3aHAN62)
+- Add Single Sign On (windows only; experimental) - requires ActiveDirectoryAuto Module - [Show Preview](https://sev.moovit24.de/uploads/TW9vdklUIEdtYkg/XOiszDzFt6nLjcBlOFKnFdZUj691UBkVVGEnC2J2TpW6A56rnhpMCxxDLo29iRNGpnnmkwYA83aJwR7Hts1RWQr5gt9VipPoSiC3/#5bcd21ab9e93d089d98115888b7db5931321789799a8bcfb026bf8f77cb2ef6d)
+- Add pre resolve metadata [Show preview](https://sev.moovit24.de/uploads/TW9vdklUIEdtYkg/TRp2uJ8BCaveU3DweDACEjvUw4guPaaFxJa85RemIurVivX7P7wiGSuiU4xUsJaHkekmz4hUeXTcr9wtOHzfjIiJCj6y7VtvhPF6/)
 
 ### Fixed
 - Resolution condition node works properly
