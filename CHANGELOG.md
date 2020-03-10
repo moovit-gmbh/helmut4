@@ -45,6 +45,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Index project where effects have been used can now be indexed without any issues
 - Moved delete saved filter icon (recycling bin) in front of the filter name to enable deleting filters with long names
 - UNC path mapping within index project logic is now working properly
+- Project items of synced cosmo assets will be renamed after cosmo asset names
+- Cought case where synced asset path is not reachable -> loading dialog will be closed now
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
