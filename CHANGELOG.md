@@ -40,6 +40,10 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - There was an update issue leeds to wrong filter names when lines got deleted
 - {user.name} in profiles is now working same as %user.name%
 - Added asset stream will now have correct job information set
+- 0 B size and default 1970 date are now replaced with '-' character
+- Index project where effects have been used can now be indexed without any issues
+- Moved delete saved filter icon (recycling bin) in front of the filter name to enable deleting filters with long names
+- UNC path mapping within index project logic is now working properly
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
@@ -60,6 +64,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Metadata 'Values' and 'Default value' are now being edited using an overlay to have more space horizontally & vertically
 - A renoderNode (pool) can now be set when adding a new job to IO instead of using the pool of the profile
 - Create Job Action can now set renderNode(s) within the node (empty = read from profile) to designate a new job to a node (pool)
+- Multiselect of projects and jobs is now only allowed for admin users
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
