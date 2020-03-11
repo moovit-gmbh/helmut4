@@ -47,6 +47,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - UNC path mapping within index project logic is now working properly
 - Project items of synced cosmo assets will be renamed after cosmo asset names
 - Cought case where synced asset path is not reachable -> loading dialog will be closed now
+- Multiselect metadata fields in jobs etc. will no more cause problems after adding pre-resolve feature
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
