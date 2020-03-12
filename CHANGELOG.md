@@ -25,6 +25,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add pre resolve metadata [Show preview](https://sev.moovit24.de/uploads/TW9vdklUIEdtYkg/TRp2uJ8BCaveU3DweDACEjvUw4guPaaFxJa85RemIurVivX7P7wiGSuiU4xUsJaHkekmz4hUeXTcr9wtOHzfjIiJCj6y7VtvhPF6/)
 - Add license usage to FX dashboard
 - Add (selected) Streams export/import
+- Add exclusion tags for wildcards, eg. "{project.name} [<] do not map {project.name} here [>] {project.name}" -> "my-project-name [<] do not map {project.name} here [>] my-project-name" ([<] ... [>] will be removed)
 
 ### Fixed
 - Resolution condition node works properly
