@@ -26,6 +26,11 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add license usage to FX dashboard
 - Add (selected) Streams export/import
 - Add exclusion tags for wildcards, eg. "{project.name} [<] do not map {project.name} here [>] {project.name}" -> "my-project-name [<] do not map {project.name} here [>] my-project-name" ([<] ... [>] will be removed)
+- Add new Active directory Module
+  - Use multiple AD Hosts (Controllers) with fallback functionallity
+  - Syncronize users of different AD groups with individual helmut groups
+  - Use browse dialog to browse through AD content
+  - Old AD still working
 
 ### Fixed
 - Resolution condition node works properly
@@ -49,6 +54,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Project items of synced cosmo assets will be renamed after cosmo asset names
 - Cought case where synced asset path is not reachable -> loading dialog will be closed now
 - Multiselect metadata fields in jobs etc. will no more cause problems after adding pre-resolve feature
+- Housekeeper assets search is now working properly
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
