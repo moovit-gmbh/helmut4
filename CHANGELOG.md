@@ -32,6 +32,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - Use browse dialog to browse through AD content
   - Old AD still working
 - Add {path.map.to.win.?} and {path.map.to.unix.?} functional wildcards. Using these wildcards will disable automapping the complete string!
+- Add confirmation dialog to logout if there are active uploads running
 
 ### Fixed
 - Resolution condition node works properly
