@@ -83,6 +83,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Private project togle is now only available for admins or the creator of a project
 - Renewed IO and CO filters and removed all/any switch
 - Copying nodes via browser tabs is only possible when using SSL (or localhost) - this is a browser restriction we can not work around
+- Add asset to project will now update project size value
+- Extended mime type list
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
