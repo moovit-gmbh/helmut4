@@ -31,6 +31,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - Syncronize users of different AD groups with individual helmut groups
   - Use browse dialog to browse through AD content
   - Old AD still working
+- Add {path.map.to.win.?} and {path.map.to.unix.?} functional wildcards. Using these wildcards will disable automapping the complete string!
 
 ### Fixed
 - Resolution condition node works properly
