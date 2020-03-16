@@ -55,6 +55,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Cought case where synced asset path is not reachable -> loading dialog will be closed now
 - Multiselect metadata fields in jobs etc. will no more cause problems after adding pre-resolve feature
 - Housekeeper assets search is now working properly
+- Event trigger node in Streamdesigner would always show an old title then renaming a node or importing a stream
+- Event triggers in Streamdesigner will now always show the latest, sorted list of events
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
@@ -78,6 +80,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Multiselect of projects and jobs is now only allowed for admin users
 - Private project togle is now only available for admins or the creator of a project
 - Renewed IO and CO filters and removed all/any switch
+- Copying nodes via browser tabs is only possible when using SSL (or localhost) - this is a browser restriction we can not work around
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
