@@ -77,6 +77,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Create Job Action can now set renderNode(s) within the node (empty = read from profile) to designate a new job to a node (pool)
 - Multiselect of projects and jobs is now only allowed for admin users
 - Private project togle is now only available for admins or the creator of a project
+- Renewed IO and CO filters
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
