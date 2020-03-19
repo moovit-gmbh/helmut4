@@ -85,6 +85,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Copying nodes via browser tabs is only possible when using SSL (or localhost) - this is a browser restriction we can not work around
 - Add asset to project will now update project size value
 - Extended mime type list
+- Updated node's using AME or Premire default value to v2020
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
