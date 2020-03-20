@@ -86,6 +86,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add asset to project will now update project size value
 - Extended mime type list
 - Updated node's using AME or Premire default value to v2020
+- Add path to premiere lock file to Premrie Native Lock Action
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
