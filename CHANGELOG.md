@@ -34,6 +34,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add {path.map.to.win.?} and {path.map.to.unix.?} functional wildcards. Using these wildcards will disable automapping the complete string!
 - Add confirmation dialog to logout if there are active uploads running
 - Add password to helmut-updater, please contact support@moovit.de for further informations
+- Add {generate.uuid node}
 
 ### Fixed
 - Resolution condition node works properly
