@@ -37,6 +37,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add {generate.uuid node}
 - Add INDEXED_ASSET trigger to Cosmo Project Index Node
 - Add advanced indexing to Cosmo Index Node
+- Newline \n support to Write To File Ouput node
 
 ### Fixed
 - Resolution condition node works properly
@@ -63,7 +64,6 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Housekeeper assets search is now working properly
 - Event trigger node in Streamdesigner would always show an old title then renaming a node or importing a stream
 - Event triggers in Streamdesigner will now always show the latest, sorted list of events
-- Newline \n is now support in Write To File Ouput node
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
