@@ -37,7 +37,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add {generate.uuid node}
 - Add INDEXED_ASSET trigger to Cosmo Project Index Node
 - Add advanced indexing to Cosmo Index Node
-- Newline \n support to Write To File Ouput node
+- Add newline \n support to Write To File Ouput node
 
 ### Fixed
 - Resolution condition node works properly
