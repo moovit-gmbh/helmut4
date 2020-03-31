@@ -38,6 +38,13 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add INDEXED_ASSET trigger to Cosmo Project Index Node
 - Add advanced indexing to Cosmo Index Node
 - Add newline \n support to Write To File Ouput node
+- Add role chooser for Auto Active Directory Module (default USER)
+- Add new inOutPoint attribute for asset which enables setting in and out points on clips after syncing into project
+- Add new filter logic to dashboard and cosmo and removed several issues:
+  - user.displayname is now creator
+  - filter dropdown entries are now sorted
+- Extended mime type detection for incomming assets
+
 
 ### Fixed
 - Resolution condition node works properly
@@ -64,6 +71,16 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Housekeeper assets search is now working properly
 - Event trigger node in Streamdesigner would always show an old title then renaming a node or importing a stream
 - Event triggers in Streamdesigner will now always show the latest, sorted list of events
+- Mimetype detection for M4A and OMF files is now working properly
+- Validate user against Auto Active Directory Module now working properly
+- Certificate trust for Auto Active Directory Module now working properly
+- Saving dashboard filter from HK is now possible
+- Sequence and Composition which names includes ":" will now be displayed correctly inside the select dropdown
+- Autoimport as well as asset sync is now working properly for premiere versions 2018, 2019, 2020
+  - For 2020 new World is supported
+- Added database index for date sort function to avoid mongodb buffer overflow bug
+- Added path mapping for proxy import
+
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
@@ -92,6 +109,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Extended mime type list
 - Updated node's using AME or Premire default value to v2020
 - Add path to premiere lock file to Premrie Native Lock Action
+- Project size will now be live updated with every asset which has been added to cosmo
+- Removed all/any switch for all searchfilter
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
