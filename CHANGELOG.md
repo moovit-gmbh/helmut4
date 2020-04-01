@@ -44,7 +44,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - user.displayname is now creator
   - filter dropdown entries are now sorted
 - Extended mime type detection for incomming assets
-
+- Add extension check for template when calling createProject endpoint (from node for exmaple)
+- Add FCPXML export support via HelmutIO
 
 ### Fixed
 - Resolution condition node works properly
@@ -81,7 +82,6 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added database index for date sort function to avoid mongodb buffer overflow bug
 - Added path mapping for proxy import
 
-
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
 - Project sync process is now working in packages of 25 assets
@@ -111,6 +111,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Add path to premiere lock file to Premrie Native Lock Action
 - Project size will now be live updated with every asset which has been added to cosmo
 - Removed all/any switch for all searchfilter
+- The way we detect the logged in domain and user for Single Sign On
 
 ### Removed
 - Hardcoded (double) project name check from duplicate project endpoint
