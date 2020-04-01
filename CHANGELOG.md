@@ -81,6 +81,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - For 2020 new World is supported
 - Added database index for date sort function to avoid mongodb buffer overflow bug
 - Added path mapping for proxy import
+- Autoimport groups would not be checked when choosing an autoimport profile for an open project
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
