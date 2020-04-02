@@ -83,6 +83,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added path mapping for proxy import
 - Autoimport groups would not be checked when choosing an autoimport profile for an open project
 - ActiveDirectory Auto sync will now trigger CREATE_USER for each new user
+- Single quotation mark within a filename does not cause errors inside the panel
+- Added priority and source to filterlist for dashboard filters
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
