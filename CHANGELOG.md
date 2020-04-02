@@ -82,6 +82,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added database index for date sort function to avoid mongodb buffer overflow bug
 - Added path mapping for proxy import
 - Autoimport groups would not be checked when choosing an autoimport profile for an open project
+- ActiveDirectory Auto sync will now trigger CREATE_USER for each new user
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
