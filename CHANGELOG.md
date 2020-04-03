@@ -89,6 +89,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Rendernode could get a job it isn't responsible for
 - FX and CO Server Streams could not send emails (via Node)
 - Sequence and/or profiles could not be choosen in the export panel
+- Metadata did not behave properly in AddProject Dialog
 
 ### Changed
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
