@@ -55,7 +55,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - filter dropdown entries are now sorted
 - Extended mime type detection for incomming assets
 - Add extension check for template when calling createProject endpoint (from node for exmaple)
-- Add FCPXML export support via HelmutIO
+- Add FCPXML render support via HelmutIO
 - Add info if projects are opened without helmut (no panel available)
 
 ### Fixed
