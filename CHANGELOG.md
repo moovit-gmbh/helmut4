@@ -1,7 +1,17 @@
 # Helmut4 Changelog
 All notable changes for the private product [Helmut4](https://helmut.tools) will be documented in this file.
 
-## [Unreleased]
+##   [Unreleased]
+
+### Added
+
+### Fixed
+
+### Changed
+
+### Removed
+
+## [4.0.1-release-0] (stable release)
 ### Added
 - User can now change their password from the user custom menu
 - Add push assets functionality
@@ -351,3 +361,4 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 [4.0.1-2019-12-06-180706]: https://helmut.tools
 [4.0.1-2019-12-18-122818]: https://helmut.tools
 [4.0.1-2020-02-04-155216]: https://helmut.tools
+[4.0.1-release-0]: https://helmut.tools
