@@ -8,6 +8,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ### Fixed
 - Installer is now using sudo to install Panels
+- Passwords with several special characters will no longer cause problems during login
 
 ### Changed
 
