@@ -4,8 +4,10 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ##   [Unreleased]
 
 ### Added
+- Login using POST body instead of query strings (downwards compatible)
 
 ### Fixed
+- Installer is now using sudo to install Panels
 
 ### Changed
 
