@@ -4,6 +4,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ##   [Unreleased]
 
 ### Added
+- Rendernode(s) to job overlay if there are any and less then 10
 
 ### Fixed
 - Installer is now using sudo to install Panels
