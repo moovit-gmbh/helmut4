@@ -11,6 +11,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Usernames / Passwords with several special characters will no longer cause problems during login
 
 ### Changed
+- Write File Output Node supports [NEWLINE] now
 
 ### Removed
 
