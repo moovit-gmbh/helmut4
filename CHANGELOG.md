@@ -5,6 +5,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ### Added
 - Rendernode(s) to job overlay if there are any and less then 10
+- Title and saved/unsaved status to title for Streamdesigner
+- Group filter for CUSTOM_FX and CUSTOM_IO events
 
 ### Fixed
 - Installer is now using sudo to install Panels
