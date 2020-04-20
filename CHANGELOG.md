@@ -12,6 +12,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Installer is now using sudo to install Panels
 - Usernames / Passwords with several special characters will no longer cause problems during login
 - Panel where tabs would not load sometimes
+- Error in Projectfile Copy action in duplicate streams
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
