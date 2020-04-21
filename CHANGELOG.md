@@ -8,6 +8,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Title and saved/unsaved status to title for Streamdesigner
 - Group filter for CUSTOM_FX and CUSTOM_IO events
 - Markers are now being synced back to CatDV
+- Added switch for changing proxies of all highres assets or only for the ones inside one project
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -15,9 +16,19 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Panel where tabs would not load sometimes
 - Error in Projectfile Copy action in duplicate streams
 - Upload would not work if last used profile does no more exist or is not available
+- Added creator and lastModified value to free text search
+- Reworked UNC based path mapping for index project workflow
+- Added missing filter keys for all products
+- Apostrophs in filepaths are supported for asset sync in panel now
+- Restore last used profile in upload asset modal is now working properly
+- InOutPoints will now be set correctly also for assets with timecode offset
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
+- Sequence multiselect inside export tab of panel has now two icons for set selection either to active sequence or selected sequences in project view
+- Clean current filter in projects view of helmut will now also reset group, category and template filter to default
+- Changed default sort order of assets from descending modify date to ascending name
+- Replaced "Import Project" preference with an accesspreset entry
 
 ### Removed
 
