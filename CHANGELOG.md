@@ -9,6 +9,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Group filter for CUSTOM_FX and CUSTOM_IO events
 - Markers are now being synced back to CatDV
 - Added switch for changing proxies of all highres assets or only for the ones inside one project
+- Support for a comma separated list in the Email Output Node
 
 ### Fixed
 - Installer is now using sudo to install Panels
