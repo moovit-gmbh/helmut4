@@ -10,6 +10,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Markers are now being synced back to CatDV
 - Added switch for changing proxies of all highres assets or only for the ones inside one project
 - Support for a comma separated list in the Email Output Node
+- Version check to Stream Export/Import
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -23,6 +24,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Apostrophs in filepaths are supported for asset sync in panel now
 - Restore last used profile in upload asset modal is now working properly
 - InOutPoints will now be set correctly also for assets with timecode offset
+- Stream engine could run out of memory when using big streams (memory leak)
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
