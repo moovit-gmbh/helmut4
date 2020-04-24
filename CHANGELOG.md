@@ -11,6 +11,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added switch for changing proxies of all highres assets or only for the ones inside one project
 - Support for a comma separated list in the Email Output Node
 - Version check to Stream Export/Import
+- Warning dialog if stream could not be saved
+- 'Delete all existing streams' to stream importer
 
 ### Fixed
 - Installer is now using sudo to install Panels
