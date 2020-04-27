@@ -36,6 +36,12 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Replaced "Import Project" preference with an accesspreset entry
 
 ### Removed
+## [4.0.1-release-1] (stable release; fixed)
+### Fix
+- Bug where Streams could crash do to memory leak
+- Bug where Cosmo would have problems with unc paths
+- Various small fixes
+
 
 ## [4.0.1-release-0] (stable release)
 ### Added
