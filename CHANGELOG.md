@@ -40,6 +40,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Fix
 - Bug where Stream engine could run out of memory when using big streams (memory leak)
 - Bug where Cosmo would have problems with unc paths
+- Bug where panel failed to import sequences on windows in some circumstances
 - Various small fixes
 
 
