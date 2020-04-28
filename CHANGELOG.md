@@ -38,7 +38,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
 ### Fix
-- Bug where Streams could crash do to memory leak
+- Bug where Stream engine could run out of memory when using big streams (memory leak)
 - Bug where Cosmo would have problems with unc paths
 - Various small fixes
 
