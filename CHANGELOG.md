@@ -34,6 +34,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Clean current filter in projects view of helmut will now also reset group, category and template filter to default
 - Changed default sort order of assets from descending modify date to ascending name
 - Replaced "Import Project" preference with an accesspreset entry
+- Watchfolder is now writing a lock file instead of touching it, to support curlftps (ftp) workflows
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
