@@ -27,14 +27,23 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Restore last used profile in upload asset modal is now working properly
 - InOutPoints will now be set correctly also for assets with timecode offset
 - Stream engine could run out of memory when using big streams (memory leak)
+- Save and delete filter templates in housekeeper now possible
+- Import Sequence from cosmo panel is now working again
+- Fixed one issue with UNC path mapping and added pathmapping for proxy path for index project workflow
+- Completely reworked metadata validation
+- Boolean typed metadata filters are now working properly
+- Added modified by and creator to freetext search of projects view
+- Value of tag field in add project dialog will now be save even if it has been the last field modified before add button was clicked
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
 - Sequence multiselect inside export tab of panel has now two icons for set selection either to active sequence or selected sequences in project view
+- Composition multiselect inside export tab of panel has now two icons for set selection either to active composition or selected compositions in project view
 - Clean current filter in projects view of helmut will now also reset group, category and template filter to default
 - Changed default sort order of assets from descending modify date to ascending name
 - Replaced "Import Project" preference with an accesspreset entry
 - Watchfolder is now writing a lock file instead of touching it, to support curlftps (ftp) workflows
+- It's now enabled to let groups, products and accessPreset for users empty when using new Active Directory module
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
