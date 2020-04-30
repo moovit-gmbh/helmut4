@@ -48,6 +48,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
 ### Fix
+- Bug where panel tabs would not load sometimes
 - Bug where Stream engine could run out of memory when using big streams (memory leak)
 - Bug where Cosmo would have problems with unc paths
 - Bug where panel failed to import sequences on windows in some circumstances
