@@ -17,6 +17,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - {job.breadcrumb} for Cosmo Get Assets Node
 - Updating a project's name, tag, group, category, template and metadata in realtime from within a stream
 - Updating a jobs' metadata in realtime from within a stream
+- New {project.locked} wildcard (results in true/false)
 
 ### Fixed
 - Installer is now using sudo to install Panels
