@@ -14,6 +14,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Warning dialog if stream could not be saved
 - 'Delete all existing streams' to stream importer
 - ConflictRule to FolderCreateCondition and FileCreateCondition
+- {job.breadcrumb} for Cosmo Get Assets Node
+- Updating a project name, tag, group, category, template and metadata in realtime from within a stream
 
 ### Fixed
 - Installer is now using sudo to install Panels
