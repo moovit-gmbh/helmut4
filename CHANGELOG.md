@@ -18,6 +18,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Updating a project's name, tag, group, category, template and metadata in realtime from within a stream
 - Updating a jobs' metadata in realtime from within a stream
 - New {project.locked} wildcard (results in true/false)
+- PRESTREAM's to filter IO jobs in advance, like Autoimport or Watchfolders (extensions for eg)
 
 ### Fixed
 - Installer is now using sudo to install Panels
