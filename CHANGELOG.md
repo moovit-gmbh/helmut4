@@ -20,6 +20,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - New {project.locked} wildcard (results in true/false)
 - PRESTREAM's to filter IO jobs in advance, like Autoimport or Watchfolders (extensions for eg)
 - Stream name and Rendernodes to Watchfolder profile chooser
+- Set maximum results to 25, 50, 75 or 101 for Project's and Dashboard
+- Use wildcards in upload path's in CO preferences
 
 ### Fixed
 - Installer is now using sudo to install Panels
