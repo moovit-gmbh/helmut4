@@ -24,7 +24,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added housekeeper actions to type filter of dashboard tab
 - Search assets over Projects in new 'Assets' tab and jump between this page and the project details page
 - Added current filter engine from web to panel
-- Set maximum results to 25, 50, 75 or 101 for Project's and Dashboard
+- Set maximum results to 25, 50, 75 or 101 for Projects, Assets, Users and Dashboard
 - Use wildcards in upload path's in CO preferences
 
 ### Fixed
