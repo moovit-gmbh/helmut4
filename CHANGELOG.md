@@ -62,7 +62,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - It's now enabled to let groups, products and accessPreset for users empty when using new Active Directory module
 - Active directory user import -> helmut user displayname can be binded to one of the ad fields username, displayname or email
 - Changed active directory response message and added logging for evaluation
-- Enabled black fields for active directory sync
+- Enabled blank fields for active directory sync
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
