@@ -20,6 +20,10 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - New {project.locked} wildcard (results in true/false)
 - PRESTREAM's to filter IO jobs in advance, like Autoimport or Watchfolders (extensions for eg)
 - Stream name and Rendernodes to Watchfolder profile chooser
+- Sort users per default by username and allow sorting by username and displayname
+- Added housekeeper actions to type filter of dashboard tab
+- Search assets over Projects in new 'Assets' tab and jump between this page and the project details page
+- Added current filter engine from web to panel
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -41,6 +45,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Boolean typed metadata filters are now working properly
 - Added modified by and creator to freetext search of projects view
 - Value of tag field in add project dialog will now be save even if it has been the last field modified before add button was clicked
+- If key of filter bubble change the comparator field will now be prefilled with the first allowed entry if previous entry is not available for new filter key
+- Added check for duplicate non AD usernames to avoid duplicate entries in database
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -51,6 +57,9 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Replaced "Import Project" preference with an accesspreset entry
 - Watchfolder is now writing a lock file instead of touching it, to support curlftps (ftp) workflows
 - It's now enabled to let groups, products and accessPreset for users empty when using new Active Directory module
+- Active directory user import -> helmut user displayname can be binded to one of the ad fields username, displayname or email
+- Changed active directory response message and added logging for evaluation
+- Enabled black fields for active directory sync
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
