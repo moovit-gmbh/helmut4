@@ -2,11 +2,11 @@
 This is a public representation for the private product [Helmut4](https://helmut.tools) by [MoovIT GmbH](https://www.moovit.de).
 
 ### Supported Adobe Version
+4.0.2-x:
+- Premiere: latest
+
 4.0.1-release-x: 
 - Premiere: < 14.0.4
-
-4.0.2-x -> 14.1.0
-- Premiere: latest
 
 ### Known issues
 4.0.1-release-x:
