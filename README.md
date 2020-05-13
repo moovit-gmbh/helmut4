@@ -13,6 +13,5 @@ This is a public representation for the private product [Helmut4](https://helmut
 - Panel will flash white for Premiere >= 14.0.4
   - Workaround: use client 4.0.2.x (update license to 4.0.2.x endpoint for newest client)
 
-
-<img width="250px" height="auto" src="https://sev.moovit24.de/uploads/TW9vdklUIEdtYkg/OxHA6b6M3JAoqhup7HTVSUgew9Tt0DP66E8JJZSFe0v8xxDoRfxYuOzzl9g5jR3ElGWTcsuu6NQ1xjS3VlpOdRNDco5vmnP1vVbW/Helmut-4-Family-Logo-2.png"/>
+![helmut-family](https://sev.moovit24.de/uploads/TW9vdklUIEdtYkg/OxHA6b6M3JAoqhup7HTVSUgew9Tt0DP66E8JJZSFe0v8xxDoRfxYuOzzl9g5jR3ElGWTcsuu6NQ1xjS3VlpOdRNDco5vmnP1vVbW/Helmut-4-Family-Logo-2.png)
 
