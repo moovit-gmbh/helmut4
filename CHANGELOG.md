@@ -29,7 +29,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added housekeeper actions to type filter of dashboard tab
 - ~~Search assets over Projects in new 'Assets' tab and jump between this page and the project details page~~
 - Added current filter engine from web to panel
-- Set maximum results to 25, 50, 75 or 101 for Projects, Assets, Users and Dashboard
+- Set maximum results to 25, 50, 75 or 101 for Projects, ~~Assets~~, Users and Dashboard
 - Wildcards in upload path and temp upload path in CO preferences
 - {job.breadcrumb} for Exports and Autoimports
 
