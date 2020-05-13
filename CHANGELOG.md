@@ -19,6 +19,11 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Updating a jobs' metadata in realtime from within a stream
 - New {project.locked} wildcard (results in true/false)
 - PRESTREAM's to filter IO jobs in advance, like Autoimport or Watchfolders (extensions for eg)
+  - new feature called PreStreams.
+Whenever you setup an IO Profile, you can optionally choose a PreStream (new Stream Event in IO) that will be executed before the Job is populated.
+This can be either a Client or a Server Stream. It’s an generic stream so it should NOT be used for heavy tasks (multiple will run simoultaniously).
+If the Stream fails, a job will NOT be created and an error message will be thrown in die Panel. You can use the Job Status Action to set the job to FAILED or SUCCESSFUL (or Queued) right away.
+You can also use the Job Delete Action which will delete the Job silently, no errors, no jobs in the Dashboard etc. Perfect for unwanted extensions / paths for Autoimport or Watchfolders (hard to debug for a user why a job does not show up, only debuggable in stream debugger)
 - Stream name and Rendernodes to Watchfolder profile chooser
 - Sort users per default by username and allow sorting by username and displayname
 - Added housekeeper actions to type filter of dashboard tab
