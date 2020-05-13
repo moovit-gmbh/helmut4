@@ -56,7 +56,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added modified by and creator to freetext search of projects view
 - Value of tag field in add project dialog will now be save even if it has been the last field modified before add button was clicked
 - If key of filter bubble change the comparator field will now be prefilled with the first allowed entry if previous entry is not available for new filter key
-- Added check for duplicate non AD usernames to avoid duplicate entries in database
+- Check for duplicate non AD usernames to avoid duplicate entries in database
+- New (never saved) tasks would not be saved if tested before saving them
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
