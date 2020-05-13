@@ -59,6 +59,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - If key of filter bubble change the comparator field will now be prefilled with the first allowed entry if previous entry is not available for new filter key
 - Check for duplicate non AD usernames to avoid duplicate entries in database
 - New (never saved) tasks would not be saved if tested before saving them
+- Added metadata field validation for web export asset dialog and profile filed of add watchfolder dialog
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -81,7 +82,6 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Bug where Cosmo would have problems with unc paths
 - Bug where panel failed to import sequences on windows in some circumstances
 - Various small fixes
-
 
 ## [4.0.1-release-0] (stable release)
 ### Added
