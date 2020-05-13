@@ -32,6 +32,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Set maximum results to 25, 50, 75 or 101 for Projects, ~~Assets~~, Users and Dashboard
 - Wildcards in upload path and temp upload path in CO preferences
 - {job.breadcrumb} for Exports and Autoimports
+- HouseKeeper endpoint (new microservice)
 - Tasks to HouseKeeper for automated mass housekeeping (experimental) 
 - New Traefik version 2.2
 
