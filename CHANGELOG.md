@@ -35,6 +35,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - HouseKeeper endpoint (new microservice)
 - Tasks to HouseKeeper for automated mass housekeeping (experimental) 
 - New Traefik version 2.2
+- Added a manual save project after a manual project sync has completely been finished
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -60,6 +61,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Check for duplicate non AD usernames to avoid duplicate entries in database
 - New (never saved) tasks would not be saved if tested before saving them
 - Added metadata field validation for web export asset dialog and profile filed of add watchfolder dialog
+- Changed comparators of createDate filter to date related ones instead of string related
+- A sequence that has been pushed to another project via drag and drop in cosmo panel will now be synced into the destination project 
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -73,6 +76,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Active directory user import -> helmut user displayname can be binded to one of the ad fields username, displayname or email
 - Changed active directory response message and added logging for evaluation
 - Enabled blank fields for active directory sync
+- In add project dialog if a project is selected for import the name of the project will be filled into the project name field if it is empty
+- Changed the way to match cosmo database content with the premiere project content in terms of making nodeId information available for project index
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
