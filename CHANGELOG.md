@@ -38,6 +38,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added a manual save project after a manual project sync has completely been finished
 - Add wildcard {job.mimeType} after Cosmo Get Assets Action
 - Add Job Priority Action (useful for preStreams)
+- Add INCREMENT_NAME to File Move Action, File Copy Action, Folder Move Action, Folder Copy Action
 
 ### Fixed
 - Installer is now using sudo to install Panels
