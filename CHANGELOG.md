@@ -36,6 +36,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Tasks to HouseKeeper for automated mass housekeeping (experimental) 
 - New Traefik version 2.2
 - Added a manual save project after a manual project sync has completely been finished
+- Add wildcard {job.mimeType} after Cosmo Get Assets Action
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -63,6 +64,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added metadata field validation for web export asset dialog and profile filed of add watchfolder dialog
 - Changed comparators of createDate filter to date related ones instead of string related
 - A sequence that has been pushed to another project via drag and drop in cosmo panel will now be synced into the destination project 
+- Fixed bug where export of streams would drop it's stream-design
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
