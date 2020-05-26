@@ -37,6 +37,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - New Traefik version 2.2
 - Added a manual save project after a manual project sync has completely been finished
 - Add wildcard {job.mimeType} after Cosmo Get Assets Action
+- Add Job Priority Action (useful for preStreams)
 
 ### Fixed
 - Installer is now using sudo to install Panels
