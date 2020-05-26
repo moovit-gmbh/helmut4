@@ -66,6 +66,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Changed comparators of createDate filter to date related ones instead of string related
 - A sequence that has been pushed to another project via drag and drop in cosmo panel will now be synced into the destination project 
 - Fixed bug where export of streams would drop it's stream-design
+- Folder Move Action's conflict rule DELETE_EXISTING is now deleting properly
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
