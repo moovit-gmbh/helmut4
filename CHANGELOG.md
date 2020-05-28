@@ -39,6 +39,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Add wildcard {job.mimeType} after Cosmo Get Assets Action
 - Add Job Priority Action (useful for preStreams)
 - Add INCREMENT_NAME to File Move Action, File Copy Action, Folder Move Action, Folder Copy Action
+- Add the possibility to trigger index project inside a duplicate project stream
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -83,6 +84,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Enabled blank fields for active directory sync
 - In add project dialog if a project is selected for import the name of the project will be filled into the project name field if it is empty
 - Changed the way to match cosmo database content with the premiere project content in terms of making nodeId information available for project index
+- Limit the request for unsynced assets in panel for project sync workflow to 500 at a time and limit the unsynced assets counter to 500 as well
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
