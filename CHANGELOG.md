@@ -40,6 +40,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Add Job Priority Action (useful for preStreams)
 - Add INCREMENT_NAME to File Move Action, File Copy Action, Folder Move Action, Folder Copy Action
 - Add the possibility to trigger index project inside a duplicate project stream
+- Add toggle all switch for assigning metadata to all groups (fx) or metadatasets (io) at ones
 
 ### Fixed
 - Installer is now using sudo to install Panels
