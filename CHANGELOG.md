@@ -35,15 +35,16 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - HouseKeeper endpoint (new microservice)
 - Tasks to HouseKeeper for automated mass housekeeping (experimental) 
 - New Traefik version 2.2
-- Added a manual save project after a manual project sync has completely been finished
-- Add wildcard {job.mimeType} after Cosmo Get Assets Action
-- Add Job Priority Action (useful for preStreams)
-- Add INCREMENT_NAME to File Move Action, File Copy Action, Folder Move Action, Folder Copy Action
-- Add the possibility to trigger index project inside a duplicate project stream
-- Add toggle all switch for assigning metadata to all groups (fx) or metadatasets (io) at ones
-- Add {job.last.proxy} wildcard after Get Assets From Cosmo Node holding the last used proxy path when setting a new one
-- Add {node.result.?} wildcard to use results of previous nodes (including error messages; requires to re-save all streams)
+- Automatic project save after a manual project sync has completely been finished
+- wildcard {job.mimeType} after Cosmo Get Assets Action
+- Job Priority Action (useful for preStreams)
+- INCREMENT_NAME to File Move Action, File Copy Action, Folder Move Action, Folder Copy Action
+- Possibility to trigger index project inside a duplicate project stream
+- Toggle all switch for assigning metadata to all groups (fx) or metadatasets (io) at ones
+- {job.last.proxy} wildcard after Get Assets From Cosmo Node holding the last used proxy path when setting a new one
+- {node.result.?} wildcard to use results of previous nodes (including error messages; requires to re-save all streams)
 - Jump from StreamDebugger to Stream and highlight according Node by clicking on the thumb (requires to re-save all streams)
+- Scrollbar to overlays
 
 ### Fixed
 - Installer is now using sudo to install Panels
