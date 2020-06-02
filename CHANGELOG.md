@@ -45,6 +45,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - {node.result.?} wildcard to use results of previous nodes (including error messages; requires to re-save all streams)
 - Jump from StreamDebugger to Stream and highlight according Node by clicking on the thumb (requires to re-save all streams)
 - Scrollbar to overlays
+- Add .srt file support
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -75,6 +76,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Fixed bug where export of streams would drop it's stream-design
 - Folder Move Action's conflict rule DELETE_EXISTING is now deleting properly
 
+
 ### Changed
 - Write File Output Node supports [NEWLINE] now
 - Sequence multiselect inside export tab of panel has now two icons for set selection either to active sequence or selected sequences in project view
@@ -92,6 +94,9 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Limit the request for unsynced assets in panel for project sync workflow to 500 at a time and limit the unsynced assets counter to 500 as well
 - Reworked Streamdesigner
   - Documentation with release Q2 end of june
+- Active Directory sync will now push the result to the webinterface via message bus instead of direct response
+- Value field of creator filter for fx (projects) and io (jobs) is now a typeahead field
+  - Suggestions will be provided after two chars have been typed
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
