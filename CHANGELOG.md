@@ -46,7 +46,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Jump from StreamDebugger to Stream and highlight according Node by clicking on the thumb (requires to re-save all streams)
 - Scrollbar to overlays
 - Add .srt file support
-- {user.os} wildcard (will be replaced by the client's OS, win or mac)
+- {user.os} wildcard (will be replaced by the client's OS, win or mac, requires client client >= 4.0.2.13)
+- Project Metadata Changer and Job Metadata Changer nodes can now set metadata values, that didn't exist in the project/job object
 
 ### Fixed
 - Installer is now using sudo to install Panels
