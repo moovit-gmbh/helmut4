@@ -46,6 +46,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Jump from StreamDebugger to Stream and highlight according Node by clicking on the thumb (requires to re-save all streams)
 - Scrollbar to overlays
 - Add .srt file support
+- {user.os} wildcard (will be replaced by the client's OS, win or mac)
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -97,6 +98,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Active Directory sync will now push the result to the webinterface via message bus instead of direct response
 - Value field of creator filter for fx (projects) and io (jobs) is now a typeahead field
   - Suggestions will be provided after two chars have been typed
+ - Sort order of Manage Groups dialog
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
