@@ -48,6 +48,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Add .srt file support
 - {user.os} wildcard (will be replaced by the client's OS, win or mac, requires client client >= 4.0.2.13)
 - Project Metadata Changer and Job Metadata Changer nodes can now set metadata values, that didn't exist in the project/job object
+- Add relative date filters for projects modify date in FX
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -100,6 +101,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Value field of creator filter for fx (projects) and io (jobs) is now a typeahead field
   - Suggestions will be provided after two chars have been typed
  - Sort order of Manage Groups dialog
+- Added dynamic max with setting of chipContent inline modal to proper display filters
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
