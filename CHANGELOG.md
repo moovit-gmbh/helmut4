@@ -79,6 +79,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Fixed bug where export of streams would drop it's stream-design
 - Folder Move Action's conflict rule DELETE_EXISTING is now deleting properly
 - Added LOGIN access preset to all products
+- Importing stream(s) no preserves UTF-8 characters
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
