@@ -102,6 +102,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
   - Suggestions will be provided after two chars have been typed
  - Sort order of Manage Groups dialog
 - Added dynamic max with setting of chipContent inline modal to proper display filters
+- Panel minimize-mode to be < 75px (was 400px)
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
