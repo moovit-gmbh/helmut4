@@ -53,6 +53,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Automatic reconnect if autologin client looses connection
 - Toggle All Button to Streams and Profiles
 - Overlay-Scrollbar to Streams, Assets and Profiles
+- Wildcards to Node pallet in Streamdesigner
 
 ### Fixed
 - Installer is now using sudo to install Panels
