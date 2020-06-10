@@ -55,6 +55,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Overlay-Scrollbar to Streams, Assets and Profiles
 - Wildcards to Node pallet in Streamdesigner
 - Descriptions to node inputs to Streamdesigner
+- Better support for automatic reconnect after server restart for autologin clients
 
 ### Fixed
 - Installer is now using sudo to install Panels
