@@ -82,6 +82,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Folder Move Action's conflict rule DELETE_EXISTING is now deleting properly
 - Added LOGIN access preset to all products
 - Importing stream(s) no preserves UTF-8 characters
+- {user.os} is now available in all events
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
