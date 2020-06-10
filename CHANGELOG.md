@@ -50,6 +50,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Project Metadata Changer and Job Metadata Changer nodes can now set metadata values, that didn't exist in the project/job object
 - Add relative date filters for projects modify date in FX and for jobs start date in IO
 - Add node.result to File Move Action
+- Automatic reconnect if autologin client looses connection
 
 ### Fixed
 - Installer is now using sudo to install Panels
