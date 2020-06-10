@@ -54,6 +54,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Toggle All Button to Streams and Profiles
 - Overlay-Scrollbar to Streams, Assets and Profiles
 - Wildcards to Node pallet in Streamdesigner
+- Descriptions to node inputs to Streamdesigner
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -110,6 +111,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
  - Sort order of Manage Groups dialog
 - Added dynamic max with setting of chipContent inline modal to proper display filters
 - Panel minimize-mode to be < 75px (was 400px)
+- Wildcard dialog in Streamdesigner will now open by hitting ctrl+space instead of {
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
