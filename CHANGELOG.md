@@ -79,6 +79,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Fixed bug where export of streams would drop it's stream-design
 - Folder Move Action's conflict rule DELETE_EXISTING is now deleting properly
 - Added LOGIN access preset to all products
+- SRT files will now be relinked during project sync
+- Added load dialog for addUser modal to avoid multiple button clicks
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -102,6 +104,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
   - Suggestions will be provided after two chars have been typed
  - Sort order of Manage Groups dialog
 - Added dynamic max with setting of chipContent inline modal to proper display filters
+- Cosmo Change (Project) Asset node has now a checkbox for autoimport triggering
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
