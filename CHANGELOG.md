@@ -48,7 +48,14 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Add .srt file support
 - {user.os} wildcard (will be replaced by the client's OS, win or mac, requires client client >= 4.0.2.13)
 - Project Metadata Changer and Job Metadata Changer nodes can now set metadata values, that didn't exist in the project/job object
-- Add relative date filters for projects modify date in FX and for jobs start date in IO
+- Relative date filters for projects modify date in FX and for jobs start date in IO
+- node.result to File Move Action
+- Automatic reconnect if autologin client looses connection
+- Toggle All Button to Streams and Profiles
+- Overlay-Scrollbar to Streams, Assets and Profiles
+- Wildcards to Node pallet in Streamdesigner
+- Descriptions to node inputs to Streamdesigner
+- Better support for automatic reconnect after server restart for autologin clients
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -81,6 +88,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added LOGIN access preset to all products
 - SRT files will now be relinked during project sync
 - Added load dialog for addUser modal to avoid multiple button clicks
+- Importing stream(s) no preserves UTF-8 characters
+- {user.os} is now available in all events
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -105,6 +114,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
  - Sort order of Manage Groups dialog
 - Added dynamic max with setting of chipContent inline modal to proper display filters
 - Cosmo Change (Project) Asset node has now a checkbox for autoimport triggering
+- Panel minimize-mode to be < 75px (was 400px)
+- Wildcard dialog in Streamdesigner will now open by hitting ctrl+space instead of {
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
