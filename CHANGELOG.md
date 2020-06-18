@@ -56,6 +56,9 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Wildcards to Node pallet in Streamdesigner
 - Descriptions to node inputs to Streamdesigner
 - Better support for automatic reconnect after server restart for autologin clients
+- After a project deletion all project asset references will be removed for project assets 
+  - Removing projectId and group entries
+
 
 ### Fixed
 - Installer is now using sudo to install Panels
@@ -91,6 +94,11 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Importing stream(s) no preserves UTF-8 characters
 - {user.os} is now available in all events
 - Add support for empty folders to JobFolderCopy Node
+- Removed unwanted overlay appearance for buttons that change the stream order in IO, CO and HK streams tab
+- Editing an existing filter bubble from type multiselect is now possible
+- Select and Multiselect metadata fields in export tab of panel are now beeing highligted if validation fails
+- Blocked multiple click add button in add user modal and changed backend logic to avoid the creation of duplicate users
+- Assets from type CAPTIONS are now beeing relinked during project sync
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -117,6 +125,13 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Cosmo Change (Project) Asset node has now a checkbox for autoimport triggering
 - Panel minimize-mode to be < 75px (was 400px)
 - Wildcard dialog in Streamdesigner will now open by hitting ctrl+space instead of {
+- Splitted Active Directory sync action into add, update, remove
+  - Add will only add users to helmut and add them to groups
+  - Update will only update products, access presets, role and display name binding
+  - Remove will only remove users from groups and will NOT delete users from helmut
+- Active Directory Add option now supports also Update if a user has been imported initially
+- Removed IS_SMALLER and IS_GREATER comparators from string typed filters
+- Added autosync checkbox for "Cosmo change (project) asset" nodes
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
