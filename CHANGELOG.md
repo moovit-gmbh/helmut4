@@ -99,6 +99,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Select and Multiselect metadata fields in export tab of panel are now beeing highligted if validation fails
 - Blocked multiple click add button in add user modal and changed backend logic to avoid the creation of duplicate users
 - Assets from type CAPTIONS are now beeing relinked during project sync
+- Fixed non responsive chip filter view in dashboard tab on initial panel load
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
