@@ -90,6 +90,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added load dialog for addUser modal to avoid multiple button clicks
 - Importing stream(s) no preserves UTF-8 characters
 - {user.os} is now available in all events
+- Add support for empty folders to JobFolderCopy Node
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
