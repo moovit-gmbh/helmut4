@@ -58,6 +58,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Better support for automatic reconnect after server restart for autologin clients
 - After a project deletion all project asset references will be removed for project assets 
   - Removing projectId and group entries
+- Debugger to Streamdesigner (debugs only open stream)
 
 
 ### Fixed
