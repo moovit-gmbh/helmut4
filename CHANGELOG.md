@@ -59,6 +59,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - After a project deletion all project asset references will be removed for project assets 
   - Removing projectId and group entries
 - Debugger to Streamdesigner (debugs only open stream)
+- Add metadata preresolve functionality to metadata filter
 
 
 ### Fixed
