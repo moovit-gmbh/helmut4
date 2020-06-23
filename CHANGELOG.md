@@ -104,6 +104,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Blocked multiple click add button in add user modal and changed backend logic to avoid the creation of duplicate users
 - Assets from type CAPTIONS are now beeing relinked during project sync
 - Fixed non responsive chip filter view in dashboard tab on initial panel load
+- Profiles would not be filtered in HK projects menu
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -137,6 +138,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Active Directory Add option now supports also Update if a user has been imported initially
 - Removed IS_SMALLER and IS_GREATER comparators from string typed filters
 - Added autosync checkbox for "Cosmo change (project) asset" nodes
+- Disabled CO projects menu in restricted mode
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
