@@ -63,6 +63,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
   - Added highlighting
 - Metadata preresolve functionality to metadata filter
 - Preference for the temporary project import path (required for scales installations)
+- Project Metadata Remove Action to unset a metadata value
+- Job Metadata Remove Action to unset a metadata value
 
 ### Fixed
 - Installer is now using sudo to install Panels
