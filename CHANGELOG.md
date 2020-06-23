@@ -61,8 +61,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Debugger to Streamdesigner (debugs only open stream)
   - Support for asynchronous streams
   - Added highlighting
-- Add metadata preresolve functionality to metadata filter
-
+- Metadata preresolve functionality to metadata filter
+- Preference for the temporary project import path (required for scales installations)
 
 ### Fixed
 - Installer is now using sudo to install Panels
