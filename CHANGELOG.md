@@ -66,6 +66,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Project Metadata Remove Action to unset a metadata value
 - Job Metadata Remove Action to unset a metadata value
 - 'Suppress DELETE_PROJECT event' to Project Delete Action node.
+- Append ?product=co (or io, fx, hk) to the url to point shortcuts directly to the right product. Works for login too.
+- Helmut automated test suite
 
 ### Fixed
 - Installer is now using sudo to install Panels
