@@ -65,6 +65,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Preference for the temporary project import path (required for scales installations)
 - Project Metadata Remove Action to unset a metadata value
 - Job Metadata Remove Action to unset a metadata value
+- 'Suppress DELETE_PROJECT event' to Project Delete Action node.
 
 ### Fixed
 - Installer is now using sudo to install Panels
