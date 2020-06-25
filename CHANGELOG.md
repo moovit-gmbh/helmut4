@@ -68,6 +68,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - 'Suppress DELETE_PROJECT event' to Project Delete Action node.
 - Append ?product=co (or io, fx, hk) to the url to point shortcuts directly to the right product. Works for login too.
 - Helmut automated test suite
+- Project File Download and Upload Action
 
 ### Fixed
 - Installer is now using sudo to install Panels
