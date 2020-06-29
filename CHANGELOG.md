@@ -111,6 +111,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Assets from type CAPTIONS are now beeing relinked during project sync
 - Fixed non responsive chip filter view in dashboard tab on initial panel load
 - Profiles would not be filtered in HK projects menu
+- Deleting a prestream from a profile will not cause an exception inside the panel telling that the prestream cannot be found
 
 ### Changed
 - Write File Output Node supports [NEWLINE] now
@@ -145,6 +146,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Removed IS_SMALLER and IS_GREATER comparators from string typed filters
 - Added autosync checkbox for "Cosmo change (project) asset" nodes
 - Disabled CO projects menu in restricted mode
+- Added CREATE_PROJECT user access preset to co products
 
 ### Removed
 ## [4.0.1-release-1] (stable release; fixed)
