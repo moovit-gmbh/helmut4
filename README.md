@@ -2,7 +2,10 @@
 This is a public representation for the private product [Helmut4](https://helmut.tools) by [MoovIT GmbH](https://www.moovit.de).
 
 ### Supported Adobe Version
-4.0.2-x:
+4.0.3.x:
+- Premiere: latest
+
+4.0.2:
 - Premiere: latest
 
 4.0.1-release-x: 
