@@ -2,7 +2,11 @@
 All notable changes for the private product [Helmut4](https://helmut.tools) will be documented in this file.
 
 ##   [Unreleased]
+### Added
+### Fixed
+### Changed
 
+## [4.0.2-release-0] (stable release)
 ### Added
 - Rendernode(s) to job overlay if there are any and less then 10
 - Title and saved/unsaved status to title for Streamdesigner
@@ -148,7 +152,6 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Disabled CO projects menu in restricted mode
 - Added CREATE_PROJECT user access preset to co products
 
-### Removed
 ## [4.0.1-release-1] (stable release; fixed)
 ### Fix
 - Bug where panel tabs would not load sometimes
@@ -509,3 +512,4 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 [4.0.1-2020-02-04-155216]: https://helmut.tools
 [4.0.1-release-0]: https://helmut.tools
 [4.0.1-release-1]: https://helmut.tools
+[4.0.2-release-0]: https://helmut.tools
