@@ -6,7 +6,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - OAuth authentication
 - Open Logs (folder) from client menu
 ### Fixed
-- Only 5 Watchfolders would ne shown in Webinterface
+- Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
 ### Changed
 
