@@ -3,6 +3,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ##   [Unreleased]
 ### Added
+- OAuth authentication
 ### Fixed
 - Only 5 Watchfolders would ne shown in Webinterface
 - Autologin would fail on Windows and Mac
