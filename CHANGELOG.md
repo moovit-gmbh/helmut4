@@ -7,6 +7,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Open Logs (folder) from client menu
 - MD5 checksum to streamEngine download
 - Advanced error output when a client failed to execute a stream
+- Uninstaller (windows only)
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
