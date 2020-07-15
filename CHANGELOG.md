@@ -11,6 +11,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
+- Non admin users can now save the amount of items listed
 ### Changed
 
 ## [4.0.2-release-0] (stable release)
