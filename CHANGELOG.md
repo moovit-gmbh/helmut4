@@ -15,7 +15,11 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Autologin would fail on Windows and Mac
 - Non admin users can now save the amount of items listed
 ### Changed
-
+## [4.0.2-release-1] (stable release)
+### Fixed
+- Only 5 Watchfolders would be shown in Webinterface
+- Autologin would fail on Windows and Mac
+- Non admin users can now save the amount of items listed
 ## [4.0.2-release-0] (stable release)
 ### Added
 - Rendernode(s) to job overlay if there are any and less then 10
@@ -523,3 +527,4 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 [4.0.1-release-0]: https://helmut.tools
 [4.0.1-release-1]: https://helmut.tools
 [4.0.2-release-0]: https://helmut.tools
+[4.0.2-release-1]: https://helmut.tools
