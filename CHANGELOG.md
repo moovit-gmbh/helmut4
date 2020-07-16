@@ -8,6 +8,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - MD5 checksum to streamEngine download
 - Advanced error output when a client failed to execute a stream
 - Uninstaller (windows only)
+- Endpoint check by product in webinterface
+  - It was possible to reach the project page within IO for example even tho it doesn't exist for IO
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
