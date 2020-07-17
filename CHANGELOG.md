@@ -10,11 +10,20 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Uninstaller (windows only)
 - Endpoint check by product in webinterface
   - It was possible to reach the project page within IO for example even tho it doesn't exist for IO
+- Added relative date filters to panel
+
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
 - Non admin users can now save the amount of items listed
+- Relative date filters can now be saved and restored
+
 ### Changed
+- Import assets from project and push assets to project using the panel will now ignore the bin structure
+  - Folder will still be read out recursively but the assets will be placed in flat hierarchical manner into the destination,
+    which is the current selected folder for import (or root if nothing is selected) or the target folder for push assets workflow
+
+
 ## [4.0.2-release-1] (stable release)
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
