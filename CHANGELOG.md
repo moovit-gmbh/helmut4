@@ -11,17 +11,22 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Endpoint check by product in webinterface
   - It was possible to reach the project page within IO for example even tho it doesn't exist for IO
 - Added relative date filters to panel
+- Added a logging entry for the case that a rendernode is not part of the group, which is assined to the io profile in cosmo
+
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
 - Non admin users can now save the amount of items listed
 - Relative date filters can now be saved and restored
+- Creator value typeahead is now working in all products
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
   - Folder will still be read out recursively but the assets will be placed in flat hierarchical manner into the destination,
     which is the current selected folder for import (or root if nothing is selected) or the target folder for push assets workflow
+- It's now possible to have mutliple filters with same key 
+- A project sync will now set all assets to synced even though an error occurred while import or sync is performed
 
 
 ## [4.0.2-release-1] (stable release)
