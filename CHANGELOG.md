@@ -20,6 +20,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Non admin users can now save the amount of items listed
 - Relative date filters can now be saved and restored
 - Creator value typeahead is now working in all products
+- Cosmo can now execute Streams again without problems
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
