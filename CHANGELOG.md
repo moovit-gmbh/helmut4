@@ -13,6 +13,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Added relative date filters to panel
 - Added a logging entry for the case that a rendernode is not part of the group, which is assined to the io profile in cosmo
 - Support for Premiere 14.3.1 (requires hp:4.0.3.6 to work)
+- Drag wires in Streamdesigner everywhere onto a Node instead of the connector only
+- Nodes are now at 95% opacity to make wires visible underneath nodes
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
