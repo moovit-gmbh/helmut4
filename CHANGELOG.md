@@ -12,7 +12,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - It was possible to reach the project page within IO for example even tho it doesn't exist for IO
 - Added relative date filters to panel
 - Added a logging entry for the case that a rendernode is not part of the group, which is assined to the io profile in cosmo
-
+- Support for Premiere 14.3.1 (requires hp:4.0.3.6 to work)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
