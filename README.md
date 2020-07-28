@@ -3,7 +3,8 @@ This is a public representation for the private product [Helmut4](https://helmut
 
 ### Supported Adobe Version
 4.0.3.x:
-- Premiere: latest
+- Premiere: 14.3.0
+- Working on support for 14.3.1
 
 4.0.2:
 - Premiere: latest
