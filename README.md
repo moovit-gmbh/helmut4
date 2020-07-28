@@ -3,14 +3,14 @@ This is a public representation for the private product [Helmut4](https://helmut
 
 ### Supported Adobe Version
 4.0.3.x:
-- Premiere: 14.3.0
+- Premiere: <= 14.3.0
   - We are working on support for 14.3.1
 
 4.0.2:
-- Premiere: 14.3.0
+- Premiere: <= 14.3.0
 
 4.0.1-release-x: 
-- Premiere: < 14.0.4
+- Premiere: <= 14.0.3
 
 ### Known issues
 4.0.1-release-x:
