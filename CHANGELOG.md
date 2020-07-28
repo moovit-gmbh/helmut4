@@ -16,6 +16,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Drag wires in Streamdesigner everywhere onto a Node instead of the connector only
 - Nodes are now at 95% opacity to make wires visible underneath nodes
 - File Increment Name Action and Folder Increment Name Action
+- Enabled Add Project Button in restricted mode (experimental)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
