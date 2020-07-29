@@ -17,6 +17,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Nodes are now at 95% opacity to make wires visible underneath
 - File Increment Name Action and Folder Increment Name Action
 - Enabled Add Project Button in restricted mode (experimental)
+- Custom confirm dialog when switching to another Stream with unsaved changes
+- Placeholders to input fields in Streamdesigner (used for example input data)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
