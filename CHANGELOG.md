@@ -35,6 +35,9 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - It's now possible to have mutliple filters with same key 
 - A project sync will now set all assets to synced even though an error occurred while import or sync is performed
 
+## [4.0.2-release-2] (stable release)
+### Added
+- Support for Premiere >= 14.3.1
 
 ## [4.0.2-release-1] (stable release)
 ### Fixed
