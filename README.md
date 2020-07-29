@@ -6,7 +6,7 @@ This is a public representation for the private product [Helmut4](https://helmut
 - Premiere: <= latest
 
 4.0.2:
-- Premiere: <= 14.3.0
+- Premiere: <= latest
 
 4.0.1-release-x: 
 - Premiere: <= 14.0.3
