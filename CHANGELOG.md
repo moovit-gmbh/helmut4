@@ -544,7 +544,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Changed THIRD_PARTY Icon in IO Dashboard to white
 - Added AME Support for 2020 to invisible AME Panel
 
-[unreleased]: https://helmut.tools
+[development release]: https://helmut.tools
 [4.0.1-2019-12-06-180706]: https://helmut.tools
 [4.0.1-2019-12-18-122818]: https://helmut.tools
 [4.0.1-2020-02-04-155216]: https://helmut.tools
