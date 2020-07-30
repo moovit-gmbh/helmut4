@@ -19,6 +19,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Enabled Add Project Button in restricted mode (experimental)
 - Custom confirm dialog when switching to another Stream with unsaved changes
 - Placeholders to input fields in Streamdesigner (used for example input data)
+- Add Searchbar to Metadata
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
