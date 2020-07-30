@@ -1,7 +1,7 @@
 # Helmut4 Changelog
 All notable changes for the private product [Helmut4](https://helmut.tools) will be documented in this file.
 
-##   [development builds]
+##   [development release]
 ### Added
 - OAuth authentication
 - Open Logs (folder) from client menu
