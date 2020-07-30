@@ -3,7 +3,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 
 ##   [development release]
 ### Added
-- OAuth authentication
+- __OAuth authentication__
 - Open Logs (folder) from client menu
 - MD5 checksum to streamEngine download
 - Advanced error output when a client failed to execute a stream
