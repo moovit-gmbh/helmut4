@@ -21,6 +21,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Placeholders to input fields in Streamdesigner (used for example input data)
 - Searchbar to Metadata
 - Extended descriptions to every input for all Nodes
+- The active project has been added to the project select dropdown in the Helmut Panel
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
