@@ -35,6 +35,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
     which is the current selected folder for import (or root if nothing is selected) or the target folder for push assets workflow
 - It's now possible to have mutliple filters with same key 
 - A project sync will now set all assets to synced even though an error occurred while import or sync is performed
+- Remove metadata copy to parent bins, which were created from asset breadcrumb
 
 ## [4.0.2-release-2] (stable release)
 ### Added
