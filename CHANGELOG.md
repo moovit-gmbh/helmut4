@@ -29,7 +29,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Relative date filters can now be saved and restored
 - Creator value typeahead is now working in all products
 - Cosmo can now execute Streams again without problems
-- Gobal variables (preferences) would not be updated correctly in the webinterface
+- Gobal variables (preferences) are updated correctly in the webinterface
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
