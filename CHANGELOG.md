@@ -25,6 +25,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - FFMPEG Render Node Action to render with ffmpeg
 - FFMPEG to Helmut Linux Client (v4.0.3.7) to /usr/local/bin/ffmpeg
 - Audio Streams Condition to check how many audio streams contain in a file 
+- Wildcard {project.locked.status} that returns the status of a lock (LOCKED, HOUSEKEEPER, ARCHIVED, RESTURED)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
