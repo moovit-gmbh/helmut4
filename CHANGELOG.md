@@ -25,7 +25,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - FFMPEG Render Node Action to render with ffmpeg
 - FFMPEG to Helmut Linux Client (v4.0.3.7) to /usr/local/bin/ffmpeg
 - Audio Streams Condition to check how many audio streams exist in a file 
-- Wildcard {project.locked.status} that returns the status of a lock (LOCKED, HOUSEKEEPER, ARCHIVED, RESTURED)
+- Wildcard {project.locked.status} that returns the status of a lock (LOCKED, HOUSEKEEPER, ARCHIVED, RESTORED)
 - COPY and MOVE Profiles to Housekeeper
 - Delete All Button to Upload File Dialog to clear the list of selected files
 - Wildcard {job.mimeType.?} where ? must be replaced by an extension. Will be replaced with the mime type for the given extension on the fly (defaults to DATA)
