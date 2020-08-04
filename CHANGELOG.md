@@ -36,6 +36,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Gobal variables (preferences) are updated correctly in the webinterface
 - Notification after AD-Syncs will be sent back to request user only
 - Profiles in Cosmo can be filtered by group
+- Node outputs cannot connect to same Node's inputs
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
