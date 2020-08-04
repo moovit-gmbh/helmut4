@@ -23,6 +23,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Extended descriptions to every input for all Nodes
 - The active project has been added to the project select dropdown in the Helmut Panel
 - FFMPEG Render Node Action to render with ffmpeg
+- FFMPEG to Helmut Linux Client (v4.0.3.7) to /usr/local/bin/ffmpeg
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
