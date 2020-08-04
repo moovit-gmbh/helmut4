@@ -22,6 +22,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Searchbar to Metadata
 - Extended descriptions to every input for all Nodes
 - The active project has been added to the project select dropdown in the Helmut Panel
+- FFMPEG Render Node Action to render with ffmpeg
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
