@@ -28,6 +28,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Wildcard {project.locked.status} that returns the status of a lock (LOCKED, HOUSEKEEPER, ARCHIVED, RESTURED)
 - COPY and MOVE Profiles to Housekeeper
 - Delete All Button to Upload File Dialog to clear the list of selected files
+- Wildcard {job.mimeType.?} where ? must be replaced by an extension. Will be replaced with the mime type for the given extension on the fly (defaults to DATA)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
