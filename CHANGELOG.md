@@ -47,6 +47,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - It's now possible to have mutliple filters with same key 
 - A project sync will now set all assets to synced even though an error occurred while import or sync is performed
 - Remove metadata copy to parent bins, which were created from asset breadcrumb
+- Recursiv Folder uploads are now being uploaded to the relative path - use {job.source} to get the path to the file relative to the upload folder
 
 ## [4.0.2-release-2] (stable release)
 ### Added
