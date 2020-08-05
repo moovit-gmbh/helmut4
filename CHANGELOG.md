@@ -41,6 +41,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Notification after AD-Syncs will be sent back to request user only
 - Profiles in Cosmo can be filtered by group
 - Node outputs cannot connect to same Node's input
+- Client does no more break when a stream times out
+  - We changed to logic how stream requests are being recveived and executed to avoid the client to crash if a GENERIC or IO stream times out (client v3.0.3.8)
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
