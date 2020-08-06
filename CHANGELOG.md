@@ -44,6 +44,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Node outputs cannot connect to same Node's input
 - Client does no more break when a stream times out
   - We changed the logic how stream requests are being recveived and executed to avoid the client to crash if a GENERIC or IO stream times out (client v3.0.3.8, linux client mcp_hc:4.0.3.8)
+- All Jobs would be populated to a users dashboard by the message bus - they are no filtered correctly.
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
@@ -53,6 +54,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - A project sync will now set all assets to synced even though an error occurred while import or sync is performed
 - Remove metadata copy to parent bins, which were created from asset breadcrumb
 - Recursiv Folder uploads are now being uploaded to the relative path - use {job.source} to get the path to the file relative to the upload folder
+- The Panel Dashboard will now only show jobs of the currently open project, no more all in a users groups
 
 ## [4.0.2-release-2] (stable release)
 ### Added
