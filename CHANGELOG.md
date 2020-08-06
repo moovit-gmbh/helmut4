@@ -44,7 +44,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Node outputs cannot connect to same Node's input
 - Client does no more break when a stream times out
   - We changed the logic how stream requests are being recveived and executed to avoid the client to crash if a GENERIC or IO stream times out (client v3.0.3.8, linux client mcp_hc:4.0.3.8)
-- All Jobs would be populated to a users dashboard by the message bus - they are no filtered correctly.
+- All Jobs would be populated to a users dashboard by the message bus - they are now filtered correctly.
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
