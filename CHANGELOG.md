@@ -31,6 +31,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Wildcard {job.mimeType.?} where ? must be replaced by an extension. Will be replaced with the mime type for the given extension on the fly (defaults to DATA)
 - Server sided FileChooser to Streamdesigner
 - System wide Backup and Restore to Preference Tab
+- JSON Payload Extract Action
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
