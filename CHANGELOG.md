@@ -33,6 +33,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - System wide Backup and Restore to Preference Tab
 - JSON Payload Extract Action
 - Optional Group to Watchfolders to enable new jobs to be attached to a group a user can be part of (visibility in dashboard)
+- Regex Apply Action to sanitize strings (eg. projectnames)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
