@@ -35,6 +35,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Optional Group to Watchfolders to enable new jobs to be attached to a group a user can be part of (visibility in dashboard)
 - Regex Apply Action to sanitize strings (eg. projectnames)
 - Mediainfo Json Action (will return the complete Mediainfo of a File as JSON, so you can extract values)
+- FFProbe Json Action (will return the complete FFProbe info of a File as JSON, so you can extract values)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
