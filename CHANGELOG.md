@@ -34,6 +34,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - JSON Payload Extract Action
 - Optional Group to Watchfolders to enable new jobs to be attached to a group a user can be part of (visibility in dashboard)
 - Regex Apply Action to sanitize strings (eg. projectnames)
+- Mediainfo Json Action (will return the complete Mediainfo of a File as JSON, so you can extract values)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
@@ -50,6 +51,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
   - We changed the logic how stream requests are being recveived and executed to avoid the client to crash if a GENERIC or IO stream times out (client v3.0.3.8, linux client mcp_hc:4.0.3.8)
 - All Jobs would be populated to a users dashboard by the message bus - they are now filtered correctly.
 - Ctrl key can now be used to select multiple entries on windows (currently admin only; will be reworked)
+- Regex Apply Action will now find the regex provided
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
