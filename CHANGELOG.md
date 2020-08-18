@@ -53,6 +53,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - All Jobs would be populated to a users dashboard by the message bus - they are now filtered correctly.
 - Ctrl key can now be used to select multiple entries on windows (currently admin only; will be reworked)
 - Regex Apply Action will now find the regex provided
+- Added alphabetically sorting of fx filter keys
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
