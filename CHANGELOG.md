@@ -36,6 +36,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Regex Apply Action to sanitize strings (eg. projectnames)
 - Mediainfo Json Action (will return the complete Mediainfo of a File as JSON, so you can extract values)
 - FFProbe Json Action (will return the complete FFProbe info of a File as JSON, so you can extract values)
+- The table sort order will be reset to default and the free text search string will be deleted if "Clear current filter" has been triggered (hp:4.0.3.13 hw:4.0.3.22)
+- If an asset is imported into the opened premiere project via cosmo tab in panel the same asset will now immediately be added to the database to keep the web frontend synced with the project content (hp:4.0.3.13 hw:4.0.3.22)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
@@ -53,7 +55,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - All Jobs would be populated to a users dashboard by the message bus - they are now filtered correctly.
 - Ctrl key can now be used to select multiple entries on windows (currently admin only; will be reworked)
 - Regex Apply Action will now find the regex provided
-- Added alphabetically sorting of fx filter keys
+- Added alphabetically sorting of fx filter keys (hp:4.0.3.13 hw:4.0.3.22)
+- Fixed the creation of multiple autoimport jobs for same asset if it has been imported via parent folder or as fcp xml (hp:4.0.3.13 hw:4.0.3.22)
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
@@ -64,6 +67,8 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Remove metadata copy to parent bins, which were created from asset breadcrumb
 - Recursiv Folder uploads are now being uploaded to the relative path - use {job.source} to get the path to the file relative to the upload folder
 - The Panel Dashboard will now only show jobs of the currently open project, no more all in a users groups
+- Text typed values of filters will now be selected if the text field is clicked -> directly overwriting previous value now possible (hp:4.0.3.13 hw:4.0.3.22)
+- Changed default comparator to CONTAINS for all text based filter values (hp:4.0.3.13 hw:4.0.3.22)
 
 ## [4.0.2-release-2] (stable release)
 ### Added
