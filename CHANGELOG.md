@@ -76,6 +76,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ## [4.0.2-release-3] (stable release)
 ### Fixed
 - Housekeeper could not save relative date filters
+  - Known issue: Saving the filter as a preset will not work in 4.0.2
 
 ## [4.0.2-release-2] (stable release)
 ### Added
