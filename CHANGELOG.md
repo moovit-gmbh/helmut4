@@ -73,6 +73,10 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Text typed values of filters will now be selected if the text field is clicked -> directly overwriting previous value now possible (hp:4.0.3.13 hw:4.0.3.22)
 - Changed default comparator to CONTAINS for all text based filter values (hp:4.0.3.13 hw:4.0.3.22)
 
+## [4.0.2-release-3] (stable release)
+### Fixed
+- Housekeeper could not save relative date filters
+
 ## [4.0.2-release-2] (stable release)
 ### Added
 - Support for Premiere >= 14.3.1
@@ -591,3 +595,4 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 [4.0.2-release-0]: https://helmut.tools
 [4.0.2-release-1]: https://helmut.tools
 [4.0.2-release-2]: https://helmut.tools
+[4.0.2-release-3]: https://helmut.tools
