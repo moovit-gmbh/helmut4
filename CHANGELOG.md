@@ -38,6 +38,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - FFProbe Json Action (will return the complete FFProbe info of a File as JSON, so you can extract values)
 - The table sort order will be reset to default and the free text search string will be deleted if "Clear current filter" has been triggered (hp:4.0.3.13 hw:4.0.3.22)
 - If an asset is imported into the opened premiere project via cosmo tab in panel the same asset will now immediately be added to the database to keep the web frontend synced with the project content (hp:4.0.3.13 hw:4.0.3.22)
+- XML Generator Action to export XML's in a desired format out of Helmut informations (project, job and user)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
@@ -72,6 +73,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - The Panel Dashboard will now only show jobs of the currently open project, no more all in a users groups
 - Text typed values of filters will now be selected if the text field is clicked -> directly overwriting previous value now possible (hp:4.0.3.13 hw:4.0.3.22)
 - Changed default comparator to CONTAINS for all text based filter values (hp:4.0.3.13 hw:4.0.3.22)
+- Add 'replacer' to Regex Apply Node (replace found matches with a string instead or nothing)
 
 ## [4.0.2-release-3] (stable release)
 ### Fixed
