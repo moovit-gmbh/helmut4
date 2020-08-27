@@ -62,6 +62,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Fixed asset import from panel into root level of current project (import without any bin selected) (hp:4.0.3.14)
 - Index project with clipProjectItems without nodeId is now working without throwing null pointer exception (co:4.0.3.6)
 - Saving a task with a relative date filter set is now possible (hw:4.0.3.26)
+- Filtered out sequences from autoimport job adding if a sequence is imported as a child project item of a folder (hp:4.0.3.15)
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
