@@ -77,6 +77,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Text typed values of filters will now be selected if the text field is clicked -> directly overwriting previous value now possible (hp:4.0.3.13 hw:4.0.3.22)
 - Changed default comparator to CONTAINS for all text based filter values (hp:4.0.3.13 hw:4.0.3.22)
 - Add 'replacer' to Regex Apply Node (replace found matches with a string or nothing)
+- Project Create Action and Project Import Action Template descriptions and added Type field
 
 ## [4.0.2-release-3] (stable release)
 ### Fixed
