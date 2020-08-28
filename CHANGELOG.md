@@ -63,6 +63,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Index project with clipProjectItems without nodeId is now working without throwing null pointer exception (co:4.0.3.6)
 - Saving a task with a relative date filter set is now possible (hw:4.0.3.26)
 - Filtered out sequences from autoimport job adding if a sequence is imported as a child project item of a folder (hp:4.0.3.15)
+- Sequence Export would write the extracted sequence project used for rendering to C:\HelmutIO on Windows with premiere  >= 14.3.1
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
