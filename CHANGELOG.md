@@ -82,6 +82,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 ### Fixed
 - Housekeeper could not save relative date filters
   - Known issue: Saving the filter as a preset will not work in 4.0.2
+- Sequence Export would write the extracted sequence project used for rendering to C:\HelmutIO on Windows with premiere  >= 14.3.1  
 
 ## [4.0.2-release-2] (stable release)
 ### Added
