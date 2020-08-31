@@ -40,6 +40,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - If an asset is imported into the opened premiere project via cosmo tab in panel the same asset will now immediately be added to the database to keep the web frontend synced with the project content (hp:4.0.3.13 hw:4.0.3.22)
 - XML Generator Action to export XML's in a desired format out of Helmut informations (project, job and user)
 - File/Folder Appearing Condition - monitor if one or multiple files/folders appear or disappear
+- Illegal Character Filter to 'Add Metadata' dialog
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
