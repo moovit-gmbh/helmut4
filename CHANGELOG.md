@@ -41,7 +41,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - XML Generator Action to export XML's in a desired format out of Helmut informations (project, job and user)
 - File/Folder Appearing Condition - monitor if one or multiple files/folders appear or disappear
 - Illegal Character Filter to 'Add Metadata' dialog
-- Added ID search filter to search projects by its id (hw:4.0.3.28)
+- Added ID search filter to search projects by its id (hw:4.0.3.28 only by filter; hw:4.0.3.31 also as freetext search)
 
 ### Fixed
 - Only 5 Watchfolders would be shown in Webinterface
@@ -68,6 +68,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Sequence Export would write the extracted sequence project used for rendering to C:\HelmutIO on Windows with premiere  >= 14.3.1
 - Cosmo projects detail page: Navigate into bin which was preveously searched by freetext search is now working (hw:4.0.3.28 hp:4.0.3.17)
 - Active directory synchronization message should now always appear (hw:4.0.3.30)
+- Reenabled metadata relative filter search for objects (projects and assets) that have more than one metadata entry set (fx:4.0.3.8 co:4.0.3.8)
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
@@ -82,6 +83,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Changed default comparator to CONTAINS for all text based filter values (hp:4.0.3.13 hw:4.0.3.22)
 - Add 'replacer' to Regex Apply Node (replace found matches with a string or nothing)
 - Project Create Action and Project Import Action Template descriptions and added Type field
+- Assets that will be synced into a premiere project will be automatically set to be synced as soon as they are requested from database to avoid stucking syncronization queue (hp:4.0.3.20 co:4.0.3.7)
 
 ## [4.0.2-release-3] (stable release)
 ### Fixed
