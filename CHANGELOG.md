@@ -69,6 +69,10 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Cosmo projects detail page: Navigate into bin which was preveously searched by freetext search is now working (hw:4.0.3.28 hp:4.0.3.17)
 - Active directory synchronization message should now always appear (hw:4.0.3.30)
 - Reenabled metadata relative filter search for objects (projects and assets) that have more than one metadata entry set (fx:4.0.3.8 co:4.0.3.8)
+- Fixed Domain Controller bug for Active Directory module for newer active directory version -> tested with Windows Server 2019 (hw:4.0.3.32)
+- Reenabled metadata relative filter search for objects (projects and assets) that have more than one metadata entry set in frontend (hw:4.0.3.33, hp:4.0.3.26)
+- Edit project dialog is not removing existing tag information (hw:4.0.3.33)
+- Reenabled default profile selection for panel export, and web import/export (hw:4.0.3.33, hp:4.0.3.26)
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
