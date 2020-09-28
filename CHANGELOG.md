@@ -69,6 +69,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Cosmo projects detail page: Navigate into bin which was preveously searched by freetext search is now working (hw:4.0.3.28 hp:4.0.3.17)
 - Active directory synchronization message should now always appear (hw:4.0.3.30)
 - Reenabled metadata relative filter search for objects (projects and assets) that have more than one metadata entry set (fx:4.0.3.8 co:4.0.3.8)
+- Node outputs of "Cosmo Get Project Assets Node" (streams:4.0.3.65)
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
