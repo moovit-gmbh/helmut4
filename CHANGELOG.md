@@ -73,6 +73,7 @@ All notable changes for the private product [Helmut4](https://helmut.tools) will
 - Reenabled metadata relative filter search for objects (projects and assets) that have more than one metadata entry set in frontend (hw:4.0.3.33, hp:4.0.3.26)
 - Edit project dialog is not removing existing tag information (hw:4.0.3.33)
 - Reenabled default profile selection for panel export, and web import/export (hw:4.0.3.33, hp:4.0.3.26)
+- Node outputs of "Cosmo Get Project Assets Node" (streams:4.0.3.65)
 
 ### Changed
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
