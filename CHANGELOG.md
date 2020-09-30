@@ -1,7 +1,12 @@
 # Helmut4 Changelog
-All notable changes for the private product [Helmut4](https://helmut.tools) will be documented in this file.
+All notable changes for the private product [Helmut4](https://www.helmut.de) will be documented in this file.
 
 ##   [development release]
+### Added
+### Fixed
+### Changed
+
+## [4.0.3-release-0] (stable release)
 ### Added
 - OAuth authentication
 - Open Logs (folder) from client menu
@@ -615,3 +620,4 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 [4.0.2-release-1]: https://helmut.tools
 [4.0.2-release-2]: https://helmut.tools
 [4.0.2-release-3]: https://helmut.tools
+[4.0.3-release-0]: https://helmut.tools
