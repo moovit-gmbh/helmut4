@@ -7,8 +7,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Added
 
 ### Fixed
-
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
+- Improved special character support in wildcards (streams:4.0.4.1)
+- Support for HTML tags in Wildcard Resolver (Streamdesigner) (streams:4.0.4.2)
 
 ### Changed
 
