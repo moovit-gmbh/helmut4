@@ -1,13 +1,21 @@
 # Helmut4 Changelog
+
 All notable changes for the private product [Helmut4](https://www.helmut.de) will be documented in this file.
 
-##   [development release]
+## [development release]
+
 ### Added
+
 ### Fixed
+
+- Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
+
 ### Changed
 
 ## [4.0.3-release-0] (stable release)
+
 ### Added
+
 - OAuth authentication
 - Open Logs (folder) from client menu
 - MD5 checksum to streamEngine download
@@ -29,7 +37,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - The active project has been added to the project select dropdown in the Helmut Panel
 - FFMPEG Render Node Action to render with ffmpeg
 - FFMPEG to Helmut Linux Client (v4.0.3.7) to /usr/local/bin/ffmpeg
-- Audio Streams Condition to check how many audio streams exist in a file 
+- Audio Streams Condition to check how many audio streams exist in a file
 - Wildcard {project.locked.status} that returns the status of a lock (LOCKED, HOUSEKEEPER, ARCHIVED, RESTORED)
 - COPY and MOVE Profiles to Housekeeper
 - Delete All Button to Upload File Dialog to clear the list of selected files
@@ -42,13 +50,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Mediainfo Json Action (will return the complete Mediainfo of a File as JSON, so you can extract values)
 - FFProbe Json Action (will return the complete FFProbe info of a File as JSON, so you can extract values)
 - The table sort order will be reset to default and the free text search string will be deleted if "Clear current filter" has been triggered (hp:4.0.3.13 hw:4.0.3.22)
-~~- If an asset is imported into the opened premiere project via cosmo tab in panel the same asset will now immediately be added to the database to keep the web frontend synced with the project content (hp:4.0.3.13 hw:4.0.3.22)~~ removed, will be implemented in next version
+  ~~- If an asset is imported into the opened premiere project via cosmo tab in panel the same asset will now immediately be added to the database to keep the web frontend synced with the project content (hp:4.0.3.13 hw:4.0.3.22)~~ removed, will be implemented in next version
 - XML Generator Action to export XML's in a desired format out of Helmut informations (project, job and user)
 - File/Folder Appearing Condition - monitor if one or multiple files/folders appear or disappear
 - Illegal Character Filter to 'Add Metadata' dialog
 - Added ID search filter to search projects by its id (hw:4.0.3.28 only by filter; hw:4.0.3.31 also as freetext search)
 
 ### Fixed
+
 - Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
 - Non admin users can now save the amount of items listed
@@ -70,7 +79,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Index project with clipProjectItems without nodeId is now working without throwing null pointer exception (co:4.0.3.6)
 - Saving a task with a relative date filter set is now possible (hw:4.0.3.26)
 - Filtered out sequences from autoimport job adding if a sequence is imported as a child project item of a folder (hp:4.0.3.15)
-- Sequence Export would write the extracted sequence project used for rendering to C:\HelmutIO on Windows with premiere  >= 14.3.1
+- Sequence Export would write the extracted sequence project used for rendering to C:\HelmutIO on Windows with premiere >= 14.3.1
 - Cosmo projects detail page: Navigate into bin which was preveously searched by freetext search is now working (hw:4.0.3.28 hp:4.0.3.17)
 - Active directory synchronization message should now always appear (hw:4.0.3.30)
 - Reenabled metadata relative filter search for objects (projects and assets) that have more than one metadata entry set (fx:4.0.3.8 co:4.0.3.8)
@@ -81,10 +90,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Node outputs of "Cosmo Get Project Assets Node" (streams:4.0.3.65)
 
 ### Changed
+
 - Import assets from project and push assets to project using the panel will now ignore the bin structure
   - Folder will still be read out recursively but the assets will be placed in flat hierarchical manner into the destination,
     which is the current selected folder for import (or root if nothing is selected) or the target folder for push assets workflow
-- It's now possible to have mutliple filters with same key 
+- It's now possible to have mutliple filters with same key
 - A project sync will now set all assets to synced even though an error occurred while import or sync is performed
 - Remove metadata copy to parent bins, which were created from asset breadcrumb
 - Recursiv Folder uploads are now being uploaded to the relative path - use {job.source} to get the path to the file relative to the upload folder
@@ -93,25 +103,34 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed default comparator to CONTAINS for all text based filter values (hp:4.0.3.13 hw:4.0.3.22)
 - Add 'replacer' to Regex Apply Node (replace found matches with a string or nothing)
 - Project Create Action and Project Import Action Template descriptions and added Type field
-~~- Assets that will be synced into a premiere project will be automatically set to be synced as soon as they are requested from database to avoid stucking syncronization queue (hp:4.0.3.20 co:4.0.3.7)~~ -> removed, will be implemented in next version
+  ~~- Assets that will be synced into a premiere project will be automatically set to be synced as soon as they are requested from database to avoid stucking syncronization queue (hp:4.0.3.20 co:4.0.3.7)~~ -> removed, will be implemented in next version
 
 ## [4.0.2-release-3] (stable release)
+
 ### Fixed
+
 - Housekeeper could not save relative date filters
   - Known issue: Saving the filter as a preset will not work in 4.0.2
-- Sequence Export would write the extracted sequence project used for rendering to C:\HelmutIO on Windows with premiere  >= 14.3.1  
+- Sequence Export would write the extracted sequence project used for rendering to C:\HelmutIO on Windows with premiere >= 14.3.1
 
 ## [4.0.2-release-2] (stable release)
+
 ### Added
+
 - Support for Premiere >= 14.3.1
 
 ## [4.0.2-release-1] (stable release)
+
 ### Fixed
+
 - Only 5 Watchfolders would be shown in Webinterface
 - Autologin would fail on Windows and Mac
 - Non admin users can now save the amount of items listed
+
 ## [4.0.2-release-0] (stable release)
+
 ### Added
+
 - Rendernode(s) to job overlay if there are any and less then 10
 - Title and saved/unsaved status to title for Streamdesigner
 - Group filter for CUSTOM_FX and CUSTOM_IO events
@@ -128,10 +147,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - New {project.locked} wildcard (results in true/false)
 - PRESTREAM's to filter IO jobs in advance, like Autoimport or Watchfolders (extensions for eg)
   - New feature called PreStreams.
-Whenever you setup an IO Profile, you can optionally choose a PreStream (new Stream Event in IO) that will be executed before the Job is published.
-This can be either a client or a server Stream. It’s an generic stream so it should NOT be used for heavy tasks (since multiple might run simultaneously).
-If the Stream fails, a job will NOT be created and an error message will be thrown in the panel. You can use the Job Status Action to set the job to FAILED or SUCCESSFUL (or QUEUED) right away.
-You can also use the Job Delete Action which will delete the Job silently, no errors, no Job in the Dashboard etc. Perfect for unwanted extensions / paths during Autoimport or Watchfolders. Keep in mind that it's hard to debug for a user why a job does not show up (only debuggable in stream debugger)
+    Whenever you setup an IO Profile, you can optionally choose a PreStream (new Stream Event in IO) that will be executed before the Job is published.
+    This can be either a client or a server Stream. It’s an generic stream so it should NOT be used for heavy tasks (since multiple might run simultaneously).
+    If the Stream fails, a job will NOT be created and an error message will be thrown in the panel. You can use the Job Status Action to set the job to FAILED or SUCCESSFUL (or QUEUED) right away.
+    You can also use the Job Delete Action which will delete the Job silently, no errors, no Job in the Dashboard etc. Perfect for unwanted extensions / paths during Autoimport or Watchfolders. Keep in mind that it's hard to debug for a user why a job does not show up (only debuggable in stream debugger)
 - Stream name and Rendernodes to Watchfolder profile chooser
 - Sort users per default by username and allow sorting by username and displayname
 - Added housekeeper actions to type filter of dashboard tab
@@ -141,7 +160,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Wildcards in upload path and temp upload path in CO preferences
 - {job.breadcrumb} for Exports and Autoimports
 - HouseKeeper endpoint (new microservice)
-- Tasks to HouseKeeper for automated mass housekeeping (experimental) 
+- Tasks to HouseKeeper for automated mass housekeeping (experimental)
 - New Traefik version 2.2
 - Automatic project save after a manual project sync has completely been finished
 - wildcard {job.mimeType} after Cosmo Get Assets Action
@@ -164,7 +183,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Wildcards to Node pallet in Streamdesigner
 - Descriptions to node inputs to Streamdesigner
 - Better support for automatic reconnect after server restart for autologin clients
-- After a project deletion all project asset references will be removed for project assets 
+- After a project deletion all project asset references will be removed for project assets
   - Removing projectId and group entries
 - Debugger to Streamdesigner (debugs only open stream)
   - Support for asynchronous streams
@@ -179,6 +198,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Project File Download and Upload Action
 
 ### Fixed
+
 - Installer is now using sudo to install Panels
 - Usernames / Passwords with several special characters will no longer cause problems during login
 - Panel where tabs would not load sometimes
@@ -203,7 +223,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - New (never saved) tasks would not be saved if tested before saving them
 - Added metadata field validation for web export asset dialog and profile filed of add watchfolder dialog
 - Changed comparators of createDate filter to date related ones instead of string related
-- A sequence that has been pushed to another project via drag and drop in cosmo panel will now be synced into the destination project 
+- A sequence that has been pushed to another project via drag and drop in cosmo panel will now be synced into the destination project
 - Fixed bug where export of streams would drop it's stream-design
 - Folder Move Action's conflict rule DELETE_EXISTING is now deleting properly
 - Added LOGIN access preset to all products
@@ -222,6 +242,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Deleting a prestream from a profile will not cause an exception inside the panel telling that the prestream cannot be found
 
 ### Changed
+
 - Write File Output Node supports [NEWLINE] now
 - Sequence multiselect inside export tab of panel has now two icons for set selection either to active sequence or selected sequences in project view
 - Composition multiselect inside export tab of panel has now two icons for set selection either to active composition or selected compositions in project view
@@ -241,7 +262,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Active Directory sync will now push the result to the webinterface via message bus instead of direct response
 - Value field of creator filter for fx (projects) and io (jobs) is now a typeahead field
   - Suggestions will be provided after two chars have been typed
- - Sort order of Manage Groups dialog
+- Sort order of Manage Groups dialog
 - Added dynamic max with setting of chipContent inline modal to proper display filters
 - Cosmo Change (Project) Asset node has now a checkbox for autoimport triggering
 - Panel minimize-mode to be < 75px (was 400px)
@@ -257,7 +278,9 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added CREATE_PROJECT user access preset to co products
 
 ## [4.0.1-release-1] (stable release; fixed)
+
 ### Fix
+
 - Bug where panel tabs would not load sometimes
 - Bug where Stream engine could run out of memory when using big streams (memory leak)
 - Bug where Cosmo would have problems with unc paths
@@ -265,13 +288,15 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Various small fixes
 
 ## [4.0.1-release-0] (stable release)
+
 ### Added
+
 - User can now change their password from the user custom menu
 - Add push assets functionality
   - push assets (BINS, COMPS, SEQUENCES, FOOTAGE) between AfterEffects or Premiere Projects or cross plattform
   - simply drag and drop selection from projects window into project details page of the cosmo tab
   - bins will be read out recursively skipping unsupported items
-- Add timestamp to social media downloads to force unique filenames (enables re-download)  
+- Add timestamp to social media downloads to force unique filenames (enables re-download)
 - Add pathmapping to watchfolder
 - Add new access presets (user and group)
 - Add new filters
@@ -312,6 +337,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Add info if projects are opened without helmut (no panel available)
 
 ### Fixed
+
 - Resolution condition node works properly
 - Typeahead typed metadata works properly
 - Mandatory metadata fields are now also checked within the panel
@@ -321,7 +347,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - WildcardCondition now matches in the correct order
 - Access preset to group assignment now woking properly
 - Rendernode assignment to profile is now working properly (third and following entries won't have double whitespaces between ',' delimiter anymore)
-- Properly handling imported assets that has been moved inside Premiere or After Effects project view before project scan -> no duplicate asset entries, one online one offline 
+- Properly handling imported assets that has been moved inside Premiere or After Effects project view before project scan -> no duplicate asset entries, one online one offline
 - Display of filter lines in create search filter dialog is now working properly
   - There was an update issue leeds to wrong filter names when lines got deleted
 - {user.name} in profiles is now working same as %user.name%
@@ -355,6 +381,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Metadata did not behave properly in AddProject Dialog
 
 ### Changed
+
 - Improved filesize filter for projects and assets -> B,KB,MB,GB,TB are now suported as value suffix
 - Project sync process is now working in packages of 25 assets
 - Improved upload counter and progress which will be resetted if no upload is currently active
@@ -386,10 +413,13 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - The way we detect the logged in domain and user for Single Sign On
 
 ### Removed
+
 - Hardcoded (double) project name check from duplicate project endpoint
 
 ## [4.0.1-2020-02-04-155216] (unstable)
+
 ### Added
+
 - Warning to Streams containing deprecated Nodes to Streamoverview
 - SwatIO as module and node
 - Implemented multiselect for jobs in dashboard view (only cancel jobs is supported right now)
@@ -398,39 +428,40 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Added environment HELMUT_LICENSE=<License token> which has a higher priority then the Database
 - Added license count -1 for an inifite amount of concurrent users
 - Added Node:
-   - Cosmo Move Asset (global)
-   - Cosmo Move Project Asset (for a single project only)
-   - Premiere alert with timeout (client version >= 4.0.1.92 req)
-   - Premiere prompt with timeout (client version >= 4.0.1.92 req)
-   - Premiere confirm with timeout (client version >= 4.0.1.92 req)
-   - Social Media Download (req social media downloader; third party by moovit.de)
-   - Create new project 
-   - Import existing project 
-   - Create new Job (create jobs from withing streams)
+  - Cosmo Move Asset (global)
+  - Cosmo Move Project Asset (for a single project only)
+  - Premiere alert with timeout (client version >= 4.0.1.92 req)
+  - Premiere prompt with timeout (client version >= 4.0.1.92 req)
+  - Premiere confirm with timeout (client version >= 4.0.1.92 req)
+  - Social Media Download (req social media downloader; third party by moovit.de)
+  - Create new project
+  - Import existing project
+  - Create new Job (create jobs from withing streams)
 - Copy node between Streams (Chrome only)
-   - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
+  - As a workaround for Firefox and Safari, you can paste into the "Search" field to create the node
 - Added uprocessed asset property to enable triggering autoimport streams for assets synced from cosmo
 - Added Helmut autologin download to users action menu
 - Released helmut linux client (docker; experimental)
 - Added path-mapping / variable insert at desired location (splice)
 - Added MD5 checksum wildcard - %file.md5.?% (CPU intensiv!)
-- Added recursive toggling synced if parent bin has been set to synced / unsynced 
+- Added recursive toggling synced if parent bin has been set to synced / unsynced
 - Added restricted mode (non client mode) to Webinterface (use project tab without helmut client, eg from phone)
 - Added 'reserve license' to users tab
 - Add direct jump to metadata set from profiles tab
 - Add typeahead (autocomplete) metadata
 - Add duplicate stream
 - Add duplicate profile
-- Add link upload via Cosmo 
+- Add link upload via Cosmo
 - Add wildcards:
-   - %date.month.textual% - January, February..
-   - %date.month.textual.short% - Jan, Feb...  
-   - %date.month.textual.?% - January, February.. of input date
-   - %date.month.textual.short.?% - Jan, Feb.. of input date
+  - %date.month.textual% - January, February..
+  - %date.month.textual.short% - Jan, Feb...
+  - %date.month.textual.?% - January, February.. of input date
+  - %date.month.textual.short.?% - Jan, Feb.. of input date
 - Add WEB_EXPORT and WEB_IMPORT Events and Streams (you can still use IMPORT for webingest)
 - Add WEB_EXPORT support for mediafiles to webinterface
-   
+
 ### Fixed
+
 - Export sequences from Cosmo Webinterface
 - Import composition to premiere project
 - Simulaniosly add different project types (aepx,ppro,sesx) leaded to empty names for at least two created projects
@@ -441,6 +472,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Asset export is now sending the asset instead of the project path
 
 ### Changed
+
 - Reworked project sync icon (number and icon will now trigger the sync event; added animation to icon to call attention to new unsynced assets)
 - License tab in Webinterface is now showing the major version
 - Removed modules from license tab
@@ -450,11 +482,14 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Web sequence export is now using WEB_EXPORT profiles instead of EXPORT)
 
 ### Removed
+
 - Removed action entry Open for force-locked projects
 - Regex from metadata
 
 ## [4.0.1-2019-12-18-122818] (unstable)
+
 ### Added
+
 - Job status CANCELED
 - New Panel-Dashboard equal to Helmut Web
 - Log entries to each Job (open via Overlay)
@@ -465,6 +500,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Updated API documentations to [Helmut4 API Docs](http://repo.moovit24.de:8080/)
 
 ### Fixed
+
 - Post Kill AME is now working properly
 - Adding assets to Flow projects that contain assets on the root level is now working
 - Preference Tab in Helmut Webinterface is now working
@@ -473,6 +509,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Metadata CHOOSE_FOLDER in Premiere on Windows would return paths with forward slashes (Adobe special)
 
 ### Changed
+
 - Cosmo Database structure (requires reindexing of existing projects to work properly)
 
 ### Removed
@@ -480,7 +517,8 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 ## [4.0.1-2019-12-06-180706] (unstable)
 
 ### Added
-- AEFT composition export 
+
+- AEFT composition export
 - AEFT - autoimport, manual import and import from cosmo tab for assets, sequences, compositions, bins, folders
 - PPRO - autoimport, manual import and import from cosmo tab for assets, sequences, compositions, bins, folders
 - AEFT & PPRO - autoimport, manual import and import from cosmo tab for compositions into PPRO and sequences into AEFT
@@ -502,7 +540,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - MediaInfo Condition NodeBitrate
 - MediaInfo Condition Node Audio Tracks
 - MediaInfo Condition Node Color Space
-- Searchfilters to IO dashboard 
+- Searchfilters to IO dashboard
 - CatDV Integration
 - Create Catalog in Group (recursive)
 - Delete Catalog in Group (recursive)
@@ -564,6 +602,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Profiles to HouseKeeper
 
 ### Fixed
+
 - Profiles without render node assignment would not be processed
 - „Saves“ folder could not be found if the Projects Path is Windows
 - Asset will not be indexed correctly if it has been renamed inside Premiere
@@ -576,7 +615,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Stream nodes „Job Update Status Action“ would fail
 - Non working multiselect metadata field
 - hidden metadata fields are not persistent within edit or duplicate project
-- path mapping would be applied twice and lever itself 
+- path mapping would be applied twice and lever itself
 - (force) locked projects could be opened for detail view in Cosmo
 - non-admin users would not see any job's in the io/co/hk Dashboard
 - empty path-mappings would map url slashes
@@ -587,6 +626,7 @@ You can also use the Job Delete Action which will delete the Job silently, no er
 - Premiere Rendering requires EPR Preset Paths with forward slashes on Windows
 
 ### Changed
+
 - Changed „Helmut Client is in use“ with „No free License slot available“ when no License slot is available
 - Export Profiles are now being filtered by the Projects Group
 - AutoImport Profiles are now being filtered by the Projects Group (first comes, first serves)
