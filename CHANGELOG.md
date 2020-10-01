@@ -10,6 +10,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
 - Improved special character support in wildcards (streams:4.0.4.1)
+- Problem with control characters in Mediainfo JSON output on Windows
 
 ### Changed
 
