@@ -11,6 +11,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
 - Improved special character support in wildcards (streams:4.0.4.1)
 - Problem with control characters in Mediainfo JSON output on Windows
+- Importing clips by importing a bin via cosmo tab in helmut panel does not longer overwrite existing clips in project (hp:4.0.3.29)
 
 ### Changed
 
