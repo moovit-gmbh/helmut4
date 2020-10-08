@@ -6,14 +6,31 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Added
 - Support for HTML tags in Wildcard Resolver (Streamdesigner) (streams:4.0.4.2)
+- Highlight projects that are locked by you (hw:4.0.4.2)
+- Pagination to Metadata page (hw:4.0.4.3)
+- Switching to dashboard after executing a task within Housekeeper (hw:4.0.4.2)
+- Add Premiere Generate New UUID Action node. Will give a Premiere Project a new global UUID to avoid duplicates. (streams:4.0.4.4)
+- Premiere OS Path Mapper now also maps <ActualMediaFilepath> (streams:4.0.4.4)
+- FFMpeg Render Node now outputs to node.result and {job.destination} (streams:4.0.4.4)
+- Added all sequence informations to sequence exports via JSON side car file (streams:4.0.4.4)
+- The Panel now logs out if a user disconnects from the local Helmut client or quits the client (hw:4.0.4.3)
 
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
 - Improved special character support in wildcards (streams:4.0.4.1)
 - Problem with control characters in Mediainfo JSON output on Windows
 - Importing clips by importing a bin via cosmo tab in helmut panel does not longer overwrite existing clips in project (hp:4.0.3.29)
+- User was not added to group when preselected using Add User Dialog (hw:4.0.4.2)
+- Cancel All did not cancel all upload jobs (hw:4.0.4.2)
+- Could not add the same node twice to the dashboard within streamdesigner (streams:4.0.4.4)
+- File chooser results in input fields have not been saved when not clicked into the field (added focus) (streams:4.0.4.4)
+- 
 
 ### Changed
+- Removed ' and " from allowed characters for projects (hw:4.0.4.2)
+- Cancel All button now alos clears the list in the Upload dialog (hw:4.0.4.2)
+- All Node names to camel case (streams:4.0.4.4)
+- Moved EVS Node's to THIRD_PARTY Categoriy
 
 ## [4.0.3-release-0] (stable release)
 
