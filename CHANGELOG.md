@@ -24,7 +24,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Cancel All did not cancel all upload jobs (hw:4.0.4.2)
 - Could not add the same node twice to the dashboard within streamdesigner (streams:4.0.4.4)
 - File chooser results in input fields have not been saved when not clicked into the field (added focus) (streams:4.0.4.4)
-- 
+- Fixed bug where navigating from tag field inside add project dialog causes the word Tab to appear in tag field (hw:4.0.4.2)
+- Changing between products and navigating to preferences tab -> product related preferences will not disappear anymore (hw:4.0.4.2)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
