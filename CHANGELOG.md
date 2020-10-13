@@ -34,6 +34,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Moved EVS Node's to THIRD_PARTY Categoriy
 - Changed the way Streams are build and saved and reduced the size by ~85%.
   - This should make execution of large Streams faster as well
+  - Requires to re-save existing streams
 
 ## [4.0.3-release-0] (stable release)
 
