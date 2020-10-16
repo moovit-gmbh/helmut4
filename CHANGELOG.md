@@ -36,7 +36,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fixed bug where navigating from tag field inside add project dialog causes the word Tab to appear in tag field (hw:4.0.4.2)
 - Changing between products and navigating to preferences tab -> product related preferences will not disappear anymore (hw:4.0.4.2)
 - Preferences would not load automatically after login in (hw:4.0.4.8)
-- XML/HTML Tags are now shown in Nodes
+- XML/HTML Tags are now shown in Nodes (streams:4.0.4.28)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
