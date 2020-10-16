@@ -14,7 +14,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - FFMpeg Render Node now outputs to node.result and {job.destination} (streams:4.0.4.4)
 - Added all sequence informations to sequence exports via JSON side car file (streams:4.0.4.4)
 - The Panel now logs out if a user disconnects from the local Helmut client or quits the client (hw:4.0.4.3)
-
+- Nodes to add/remove Asset's to/from Medialooopster (streams:4.0.4.27)
+- {user.client} wildcard which resolves to the clients version number (available in server streams too) (streams:4.0.4.27)
+- Links between {node.result.?} wildcards and the actual linked Node in Streamdesigner (streams:4.0.4.27)
+- Denied deletion within the Streamdesigner of linked Nodes using {node.result.?} (streams:4.0.4.27)
+- Functionallity to expand/reduce single/all (all = shift+click) Nodes individually next to the global 'Show settings' function within the Streamdesigner (streams:4.0.4.27)
+- Feature to enlarge the inline Stream debugger withing the Streamdesigner (chevron on the right site when Debugger is open) (streams:4.0.4.27)
+- Manual refresh button to the IO/CO/HK-Dashboard if filters are set (new events will no more be pushed on top of the list regardless of the filter) (hw:4.0.4.8)
+- Feature to live debug log files of connected clients via the the Action menu in the FX-Dashboard (license:4.0.4.1 hw:4.0.4.8 users:4.0.4.2)
+- Added DISCONNECTED event (delays client logout until all Streams are executed) (license:4.0.4.1 hw:4.0.4.8 users:4.0.4.2)
+  
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
 - Improved special character support in wildcards (streams:4.0.4.1)
@@ -26,6 +35,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - File chooser results in input fields have not been saved when not clicked into the field (added focus) (streams:4.0.4.4)
 - Fixed bug where navigating from tag field inside add project dialog causes the word Tab to appear in tag field (hw:4.0.4.2)
 - Changing between products and navigating to preferences tab -> product related preferences will not disappear anymore (hw:4.0.4.2)
+- Preferences would not load automatically after login in (hw:4.0.4.8)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -35,6 +45,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed the way Streams are build and saved and reduced the size by ~85%.
   - This should make execution of large Streams faster as well
   - Requires to re-save existing streams
+- Added custom.id support for Projects and Assets
+- Medialoopster Nodes are now synchronizing using custom.id's instead of project/assets names
 
 ## [4.0.3-release-0] (stable release)
 
