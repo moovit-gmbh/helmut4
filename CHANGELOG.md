@@ -41,12 +41,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
 - Cancel All button now alos clears the list in the Upload dialog (hw:4.0.4.2)
 - All Node names to camel case (streams:4.0.4.4)
-- Moved EVS Node's to THIRD_PARTY Categoriy
+- Moved EVS Node's to THIRD_PARTY category
 - Changed the way Streams are build and saved and reduced the size by ~85%.
   - This should make execution of large Streams faster as well
   - Requires to re-save existing streams
 - Added custom.id support for Projects and Assets
-- Medialoopster Nodes are now synchronizing using custom.id's instead of project/assets names
+- Medialoopster Nodes are now synchronizing using custom.id's instead of project/assets names (streams:4.0.4.27)
 
 ## [4.0.3-release-0] (stable release)
 
