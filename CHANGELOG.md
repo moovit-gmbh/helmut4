@@ -23,6 +23,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Manual refresh button to the IO/CO/HK-Dashboard if filters are set (new events will no more be pushed on top of the list regardless of the filter) (hw:4.0.4.8)
 - Feature to live debug log files of connected clients via the the Action menu in the FX-Dashboard (license:4.0.4.1 hw:4.0.4.8 users:4.0.4.2)
 - Added DISCONNECTED event (delays client logout until all Streams are executed) (license:4.0.4.1 hw:4.0.4.8 users:4.0.4.2)
+- Added relative date filters for custom metadata from type date (fx:4.0.4.1, hw:4.0.4.4, hp:4.0.4.3)
+- Added stream trigger point for unindexed assets (co:4.0.4.3)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -48,6 +50,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Requires to re-save existing streams
 - Added custom.id support for Projects and Assets
 - Medialoopster Nodes are now synchronizing using custom.id's instead of project/assets names (streams:4.0.4.27)
+- Allowed category and template filters without group filters (hw:4.0.4.8, hp:4.0.4.4)
 
 ## [4.0.3-release-0] (stable release)
 
