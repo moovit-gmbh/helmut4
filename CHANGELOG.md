@@ -29,7 +29,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Natural, alphabetical Metadata sorting in Project, Asset and Dashboard overlay (hw: 4.0.4.12)
 - Helmut Confirm Dialog Action to ask a user confirm a question within the Webbrowser (streams:4.0.4.32 hw:4.0.4.12)
 - Helmut Input Dialog Confirm Action to ask a user answer a question within the Webbrowser (streams:4.0.4.32 hw:4.0.4.12)
-- Add User To Group Node to add user(s) to a Group (for exmaple during group/user creation)
+- Add User To Group Node to add user(s) to a Group (for exmaple during group/user creation) (streams:4.0.4.32)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
