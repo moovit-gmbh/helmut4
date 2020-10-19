@@ -22,9 +22,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Feature to enlarge the inline Stream debugger withing the Streamdesigner (chevron on the right site when Debugger is open) (streams:4.0.4.27)
 - Manual refresh button to the IO/CO/HK-Dashboard if filters are set (new events will no more be pushed on top of the list regardless of the filter) (hw:4.0.4.8)
 - Feature to live debug log files of connected clients via the the Action menu in the FX-Dashboard (license:4.0.4.1 hw:4.0.4.8 users:4.0.4.2)
-- Added DISCONNECTED event (delays client logout until all Streams are executed) (license:4.0.4.1 hw:4.0.4.8 users:4.0.4.2)
-- Added relative date filters for custom metadata from type date (fx:4.0.4.1, hw:4.0.4.4, hp:4.0.4.3)
-- Added stream trigger point for unindexed assets (co:4.0.4.3)
+- DISCONNECTED event (delays client logout until all Streams are executed) (license:4.0.4.1 hw:4.0.4.8 users:4.0.4.2)
+- Relative date filters for custom metadata from type date (fx:4.0.4.1, hw:4.0.4.4, hp:4.0.4.3)
+- Stream trigger point for unindexed assets (co:4.0.4.3)
+- HTTP Request Node (experimental; streams:4.0.4.32)
+- Natural, alphabetical Metadata sorting in Project, Asset and Dashboard overlay (hw: 4.0.4.12)
+- Helmut Confirm Dialog Action to ask a user confirm a question within the Webbrowser (streams:4.0.4.32 hw:4.0.4.12)
+- Helmut Input Dialog Confirm Action to ask a user answer a question within the Webbrowser (streams:4.0.4.32 hw:4.0.4.12)
+- Add User To Group Node to add user(s) to a Group (for exmaple during group/user creation)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -40,6 +45,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Preferences would not load automatically after login in (hw:4.0.4.8)
 - XML/HTML Tags are now shown in Nodes (streams:4.0.4.28)
 - Added URL Encoding doe SwatIO node - uploads could've failed depending of the file(name) to upload
+- Missleading message when only reserved license slots were available
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -52,6 +58,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added custom.id support for Projects and Assets
 - Medialoopster Nodes are now synchronizing using custom.id's instead of project/assets names (streams:4.0.4.27)
 - Allowed category and template filters without group filters (hw:4.0.4.8, hp:4.0.4.4)
+- Reworked the PreStream logic.
+  - PreStreams are working as a client stream only now
+  - PreStreams are now being executed in the same logic as normal streams. They are only shown to admin users until they either turn in a "real" job (just be successful) or are dismissed
+  - You can add separate render nodes for PreStreams so they are executed quickly - dedicated PreStream rendernodes should NEVER do long living / heavy tasks - thats why asynchronous actions are not "supported". (streams:4.0.4.32 io:4.0.4.3 hw:4.0.4.13)
 
 ## [4.0.3-release-0] (stable release)
 
