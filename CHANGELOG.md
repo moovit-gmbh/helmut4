@@ -39,6 +39,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changing between products and navigating to preferences tab -> product related preferences will not disappear anymore (hw:4.0.4.2)
 - Preferences would not load automatically after login in (hw:4.0.4.8)
 - XML/HTML Tags are now shown in Nodes (streams:4.0.4.28)
+- Added URL Encoding doe SwatIO node - uploads could've failed depending of the file(name) to upload
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
