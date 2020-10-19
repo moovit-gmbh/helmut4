@@ -62,7 +62,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - PreStreams are working as a client stream only now
   - PreStreams are now being executed in the same logic as normal streams. They are only shown to admin users until they either turn in a "real" job (just be successful) or are dismissed
   - You can add separate render nodes for PreStreams so they are executed quickly - dedicated PreStream rendernodes should NEVER do long living / heavy tasks - thats why asynchronous actions are not "supported". (streams:4.0.4.32 io:4.0.4.3 hw:4.0.4.13)
-
+  - PreStreams always have priority over "real" jobs when a rendernode is asking for a new job - no matter in which order they have been added
 ## [4.0.3-release-0] (stable release)
 
 ### Added
