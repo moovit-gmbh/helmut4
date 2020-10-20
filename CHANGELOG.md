@@ -30,6 +30,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Helmut Confirm Dialog Action to ask a user confirm a question within the Webbrowser (streams:4.0.4.32 hw:4.0.4.12)
 - Helmut Input Dialog Confirm Action to ask a user answer a question within the Webbrowser (streams:4.0.4.32 hw:4.0.4.12)
 - Add User To Group Node to add user(s) to a Group (for exmaple during group/user creation) (streams:4.0.4.32)
+- Added more nullpointer checks to index project logic (co:4.0.4.5)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -46,6 +47,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - XML/HTML Tags are now shown in Nodes (streams:4.0.4.28)
 - Added URL Encoding doe SwatIO node - uploads could've failed depending of the file(name) to upload
 - Missleading message when only reserved license slots were available
+- No overwriting of user specifications for active directory sync whenever new users are imported to helmut (users:4.0.4.3)
+- All other objects than user objects will now be skipped during active directory sync process (users:4.0.4.3)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -63,6 +66,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - PreStreams are now being executed in the same logic as normal streams. They are only shown to admin users until they either turn in a "real" job (just be successful) or are dismissed
   - You can add separate render nodes for PreStreams so they are executed quickly - dedicated PreStream rendernodes should NEVER do long living / heavy tasks - thats why asynchronous actions are not "supported". (streams:4.0.4.32 io:4.0.4.3 hw:4.0.4.13)
   - PreStreams always have priority over "real" jobs when a rendernode is asking for a new job - no matter in which order they have been added
+- Changed scrolling of panel to whole view instead of table view only (hp:4.0.4.5)
+
 ## [4.0.3-release-0] (stable release)
 
 ### Added
