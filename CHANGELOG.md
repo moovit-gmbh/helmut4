@@ -49,7 +49,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Missleading message when only reserved license slots were available
 - No overwriting of user specifications for active directory sync whenever new users are imported to helmut (users:4.0.4.3)
 - All other objects than user objects will now be skipped during active directory sync process (users:4.0.4.3)
-
+- Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.4.2)
+  - Requires client rollout!
+  
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
 - Cancel All button now alos clears the list in the Upload dialog (hw:4.0.4.2)
@@ -68,10 +70,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - PreStreams always have priority over "real" jobs when a rendernode is asking for a new job - no matter in which order they have been added
 - Changed scrolling of panel to whole view instead of table view only (hp:4.0.4.5)
 
+## [4.0.3-release-1] (stable release)
+### Fixed
+- Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.3.6)
+  - Requires client rollout!
+
 ## [4.0.3-release-0] (stable release)
 
 ### Added
-
 - OAuth authentication
 - Open Logs (folder) from client menu
 - MD5 checksum to streamEngine download
