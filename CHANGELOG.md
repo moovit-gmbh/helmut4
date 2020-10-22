@@ -77,6 +77,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.3.7)
   - Requires client rollout!
 
+### Change 
+- Removed parent bin selection for autoimported clips (hp:4.0.3.30)
+
 ## [4.0.3-release-0] (stable release)
 
 ### Added
