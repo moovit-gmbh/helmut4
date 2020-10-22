@@ -72,7 +72,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [4.0.3-release-1] (stable release)
 ### Fixed
-- Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.3.6)
+- Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.3.7)
   - Requires client rollout!
 
 ## [4.0.3-release-0] (stable release)
