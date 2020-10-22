@@ -72,6 +72,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed scrolling of panel to whole view instead of table view only (hp:4.0.4.5)
 
 ## [4.0.3-release-1] (stable release)
+
 ### Fixed
 - Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.3.7)
   - Requires client rollout!
@@ -724,3 +725,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.2-release-2]: https://www.helmut.de
 [4.0.2-release-3]: https://www.helmut.de
 [4.0.3-release-0]: https://www.helmut.de
+[4.0.3-release-1]: https://www.helmut.de
