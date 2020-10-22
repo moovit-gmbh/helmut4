@@ -49,7 +49,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Missleading message when only reserved license slots were available
 - No overwriting of user specifications for active directory sync whenever new users are imported to helmut (users:4.0.4.3)
 - All other objects than user objects will now be skipped during active directory sync process (users:4.0.4.3)
-- Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.4.2)
+- Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.4.3)
   - Requires client rollout!
   
 ### Changed
