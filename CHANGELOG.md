@@ -52,7 +52,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - All other objects than user objects will now be skipped during active directory sync process (users:4.0.4.3)
 - Client would drop connection to server when trying to execute (large) Streams > 10MB (license:4.0.4.5, linux: hc:4.0.4.6)
   - Requires client rollout!
-- Wildcards would not resolve backslashes and other regex characters
+- Wildcards would not resolve backslashes and other regex characters (streams:4.0.4.41)
+- Reworked canceling of jobs (streams:4.0.4.41 io:4.0.4.8 license:4.0.4.7)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
