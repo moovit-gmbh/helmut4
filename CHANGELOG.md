@@ -72,6 +72,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - PreStreams always have priority over "real" jobs when a rendernode is asking for a new job - no matter in which order they have been added
 - Changed scrolling of panel to whole view instead of table view only (hp:4.0.4.5)
 - Replaced cross in filter dialog at top right with "Delete", "Cancel" and "Confirm" buttons (hw:4.0.4.13 hp:4.0.4.6)
+- Completely refactored synchronization process of assets to projects (hp:4.0.4.7 co:4.0.4.7)
 
 ## [4.0.3-release-1] (stable release)
 
