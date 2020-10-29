@@ -32,6 +32,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add User To Group Node to add user(s) to a Group (for exmaple during group/user creation) (streams:4.0.4.32)
 - Added more nullpointer checks to index project logic (co:4.0.4.5)
 - Version to name of downloaded clients (hw:4.0.3.14)
+- Added Multilanguage support to Webinterface and Panel. Streamdesigner and error messages will NOT be translated.
+  - Add Languages under "Language" Menu entry and set them as default Language under Preference > General
+  - This Language will also be applied to the Panel
+  - Languages marked with a red color are not yet translated - same goes for new entrys after updates.
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
