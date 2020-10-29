@@ -37,6 +37,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - This Language will also be applied to the Panel
   - Languages marked with a red color are not yet translated - same goes for new entrys after updates.
 - Added indicator for missing translations
+  - Missing translations always falls back to English (unchangeable/undeleteable language)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
