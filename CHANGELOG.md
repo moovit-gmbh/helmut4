@@ -125,7 +125,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Mediainfo Json Action (will return the complete Mediainfo of a File as JSON, so you can extract values)
 - FFProbe Json Action (will return the complete FFProbe info of a File as JSON, so you can extract values)
 - The table sort order will be reset to default and the free text search string will be deleted if "Clear current filter" has been triggered (hp:4.0.3.13 hw:4.0.3.22)
-- ~~ If an asset is imported into the opened premiere project via cosmo tab in panel the same asset will now immediately be added to the database to keep the web frontend synced with the project content (hp:4.0.3.13 hw:4.0.3.22)~~ removed, will be implemented in next version
+- <s> If an asset is imported into the opened premiere project via cosmo tab in panel the same asset will now immediately be added to the database to keep the web frontend synced with the project content (hp:4.0.3.13 hw:4.0.3.22) </s> removed, will be implemented in next version
 - XML Generator Action to export XML's in a desired format out of Helmut informations (project, job and user)
 - File/Folder Appearing Condition - monitor if one or multiple files/folders appear or disappear
 - Illegal Character Filter to 'Add Metadata' dialog
@@ -178,7 +178,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed default comparator to CONTAINS for all text based filter values (hp:4.0.3.13 hw:4.0.3.22)
 - Add 'replacer' to Regex Apply Node (replace found matches with a string or nothing)
 - Project Create Action and Project Import Action Template descriptions and added Type field
-- ~~ Assets that will be synced into a premiere project will be automatically set to be synced as soon as they are requested from database to avoid stucking syncronization queue (hp:4.0.3.20 co:4.0.3.7)~~ -> removed, will be implemented in next version
+- <s> Assets that will be synced into a premiere project will be automatically set to be synced as soon as they are requested from database to avoid stucking syncronization queue (hp:4.0.3.20 co:4.0.3.7) </s> -> removed, will be implemented in next version
 
 ## [4.0.2-release-3] (stable release)
 
@@ -229,9 +229,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Stream name and Rendernodes to Watchfolder profile chooser
 - Sort users per default by username and allow sorting by username and displayname
 - Added housekeeper actions to type filter of dashboard tab
-- ~~Search assets over Projects in new 'Assets' tab and jump between this page and the project details page~~
+- <s>Search assets over Projects in new 'Assets' tab and jump between this page and the project details page</s>
 - Added current filter engine from web to panel
-- Set maximum results to 25, 50, 75 or 101 for Projects, ~~Assets~~, Users and Dashboard
+- Set maximum results to 25, 50, 75 or 101 for Projects, <s>Assets</s>, Users and Dashboard
 - Wildcards in upload path and temp upload path in CO preferences
 - {job.breadcrumb} for Exports and Autoimports
 - HouseKeeper endpoint (new microservice)
