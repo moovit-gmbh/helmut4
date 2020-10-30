@@ -60,6 +60,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Requires client rollout!
 - Wildcards would not resolve backslashes and other regex characters (streams:4.0.4.41)
 - Reworked canceling of jobs (streams:4.0.4.41 io:4.0.4.8 license:4.0.4.7)
+- Added skip for native AE elements for project index (co:4.0.4.13)
+- Autosync asset into project in windows environment -> pathmapping added to message bus response (hp:4.0.4.11)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
