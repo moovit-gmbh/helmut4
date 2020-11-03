@@ -38,6 +38,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Languages marked with a red color are not yet translated - same goes for new entrys after updates.
 - Added indicator for missing translations
   - Missing translations always fall back to English (unchangeable/undeleteable language)
+- Added multiselect to most of the table views of the web interface (hw:4.0.4.21)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
