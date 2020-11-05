@@ -41,7 +41,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added multiselect to most of the table views of the web interface (hw:4.0.4.21)
 - Add Medialoopster Update Asset Delete Date Node
 - Some Nodes did not create the destination folder if it didn't exist, this has been changed in various nodes
-- 
+- "Import Project To External Helmut Action" to import a Project into an external Helmut using OAuth
+  - The Projectfile will be uploaded
+  - Metadata will be merged by names if enabled in Node
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -69,9 +71,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - FX Metadata page would show "Add Metadata Set" instead of "Add Metadata"
 - IO Metadata page would show "Action" instead of "Delete"
 - PreStreams are now hidden from Cosmo Profile view as Cosmo has no PreStreams
-- "Import Project To External Helmut Action" to import a Project into an external Helmut using OAuth
-  - The Projectfile will be uploaded
-  - Metadata will be merged by names if enabled in Node
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
