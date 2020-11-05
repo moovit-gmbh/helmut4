@@ -67,6 +67,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added skip for native AE elements for project index (co:4.0.4.13)
 - Autosync asset into project in windows environment -> pathmapping added to message bus response (hp:4.0.4.11)
 - FX Metadata page would show "Add Metadata Set" instead of "Add Metadata"
+- IO Metadata page would show "Action" instead of "Delete"
+- PreStreams are now hidden from Cosmo Profile view as Cosmo has no PreStreams
+- "Import Project To External Helmut Action" to import a Project into an external Helmut using OAuth
+  - The Projectfile will be uploaded
+  - Metadata will be merged by names if enabled in Node
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
