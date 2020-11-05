@@ -39,6 +39,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added indicator for missing translations
   - Missing translations always fall back to English (unchangeable/undeleteable language)
 - Added multiselect to most of the table views of the web interface (hw:4.0.4.21)
+- Add Medialoopster Update Asset Delete Date Node
+- Some Nodes did not create the destination folder if it didn't exist, this has been changed in various nodes
+- 
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -63,6 +66,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Reworked canceling of jobs (streams:4.0.4.41 io:4.0.4.8 license:4.0.4.7)
 - Added skip for native AE elements for project index (co:4.0.4.13)
 - Autosync asset into project in windows environment -> pathmapping added to message bus response (hp:4.0.4.11)
+- FX Metadata page would show "Add Metadata Set" instead of "Add Metadata"
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -82,7 +86,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - PreStreams always have priority over "real" jobs when a rendernode is asking for a new job - no matter in which order they have been added
 - Changed scrolling of panel to whole view instead of table view only (hp:4.0.4.5)
 - Replaced cross in filter dialog at top right with "Delete", "Cancel" and "Confirm" buttons (hw:4.0.4.13 hp:4.0.4.6)
-- Completely refactored synchronization process of assets to projects (hp:4.0.4.7 co:4.0.4.7)
+- Completely refactored synchronization process of assets to projects (hp:4.0.4.7 co:4.0.4.7
+- Folder Delete Action has now conditions if folder is not empty "DELETE_ANYWAY", "SKIP", "FAIL"
 
 ## [4.0.3-release-1] (stable release)
 
