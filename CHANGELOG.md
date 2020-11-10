@@ -44,6 +44,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - "Import Project To External Helmut Action" to import a Project into an external Helmut using OAuth
   - The Projectfile will be uploaded
   - Metadata will be merged by names if enabled in Node
+- Stratus Asset Add Folder Membership Action to Streams (streams:4.0.4.54)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
