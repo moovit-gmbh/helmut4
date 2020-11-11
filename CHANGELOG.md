@@ -72,6 +72,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - FX Metadata page would show "Add Metadata Set" instead of "Add Metadata"
 - IO Metadata page would show "Action" instead of "Delete"
 - PreStreams are now hidden from Cosmo Profile view as Cosmo has no PreStreams
+- Commandline parser does no more add quotes when not needed to a command
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
