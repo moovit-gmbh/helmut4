@@ -45,6 +45,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - The Projectfile will be uploaded
   - Metadata will be merged by names if enabled in Node
 - Stratus Asset Add Folder Membership Action to Streams (streams:4.0.4.54)
+- Added delete job and delete multiple jobs functionality and the corresponding access preset (web:4.0.4.23, fx:4.0.4.7)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -93,8 +94,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - PreStreams always have priority over "real" jobs when a rendernode is asking for a new job - no matter in which order they have been added
 - Changed scrolling of panel to whole view instead of table view only (hp:4.0.4.5)
 - Replaced cross in filter dialog at top right with "Delete", "Cancel" and "Confirm" buttons (hw:4.0.4.13 hp:4.0.4.6)
-- Completely refactored synchronization process of assets to projects (hp:4.0.4.7 co:4.0.4.7
+- Completely refactored synchronization process of assets to projects (hp:4.0.4.7 co:4.0.4.7)
 - Folder Delete Action has now conditions if folder is not empty "DELETE_ANYWAY", "SKIP", "FAIL"
+- Active Directory perform action api endpoint is now expecting a uuid of the groups entry for which the action should be performed (web:4.0.4.23, users:4.0.4.6)
 
 ## [4.0.3-release-1] (stable release)
 
