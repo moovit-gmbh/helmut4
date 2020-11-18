@@ -98,6 +98,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Folder Delete Action has now conditions if folder is not empty "DELETE_ANYWAY", "SKIP", "FAIL"
 - Active Directory perform action api endpoint is now expecting a uuid of the groups entry for which the action should be performed (web:4.0.4.23, users:4.0.4.6)
 
+### Removed
+- Removed hardcoded Job Status Update from Execute Extendscript Action
+
 ## [4.0.3-release-1] (stable release)
 
 ### Fixed
