@@ -46,6 +46,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Metadata will be merged by names if enabled in Node
 - Stratus Asset Add Folder Membership Action to Streams (streams:4.0.4.54)
 - Added delete job and delete multiple jobs functionality and the corresponding access preset (hw:4.0.4.23, fx:4.0.4.7)
+- Multinode copy to StreamDesigner (cross tab requires SSL)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
