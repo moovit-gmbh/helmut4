@@ -47,6 +47,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Stratus Asset Add Folder Membership Action to Streams (streams:4.0.4.54)
 - Added delete job and delete multiple jobs functionality and the corresponding access preset (hw:4.0.4.23, fx:4.0.4.7)
 - Multinode copy to StreamDesigner (cross tab requires SSL) (streams:4.0.4.67)
+- Freetext search does now also cover IO job statusMessage field in dashboard view (io:4.0.4.11)
+- Added Multiselect in panel and web and reworked the selection to avoid sort order variation during selection (hp:4.0.4.12, hw:4.0.4.24)
+- Added a boolean field "filterable" to metadata to enable/disable the possiblity for filtering for it. Not filterable metadata which are already set as filter will be 
+  kept until they will be removed. After Removal they cannot be filtered until filterable is enabled again (hw:4.0.4.24, hp:4.0.4.11, metadat:4.0.4.4.2)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
