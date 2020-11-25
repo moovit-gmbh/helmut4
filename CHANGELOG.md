@@ -51,6 +51,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added Multiselect in panel and web and reworked the selection to avoid sort order variation during selection (hp:4.0.4.12, hw:4.0.4.24)
 - Added a boolean field "filterable" to metadata to enable/disable the possiblity for filtering for it. Not filterable metadata which are already set as filter will be 
   kept until they will be removed. After Removal they cannot be filtered until filterable is enabled again (hw:4.0.4.24, hp:4.0.4.11, metadat:4.0.4.4.2)
+- Added wildcard to count words in a string (streams:4.0.4.68)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
