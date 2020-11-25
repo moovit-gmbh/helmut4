@@ -52,6 +52,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added a boolean field "filterable" to metadata to enable/disable the possiblity for filtering for it. Not filterable metadata which are already set as filter will be 
   kept until they will be removed. After Removal they cannot be filtered until filterable is enabled again (hw:4.0.4.24, hp:4.0.4.11, metadat:4.0.4.4.2)
 - Added wildcard to count words in a string (streams:4.0.4.68)
+- Added "hidden" field to profiles to hide them from the user interface (io:4.0.4.12, hp:4.0.4.14, hw:4.0.4.27)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -88,6 +89,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - FX Dashboard now shows correct IP for clients using autoconnect
 - Fixed path issue within Command Line executor node (streams:4.0.4.69)
 - Fixed fps condition to work with floating point numbers (streams:4.0.4.70)
+- Fixed metadata sorting for fx and io metadata table views (hw:4.0.4.25)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -110,6 +112,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Completely refactored synchronization process of assets to projects (hp:4.0.4.7 co:4.0.4.7)
 - Folder Delete Action has now conditions if folder is not empty "DELETE_ANYWAY", "SKIP", "FAIL"
 - Active Directory perform action api endpoint is now expecting a uuid of the groups entry for which the action should be performed (web:4.0.4.23, users:4.0.4.6)
+- Added "Keep original name" checkbox to "Cosmo Add Asset To Project Action" to avoid changing the asset name during synchronization process (streams: 4.0.4.68 co:4.0.4.15 hp:4.0.4.13)
+- Added autocomplete behaviour to tag filter in fx (hp:4.0.4.13 hw:4.0.4.25)
 
 ### Removed
 - Removed hardcoded Job Status Update from Execute Extendscript Action
