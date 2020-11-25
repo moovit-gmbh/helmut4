@@ -87,6 +87,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - This node looped over one asset only instead of all found assets
 - FX Dashboard now shows correct IP for clients using autoconnect
 - Fixed path issue within Command Line executor node (streams:4.0.4.69)
+- Fixed fps condition to work with floating point numbers (streams:4.0.4.70)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
