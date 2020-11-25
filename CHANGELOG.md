@@ -82,6 +82,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Removed > sign from export modal (hw:4.0.4.22)
 - \E is no more causing problems in wildcards (stremas:4.0.4.61)
 - Saved Streams content would sometimes be "Success Action" only instead of the actual stream
+- Cosmo Get Assets For Project node is working properly again
+  - This node looped over one asset only instead of all found assets
+- FX Dashboard now shows correct IP for clients using autoconnect
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
