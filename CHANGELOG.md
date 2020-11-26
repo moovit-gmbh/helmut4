@@ -53,6 +53,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   kept until they will be removed. After Removal they cannot be filtered until filterable is enabled again (hw:4.0.4.24, hp:4.0.4.11, metadat:4.0.4.4.2)
 - Added wildcard to count words in a string (streams:4.0.4.68)
 - Added "hidden" field to profiles to hide them from the user interface (io:4.0.4.12, hp:4.0.4.14, hw:4.0.4.27)
+- Added scrollbars to metadata section of export tab of panel (hp:4.0.4.15)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
