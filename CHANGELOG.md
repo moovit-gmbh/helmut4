@@ -90,6 +90,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fixed path issue within Command Line executor node (streams:4.0.4.69)
 - Fixed fps condition to work with floating point numbers (streams:4.0.4.70)
 - Fixed metadata sorting for fx and io metadata table views (hw:4.0.4.25)
+- Changed payload cleanup for Json extract node to avoid creating functional chars by having backslash following by a numerical char like '\1.mxf' (streams:4.0.4.75)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
