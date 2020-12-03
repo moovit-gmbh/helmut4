@@ -98,7 +98,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Re-added sorting to filter values
 - Relative TODAY filter to not act like TODAY_GREATER
 - Pasting nodes to the streamdesigner does no more paste nodes outside of canvas
-- {file.content.?} now supports {path.to..win/mac.?} nesting
+- {file.content.?} now supports {path.to.win/mac.?} nesting
 
 
 ### Changed
