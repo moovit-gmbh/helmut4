@@ -54,6 +54,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added wildcard to count words in a string (streams:4.0.4.68)
 - Added "hidden" field to profiles to hide them from the user interface (io:4.0.4.12, hp:4.0.4.14, hw:4.0.4.27)
 - Added scrollbars to metadata section of export tab of panel (hp:4.0.4.15)
+- Transfer Stream variables from PreStream's to actual Stream
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -94,6 +95,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed payload cleanup for Json extract node to avoid creating functional chars by having backslash following by a numerical char like '\1.mxf' (streams:4.0.4.75)
 - LowerCased node names have been uppercased
 - Fixed bug where hitting 'Enter' in the EnterTextDialog would refresh (redirect) the page
+- Re-added sorting to filter values
+- Relative TODAY filter to not act like TODAY_GREATER
+- Pasting nodes to the streamdesigner does no more paste nodes outside of canvas
+
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
