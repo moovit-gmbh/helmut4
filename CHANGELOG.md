@@ -55,6 +55,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added "hidden" field to profiles to hide them from the user interface (io:4.0.4.12, hp:4.0.4.14, hw:4.0.4.27)
 - Added scrollbars to metadata section of export tab of panel (hp:4.0.4.15)
 - Transfer Stream variables from PreStream's to actual Stream
+- Added custom datetime filter (hw:4.0.4.30, hp:4.0.4.16)
+- {job.unique} wildcard usable in INDEXED_ASSET, UNINDEXED_ASSET and ADDED_ASSET streams and after "Cosmo Get Project Assets Action (streams:4.0.4.84, co:4.0.4.27, io:4.0.4.13)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -99,6 +101,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Relative TODAY filter to not act like TODAY_GREATER
 - Pasting nodes to the streamdesigner does no more paste nodes outside of canvas
 - {file.content.?} now supports {path.to.win/mac.?} nesting
+- Tag typeahead field is working again in addProject dialog and filter field (hw:4.0.4.30 hp:4.0.4.16)
+- Removed filechooser icon from numerical input fields in streamsdesigner (streams:4.0.4.85)
 
 
 ### Changed
@@ -124,9 +128,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Active Directory perform action api endpoint is now expecting a uuid of the groups entry for which the action should be performed (web:4.0.4.23, users:4.0.4.6)
 - Added "Keep original name" checkbox to "Cosmo Add Asset To Project Action" to avoid changing the asset name during synchronization process (streams: 4.0.4.68 co:4.0.4.15 hp:4.0.4.13)
 - Added autocomplete behaviour to tag filter in fx (hp:4.0.4.13 hw:4.0.4.25)
+- Added query parameter to AD sync endpoints to avoid sync result message -> Preparation for cron job (users:4.0.4.11)
 
 ### Removed
 - Removed hardcoded Job Status Update from Execute Extendscript Action
+- Temporary removed toggle recursive synced by triggering set (un)sync on folder (streams:4.0.4.84, co:4.0.4.27, io:4.0.4.13)
 
 ## [4.0.3-release-1] (stable release)
 
