@@ -103,7 +103,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - {file.content.?} now supports {path.to.win/mac.?} nesting
 - Tag typeahead field is working again in addProject dialog and filter field (hw:4.0.4.30 hp:4.0.4.16)
 - Removed filechooser icon from numerical input fields in streamsdesigner (streams:4.0.4.85)
-
+- Covered duplicate bin creation by adapting synchronization process of "normal" assets for bins as well (co:4.0.4.18, hw:4.0.4.34)
+- Add proxy to an asset and index project before synchronization -> proxy path will remain instead of beeing deleted (co:4.0.4.19)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
