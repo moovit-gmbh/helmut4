@@ -59,6 +59,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - {job.unique} wildcard usable in INDEXED_ASSET, UNINDEXED_ASSET and ADDED_ASSET streams and after "Cosmo Get Project Assets Action (streams:4.0.4.84, co:4.0.4.27, io:4.0.4.13)
 - Added a CMD Execute and BASH Execute Action next to the existing Commandline action which causes problems from time to time depending on the command to execute
   - Commandline Action is spawning an internal shell which is limited, CMD (windows) and BASH (MacOS/Linux) use the desired shell
+- Added Cronjobs (HK -> Cron) to Helmut:
+  - Cronjobs support schduled execution of TASKS and ActiveDirectory Syncs
+  - For exisiting installations, patch your Docker Stackfile with:
+    - curl -s https://repo.moovit24.de:443/install/patch-cronjob.sh | bash
+    - If you plan to use ActiveDirectory Sync via Cronjobs, you need to modify existing AD Groups in Order for them to work.
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -107,6 +112,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Removed filechooser icon from numerical input fields in streamsdesigner (streams:4.0.4.85)
 - Covered duplicate bin creation by adapting synchronization process of "normal" assets for bins as well (co:4.0.4.18, hw:4.0.4.34)
 - Add proxy to an asset and index project before synchronization -> proxy path will remain instead of beeing deleted (co:4.0.4.19)
+- Project Metadata Changer Action did not trigger valueObject caluclation for DATE and DATETIME Metadata to search in those relativly
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
