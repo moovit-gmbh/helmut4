@@ -61,7 +61,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Commandline Action is spawning an internal shell which is limited, CMD (windows) and BASH (MacOS/Linux) use the desired shell
 - Added Cronjobs (HK -> Cron) to Helmut:
   - Cronjobs support schduled execution of TASKS and ActiveDirectory Syncs
-  - For exisiting installations, patch your Docker Stackfile with:
+  - For existing installations, patch your Docker Stackfile with:
     - curl -s https://repo.moovit24.de:443/install/patch-cronjob.sh | bash
     - If you plan to use ActiveDirectory Sync via Cronjobs, you need to modify existing AD Groups in Order for them to work.
   
