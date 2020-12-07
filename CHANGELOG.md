@@ -57,6 +57,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Transfer Stream variables from PreStream's to actual Stream
 - Added custom datetime filter (hw:4.0.4.30, hp:4.0.4.16)
 - {job.unique} wildcard usable in INDEXED_ASSET, UNINDEXED_ASSET and ADDED_ASSET streams and after "Cosmo Get Project Assets Action (streams:4.0.4.84, co:4.0.4.27, io:4.0.4.13)
+- Added a CMD Execute and BASH Execute Action next to the existing Commandline action which causes problems from time to time depending on the command to execute
+  - Commandline Action is spawning an internal shell which is limited, CMD (windows) and BASH (MacOS/Linux) use the desired shell
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
