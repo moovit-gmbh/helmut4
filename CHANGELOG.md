@@ -142,6 +142,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added "Keep original name" checkbox to "Cosmo Add Asset To Project Action" to avoid changing the asset name during synchronization process (streams: 4.0.4.68 co:4.0.4.15 hp:4.0.4.13)
 - Added autocomplete behaviour to tag filter in fx (hp:4.0.4.13 hw:4.0.4.25)
 - Added query parameter to AD sync endpoints to avoid sync result message -> Preparation for cron job (users:4.0.4.11)
+- Add proxy will now trigger an autosync of this proxy if the corresponding project is open otherwise it will have the sync behaviour of its highres whenever the project will be opened (co:4.0.4.20)
 
 ### Removed
 - Removed hardcoded Job Status Update from Execute Extendscript Action
