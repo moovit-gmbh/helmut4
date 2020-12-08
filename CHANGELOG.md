@@ -117,6 +117,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Project Metadata Changer Action did not trigger valueObject caluclation for DATE and DATETIME Metadata to search in those relativly
 - Choosen filter value will no be translated (hw:4.0.4.41, hp:4.0.4.18)
 - Change variable value in prefenece tab will now be updated in web ui (hw:4.0.4.42)
+- Saved dashboard filter in cosmo product are now listed inside the filter menu (hw:4.0.4.43)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
