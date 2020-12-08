@@ -64,7 +64,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - For existing installations, patch your Docker Stackfile with:
     - curl -s https://repo.moovit24.de:443/install/patch-cronjob.sh | bash
     - If you plan to use ActiveDirectory Sync via Cronjobs, you need to modify existing AD Groups in Order for them to work.
-- Added {user.ip} wildcard
+- {user.ip} wildcard to resolve a users real IP
+- Stratus Transfer Asset Action to trigger transfer in Grass Valley's legacy Stratus system (and monitor those)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
