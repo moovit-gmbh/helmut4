@@ -53,7 +53,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   kept until they will be removed. After Removal they cannot be filtered until filterable is enabled again (hw:4.0.4.24, hp:4.0.4.11, metadat:4.0.4.4.2)
 - Added wildcard to count words in a string (streams:4.0.4.68)
 - Added "hidden" field to profiles to hide them from the user interface (io:4.0.4.12, hp:4.0.4.14, hw:4.0.4.27)
-- Added scrollbars to metadata section of export tab of panel (hp:4.0.4.15)
+- Added scrollbars to metadata section of export tab of panel (hp:4.0.4.18)
 - Transfer Stream variables from PreStream's to actual Stream
 - Added custom datetime filter (hw:4.0.4.30, hp:4.0.4.16)
 - {job.unique} wildcard usable in INDEXED_ASSET, UNINDEXED_ASSET and ADDED_ASSET streams and after "Cosmo Get Project Assets Action (streams:4.0.4.84, co:4.0.4.27, io:4.0.4.13)
@@ -114,6 +114,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Covered duplicate bin creation by adapting synchronization process of "normal" assets for bins as well (co:4.0.4.18, hw:4.0.4.34)
 - Add proxy to an asset and index project before synchronization -> proxy path will remain instead of beeing deleted (co:4.0.4.19)
 - Project Metadata Changer Action did not trigger valueObject caluclation for DATE and DATETIME Metadata to search in those relativly
+- Choosen filter value will no be translated (hw:4.0.4.41, hp:4.0.4.18)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
