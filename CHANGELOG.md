@@ -118,6 +118,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Choosen filter value will no be translated (hw:4.0.4.41, hp:4.0.4.18)
 - Change variable value in prefenece tab will now be updated in web ui (hw:4.0.4.42)
 - Saved dashboard filter in cosmo product are now listed inside the filter menu (hw:4.0.4.43)
+- Set initial sort order of assets in project detail page to name ascending and fixed multiselect (hw:4.0.4.48)
+- Fixed scrollbar overlapping footer and not reachable metadata fields in export tab (hp:4.0.4.22)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
