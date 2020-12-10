@@ -66,6 +66,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
     - If you plan to use ActiveDirectory Sync via Cronjobs, you need to modify existing AD Groups in Order for them to work.
 - {user.ip} wildcard to resolve a users real IP
 - Stratus Transfer Asset Action to trigger transfer in Grass Valley's legacy Stratus system (and monitor those)
+- New icons for the Adobe applications
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
