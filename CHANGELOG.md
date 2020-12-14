@@ -124,6 +124,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Edit project -> delete the tag will now really delete the tag entry(hw:4.0.4.48)
 - Removed unused buttons cancel, save, confirm that belongs to filter dialog from save filter dialog (hp:4.0.4.22)
 - Further optimized the synchronization process to enable correct behaviour when it comes to intermediate manual sync trigger (co:4.0.4.23, hp:4.0.4.23)
+- Horizontal aligned different input fields in filter dialog in panel (hp:4.0.4.23)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
