@@ -121,6 +121,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Saved dashboard filter in cosmo product are now listed inside the filter menu (hw:4.0.4.43)
 - Set initial sort order of assets in project detail page to name ascending and fixed multiselect (hw:4.0.4.48)
 - Fixed scrollbar overlapping footer and not reachable metadata fields in export tab (hp:4.0.4.22)
+- Edit project -> delete the tag will now really delete the tag entry(hw:4.0.4.48)
+- Removed unused buttons cancel, save, confirm that belongs to filter dialog from save filter dialog (hp:4.0.4.22)
+- Further optimized the synchronization process to enable correct behaviour when it comes to intermediate manual sync trigger (co:4.0.4.23, hp:4.0.4.23)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -147,6 +150,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added autocomplete behaviour to tag filter in fx (hp:4.0.4.13 hw:4.0.4.25)
 - Added query parameter to AD sync endpoints to avoid sync result message -> Preparation for cron job (users:4.0.4.11)
 - Add proxy will now trigger an autosync of this proxy if the corresponding project is open otherwise it will have the sync behaviour of its highres whenever the project will be opened (co:4.0.4.20)
+- Updated the adobe product icons (hw:4.0.4.48, hp:4.0.4.22)
+- Disabled the possiblity to save empty filters (hw:4.0.4.48, hp:4.0.4.22)
 
 ### Removed
 - Removed hardcoded Job Status Update from Execute Extendscript Action
