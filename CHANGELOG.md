@@ -63,10 +63,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Cronjobs support schduled execution of TASKS and ActiveDirectory Syncs
   - For existing installations, patch your Docker Stackfile with:
     - curl -s https://repo.moovit24.de:443/install/patch-cronjob.sh | bash
-    - If you plan to use ActiveDirectory Sync via Cronjobs, you need to modify existing AD Groups in Order for them to work.
+    - If you plan to use ActiveDirectory Sync via Cronjobs, you need to modify existing AD Groups in Order for them to work. Just click and unfocus first ActiveDirectory Groups field.
 - {user.ip} wildcard to resolve a users real IP
 - Stratus Transfer Asset Action to trigger transfer in Grass Valley's legacy Stratus system (and monitor those)
 - New icons for the Adobe applications
+- Added scrollbars to multiselect overlays (hw:4.0.4.49, hp: 4.0.4.24)
+- Added "job set project id action" (streams:4.0.4.97)
   
 ### Fixed
 - Leaving Edit Profile Dialog via ESC and reopen another profile -> the correct profile settings will be loaded instead of the previous opened ones (hw:4.0.4.1)
@@ -125,6 +127,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Removed unused buttons cancel, save, confirm that belongs to filter dialog from save filter dialog (hp:4.0.4.22)
 - Further optimized the synchronization process to enable correct behaviour when it comes to intermediate manual sync trigger (co:4.0.4.23, hp:4.0.4.23)
 - Horizontal aligned different input fields in filter dialog in panel (hp:4.0.4.23)
+- Setting a datetime metadata for an asset that should be uploaded to a project is now possible (hw:4.0.4.49)
+- Fixed "personal" filter for projects page (hw:4.0.4.49, hp:4.0.4.24)
+- Fixed Jobs count pagination for solo and multiple delete jobs (hw:4.0.4.49, hp: 4.0.4.24)
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -153,10 +158,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add proxy will now trigger an autosync of this proxy if the corresponding project is open otherwise it will have the sync behaviour of its highres whenever the project will be opened (co:4.0.4.20)
 - Updated the adobe product icons (hw:4.0.4.48, hp:4.0.4.22)
 - Disabled the possiblity to save empty filters (hw:4.0.4.48, hp:4.0.4.22)
+- Landing page for HK product is now projects page instead of dashboard (hw:4.0.4.49)
 
 ### Removed
 - Removed hardcoded Job Status Update from Execute Extendscript Action
 - Temporary removed toggle recursive synced by triggering set (un)sync on folder (streams:4.0.4.84, co:4.0.4.27, io:4.0.4.13)
+- Removed the posibility to rename an access preset since it will not be updated in the user objects (hw:4.0.4.49)
 
 ## [4.0.3-release-1] (stable release)
 
