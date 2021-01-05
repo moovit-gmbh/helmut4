@@ -3,7 +3,12 @@
 All notable changes for the private product [Helmut4](https://www.helmut.de) will be documented in this file.
 
 ## [development release]
+### Added
+### Fixed
+### Changed
+### Removed
 
+## [4.0.4-release-0] (stable release)
 ### Added
 - Support for HTML tags in Wildcard Resolver (Streamdesigner) (streams:4.0.4.2)
 - Highlight projects that are locked by you (hw:4.0.4.2)
@@ -823,3 +828,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.2-release-3]: https://www.helmut.de
 [4.0.3-release-0]: https://www.helmut.de
 [4.0.3-release-1]: https://www.helmut.de
+[4.0.4-release-0]: https://www.helmut.de
