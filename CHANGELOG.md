@@ -4,6 +4,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+- Basic Auth support with username:password and clientId:clientSecret instead of Bearer token.
+- We added an extra level of security to the way Helmut components conenct to the message bus:
+  - You will need to insall the new client 4.0.5.x
+  - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
 ### Fixed
 ### Changed
 ### Removed
@@ -135,6 +139,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Setting a datetime metadata for an asset that should be uploaded to a project is now possible (hw:4.0.4.49)
 - Fixed "personal" filter for projects page (hw:4.0.4.49, hp:4.0.4.24)
 - Fixed Jobs count pagination for solo and multiple delete jobs (hw:4.0.4.49, hp: 4.0.4.24)
+- Calls to Premiere (Render, AAF etc) timed out after 2 minutes.
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
