@@ -11,6 +11,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 ### Changed
+- Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
+  - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
 ### Removed
 
 ## [4.0.4-release-0] (stable release)
