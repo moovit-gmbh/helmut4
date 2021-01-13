@@ -4,7 +4,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
-- Basic Auth support with username:password and clientId:clientSecret instead of Bearer token.
+- Basic Auth support with username:password and clientId:clientSecret (oAuth tokens) instead of Bearer token.
 - We added an extra level of security to the way Helmut components conenct to the message bus:
   - You will need to insall the new client 4.0.5.x
   - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
