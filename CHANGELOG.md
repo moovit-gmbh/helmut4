@@ -9,6 +9,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - You will need to install the new client 4.0.5.x
   - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
 ### Fixed
+- Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 ### Changed
 ### Removed
 
