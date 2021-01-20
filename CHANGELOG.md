@@ -12,6 +12,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - We added an extra level of security to the way Helmut components connect to the message bus:
   - You will need to install the new client 4.0.5.x
   - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
+- RevApp integration to Upload Assets, Share Assets (public and private) and Delete Assets
+  - Add your RevApp credentials under Preferences -> Modules -> RevApp
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 ### Changed
