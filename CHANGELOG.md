@@ -32,6 +32,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Search for projects or jobs in the Webinterface now adds a delay of 500ms while typing before the search will be executed to avoid spamming the server
 ### Removed
 
+## [4.0.4-release-2] (stable release)
+### Fixed
+- Add fix where the invisble panel would not import assets into premiere after selecting them in the file/folder choose dialog
+  - Requires a new client rollout (v4.0.4.28)
+
 ## [4.0.4-release-1] (stable release)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
