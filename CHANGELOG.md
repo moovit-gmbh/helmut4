@@ -5,7 +5,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 - Added Variable Store. Stores user Key / Value pairs + protected flag.
-  - Protected: Protected Nodes can only be changed by Admins. Can't be changed by Nodes.
   - Nodes:
     - Get Variable by key
     - Set (update) Variable value or create a new one
@@ -14,6 +13,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
     - Overview of all Variables
     - Manually create, delete or update Variables
     - Protected flag can only be changed here
+    - Protected Nodes can only be changed by Admins. Can't be changed by Nodes
 - Added an automatic Node Tree sorting function. Win: CTRL + L, Mac: CMD/Control + L. 
   - Nothing selected: Entire Node Tree will be adjusted
   - One Node selected: Node acts as anchor, only the downstream Nodes will be adjusted
