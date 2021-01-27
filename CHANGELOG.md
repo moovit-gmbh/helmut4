@@ -25,6 +25,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - RevApp integration to Upload Assets, Share Assets (public and private) and Delete Assets
   - Add your RevApp credentials under Preferences -> Modules -> RevApp
 - Will Now show the name of the stream in the delete confirm message (translateable)
+- Web backup now supports cronjobs and store variables
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
