@@ -4,9 +4,44 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+- Added Variable Store. Stores user Key / Value pairs + protected flag.
+  - Nodes:
+    - Get Variable by key
+    - Set (update) Variable value or create a new one
+    - Delete Variable
+  - Store Gui:
+    - Overview of all Variables
+    - Manually create, delete or update Variables
+    - Protected flag can only be changed here
+    - Protected Nodes can only be changed by Admins. Can't be changed by Nodes
+- Added an automatic Node Tree sorting function. Win: CTRL + L, Mac: CMD/Control + L. 
+  - Nothing selected: Entire Node Tree will be adjusted
+  - One Node selected: Node acts as anchor, only the downstream Nodes will be adjusted
+  - Multiple Nodes selected: Only the selected Nodes will be adjusted
+- Basic Auth support with username:password and clientId:clientSecret (oAuth tokens) instead of Bearer token.
+- We added an extra level of security to the way Helmut components connect to the message bus:
+  - You will need to install the new client 4.0.5.x
+  - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
+- RevApp integration to Upload Assets, Share Assets (public and private) and Delete Assets
+  - Add your RevApp credentials under Preferences -> Modules -> RevApp
 ### Fixed
+- Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 ### Changed
+- Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
+  - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
+- Search for projects or jobs in the Webinterface now adds a delay of 500ms while typing before the search will be executed to avoid spamming the server
 ### Removed
+
+## [4.0.4-release-2] (stable release)
+### Fixed
+- Add fix where the invisble panel would not import assets into premiere after selecting them in the file/folder choose dialog
+  - Requires a new client rollout (v4.0.4.28)
+
+## [4.0.4-release-1] (stable release)
+### Changed
+- Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
+  - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
+- Search for projects or jobs in the Webinterface now adds a delay of 500ms while typing before the search will be executed to avoid spamming the server
 
 ## [4.0.4-release-0] (stable release)
 ### Added
@@ -135,6 +170,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Setting a datetime metadata for an asset that should be uploaded to a project is now possible (hw:4.0.4.49)
 - Fixed "personal" filter for projects page (hw:4.0.4.49, hp:4.0.4.24)
 - Fixed Jobs count pagination for solo and multiple delete jobs (hw:4.0.4.49, hp: 4.0.4.24)
+- Calls to Premiere (Render, AAF etc) timed out after 2 minutes.
 
 ### Changed
 - Removed ' and " from allowed characters for projects (hw:4.0.4.2)
@@ -829,3 +865,5 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.3-release-0]: https://www.helmut.de
 [4.0.3-release-1]: https://www.helmut.de
 [4.0.4-release-0]: https://www.helmut.de
+[4.0.4-release-1]: https://www.helmut.de
+[4.0.4-release-2]: https://www.helmut.de
