@@ -26,10 +26,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Add your RevApp credentials under Preferences -> Modules -> RevApp
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
+- Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
+- Fixed webinterface asset update for synced callback loop
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
 - Search for projects or jobs in the Webinterface now adds a delay of 500ms while typing before the search will be executed to avoid spamming the server
+- Avoid giving 
 ### Removed
 
 ## [4.0.4-release-2] (stable release)
