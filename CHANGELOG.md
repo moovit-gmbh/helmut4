@@ -24,10 +24,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
 - RevApp integration to Upload Assets, Share Assets (public and private) and Delete Assets
   - Add your RevApp credentials under Preferences -> Modules -> RevApp
+- Will Now show the name of the stream in the delete confirm message (translateable)
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
 - Fixed webinterface asset update for synced callback loop
+- Project filters can now be saved if the language has changed
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
