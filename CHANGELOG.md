@@ -40,7 +40,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [4.0.4-release-3] (stable release)
 ### Fixed
-- Fixed housekeeper search query for all search combinations of unique and usedInTimeline flag (co:4.0.4.26)
+- Fixed housekeeper search query for all search combinations of unique and usedInTimeline flag for the node "Cosmo Get Project Assets Action" (co:4.0.4.26)
 
 ## [4.0.4-release-2] (stable release)
 ### Fixed
