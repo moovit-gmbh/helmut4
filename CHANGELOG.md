@@ -38,6 +38,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Avoid giving 
 ### Removed
 
+## [4.0.4-release-3] (stable release)
+### Fixed
+- Fixed housekeeper search query for all search combinations of unique and usedInTimeline flag (co:4.0.4.26)
+
 ## [4.0.4-release-2] (stable release)
 ### Fixed
 - Add fix where the invisble panel would not import assets into premiere after selecting them in the file/folder choose dialog
@@ -873,3 +877,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.4-release-0]: https://www.helmut.de
 [4.0.4-release-1]: https://www.helmut.de
 [4.0.4-release-2]: https://www.helmut.de
+[4.0.4-release-3]: https://www.helmut.de
