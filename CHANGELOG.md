@@ -4,16 +4,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
-- Added Variable Store. Stores user Key / Value pairs + protected flag.
-  - Nodes:
-    - Get Variable by key
-    - Set (update) Variable value or create a new one
-    - Delete Variable
-  - Store Gui:
-    - Overview of all Variables
-    - Manually create, delete or update Variables
-    - Protected flag can only be changed here
-    - Protected Nodes can only be changed by Admins. Can't be changed by Nodes
 - Added an automatic Node Tree sorting function. Win: CTRL + L, Mac: CMD/Control + L. 
   - Nothing selected: Entire Node Tree will be adjusted
   - One Node selected: Node acts as anchor, only the downstream Nodes will be adjusted
@@ -26,12 +16,22 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Add your RevApp credentials under Preferences -> Modules -> RevApp
 - Will Now show the name of the stream in the delete confirm message (translateable)
 - Web backup now supports cronjobs and store variables
+- Added Variable Store. Stores user Key / Value pairs + protected flag.
+  - Nodes:
+    - Get Variable by key
+    - Set (update) Variable value or create a new one
+    - Delete Variable
+  - Store Gui:
+    - Overview of all Variables
+    - Manually create, delete or update Variables
+    - Protected flag can only be changed here
+    - Protected Nodes can only be changed by Admins. Can't be changed by Nodes
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
 - Fixed webinterface asset update for synced callback loop
 - Project filters can now be saved if the language has changed
-- Fixed Scrollbar in the Streamdesigner's 'edit panel' to be full size again
+- Fixed Scrollbar in the Streamdesigner's 'edit panel' to be full size again (streams:4.0.5.14)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
