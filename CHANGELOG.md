@@ -37,6 +37,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
 - Search for projects or jobs in the Webinterface now adds a delay of 500ms while typing before the search will be executed to avoid spamming the server
 - Changed Variable Store shortcut from v to k (streams:4.0.5.14)
+- Changed loading indicator for autosync process by mooving it to the footer (hp:4.0.5.4)
+- Changed multiselect and mooved it to footer (hp:4.0.5.4)
 ### Removed
 
 ## [4.0.4-release-3] (stable release)
