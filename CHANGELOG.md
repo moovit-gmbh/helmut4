@@ -32,6 +32,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fixed webinterface asset update for synced callback loop
 - Project filters can now be saved if the language has changed
 - Fixed Scrollbar in the Streamdesigner's 'edit panel' to be full size again (streams:4.0.5.14)
+- Duplicate profile when group is selected is not working without throwing JSON parse error (hw:4.0.5.10)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
@@ -40,6 +41,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed loading indicator for autosync process by mooving it to the footer (hp:4.0.5.4)
 - Changed multiselect and mooved it to footer (hp:4.0.5.4)
 - Changed type of several input fields to autocomplete to allow search and select functionality (hw:4.0.5.10, hp:4.0.5.3)
+- Increased total number of unsynced assets in badge to 999+ (hp:4.0.5.3)
 ### Removed
 
 ## [4.0.4-release-3] (stable release)
