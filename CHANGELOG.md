@@ -39,6 +39,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed Variable Store shortcut from v to k (streams:4.0.5.14)
 - Changed loading indicator for autosync process by mooving it to the footer (hp:4.0.5.4)
 - Changed multiselect and mooved it to footer (hp:4.0.5.4)
+- Changed type of several input fields to autocomplete to allow search and select functionality (hw:4.0.5.10, hp:4.0.5.3)
 ### Removed
 
 ## [4.0.4-release-3] (stable release)
