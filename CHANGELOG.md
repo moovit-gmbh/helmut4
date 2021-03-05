@@ -31,7 +31,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Load a saved Snapshot, and repalce your current node tree with it
   - Independent of 'save' functionality, unsaved progress will be lost
   - Delete Snapshots
- 
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
@@ -49,6 +48,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changed type of several input fields to autocomplete to allow search and select functionality (hw:4.0.5.10, hp:4.0.5.3)
 - Increased total number of unsynced assets in badge to 999+ (hp:4.0.5.3)
 - Variable Store: The key of an existing key/variable pair can be updated (streams:4.0.5.17)
+- Improved RevApp nodes (streams:4.0.5.23)
+  - Connection to new Worker container for file upload
+  - Option to overwrite the creator on upload job request
+  - Fix typos and improved placeholders and descriptions
 ### Removed
 
 ## [4.0.4-release-3] (stable release)
