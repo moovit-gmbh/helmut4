@@ -54,6 +54,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Fix typos and improved placeholders and descriptions
 ### Removed
 
+## [4.0.4-release-4] (stable release)
+### Fixed
+- Add RevApp connector nodes (streams:4.0.4.105, fx:4.0.4.20)
+
 ## [4.0.4-release-3] (stable release)
 ### Fixed
 - Fixed housekeeper search query for all search combinations of unique and usedInTimeline flag for the node "Cosmo Get Project Assets Action" (co:4.0.4.26)
