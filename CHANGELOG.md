@@ -12,7 +12,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - We added an extra level of security to the way Helmut components connect to the message bus:
   - You will need to install the new client 4.0.5.x
   - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
-- RevApp integration to Upload Assets, Share Assets (public and private) and Delete Assets
+- RevApp integration to Upload Assets, Share Assets (public and private) and Delete Assets (streams: 4.0.5.24, hw:4.0.5.11)
   - Add your RevApp credentials under Preferences -> Modules -> RevApp
 - Will Now show the name of the stream in the delete confirm message (translateable)
 - Web backup now supports cronjobs and store variables
@@ -31,6 +31,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Load a saved Snapshot, and repalce your current node tree with it
   - Independent of 'save' functionality, unsaved progress will be lost
   - Delete Snapshots
+- Block switching active project whenever a sync process is active (hp:4.0.5.5)
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
@@ -38,6 +39,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Project filters can now be saved if the language has changed
 - Fixed Scrollbar in the Streamdesigner's 'edit panel' to be full size again (streams:4.0.5.14)
 - Duplicate profile when group is selected is not working without throwing JSON parse error (hw:4.0.5.10)
+- Fix umlauts of metadata keys comming from premiere sync (co:4.0.5.2)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
@@ -52,6 +54,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Connection to new Worker container for file upload
   - Option to overwrite the creator on upload job request
   - Fix typos and improved placeholders and descriptions
+- Unselect selected item in table whenever the very same item is clicked again (hw:4.0.5.11)
+  - In this case the right bar will disappear
+- Append -nostdin to FFMPEG render node to avoid requesting user input when overwriting an output file is needed (streams:4.0.5.24)
+- Change users page search to be backend side and add an "unassigned" entry that searches for users that are not part of any group (hw:4.0.5.11, users:4.0.5.3)
 ### Removed
 
 ## [4.0.4-release-4] (stable release)
