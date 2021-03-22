@@ -32,6 +32,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Independent of 'save' functionality, unsaved progress will be lost
   - Delete Snapshots
 - Block switching active project whenever a sync process is active (hp:4.0.5.5)
+- Add option "Don't change breadcrumb" and renamed the corresponding asset name feature of the Add Asset to Project Action (hp:4.0.5.5; streams:4.0.5.26; co:4.0.5.4; hk:4.0.5.2)
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
@@ -39,7 +40,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Project filters can now be saved if the language has changed
 - Fixed Scrollbar in the Streamdesigner's 'edit panel' to be full size again (streams:4.0.5.14)
 - Duplicate profile when group is selected is not working without throwing JSON parse error (hw:4.0.5.10)
-- Fix umlauts of metadata keys comming from premiere sync (co:4.0.5.2)
+- Fix umlauts and "-" char of metadata keys comming from premiere sync (co:4.0.5.3)
+- Fix preload profile at export page loading of panel (hp:4.0.5.6)
+- Fix stream renaming issue where a renamed stream appears to be empty and finishes without running any node (hw:4.0.5.12)
+- Proxy path will now change if an asset is indexed that had already a proxy set (co:4.0.5.3)
+- {job.proxy} is not null anymore for autoimport streams (co:4.0.5.3)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
@@ -58,6 +63,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - In this case the right bar will disappear
 - Append -nostdin to FFMPEG render node to avoid requesting user input when overwriting an output file is needed (streams:4.0.5.24)
 - Change users page search to be backend side and add an "unassigned" entry that searches for users that are not part of any group (hw:4.0.5.11, users:4.0.5.3)
+- Add option to remove a stream from a profile in the add/edit profile dialog (hw:4.0.5.12)
 ### Removed
 
 ## [4.0.4-release-4] (stable release)
