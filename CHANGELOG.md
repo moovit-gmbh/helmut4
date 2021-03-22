@@ -33,6 +33,23 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Delete Snapshots
 - Block switching active project whenever a sync process is active (hp:4.0.5.5)
 - Add option "Don't change breadcrumb" and renamed the corresponding asset name feature of the Add Asset to Project Action (hp:4.0.5.5; streams:4.0.5.26; co:4.0.5.4; hk:4.0.5.2)
+- Added EditShare EFS Media Storage Nodes
+  - Media Space
+    - Create Media Space
+    - Delete Media Space
+    - Get free space of Media Space
+    - Update Media Space
+    - Add group to Media Space
+    - Add users to Media Space
+    - Remove group from Media Space
+    - Remove users from Media Space
+  - Users and Groups
+    - Add users to group
+    - Create groups
+    - Create user
+    - Delete groups
+    - Delete users
+    - Remove users from group
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
