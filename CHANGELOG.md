@@ -50,6 +50,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
     - Delete groups
     - Delete users
     - Remove users from group
+- Add select all option to multiselect field (for example to select all groups in add user dialog) (hw:4.0.5.13)
+- Panel related logging that can be seen on debug port via chrome is now exposed to a log file next to the project file (hp:4.0.5.8)
+- Fix all store variable nodes in case of the "Connection refused" issue (streams:4.0.5.27)
+- Fix regex condition node for regex syntax inputs like \d (streams 4.0.5.27)
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
@@ -62,6 +66,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix stream renaming issue where a renamed stream appears to be empty and finishes without running any node (hw:4.0.5.12)
 - Proxy path will now change if an asset is indexed that had already a proxy set (co:4.0.5.3)
 - {job.proxy} is not null anymore for autoimport streams (co:4.0.5.3)
+- Reset footer selection count and action button if an individual action button of a table entry is used (hp:4.0.5.8)
+- Store variable can now not be duplicated by renaming an existing one (streams 4.0.5.27)
+- Fix action menu in housekeeper multiselect (hw:4.0.5.13)
+- Fix "Medialoopster Update Asset Delete Date Action" for IMAGE and AUDIO assets (hw:4.0.5.13; users:4.0.5.4; streams 4.0.5.27)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
@@ -81,6 +89,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Append -nostdin to FFMPEG render node to avoid requesting user input when overwriting an output file is needed (streams:4.0.5.24)
 - Change users page search to be backend side and add an "unassigned" entry that searches for users that are not part of any group (hw:4.0.5.11, users:4.0.5.3)
 - Add option to remove a stream from a profile in the add/edit profile dialog (hw:4.0.5.12)
+- "Medialoopster Add Asset To Project Action" is now also adding existing assets to project (streams 4.0.5.27)
+- Change behaviour to text input fields to select everything only for first click, every other click will navigate the cursor between the text (hw:4.0.5.13, hp:4.0.5.8)
+
 ### Removed
 
 ## [4.0.4-release-4] (stable release)
