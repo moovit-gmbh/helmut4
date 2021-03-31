@@ -69,7 +69,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Reset footer selection count and action button if an individual action button of a table entry is used (hp:4.0.5.8)
 - Store variable can now not be duplicated by renaming an existing one (streams 4.0.5.27)
 - Fix action menu in housekeeper multiselect (hw:4.0.5.13)
-- Fix "Medialoopster Update Asset Delete Date Action" for IMAGE and AUDIO assets (hw:4.0.5.13; users:4.0.5.4; streams 4.0.5.27)
+- Fix "Medialoopster Update Asset Delete Date Action" for IMAGE and AUDIO assets (hw:4.0.5.13; users:4.0.5.4; streams: 4.0.5.27)
+- Editshare nodes used to show 'successful' when no work was done (Because of missing user input). Now it shows that it fails (streams: 4.0.5.28)
+- Editshare nodes used to work, even if the module is disabled. Now they will fail (streams: 4.0.5.28)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
