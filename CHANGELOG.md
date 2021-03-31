@@ -54,6 +54,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Panel related logging that can be seen on debug port via chrome is now exposed to a log file next to the project file (hp:4.0.5.8)
 - Fix all store variable nodes in case of the "Connection refused" issue (streams:4.0.5.27)
 - Fix regex condition node for regex syntax inputs like \d (streams 4.0.5.27)
+- Added RClone nodes. The RClone installation as well as the set up of remotes has to be done manually
+  Nodes:
+  - Copy
+  - Mkdir (Make directory)
+  - Move
+  - Purge
+  - Rmdir (Remove directory)
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
