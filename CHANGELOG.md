@@ -9,6 +9,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - One Node selected: Node acts as anchor, only the downstream Nodes will be adjusted
   - Multiple Nodes selected: Only the selected Nodes will be adjusted
 - Basic Auth support with username:password and clientId:clientSecret (oAuth tokens) instead of Bearer token.
+  - Bearer Auth still supported
 - We added an extra level of security to the way Helmut components connect to the message bus:
   - You will need to install the new client 4.0.5.x
   - Client 4.0.5.x is compatible with Helmut versions < 4.0.5.x but not the otherway around.
