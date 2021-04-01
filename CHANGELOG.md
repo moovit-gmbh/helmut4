@@ -88,6 +88,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add Snapshots dialog is now showing "Name:" instead of "Key:" (streams: 4.0.5.31)
 - Add job or project over message bus removes an entry at bottom of the list to avoid exceeding the limit (25/50/75/101). When limit is not reached
   Jobs/Project have been removed from the list by mistake (hw:4.0.5.14)
+- Fixed result reporting for the following nodes (which where using setLastResult only, so their result was always being overwritten by the next node            calling either addLastResult or setLastResult):
+    -ProjectCreateActionImpl, ProjectCreateActionImplV2, PremierePromptActionImpl, FileMoveActionImpl, FolderMoveActionImpl
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
