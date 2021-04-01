@@ -55,6 +55,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Panel related logging that can be seen on debug port via chrome is now exposed to a log file next to the project file (hp:4.0.5.8)
 - Fix all store variable nodes in case of the "Connection refused" issue (streams:4.0.5.27)
 - Fix regex condition node for regex syntax inputs like \d (streams 4.0.5.27)
+- Added RClone nodes. The RClone installation as well as the set up of remotes has to be done manually
+  Nodes:
+  - Copy
+  - Mkdir (Make directory)
+  - Move
+  - Purge
+  - Rmdir (Remove directory)
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
@@ -70,7 +77,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Reset footer selection count and action button if an individual action button of a table entry is used (hp:4.0.5.8)
 - Store variable can now not be duplicated by renaming an existing one (streams 4.0.5.27)
 - Fix action menu in housekeeper multiselect (hw:4.0.5.13)
-- Fix "Medialoopster Update Asset Delete Date Action" for IMAGE and AUDIO assets (hw:4.0.5.13; users:4.0.5.4; streams 4.0.5.27)
+- Fix "Medialoopster Update Asset Delete Date Action" for IMAGE and AUDIO assets (hw:4.0.5.13; users:4.0.5.4; streams: 4.0.5.27)
+- Editshare nodes used to show 'successful' when no work was done (Because of missing user input). Now it shows that it fails (streams: 4.0.5.28)
+- Editshare nodes used to work, even if the module is disabled. Now they will fail (streams: 4.0.5.28)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
