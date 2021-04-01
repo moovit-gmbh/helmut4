@@ -80,6 +80,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix "Medialoopster Update Asset Delete Date Action" for IMAGE and AUDIO assets (hw:4.0.5.13; users:4.0.5.4; streams: 4.0.5.27)
 - Editshare nodes used to show 'successful' when no work was done (Because of missing user input). Now it shows that it fails (streams: 4.0.5.28)
 - Editshare nodes used to work, even if the module is disabled. Now they will fail (streams: 4.0.5.28)
+- File Copy Action Node will cancel the job at first try rather than resetting the job status back to RUNNING (streams:4.0.5.29)
+- Fix bug where a streams import was impossible when trying to import streams from an older version that has a higher patch version (hw:4.0.5.15 ;streams:4.0.5.30)
+  - Example: importing 4.0.4.125 streams export into a 4.0.5.5 streams version
+- Fix Stratus Asset Create Action node -> Description field behaviour that no longer transfers project related metadata (streams:4.0.5.28)
+- Fix all Store variable nodes to work in production environment -> They do not throw bad requests (streams:4.0.5.28)
+- Add Snapshots dialog is now showing "Name:" instead of "Key:" (streams: 4.0.5.31)
+- Add job or project over message bus removes an entry at bottom of the list to avoid exceeding the limit (25/50/75/101). When limit is not reached
+  Jobs/Project have been removed from the list by mistake (hw:4.0.5.14)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
