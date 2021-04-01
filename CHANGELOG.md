@@ -34,7 +34,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Delete Snapshots
 - Block switching active project whenever a sync process is active (hp:4.0.5.5)
 - Add option "Don't change breadcrumb" and renamed the corresponding asset name feature of the Add Asset to Project Action (hp:4.0.5.5; streams:4.0.5.26; co:4.0.5.4; hk:4.0.5.2)
-- Added EditShare EFS Media Storage Nodes
+- Added EditShare EFS Media Storage Nodes (streams: 4.0.5.17)
   - Media Space
     - Create Media Space
     - Delete Media Space
