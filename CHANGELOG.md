@@ -91,6 +91,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Improved Get Assets From Project Action node performance (co:4.0.5.5)
 - Fixed result reporting for the following nodes (which where using setLastResult only, so their result was always being overwritten by the next node            calling either addLastResult or setLastResult):
     -ProjectCreateActionImpl, ProjectCreateActionImplV2, PremierePromptActionImpl, FileMoveActionImpl, FolderMoveActionImpl
+- Rename, duplicate, change the group assignment or the order does not lead to create a corrupt version of the stream (hw:4.0.5.17)
+  - Changing the order from now on is only possible for FX streams due to the fact that the mechanism for other products is now fully replaced by the Job Create Job action node
+- User with access level user are not able to acces streams if they request a workflow url of a stream direcly over the browser url field (streams:4.0.5.32)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
