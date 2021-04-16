@@ -95,6 +95,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Changing the order from now on is only possible for FX streams due to the fact that the mechanism for other products is now fully replaced by the Job Create Job action node
 - Reenabled the loop detection in the streamdesigner and improved it (streams:4.0.5.33)
   - Loops and unconnected paths will be detected and the view jumps to the parent node which is the target of the inappropriate connection
+- Change sort order of first metadata entry of directly new created group is now possible (hw:4.0.5.17)
+- Add "move" and "copy" to selection field of add task dialog (hw:4.0.5.17)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
@@ -116,7 +118,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add option to remove a stream from a profile in the add/edit profile dialog (hw:4.0.5.12)
 - "Medialoopster Add Asset To Project Action" is now also adding existing assets to project (streams 4.0.5.27)
 - Change behaviour to text input fields to select everything only for first click, every other click will navigate the cursor between the text (hw:4.0.5.13, hp:4.0.5.8)
-
+- Change add project access rights check to be made on project create dialog instead of disabling the add project button (hw:4.0.5.17)
 ### Removed
 
 ## [4.0.4-release-4] (stable release)
