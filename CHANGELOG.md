@@ -93,7 +93,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
     -ProjectCreateActionImpl, ProjectCreateActionImplV2, PremierePromptActionImpl, FileMoveActionImpl, FolderMoveActionImpl
 - Rename, duplicate, change the group assignment or the order does not lead to create a corrupt version of the stream (hw:4.0.5.17)
   - Changing the order from now on is only possible for FX streams due to the fact that the mechanism for other products is now fully replaced by the Job Create Job action node
-- User with access level user are not able to acces streams if they request a workflow url of a stream direcly over the browser url field (streams:4.0.5.32)
+- Reenabled the loop detection in the streamdesigner and improved it (streams:4.0.5.33)
+  - Loops and unconnected paths will be detected and the view jumps to the parent node which is the target of the inappropriate connection
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
