@@ -119,6 +119,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - "Medialoopster Add Asset To Project Action" is now also adding existing assets to project (streams 4.0.5.27)
 - Change behaviour to text input fields to select everything only for first click, every other click will navigate the cursor between the text (hw:4.0.5.13, hp:4.0.5.8)
 - Change add project access rights check to be made on project create dialog instead of disabling the add project button (hw:4.0.5.17)
+- Disable sorting of streams for all products except FX since it's replaced by Job Create Job Action (hw:4.0.5.17)
+- Use "FilePath" entry instead of "ActualMediaFilePath" entry if a project gets indexed (co:4.0.5.6)
+  - The ActualMediaFilePath holds the previous filepath before Premiere native consolidation is performed. If that is the case the media is offline since the FilePath holds
+    the most recent information about the asset location.
 ### Removed
 
 ## [4.0.4-release-4] (stable release)
