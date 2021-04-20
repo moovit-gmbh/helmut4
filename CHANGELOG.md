@@ -93,8 +93,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
     -ProjectCreateActionImpl, ProjectCreateActionImplV2, PremierePromptActionImpl, FileMoveActionImpl, FolderMoveActionImpl
 - Rename, duplicate, change the group assignment or the order does not lead to create a corrupt version of the stream (hw:4.0.5.17)
   - Changing the order from now on is only possible for FX streams due to the fact that the mechanism for other products is now fully replaced by the Job Create Job action node
-- Reenabled the loop detection in the streamdesigner and improved it (streams:4.0.5.33)
-  - Loops and unconnected paths will be detected and the view jumps to the parent node which is the target of the inappropriate connection
 - Change sort order of first metadata entry of directly new created group is now possible (hw:4.0.5.17)
 - Add "move" and "copy" to selection field of add task dialog (hw:4.0.5.17)
 ### Changed
