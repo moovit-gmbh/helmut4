@@ -95,6 +95,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Changing the order from now on is only possible for FX streams due to the fact that the mechanism for other products is now fully replaced by the Job Create Job action node
 - Change sort order of first metadata entry of directly new created group is now possible (hw:4.0.5.17)
 - Add "move" and "copy" to selection field of add task dialog (hw:4.0.5.17)
+- Pass correct breadcrumb to job.breadcrumb into stream when autoimport assets from subfolder (hp:4.0.5.11)
+- Fix warn signal rotation for language translation view (hw:4.0.5.19)
+- Fix group assignment for Streams where streams appeared to be empty after assignment has been done (hw:4.0.5.19)
+- Avoid passing project related metadata to job.metadata from panel (hp:4.0.5.11)
+- Remove generic error when attaching an invalid proxy filepath (hp:4.0.5.10)
+- Change Team to Group in import users dialog (hw:4.0.5.19)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
@@ -121,6 +127,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Use "FilePath" entry instead of "ActualMediaFilePath" entry if a project gets indexed (co:4.0.5.6)
   - The ActualMediaFilePath holds the previous filepath before Premiere native consolidation is performed. If that is the case the media is offline since the FilePath holds
     the most recent information about the asset location.
+- Improved table view sorting for all table views (hw:4.0.5.19)
 ### Removed
 
 ## [4.0.4-release-4] (stable release)
