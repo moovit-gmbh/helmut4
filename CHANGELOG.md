@@ -62,6 +62,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Move
   - Purge
   - Rmdir (Remove directory)
+- Added {path.map.to.json.?} functional wildcard that escapes \ in a path (streams:4.0.5.39)
 ### Fixed
 - Requests to Premiere like render project, render AAF etc. would timeout (and loop sometimes) after 2 minutes (also patched in 4.0.4-release-0)
 - Removed default 1970 date for datetime metadata (hp:4.0.5.2, hw:4.0.5.6)
@@ -128,6 +129,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - The ActualMediaFilePath holds the previous filepath before Premiere native consolidation is performed. If that is the case the media is offline since the FilePath holds
     the most recent information about the asset location.
 - Improved table view sorting for all table views (hw:4.0.5.19)
+- Change default variable of source file in "Job create Job Action Node" from {job.destination} to {job.source} (streams:4.0.5.39)
 ### Removed
 
 ## [4.0.4-release-4] (stable release)
