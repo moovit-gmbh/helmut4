@@ -7,7 +7,7 @@ CURRENTLY NO SUPPORT FOR PREMIERE/AME VERSION 15+ YET
 ### Supported Adobe Version
 4.0.5.x:
 - Premiere/AME: <= 14.9
-- 
+
 4.0.4.x:
 - Premiere/AME: <= 14.9
 
