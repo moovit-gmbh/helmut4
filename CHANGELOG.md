@@ -8,7 +8,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 ### Removed
 
-## [4.0.4-release-0] (stable release)
+## [4.0.5-release-0] (stable release)
 ### Added
 - Added an automatic Node Tree sorting function. Win: CTRL + L, Mac: CMD/Control + L. 
   - Nothing selected: Entire Node Tree will be adjusted
