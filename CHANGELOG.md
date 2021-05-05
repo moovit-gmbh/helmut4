@@ -40,23 +40,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Delete Snapshots
 - Block switching active project whenever a sync process is active (hp:4.0.5.5)
 - Add option "Don't change breadcrumb" and renamed the corresponding asset name feature of the Add Asset to Project Action (hp:4.0.5.5; streams:4.0.5.26; co:4.0.5.4; hk:4.0.5.2)
-- Added EditShare EFS Media Storage Nodes (streams: 4.0.5.17)
-  - Media Space
-    - Create Media Space
-    - Delete Media Space
-    - Get free space of Media Space
-    - Update Media Space
-    - Add group to Media Space
-    - Add users to Media Space
-    - Remove group from Media Space
-    - Remove users from Media Space
-  - Users and Groups
-    - Add users to group
-    - Create groups
-    - Create user
-    - Delete groups
-    - Delete users
-    - Remove users from group
 - Add select all option to multiselect field (for example to select all groups in add user dialog) (hw:4.0.5.13)
 - Panel related logging that can be seen on debug port via chrome is now exposed to a log file next to the project file (hp:4.0.5.8)
 - Fix all store variable nodes in case of the "Connection refused" issue (streams:4.0.5.27)
@@ -137,7 +120,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Improved table view sorting for all table views (hw:4.0.5.19)
 - Change default variable of source file in "Job create Job Action Node" from {job.destination} to {job.source} (streams:4.0.5.39)
 ### Removed
-
+- EFS nodes
 ## [4.0.4-release-4] (stable release)
 ### Fixed
 - Add RevApp connector nodes (streams:4.0.4.105, fx:4.0.4.20)
