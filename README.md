@@ -1,12 +1,9 @@
 # Helmut4
 This is a public representation for the private product [Helmut4](https://www.helmut.de/) by [MoovIT GmbH](https://www.moovit.de).
 
-### Known issues
-CURRENTLY NO SUPPORT FOR PREMIERE/AME VERSION 15+ YET
-
 ### Supported Adobe Version
 4.0.5.x:
-- Premiere/AME: <= 14.9
+- Premiere/AME: <= 15.1 (mcc_license/client:4.0.6.1 required)
 
 4.0.4.x:
 - Premiere/AME: <= 14.9
