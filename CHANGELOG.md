@@ -4,6 +4,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+- Added option to search for a stream by its ID (hw:4.0.5.20)
+- Added option to copy a stream's ID to clipboard in the streamdesigner with the top right speech bubble (streams:4.0.5.40)
 ### Fixed
 ### Changed
 ### Removed
