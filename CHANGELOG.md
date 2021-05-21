@@ -11,8 +11,17 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Premiere/AME version 15+ support
   - Improved AME panel with more logging and better AME error handling
   - To much license claiming in Chrome will now report correct message
+- New linux client 4.0.6.2
+  - Improve client initialization when starting multiple clients at the same time
 ### Changed
 ### Removed
+
+## [4.0.5-release-1] (stable release)
+### Added
+- Add Telestream Vantage Nodes 
+- Add EFS Nodes
+### Fixed
+- Fix UI table out of range bug for variable store and snapshot modal
 
 ## [4.0.5-release-0] (stable release)
 ### Added
@@ -156,7 +165,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Premiere OS Path Mapper now also maps <ActualMediaFilepath> (streams:4.0.4.4)
 - FFMpeg Render Node now outputs to node.result and {job.destination} (streams:4.0.4.4)
 - Added all sequence informations to sequence exports via JSON side car file (streams:4.0.4.4)
-- The Panel now logs out if a user disconnects from the local Helmut client or quits the client (hw:4.0.4.3)
+- The Panel now logs out if a user disconnects from the local Helmut client or quits the client (hp:4.0.4.3)
 - Nodes to add/remove Asset's to/from Medialooopster (streams:4.0.4.27)
 - {user.client} wildcard which resolves to the clients version number (available in server streams too) (streams:4.0.4.27)
 - Links between {node.result.?} wildcards and the actual linked Node in Streamdesigner (streams:4.0.4.27)
@@ -973,3 +982,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.4-release-3]: https://www.helmut.de
 [4.0.4-release-4]: https://www.helmut.de
 [4.0.5-release-0]: https://www.helmut.de
+[4.0.5-release-1]: https://www.helmut.de
