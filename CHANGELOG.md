@@ -13,6 +13,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - To much license claiming in Chrome will now report correct message
 - New linux client 4.0.6.2
   - Improve client initialization when starting multiple clients at the same time
+- Handle null values in search filter to avoid complete page load error (hw:4.0.6.1; hp:4.0.6.1)
 ### Changed
 ### Removed
 
