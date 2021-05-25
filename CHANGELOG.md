@@ -14,12 +14,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - New linux client 4.0.6.2
   - Improve client initialization when starting multiple clients at the same time
 - Handle null values in search filter to avoid complete page load error (hw:4.0.6.1; hp:4.0.6.1)
+- Changeing event trigger of Start node will no longer visually duplicate the node (streams:4.0.6.7)
 ### Changed
 ### Removed
 
 ## [4.0.5-release-1] (stable release)
 ### Added
-- Add Telestream Vantage Nodes 
+- Add Telestream Vantage Nodes
 - Add EFS Nodes
 ### Fixed
 - Fix UI table out of range bug for variable store and snapshot modal
