@@ -16,7 +16,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Improve client initialization when starting multiple clients at the same time
 - Handle null values in search filter to avoid complete page load error (hw:4.0.6.1; hp:4.0.6.1)
 - Changeing event trigger of Start node will no longer visually duplicate the node (streams:4.0.6.7)
+- Add missing translation "Choose Composition" (hw:4.0.6.3;hp:4.0.6.2)
+- Fix behaviour of switch input field in streamdesigner (streams:4.0.6.12)
 ### Changed
+- Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 ### Removed
 
 ## [4.0.5-release-1] (stable release)
