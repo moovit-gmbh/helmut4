@@ -18,6 +18,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Changeing event trigger of Start node will no longer visually duplicate the node (streams:4.0.6.7)
 - Add missing translation "Choose Composition" (hw:4.0.6.3;hp:4.0.6.2)
 - Fix behaviour of switch input field in streamdesigner (streams:4.0.6.12)
+- Fix Project metadata changer action to only change the target project (streams:4.0.6.13)
+- Fix Project metadata remove action to only change the target project (streams:4.0.6.13)
+- File and Copy Folder nodes don't show 'FAIL' anymore, when successful (streams:4.0.6.13)
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 ### Removed
