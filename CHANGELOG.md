@@ -7,7 +7,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added option to search for a stream by its ID (hw:4.0.5.20)
 - Added option to copy a stream's ID to clipboard in the streamdesigner with the top right speech bubble (streams:4.0.5.40)
 - Added new wildcard {path.map.to.json.?} to change '\' to '\\' (streams:4.0.5.39)
-- Added AddJobToAurora (streams:4.0.7.0)
+- Added AddJobToAurora Node(streams:4.0.7.0)
+- Added VpmsCheckIn Node(streams:4.0.7.0)
+- Added VpmsMetadataUpdate Node(streams:4.0.7.0)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
