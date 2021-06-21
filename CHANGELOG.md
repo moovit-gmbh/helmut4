@@ -7,14 +7,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added option to search for a stream by its ID (hw:4.0.5.20)
 - Added option to copy a stream's ID to clipboard in the streamdesigner with the top right speech bubble (streams:4.0.5.40)
 - Added new wildcard {path.map.to.json.?} to change '\' to '\\' (streams:4.0.5.39)
-- Added AddJobToAurora Node(streams:4.0.7.0)
-- Added VpmsCheckIn Node(streams:4.0.7.0)
-- Added VpmsMetadataUpdate Node(streams:4.0.7.0)
-- Added Split & Stitch workflow Beta - only for 25fps (streams:4.0.7.0) 
+- Added AddJobToAurora Node(streams:4.0.6.14)
+- Added VpmsCheckIn Node(streams:4.0.6.14)
+- Added VpmsMetadataUpdate Node(streams:4.0.6.14)
+- Added Split & Stitch workflow Beta - only for 25fps (streams:4.0.6.14; io: 4.0.6.1; hps: io: 4.0.6.5; AME_WS_1_3_6) 
   - Added CreateSplitJobs Node 
   - Added JobStitchAMERender Node
   - Workflow: Create a new job for every single stitch, render them independently and then stitch the splits back together
-- Added XPath Node to extract values from XML files by expression (streams:4.0.7.0)
+- Added XPath Node to extract values from XML files by expression (streams: 4.0.6.14)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
