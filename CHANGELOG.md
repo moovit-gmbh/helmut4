@@ -10,7 +10,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added AddJobToAurora Node(streams:4.0.7.0)
 - Added VpmsCheckIn Node(streams:4.0.7.0)
 - Added VpmsMetadataUpdate Node(streams:4.0.7.0)
-- Added Split & Stitch workflow - Beta only for 25fps (streams:4.0.7.0) 
+- Added Split & Stitch workflow Beta - only for 25fps (streams:4.0.7.0) 
   - Added CreateSplitJobs Node 
   - Added JobStitchAMERender Node
   - Workflow: Create a new job for every single stitch, render them independently and then stitch the splits back together
