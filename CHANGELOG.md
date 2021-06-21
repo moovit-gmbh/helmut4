@@ -14,6 +14,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Added CreateSplitJobs Node 
   - Added JobStitchAMERender Node
   - Workflow: Create a new job for every single stitch, render them independently and then stitch the splits back together
+- Added XPath Node to extract values from XML files by expression (streams:4.0.7.0)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
