@@ -10,6 +10,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added AddJobToAurora Node(streams:4.0.7.0)
 - Added VpmsCheckIn Node(streams:4.0.7.0)
 - Added VpmsMetadataUpdate Node(streams:4.0.7.0)
+- Added Split & Stitch workflow - Beta only for 25fps (streams:4.0.7.0) 
+  - Added CreateSplitJobs Node 
+  - Added JobStitchAMERender Node
+  - Workflow: Create a new job for every single stitch, render them independently and then stitch the splits back together
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
@@ -24,6 +28,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Project metadata changer action to only change the target project (streams:4.0.6.13)
 - Fix Project metadata remove action to only change the target project (streams:4.0.6.13)
 - File and Copy Folder nodes don't show 'FAIL' anymore, when successful (streams:4.0.6.13)
+- Fix issue that leads to the job status to stay in "Starting AME" forever, if an invalid / non-existent path was used (streams:4.0.7.0)
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 ### Removed
