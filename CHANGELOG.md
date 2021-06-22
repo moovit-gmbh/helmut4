@@ -10,12 +10,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added AddJobToAurora Node(streams:4.0.6.15)
 - Added VpmsCheckIn Node(streams:4.0.6.15)
 - Added VpmsMetadataUpdate Node(streams:4.0.6.15)
-- Added Split & Stitch workflow Beta - only for 25fps (streams:4.0.6.14; io: 4.0.6.1; hps: io: 4.0.6.5; AME_WS_1_3_6) 
+- Added Split & Stitch workflow Beta - only for 25fps (streams:4.0.6.15; io: 4.0.6.1; hps: io: 4.0.6.5; AME_WS_1_3_6) 
   - Added CreateSplitJobs Node 
   - Added JobStitchAMERender Node
   - Workflow: Create a new job for every single stitch, render them independently and then stitch the splits back together
 - Added XPath Node to extract values from XML files by expression (streams: 4.0.6.15)
 - Added Credits page with a list of used open-source libraries (hw:4.0.6.4)
+- Added HUE Bridge Support (streams: 4.0.6.15; fx: 4.0.6.1; preferences: 4.0.6.1; hw: 4.0.6.4)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
@@ -34,6 +35,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 ### Removed
+- (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
 
 ## [4.0.5-release-1] (stable release)
 ### Added
