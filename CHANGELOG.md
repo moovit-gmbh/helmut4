@@ -35,8 +35,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Project metadata remove action to only change the target project (streams:4.0.6.13)
 - File and Copy Folder nodes don't show 'FAIL' anymore, when successful (streams:4.0.6.13)
 - Fix issue that leads to the job status to stay in "Starting AME" forever, if an invalid / non-existent path was used (streams:4.0.7.0)
+- Fix Cancelation of Job AME Render Action when canceling the stream (streams:4.0.6.14)
+- Catch negative intervall input in File ... and Folder Growing/Appearing condition (streams:4.0.6.14)
+- Refactored the update job list logic in the dashbord page to preserve usability of that page (hw:4.0.6.5)
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
+- Cosmo Add Asset to Project Action now accepts a comma separated list as input for project id parameter (streams:4.0.6.14)
+- All % signs in wildcards which where used as placeholders have been replaced with the current curly brackets (streams:4.0.6.14)
 ### Removed
 - (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
 
@@ -130,8 +135,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Avoid passing project related metadata to job.metadata from panel (hp:4.0.5.11)
 - Remove generic error when attaching an invalid proxy filepath (hp:4.0.5.10)
 - Change Team to Group in import users dialog (hw:4.0.5.19)
-- Fix Cancelation of Job AME Render Action when canceling the stream (streams:4.0.6.14)
-- Catch negative intervall input in File ... and Folder Growing/Appearing condition (streams:4.0.6.14)
 ### Changed
 - Adding new jobs/projects via the the message-bus will now remove the last entry of a list to never exceed the selected size of shown elements (25/50/75/101)
   - We received reports of huge performance issues when being on the dashboard and a lot of new jobs showed up
@@ -160,8 +163,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
     the most recent information about the asset location.
 - Improved table view sorting for all table views (hw:4.0.5.19)
 - Change default variable of source file in "Job create Job Action Node" from {job.destination} to {job.source} (streams:4.0.5.39)
-- Cosmo Add Asset to Project Action now accepts a comma separated list as input for project id parameter (streams:4.0.6.14)
-- All % signs in wildcards which where used as placeholders have been replaced with the current curly brackets (streams:4.0.6.14)
 ### Removed
 - EFS nodes
 ## [4.0.4-release-4] (stable release)
