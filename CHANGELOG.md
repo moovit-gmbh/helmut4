@@ -17,6 +17,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added XPath Node to extract values from XML files by expression (streams: 4.0.6.15)
 - Added Credits page with a list of used open-source libraries (hw:4.0.6.4)
 - Added HUE Bridge Support (streams: 4.0.6.15; fx: 4.0.6.1; preferences: 4.0.6.1; hw: 4.0.6.4)
+  - First delete the old HUE preferences from the db
+  - Upgrade versions
+  - Restart fx (Preferences are only created during startup)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
