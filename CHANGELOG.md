@@ -20,6 +20,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - First delete the old HUE preferences from the db
   - Upgrade versions
   - Restart fx (Preferences are only created during startup)
+- Added a HELMUT_USER... and HELMUT_GROUPS wildcard set (streams: 4.0.6.16)
+- Added a wildcard to retrieve a folder's contents' size (streams: 4.0.6.16)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
