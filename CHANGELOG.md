@@ -27,6 +27,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Variable store (list view) keys
   - Variable store (list view) values
   - Node Descriptions (left panel)
+- Added domain name into browser tab and add - DEBUG string whenever the debugger modal is opened on the page (hw:4.0.6.7)
+- Introduced a new Metadata field called AUTOCOMPLETE (hw:4.0.6.7; streams:4.0.6.17; metadata:4.0.6.1; co:4.0.6.4; fx:4.0.6.3; hk:4.0.6.3; io:4.0.6.2)
+  - Same like TYPEAHEAD but with restrictions on the possible user input
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
@@ -49,10 +52,30 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - "Helmut Add User To Group Action" allows comma separated inputs (streams:4.0.6.17)
 - Fix long node descriptions adding line breaks (streams:4.0.6.17)
 - Job File Copy Action has a {node.result} output (streams:4.0.6.17)
+- Fix MD5 check error (License load error) occuring on refresh of Login page (license:4.0.6.2)
+- Webexport will now include all listed metadata from the export dialog (hw:4.0.6.7)
+- Sequences with markers in latest Premiere 2021 version will not longer be indexed as mimeType DATA (co:4.0.6.4)
+- Force deletion of old project files that has been used for project index (co:4.0.6.4)
+- Job Render with FFMPEG Action node provides progress again (streams:4.0.6.17)
+- Selected profiles from cosmo are not longer be displayed in io (hw:4.0.6.7)
+- HK profiles with the flag "Hide from user" = true will now be displayed in the add/edit Task dialog (hw:4.0.6.7)
+- Fix Asset creation in Stratus (streams:4.0.6.17)
+  - Fix asset type and description field transmitting
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 - Cosmo Add Asset to Project Action now accepts a comma separated list as input for project id parameter (streams:4.0.6.14)
 - All % signs in wildcards which where used as placeholders have been replaced with the current curly brackets (streams:4.0.6.14)
+- Premiere Version Converter shows now v2021 rather than v2020_1 (streams:4.0.6.17)
+- Remove default config initialization on first helmut installation (fx:4.0.6.3, streams:4.0.6.17)
+  - A predefined set of streams and preferences will be imported using the restore feature now
+  - This solves the problem of non starting streams container whenever there is an unknown node used in an existing stream
+- Change default variable of source file in "Job create Job Action Node" from {job.destination} to {job.source} (streams:4.0.6.17)
+- Import a folder via cosmo tab in the panel will now transfer the bin structure of the source project and will trigger a new stream event called PANEL_IMPORT (hw:4.0.6.7; co:4.0.6.4; streams:4.0.6.17; io:4.0.6.2; hp:4.0.6.5)
+  - It's a manual sync process coming from cosmo to enable consolidated import on one hand (avoid flashing premiere import dialog) and avoid direct timing problem with the new PANEL_IMPORT stream where the assets could be changed before sync
+  - Import single asset will work like before but with additional PANEL_IMPORT stream
+- Minimum mandatory character for project name is now 1 (hw:4.0.6.7)
+- In/Out points will now be handled as relative to a potential timecode offset of the target asset (hp:4.0.6.5)
+- Changed Streamdesigner browser tab logo from HFX to helmut logo (streams:4.0.6.17)
 ### Removed
 - (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
 - Helmut Cloud Services nodes (streams:4.0.6.17)
