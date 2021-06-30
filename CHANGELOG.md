@@ -22,6 +22,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Restart fx (Preferences are only created during startup)
 - Added a HELMUT_USER... and HELMUT_GROUPS wildcard set (streams: 4.0.6.17)
 - Added a wildcard to retrieve a folder's contents' size (streams: 4.0.6.17)
+- Added Tooltips to Streamdesigner for: (streams:4.0.6.17)
+  - Snapshot names (list view)
+  - Variable store (list view) keys
+  - Variable store (list view) values
+  - Node Descriptions (left panel)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
@@ -40,12 +45,17 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Cancelation of Job AME Render Action when canceling the stream (streams:4.0.6.14)
 - Catch negative intervall input in File ... and Folder Growing/Appearing condition (streams:4.0.6.14)
 - Refactored the update job list logic in the dashbord page to preserve usability of that page (hw:4.0.6.5)
+- Fix opening another stream from within the Streamdesigner with the right click menu + colon (streams:4.0.6.17)
+- "Helmut Add User To Group Action" allows comma separated inputs (streams:4.0.6.17)
+- Fix long node descriptions adding line breaks (streams:4.0.6.17)
+- Job File Copy Action has a {node.result} output (streams:4.0.6.17)
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 - Cosmo Add Asset to Project Action now accepts a comma separated list as input for project id parameter (streams:4.0.6.14)
 - All % signs in wildcards which where used as placeholders have been replaced with the current curly brackets (streams:4.0.6.14)
 ### Removed
 - (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
+- Helmut Cloud Services nodes (streams:4.0.6.17)
 
 ## [4.0.5-release-1] (stable release)
 ### Added
