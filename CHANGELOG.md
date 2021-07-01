@@ -55,7 +55,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix MD5 check error (License load error) occuring on refresh of Login page (license:4.0.6.2)
 - Webexport will now include all listed metadata from the export dialog (hw:4.0.6.7)
 - Sequences with markers in latest Premiere 2021 version will not longer be indexed as mimeType DATA (co:4.0.6.4)
-- Force deletion of old project files that has been used for project index (co:4.0.6.4)
+- Force deletion of old project files that has been used for project index (co:4.0.6.5)
 - Job Render with FFMPEG Action node provides progress again (streams:4.0.6.17)
 - Selected profiles from cosmo are not longer be displayed in io (hw:4.0.6.7)
 - HK profiles with the flag "Hide from user" = true will now be displayed in the add/edit Task dialog (hw:4.0.6.7)
