@@ -76,7 +76,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Minimum mandatory character for project name is now 1 (hw:4.0.6.7)
 - In/Out points will now be handled as relative to a potential timecode offset of the target asset (hp:4.0.6.5)
 - Changed Streamdesigner browser tab logo from HFX to helmut logo (streams:4.0.6.17)
-- Change Jobs dashboard update logic to improve performance (4.0.6.9)
+- Changed Jobs dashboard update logic to improve performance (hw:4.0.6.9; hp:4.0.6.6)
+- Changed the behaviour of the select sequences multiselect field in export tab of the panel (hp:4.0.6.6)
+  - Add a select all checkbox
+  - Add a loading indicator for giving the user feedback of the sequence request from premiere
+  - Improve performance of the function that reads out all sequences of the project (about 4 seconds per 100 sequences)
 ### Removed
 - (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
 - Helmut Cloud Services nodes (streams:4.0.6.17)
