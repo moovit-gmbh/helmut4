@@ -84,6 +84,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
 - Helmut Cloud Services nodes (streams:4.0.6.17)
 
+## [4.0.5-release-2] (stable release)
+### Fixed
+- Fix Panel import with proxy where second proxy attachment fails due to wron JSON definition
+
 ## [4.0.5-release-1] (stable release)
 ### Added
 - Add Telestream Vantage Nodes
