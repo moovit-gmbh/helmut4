@@ -11,16 +11,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added VpmsCheckIn Node(streams:4.0.6.15)
 - Added VpmsMetadataUpdate Node(streams:4.0.6.15)
 - Added Split & Stitch workflow Beta - only for 25fps (streams:4.0.6.15; io: 4.0.6.1; hps: io: 4.0.6.5; AME_WS_1_3_6) 
-  - Added CreateSplitJobs Node 
-  - Added JobStitchAMERender Node
+  - Added Job Create Split Jobs Action Node 
+  - Added Job Stitch Splits Action Node
   - Workflow: Create a new job for every single stitch, render them independently and then stitch the splits back together
 - Added XPath Node to extract values from XML files by expression (streams: 4.0.6.15)
-- Added Credits page with a list of used open-source libraries (hw:4.0.6.4)
 - Added HUE Bridge Support (streams: 4.0.6.15; fx: 4.0.6.1; preferences: 4.0.6.1; hw: 4.0.6.4)
   - First delete the old HUE preferences from the db
   - Upgrade versions
   - Restart fx (Preferences are only created during startup)
-- Added a HELMUT_USER... and HELMUT_GROUPS wildcard set (streams: 4.0.6.17)
 - Added a wildcard to retrieve a folder's contents' size (streams: 4.0.6.17)
 - Added Tooltips to Streamdesigner for: (streams:4.0.6.17)
   - Snapshot names (list view)
@@ -44,7 +42,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Project metadata changer action to only change the target project (streams:4.0.6.13)
 - Fix Project metadata remove action to only change the target project (streams:4.0.6.13)
 - File and Copy Folder nodes don't show 'FAIL' anymore, when successful (streams:4.0.6.13)
-- Fix issue that leads to the job status to stay in "Starting AME" forever, if an invalid / non-existent path was used (streams:4.0.7.0)
+- Fix issue that leads to the job status to stay in "Starting AME" forever, if an invalid / non-existent path was used (streams:4.0.6.0)
 - Fix Cancelation of Job AME Render Action when canceling the stream (streams:4.0.6.14)
 - Catch negative intervall input in File ... and Folder Growing/Appearing condition (streams:4.0.6.14)
 - Refactored the update job list logic in the dashbord page to preserve usability of that page (hw:4.0.6.5)
