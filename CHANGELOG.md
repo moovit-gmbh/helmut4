@@ -28,6 +28,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added domain name into browser tab and add - DEBUG string whenever the debugger modal is opened on the page (hw:4.0.6.7)
 - Introduced a new Metadata field called AUTOCOMPLETE (hw:4.0.6.7; streams:4.0.6.17; metadata:4.0.6.1; co:4.0.6.4; fx:4.0.6.3; hk:4.0.6.3; io:4.0.6.2)
   - Same like TYPEAHEAD but with restrictions on the possible user input
+- Add wildcards for requesting all users and all groups by now limited to 500 results (streams:4.0.6.22)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
