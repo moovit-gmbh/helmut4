@@ -59,6 +59,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - HK profiles with the flag "Hide from user" = true will now be displayed in the add/edit Task dialog (hw:4.0.6.7)
 - Fix Asset creation in Stratus (streams:4.0.6.17)
   - Fix asset type and description field transmitting
+- Changing stream event within the stream designer now moves the stream into the correct event trigger in the helmut streams view (streams:4.0.6.20)
+- Refactored File & Folder Multiple Appearing Condition (streams:4.0.6.14)
+  - Fix wrong positive response whenever one of several inputs satisfies condition
+  - Fix counter that checked the amount of checks the user provides +1 
+  - Handle negative interval inputs
+- Fix "include null" behaviour of Emtpy String Condition (streams:4.0.6.20)
+- Long tooltips in Dashboard are not flashing anymore (hw:4.0.6.13)
+- Action menu does not rapidly switch positions whenever there are a lot of entries (hw:4.0.6.13)
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 - Cosmo Add Asset to Project Action now accepts a comma separated list as input for project id parameter (streams:4.0.6.14)
@@ -80,6 +88,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - Add a loading indicator for giving the user feedback of the sequence request from premiere
   - Improve performance of the function that reads out all sequences of the project (about 4 seconds per 100 sequences)
   - Show only first item following by a counter of the additonally selected items
+- Make message input field of EmailOutput node multiline (streams:4.0.6.20) 
+- Improve descrition fields of nodes and wildcards
+- Change error message of Premiere Alert Action if premiere is not running to a more understandable one (streams:4.0.6.20)
+- Change color of lock icons in panel in the projects view (hp 4.0.6.12)
+- In the description overlay of nodes the node type will now displayed only ones (streams:4.0.6.20)
+- Add highlighting to fixed filters in fx if they are set (hw:4.0.6.13)
+- Add response code != 200 check for vantage nodes (streams:4.0.6.20)
 ### Removed
 - (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
 - Helmut Cloud Services nodes (streams:4.0.6.17)
