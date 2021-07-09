@@ -4,6 +4,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+### Fixed
+### Changed
+### Removed
+
+## [4.0.6-release-0] (stable release)
+### Added
 - Added option to search for a stream by its ID (hw:4.0.5.20)
 - Added option to copy a stream's ID to clipboard in the streamdesigner with the top right speech bubble (streams:4.0.5.40)
 - Added new wildcard {path.map.to.json.?} to change '\' to '\\' (streams:4.0.5.39)
@@ -1071,3 +1077,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.4-release-4]: https://www.helmut.de
 [4.0.5-release-0]: https://www.helmut.de
 [4.0.5-release-1]: https://www.helmut.de
+[4.0.6-release-0]: https://www.helmut.de
