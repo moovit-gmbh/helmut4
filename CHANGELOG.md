@@ -42,7 +42,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added domain name into browser tab and add - DEBUG string whenever the debugger modal is opened on the page (hw:4.0.6.7)
 - Introduced a new Metadata field called AUTOCOMPLETE (hw:4.0.6.7; streams:4.0.6.17; metadata:4.0.6.1; co:4.0.6.4; fx:4.0.6.3; hk:4.0.6.3; io:4.0.6.2)
   - Same like TYPEAHEAD but with restrictions on the possible user input
-- Add wildcards for requesting all users and all groups by now limited to 500 results (streams:4.0.6.22)
+- Added wildcards for requesting all users and all groups by now limited to 500 results (streams:4.0.6.22)
+- Added Send Message To Teams Channel node (streams:4.0.6.24)
 ### Fixed
 - New client 4.0.6.1
   - Premiere/AME version 15+ support
@@ -82,6 +83,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix "include null" behaviour of Emtpy String Condition (streams:4.0.6.20)
 - Long tooltips in Dashboard are not flashing anymore (hw:4.0.6.13)
 - Action menu does not rapidly switch positions whenever there are a lot of entries (hw:4.0.6.13)
+- Improved error descriptions for Project Category Condition, Project Creator Condition, Project Extension Condition, Project Name Condition, Project Personal Condition, Project Template Condition, Project Task Condition, Project Team Condition
 ### Changed
 - Replace all jsx polling events from premiere panel -> performance boost (hp:4.0.6.2)
 - Cosmo Add Asset to Project Action now accepts a comma separated list as input for project id parameter (streams:4.0.6.14)
@@ -110,6 +112,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - In the description overlay of nodes the node type will now displayed only ones (streams:4.0.6.20)
 - Add highlighting to fixed filters in fx if they are set (hw:4.0.6.13)
 - Add response code != 200 check for vantage nodes (streams:4.0.6.20)
+- Switched zoom orientation to be in line with the system default (streams:4.0.6.24)
+- EFS get free space node returns floats instead of integers (streams:4.0.6.24)
+- Stream snapshots are now associated with their corresponding stream, and by default only those are shown (only works for new snapshots). You can toggle a    switch to show all snapshots, including old ones (streams:4.0.6.24)
 ### Removed
 - (Single) HUE light preferences and nodes (Replaced by new HUE bridge support)
 - Helmut Cloud Services nodes (streams:4.0.6.17)
