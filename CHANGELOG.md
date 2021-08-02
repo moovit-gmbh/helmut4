@@ -5,6 +5,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 ### Fixed
+- Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
+  - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
+- Windows client removes the panels first before reinstalling the new ones to allow a successful panel installation on Windows(client:4.0.7.1; license: 4.0.7.1)
+- Improve the asset finding in panel sync process to decrease synchronization time for large projects (hp:4.0.7.1)
+  - Searching by nodeId took long due to the fact, that all assets in a project where scanned. Found a way to pre filter the potential target asset results
+- Refactored PANEL_IMPORT trigger (hp:4.0.7.1; co:4.0.7.1; streams:4.0.7.1)
+  - It will now be triggered ones the whole initial autosync process is finished to avoid multiple database accesses to the same assets
+- Add UNC path support on path.map.to.unix wildcard (streams:4.0.7.1)
 ### Changed
 ### Removed
 
