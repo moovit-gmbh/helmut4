@@ -20,6 +20,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Kill premiere is not working on Windows and does not throw an error message on mac (client:4.0.7.3; license:4.0.7.2)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
+- Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
