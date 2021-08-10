@@ -13,9 +13,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Refactored PANEL_IMPORT trigger (hp:4.0.7.1; co:4.0.7.1; streams:4.0.7.1)
   - It will now be triggered ones the whole initial autosync process is finished to avoid multiple database accesses to the same assets
 - Add UNC path support on path.map.to.unix wildcard (streams:4.0.7.1)
+- Job Render AAF action does not force premiere to hang when the temp project has been manipulated and close project flag is true (client:4.0.7.3; license:4.0.7.2; streams:4.0.7.2)
+  - If ones removes the video track in order to avoid error messages in aaf creation we had an save event right at the end of the process before closing the temp project. This led to a freeze of premiere. We now just skip the save and simply close the project without saving.
+  - client update required!
+- Job destination is not filled with previous export of AME when using the Job Render in AME Action node and export finishing process takes longer (client:4.0.7.3; license:4.0.7.2)
+- Kill premiere is not working on Windows and does not throw an error message on mac (client:4.0.7.3; license:4.0.7.2)
 ### Changed
+- Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 ### Removed
-
+- Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
+- Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
 ## [4.0.6-release-0] (stable release)
 ### Added
 - Added option to search for a stream by its ID (hw:4.0.5.20)
