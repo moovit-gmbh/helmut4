@@ -4,6 +4,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+- Add Project Duplicate Action node (streams:4.0.7.14)
+- Add wildcard for user last login and change timestamp update behaviour (streams:4.0.7.14; users:4.0.7.1)
+- Add a streams node compability check on streams container startup (streams:4.0.7.5)
+  - Streams container will try to request all existing streams in the database. If an error occurs it's now visible in the streams container logs which stream has incompatible nodes.
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -18,9 +22,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - client update required!
 - Job destination is not filled with previous export of AME when using the Job Render in AME Action node and export finishing process takes longer (client:4.0.7.3; license:4.0.7.2)
 - Kill premiere is not working on Windows and does not throw an error message on mac (client:4.0.7.3; license:4.0.7.2)
+- Stream exchange of stream that contains Job Render AAF in Premiere Action node is now possible (node replace necessary) (streams:4.0.7.4)
+- Fix last occurance of the bug where changing the streams sort order removes the connection between the start node and the first helmut node (hw:4.0.7.5)
+- Create profile dialog does no longer show hk streams DELETE trigger events in cosmo (hw:4.0.7.5)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
+- Medialoopster nodes -> change all put requests to patch (streams:4.0.7.10)
+- Helmut snapshot and update script is now using regex to determine correct stack file in order to allow prefix and suffix to "Helmut4" stack file name
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
