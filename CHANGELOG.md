@@ -34,6 +34,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Medialoopster nodes -> change all put requests to patch (streams:4.0.7.10)
 - Helmut snapshot and update script is now using regex to determine correct stack file in order to allow prefix and suffix to "Helmut4" stack file name
 - Refactor the user feedback of background processes of the helmut panel and add improved support for After Effects (hp:4.0.7.5)
+- Change Add Proxy node to allow asset id as input parameter that will be prioritized over highres path (streams:4.0.7.20; co:4.0.7.3)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
