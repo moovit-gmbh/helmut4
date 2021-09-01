@@ -8,6 +8,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add wildcard for user last login and change timestamp update behaviour (streams:4.0.7.14; users:4.0.7.1)
 - Add a streams node compability check on streams container startup (streams:4.0.7.5)
   - Streams container will try to request all existing streams in the database. If an error occurs it's now visible in the streams container logs which stream has incompatible nodes.
+- Add asset/sequence report generation nodes that exports all database information about an asset or sequence to a json file (streams:4.0.7.19; co:4.0.7.2)
+- Add {job.source.type} wildcard that reads out job.type value during stream (streams:4.0.7.19; co:4.0.7.2; hk:4.0.7.1; io:4.0.7.1)
+  - example workflow: ADDED_ASSET could be skipped now whenever job.source.type is equals PANEL_IMPORT
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -30,6 +33,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
 - Medialoopster nodes -> change all put requests to patch (streams:4.0.7.10)
 - Helmut snapshot and update script is now using regex to determine correct stack file in order to allow prefix and suffix to "Helmut4" stack file name
+- Refactor the user feedback of background processes of the helmut panel and add improved support for After Effects (hp:4.0.7.5)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
