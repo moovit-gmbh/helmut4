@@ -11,6 +11,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add asset/sequence report generation nodes that exports all database information about an asset or sequence to a json file (streams:4.0.7.19; co:4.0.7.2)
 - Add {job.source.type} wildcard that reads out job.type value during stream (streams:4.0.7.19; co:4.0.7.2; hk:4.0.7.1; io:4.0.7.1)
   - example workflow: ADDED_ASSET could be skipped now whenever job.source.type is equals PANEL_IMPORT
+- Add option to import asset instead of upload asset in cosmo (streams:4.0.7.27; co:4.0.7.4; hk:4.0.7.2;  io:4.0.7.2;hw:4.0.7.8)
+  - If user is logged in and client is connected to the webinterface we provide a filechooser in the web that is capable of browsing the local directory of the logged in user
+  - It's possible to select multiple files or folders whereby the latter will be read out recursively
+  - After Selection it's possible to trigger a WEB_IMPORT stream per file
+  - **Client update required and all existing WEB_IMPORT streams have to be migrated into new WEB_UPLOAD trigger point**
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -22,12 +27,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add UNC path support on path.map.to.unix wildcard (streams:4.0.7.1)
 - Job Render AAF action does not force premiere to hang when the temp project has been manipulated and close project flag is true (client:4.0.7.3; license:4.0.7.2; streams:4.0.7.2)
   - If ones removes the video track in order to avoid error messages in aaf creation we had an save event right at the end of the process before closing the temp project. This led to a freeze of premiere. We now just skip the save and simply close the project without saving.
-  - client update required!
+  - **client update required!**
 - Job destination is not filled with previous export of AME when using the Job Render in AME Action node and export finishing process takes longer (client:4.0.7.3; license:4.0.7.2)
 - Kill premiere is not working on Windows and does not throw an error message on mac (client:4.0.7.3; license:4.0.7.2)
 - Stream exchange of stream that contains Job Render AAF in Premiere Action node is now possible (node replace necessary) (streams:4.0.7.4)
 - Fix last occurance of the bug where changing the streams sort order removes the connection between the start node and the first helmut node (hw:4.0.7.5)
 - Create profile dialog does no longer show hk streams DELETE trigger events in cosmo (hw:4.0.7.5)
+- Fix MOVE and COPY tasks in housekeeper (hk:4.0.7.3)
+  - Both types where missing as a job.type which led to an error in the hk container. User saw only one hk job created in the dashboard eventhough multiple projects where covered by the task filter
+- Refactored Tag field in add project dialog to avoid the blur effect to remove the previous value (hw:4.0.7.8)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
@@ -35,9 +43,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Helmut snapshot and update script is now using regex to determine correct stack file in order to allow prefix and suffix to "Helmut4" stack file name
 - Refactor the user feedback of background processes of the helmut panel and add improved support for After Effects (hp:4.0.7.5)
 - Change Add Proxy node to allow asset id as input parameter that will be prioritized over highres path (streams:4.0.7.20; co:4.0.7.3)
+- Add glowing highlight effect to active fixed fx filters (group, category and template) (hw:4.0.7.8)
+- Reduced multiselect to a action button and a indicator of the total amount of selected items in panel (hp:4.0.7.6)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
+
 ## [4.0.6-release-0] (stable release)
 ### Added
 - Added option to search for a stream by its ID (hw:4.0.5.20)
