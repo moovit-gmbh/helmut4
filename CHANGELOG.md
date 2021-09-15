@@ -45,6 +45,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Change Add Proxy node to allow asset id as input parameter that will be prioritized over highres path (streams:4.0.7.20; co:4.0.7.3)
 - Add glowing highlight effect to active fixed fx filters (group, category and template) (hw:4.0.7.8)
 - Reduced multiselect to a action button and a indicator of the total amount of selected items in panel (hp:4.0.7.6)
+- Add LINUX as selectable OS in Operating System Condition node (streams:4.0.7.28)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
