@@ -16,6 +16,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - It's possible to select multiple files or folders whereby the latter will be read out recursively
   - After Selection it's possible to trigger a WEB_IMPORT stream per file
   - **Client update required and all existing WEB_IMPORT streams have to be migrated into new WEB_UPLOAD trigger point**
+- Add action button to single select overlay (hw:4.0.7.8)
+- Add "Helmut Remove Users From Group Action" node (streams:4.0.7.31)
+- Add assetId to job object and add {job.assetId} wildcard (streams:4.0.7.31; co:4.0.7.5; hk:4.0.7.4; io:4.0.7.3)
+- Add sequnce typed asset to ADDED_ASSET stream trigger and fix non triggered ADDED_ASSET stream (co:4.0.7.5)
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -36,6 +40,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix MOVE and COPY tasks in housekeeper (hk:4.0.7.3)
   - Both types where missing as a job.type which led to an error in the hk container. User saw only one hk job created in the dashboard eventhough multiple projects where covered by the task filter
 - Refactored Tag field in add project dialog to avoid the blur effect to remove the previous value (hw:4.0.7.8)
+- Autoimport now adds all jobs to AME without throwing busy status (streams:4.0.7.31)
+- Delete Job now also performs a cancel event beforehand (io:4.0.7.3)
+- All file create/copy/move action nodes now create destination folder by default if not existing (streams:4.0.7.31)
+- Fix error of new "Project Metadata Changer Action" node when it's getting used in a customIO stream (streams:4.0.7.31)
+- Fix panel disconnection whenever assets are beeing copied between multiple opened premiere projects (hp:4.0.7.7)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
