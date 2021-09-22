@@ -45,6 +45,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - All file create/copy/move action nodes now create destination folder by default if not existing (streams:4.0.7.31)
 - Fix error of new "Project Metadata Changer Action" node when it's getting used in a customIO stream (streams:4.0.7.31)
 - Fix panel disconnection whenever assets are beeing copied between multiple opened premiere projects (hp:4.0.7.7)
+- Empty AME path in corresponding node will now fails with error message in the jobs dashboard as expected (streams:4.0.7.31)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
