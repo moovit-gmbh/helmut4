@@ -24,6 +24,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Downloaded client installer will now have current version number in their file name (hw:4.0.7.11; license:4.0.7.2; hc:4.0.7.6)
   - **It is important to do a combined update of license and web in order to have this feature active**
 - Add {date.increment.days.?} and {date.decrement.days.?} wildcards (streams:4.0.7.37)
+- Add Watchfolder to cron options (hw:4.0.7.10)
+- Add a filter option for locked projects (hw:4.0.7.10)
+- Add an action menu to the single project details view (hw:4.0.7.10)
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -57,6 +60,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Client installer are now supporting all CC2020 and CC2021 versions (license:4.0.7.2; hc:4.0.7.6)
   - For Premiere Tested up to Version 15.4.0 Build 47; for After Effects 18.4.1
 - Save button in add profile modal will be reactivated after failed add event e.g. due to already existing profile name (hw:4.0.7.12)
+- Make action menus close automatically (hw:4.0.7.10)
+- Align several buttons and menus properly (hw:4.0.7.10)
+- Fix unnatural app navigation (i. e. redirect to login for logged in users) (hw:4.0.7.10)
+- Fix occasional display and loading problems (i. e. Template view) (hw:4.0.7.10)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
@@ -68,9 +75,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Reduced multiselect to a action button and a indicator of the total amount of selected items in panel (hp:4.0.7.6)
 - Add LINUX as selectable OS in Operating System Condition node (streams:4.0.7.28)
 - Like the Job Metadata Changer Action Node the corresponding Project Node does allow empty metadata values as inputs (streams:4.0.7.38)
+- Change layout and button theme in Preferences (hw:4.0.7.10)
+- Improve behaviour of the search toolbar (hw:4.0.7.10)
+- Unify several button and menu names (hw:4.0.7.10)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
+- Remove switches from boolean filters (hw:4.0.7.10)
+- Remove several outdated and unused app components (hw:4.0.7.10)
 
 ## [4.0.6-release-0] (stable release)
 ### Added
