@@ -20,6 +20,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add "Helmut Remove Users From Group Action" node (streams:4.0.7.31)
 - Add assetId to job object and add {job.assetId} wildcard (streams:4.0.7.31; co:4.0.7.5; hk:4.0.7.4; io:4.0.7.3)
 - Add sequnce typed asset to ADDED_ASSET stream trigger and fix non triggered ADDED_ASSET stream (co:4.0.7.5)
+- Add Hiscale Jobs Start Process Action Node that allows to trigger a job in JOBS Video Worklfow Platform (streams: 4.0.7.34)
+- Downloaded client installer will now have current version number in their file name (hw:4.0.7.11; license:4.0.7.2; hc:4.0.7.6)
+  - **It is important to do a combined update of license and web in order to have this feature active**
+- Add {date.increment.days.?} and {date.decrement.days.?} wildcards (streams:4.0.7.37)
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -46,6 +50,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix error of new "Project Metadata Changer Action" node when it's getting used in a customIO stream (streams:4.0.7.31)
 - Fix panel disconnection whenever assets are beeing copied between multiple opened premiere projects (hp:4.0.7.7)
 - Empty AME path in corresponding node will now fails with error message in the jobs dashboard as expected (streams:4.0.7.31)
+- Stream snapshot and stream variables free text search now searches global over pagination (streams:4.0.7.38)
+- Delete category stream is not moved to Housekeeper after stream save event (streams:4.0.7.33)
+- Reactivate asset metadata display on sidebar for single item selection (hw:4.0.7.10)
+- Adjust Date formatting between different displayed fields e.g. filter modal, filter chip, date value in table view (hw:4.0.7.10)
+- Client installer are now supporting all CC2020 and CC2021 versions (license:4.0.7.2; hc:4.0.7.6)
+  - For Premiere Tested up to Version 15.4.0 Build 47; for After Effects 18.4.1
+- Save button in add profile modal will be reactivated after failed add event e.g. due to already existing profile name (hw:4.0.7.12)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
@@ -56,6 +67,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add glowing highlight effect to active fixed fx filters (group, category and template) (hw:4.0.7.8)
 - Reduced multiselect to a action button and a indicator of the total amount of selected items in panel (hp:4.0.7.6)
 - Add LINUX as selectable OS in Operating System Condition node (streams:4.0.7.28)
+- Like the Job Metadata Changer Action Node the corresponding Project Node does allow empty metadata values as inputs (streams:4.0.7.38)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
