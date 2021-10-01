@@ -24,6 +24,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Downloaded client installer will now have current version number in their file name (hw:4.0.7.11; license:4.0.7.2; hc:4.0.7.6)
   - **It is important to do a combined update of license and web in order to have this feature active**
 - Add {date.increment.days.?} and {date.decrement.days.?} wildcards (streams:4.0.7.37)
+- Add project lock filter (hw:4.0.7.13)
+- Add 7Zip node (streams:4.0.7.39)
+- MediaFPS condition now accepts stream variable as input (streams:4.0.7.39)
+- Add translation for panel debugging texts (hw:4.0.7.13)
+- Preresolved date time field that is not changed in panel will now be passed correctly into export job (hp:4.0.7.9)
+- Add search by job id into freetext search of job dashboard (io:4.0.7.5)
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -68,6 +74,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Reduced multiselect to a action button and a indicator of the total amount of selected items in panel (hp:4.0.7.6)
 - Add LINUX as selectable OS in Operating System Condition node (streams:4.0.7.28)
 - Like the Job Metadata Changer Action Node the corresponding Project Node does allow empty metadata values as inputs (streams:4.0.7.38)
+- Add node version numbers to node headers in streamdesigner (streams:4.0.7.39)
+- Change circular progress color of canceled jobs in dashboard from red to white (hp:4.0.7.9;hw:4.0.7.13)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
