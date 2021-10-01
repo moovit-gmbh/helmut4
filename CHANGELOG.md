@@ -24,18 +24,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Downloaded client installer will now have current version number in their file name (hw:4.0.7.11; license:4.0.7.2; hc:4.0.7.6)
   - **It is important to do a combined update of license and web in order to have this feature active**
 - Add {date.increment.days.?} and {date.decrement.days.?} wildcards (streams:4.0.7.37)
-<<<<<<< HEAD
 - Add project lock filter (hw:4.0.7.13)
 - Add 7Zip node (streams:4.0.7.39)
 - MediaFPS condition now accepts stream variable as input (streams:4.0.7.39)
 - Add translation for panel debugging texts (hw:4.0.7.13)
 - Preresolved date time field that is not changed in panel will now be passed correctly into export job (hp:4.0.7.9)
 - Add search by job id into freetext search of job dashboard (io:4.0.7.5)
-=======
 - Add Watchfolder to cron options (hw:4.0.7.10)
 - Add a filter option for locked projects (hw:4.0.7.10)
 - Add an action menu to the single project details view (hw:4.0.7.10)
->>>>>>> 32595b27563dcb3119b6b93dbfc291be52ea24e2
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
