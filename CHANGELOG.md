@@ -25,7 +25,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - **It is important to do a combined update of license and web in order to have this feature active**
 - Add {date.increment.days.?} and {date.decrement.days.?} wildcards (streams:4.0.7.37)
 - Add project lock filter (hw:4.0.7.13)
-- Add 7Zip node (streams:4.0.7.39)
+- Add 7-Zip nodes (streams:4.0.7.39)
 - MediaFPS condition now accepts stream variable as input (streams:4.0.7.39)
 - Add translation for panel debugging texts (hw:4.0.7.13)
 - Preresolved date time field that is not changed in panel will now be passed correctly into export job (hp:4.0.7.9)
