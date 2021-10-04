@@ -33,6 +33,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add Watchfolder to cron options (hw:4.0.7.10)
 - Add a filter option for locked projects (hw:4.0.7.10)
 - Add an action menu to the single project details view (hw:4.0.7.10)
+- Add an "Open Helmut Panel" node that opens the visible helmut panel using the invisible one (streams:4.0.7.39; license:4.0.7.3; client:4.0.7.8)
 ### Fixed
 - Limit mongodb (database) default maximum cache size (mongodb:4.0.7.7)
   - per default mongodb was able to allocate up to 10 GB of ram leading to memory issues
@@ -81,14 +82,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Reduced multiselect to a action button and a indicator of the total amount of selected items in panel (hp:4.0.7.6)
 - Add LINUX as selectable OS in Operating System Condition node (streams:4.0.7.28)
 - Like the Job Metadata Changer Action Node the corresponding Project Node does allow empty metadata values as inputs (streams:4.0.7.38)
-<<<<<<< HEAD
 - Add node version numbers to node headers in streamdesigner (streams:4.0.7.39)
 - Change circular progress color of canceled jobs in dashboard from red to white (hp:4.0.7.9;hw:4.0.7.13)
-=======
 - Change layout and button theme in Preferences (hw:4.0.7.10)
 - Improve behaviour of the search toolbar (hw:4.0.7.10)
 - Unify several button and menu names (hw:4.0.7.10)
->>>>>>> 32595b27563dcb3119b6b93dbfc291be52ea24e2
+- Rewritten the After Effects and Premiere invisible panels and added missing nodes for After Effects to align feature set of both products (streams:4.0.7.39; license:4.0.7.3; client:4.0.7.8)
 ### Removed
 - Hide the unused show all switch in the variables modal of streamdesigner that came from the snapshots modal (streams:4.0.7.2)
 - Remove the open logs function whenever Helmut is running on https:// (hw:4.0.7.2)
