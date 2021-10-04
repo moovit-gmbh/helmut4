@@ -71,6 +71,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Align several buttons and menus properly (hw:4.0.7.10)
 - Fix unnatural app navigation (i. e. redirect to login for logged in users) (hw:4.0.7.10)
 - Fix occasional display and loading problems (i. e. Template view) (hw:4.0.7.10)
+- Several containers are not throwing Autorization Interceptor Errors anymore when running (preferences:4.0.7.1; metadata:4.0.7.1; logging:4.0.7.4; fx:4.0.7.2; hk:4.0.7.5; io:4.0.7.6;  language:4.0.7.1)
 ### Changed
 - Deprecate % sign for functional wildcards in order to allow usage of this sign as a modulo operator in Execute Javascript Action node (streams:4.0.7.2)
 - Add username as separate table entry in FX Dashboard and make it searchable and sortable (hw:4.0.7.4)
