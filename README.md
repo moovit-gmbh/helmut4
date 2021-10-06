@@ -5,6 +5,11 @@ This is a public representation for the private product [Helmut4](https://www.he
 - Save Project not possible with Premiere Version 15.2 if project has been opend via Helmut4. Please skip this version and use latest 15.4.
 
 ### Supported Adobe Version
+4.0.7.x:
+- Premiere: 14.0 to 15.4.1
+- After Effects: 17.0 to 18.4.1
+- AME: 14.9 to 15.4.1
+
 4.0.5.x:
 - Premiere/AME: <= 15.1 (mcc_license/client:4.0.6.1 required)
 
