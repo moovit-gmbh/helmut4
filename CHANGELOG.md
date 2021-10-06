@@ -4,6 +4,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+### Fixed
+### Changed
+### Removed
+## [4.0.7-release-0] (stable release)
+### Added
 - Add Project Duplicate Action node (streams:4.0.7.14)
 - Add wildcard for user last login and change timestamp update behaviour (streams:4.0.7.14; users:4.0.7.1)
 - Add a streams node compability check on streams container startup (streams:4.0.7.5)
@@ -1170,3 +1175,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.5-release-0]: https://www.helmut.de
 [4.0.5-release-1]: https://www.helmut.de
 [4.0.6-release-0]: https://www.helmut.de
+[4.0.7-release-0]: https://www.helmut.de
