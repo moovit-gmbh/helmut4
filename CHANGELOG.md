@@ -5,6 +5,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 ### Fixed
+- Aurora Submit Job Action (streams: 4.0.8.7)
 ### Changed
 ### Removed
 ## [4.0.7-release-1] (stable release)
