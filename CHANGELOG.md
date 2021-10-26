@@ -7,6 +7,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Fixed
 ### Changed
 ### Removed
+## [4.0.7-release-1] (stable release)
+### Fixed
+- Adding metadata when uploading assets to cosmo works
 ## [4.0.7-release-0] (stable release)
 ### Added
 - Add Project Duplicate Action node (streams:4.0.7.14)
