@@ -8,6 +8,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Aurora Submit Job Action (streams: 4.0.8.7)
 ### Changed
 ### Removed
+## [4.0.7-release-2] (stable release)
+### Fixed
+- Fix empty destination path for Job Render in Premiere Node (streams:4.0.7.48)
 ## [4.0.7-release-1] (stable release)
 ### Fixed
 - Adding metadata when uploading assets to cosmo works
@@ -1181,3 +1184,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.6-release-0]: https://www.helmut.de
 [4.0.7-release-0]: https://www.helmut.de
 [4.0.7-release-1]: https://www.helmut.de
+[4.0.7-release-2]: https://www.helmut.de
