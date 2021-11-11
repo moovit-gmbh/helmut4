@@ -4,9 +4,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+- Add adobe project id (nodeId or dynamicLinkGUID or sequenceID) wildcard (streams:4.0.8.13)
 ### Fixed
 - Aurora Submit Job Action (streams: 4.0.8.7)
+- Cosmo Webimport and Webupload are considering metadata (hw:4.0.8.4)
+- Move last login timestamp update right after the trigger of the CONNECTED stream in order to really have the last login time in the connected stream (users:4.0.8.1)
+- Exchange functionality in streamdesigner now works with special chars in stream design (streams:4.0.8.13)
+- Delete job will also cancel the job in order to avoid invalid status updates in dashboard (io:4.0.8.1)
 ### Changed
+- Improved stream designer error descriptions (streams:4.0.8.13)
+- When navigating into bin in cosmo project detail view the current filters except of the breadcrumb filter will be deleted to enable unfiltered view of folder content (hw:4.0.8.4, hp:4.0.8.9)
 ### Removed
 ## [4.0.7-release-2] (stable release)
 ### Fixed
