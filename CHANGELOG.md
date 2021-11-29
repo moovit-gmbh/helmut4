@@ -5,12 +5,19 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 - Add adobe project id (nodeId or dynamicLinkGUID or sequenceID) wildcard (streams:4.0.8.13)
+- Add the possibility to use custom self signed certificates (license:4.0.8.2 ,hc:4.0.8.3) -> **Client update required**
+  - https://moovit.jitbit.com/helpdesk/KB/View/42877232-use-custom-self-signed-certificates-for-the-client
 ### Fixed
 - Aurora Submit Job Action (streams: 4.0.8.7)
 - Cosmo Webimport and Webupload are considering metadata (hw:4.0.8.4)
 - Move last login timestamp update right after the trigger of the CONNECTED stream in order to really have the last login time in the connected stream (users:4.0.8.1)
 - Exchange functionality in streamdesigner now works with special chars in stream design (streams:4.0.8.13)
 - Delete job will also cancel the job in order to avoid invalid status updates in dashboard (io:4.0.8.1)
+- Cosmo Webimport filechooser dialog has now pagination and does not show folder sizes anymore (hc:4.0.8.2, license:4.0.8.1, hw:4.0.8.6)
+- Colon in Metadata fields is now a supported character for select, multiselect and autocomplete fields (hp:4.0.8.10, hw:4.0.8.5)
+- High quote in metadata does not lead to an evalscript error anymore (hp:4.0.8.12)
+- Search for windows paths via filters is now possible using the IS comparator, all others do not work (yet) (co:4.0.8.2)
+- Fixed wrong content showing of edit cronjob dialog when using esc key to close this dialog (hw:4.0.8.8)
 ### Changed
 - Improved stream designer error descriptions (streams:4.0.8.13)
 - When navigating into bin in cosmo project detail view the current filters except of the breadcrumb filter will be deleted to enable unfiltered view of folder content (hw:4.0.8.4, hp:4.0.8.9)
