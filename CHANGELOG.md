@@ -15,12 +15,18 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Delete job will also cancel the job in order to avoid invalid status updates in dashboard (io:4.0.8.1)
 - Cosmo Webimport filechooser dialog has now pagination and does not show folder sizes anymore (hc:4.0.8.2, license:4.0.8.1, hw:4.0.8.6)
 - Colon in Metadata fields is now a supported character for select, multiselect and autocomplete fields (hp:4.0.8.10, hw:4.0.8.5)
-- High quote in metadata does not lead to an evalscript error anymore (hp:4.0.8.12)
+- High quote in metadata does not lead to an evalscript error anymore (hp:4.0.8.16)
 - Search for windows paths via filters is now possible using the IS comparator, all others do not work (yet) (co:4.0.8.2)
-- Fixed wrong content showing of edit cronjob dialog when using esc key to close this dialog (hw:4.0.8.8)
+- Fixed wrong content showing of edit cronjob dialog when using esc key to close this dialog (hw:4.0.8.8)#
+- {project.id} wildcard is now default value of Project ID list input of Cosmo Add Asset To Project node (streams:4.0.8.13)
+- Hide enabled switch in watchfolder edit dialog when trigger point is a cronjob (hw:4.0.8.10)
+- Refactored all metadata nodes and fixed job create job metadata set assignment when add metadata switch is false (streams:4.0.8.16; hw:4.0.8.10)
+  - Either current metadata can be attached to new created job or the metadata defined by the set that is attached to the triggered profile. The fix covers the last mentioned feature.
+- {job.mimeType} wildcard will resolve to SEQUENCE when the job source is a sequence item (io:4.0.8.4; hw:4.0.8.10)
 ### Changed
 - Improved stream designer error descriptions (streams:4.0.8.13)
 - When navigating into bin in cosmo project detail view the current filters except of the breadcrumb filter will be deleted to enable unfiltered view of folder content (hw:4.0.8.4, hp:4.0.8.9)
+- Improve memory usage of Panel and Webserver (hp:4.0.8.16, hw4.0.8.9)
 ### Removed
 ## [4.0.7-release-2] (stable release)
 ### Fixed
