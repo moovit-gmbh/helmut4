@@ -23,6 +23,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Refactored all metadata nodes and fixed job create job metadata set assignment when add metadata switch is false (streams:4.0.8.16; hw:4.0.8.10)
   - Either current metadata can be attached to new created job or the metadata defined by the set that is attached to the triggered profile. The fix covers the last mentioned feature.
 - {job.mimeType} wildcard will resolve to SEQUENCE when the job source is a sequence item (io:4.0.8.4; hw:4.0.8.10)
+- Add multicam sequence support (co:4.0.8.1, hp:4.0.8.11)
 ### Changed
 - Improved stream designer error descriptions (streams:4.0.8.13)
 - When navigating into bin in cosmo project detail view the current filters except of the breadcrumb filter will be deleted to enable unfiltered view of folder content (hw:4.0.8.4, hp:4.0.8.9)
