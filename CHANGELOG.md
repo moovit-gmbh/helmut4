@@ -26,8 +26,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - {job.mimeType} wildcard will resolve to SEQUENCE when the job source is a sequence item (io:4.0.8.4; hw:4.0.8.10)
 - Add multicam sequence support (co:4.0.8.1, hp:4.0.8.11)
 - Premiere and Aftereffects 2022 support (license:4.0.8.8; client:4.0.8.8; streams:4.0.8.18)
-- Fix display bug where dark middle pane had no full display height inside of languages tab (hw:4.0.8.12)
 - Ensure job.assetId field beeing filled with information for webexport and panel import in order to be able to use the new asset metadata manipulation nodes (hw:4.0.8.11; hp:4.0.8.17)
+- Fix inconsistent Languages page visibility (hw:4.0.8.12)
 ### Changed
 - Improved stream designer error descriptions (streams:4.0.8.13)
 - When navigating into bin in cosmo project detail view the current filters except of the breadcrumb filter will be deleted to enable unfiltered view of folder content (hw:4.0.8.4, hp:4.0.8.9)
