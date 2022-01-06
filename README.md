@@ -2,12 +2,12 @@
 This is a public representation for the private product [Helmut4](https://www.helmut.de/) by [MoovIT GmbH](https://www.moovit.de).
 
 ### Versioning
-#### Release (Snapshot/Product) versions:
+#### Release (snapshot/product) versions:
 The product version is defined as <br> 
 _Helmut_Version.Major_snapshot.Snapshot_patch_ <br>
 The current version is 4.1.0 and the next snapshot after the following development cycle will be 4.2.0. If a snapshot gets patched there will be a 4.1.X
 
-#### Endpoint (Microservice/docker image) versions:
+#### Endpoint (microservice/docker image) versions:
 These are only relevant if you manually update specific microservices (e.g. via portainer). <br>
 In release 4.1.0 we switch to semantic versioning for all our microservice endpoints starting with 4.1.0.1 meaning: <br>
 _Helmut_Version.Major_change.Minor_change.Patch_ <br>
