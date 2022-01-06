@@ -38,6 +38,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix inconsistent Languages page visibility (hw:4.0.8.12)
 - Removed duplicate Recipient-ID field in Telegram node (streams:4.0.8.22)
 - Fix broken version select field for Flow and CatDV preference module (fx:4.0.8.4)
+  - You need to remove all Flow / CatDV preferences and restart the fx container in order to get the fix
 - Fix java heap space error when uploading large files > 1,5 GB (streams:4.0.8.22)
 - Add an add and remove entry button to each groups entries of the active directory auto module (streams:4.0.8.22)
 ### Changed
