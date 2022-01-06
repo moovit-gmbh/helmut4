@@ -4,12 +4,20 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+### Fixed
+### Changed
+### Removed
+## [4.1.0] (stable release)
+### Added
 - Add adobe project id (nodeId or dynamicLinkGUID or sequenceID) wildcard (streams:4.0.8.13)
 - Add the possibility to use custom self signed certificates (license:4.0.8.2 ,hc:4.0.8.3) -> **Client update required**
   - https://moovit.jitbit.com/helpdesk/KB/View/42877232-use-custom-self-signed-certificates-for-the-client
 - Add nodes for adding/chaning and deleting asset metadata of existing assets in database (co:4.0.8.7; streams:4.0.8.18)
 - Add multicam sequence support (co:4.0.8.1, hp:4.0.8.11)
 - Premiere and After Effects 2022 support (license:4.0.8.8; client:4.0.8.8; streams:4.0.8.18)
+- Add a GetFilesFromFolder and GetFoldersFromFolder action node that iterates over all found files or folders either on top level or recursive from a given folder path (streams:4.0.8.22)
+- Add option to drop all helmut connections of one single computer (4.1.0 snapshot release)
+  - Can be used to free the client connection if a user locks his windows account without logging out from helmut.
 ### Fixed
 - Aurora Submit Job Action (streams: 4.0.8.7)
 - Cosmo Webimport and Webupload are considering metadata (hw:4.0.8.4)
@@ -28,10 +36,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - {job.mimeType} wildcard will resolve to SEQUENCE when the job source is a sequence item (io:4.0.8.4; hw:4.0.8.10)
 - Ensure job.assetId field beeing filled with information for webexport and panel import in order to be able to use the new asset metadata manipulation nodes (hw:4.0.8.11; hp:4.0.8.17)
 - Fix inconsistent Languages page visibility (hw:4.0.8.12)
+- Removed duplicate Recipient-ID field in Telegram node (streams:4.0.8.22)
+- Fix broken version select field for Flow and CatDV preference module (fx:4.0.8.4)
+- Fix java heap space error when uploading large files > 1,5 GB (streams:4.0.8.22)
+- Add an add and remove entry button to each groups entries of the active directory auto module (streams:4.0.8.22)
 ### Changed
 - Improved stream designer error descriptions (streams:4.0.8.13)
 - When navigating into bin in cosmo project detail view the current filters except of the breadcrumb filter will be deleted to enable unfiltered view of folder content (hw:4.0.8.4, hp:4.0.8.9)
 - Improve memory usage of Panel and Webserver (hp:4.0.8.16, hw4.0.8.9)
+- Force all Log4J dependencies to patched version 2.17 even though the dependencies are not vulnerable, but some wrong working dependency scanner point them out to be affected (4.1.0 snapshot release)
 ### Removed
 ## [4.0.7-release-2] (stable release)
 ### Fixed
@@ -1211,3 +1224,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.7-release-0]: https://www.helmut.de
 [4.0.7-release-1]: https://www.helmut.de
 [4.0.7-release-2]: https://www.helmut.de
+[4.1.0]: https://www.helmut.de
