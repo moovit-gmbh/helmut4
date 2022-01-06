@@ -20,9 +20,9 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 
 ### Supported Adobe Version
 4.1.0
-- Premiere: 15.X to 22.X
-- After Effects: 18.X to 22.X
-- AME: 15.X to 22.X
+- Premiere: 15.X to 22.1
+- After Effects: 18.X to 22.1
+- AME: 15.X to 22.1
 
 4.0.7.x:
 - Premiere: 14.0 to 15.4.1
