@@ -8,6 +8,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add the possibility to use custom self signed certificates (license:4.0.8.2 ,hc:4.0.8.3) -> **Client update required**
   - https://moovit.jitbit.com/helpdesk/KB/View/42877232-use-custom-self-signed-certificates-for-the-client
 - Add nodes for adding/chaning and deleting asset metadata of existing assets in database (co:4.0.8.7; streams:4.0.8.18)
+- Add multicam sequence support (co:4.0.8.1, hp:4.0.8.11)
+- Premiere and After Effects 2022 support (license:4.0.8.8; client:4.0.8.8; streams:4.0.8.18)
 ### Fixed
 - Aurora Submit Job Action (streams: 4.0.8.7)
 - Cosmo Webimport and Webupload are considering metadata (hw:4.0.8.4)
@@ -24,8 +26,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Refactored all metadata nodes and fixed job create job metadata set assignment when add metadata switch is false (streams:4.0.8.16; hw:4.0.8.10)
   - Either current metadata can be attached to new created job or the metadata defined by the set that is attached to the triggered profile. The fix covers the last mentioned feature.
 - {job.mimeType} wildcard will resolve to SEQUENCE when the job source is a sequence item (io:4.0.8.4; hw:4.0.8.10)
-- Add multicam sequence support (co:4.0.8.1, hp:4.0.8.11)
-- Premiere and Aftereffects 2022 support (license:4.0.8.8; client:4.0.8.8; streams:4.0.8.18)
 - Ensure job.assetId field beeing filled with information for webexport and panel import in order to be able to use the new asset metadata manipulation nodes (hw:4.0.8.11; hp:4.0.8.17)
 - Fix inconsistent Languages page visibility (hw:4.0.8.12)
 ### Changed
