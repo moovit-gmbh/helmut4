@@ -3,15 +3,15 @@ This is a public representation for the private product [Helmut4](https://www.he
 
 ### Versioning
 #### Release (Snapshot/Product) versions:
-The product version is defined with 
-Helmut_Version.Major_snapshot.Snapshot_patch
+The product version is defined as <br> 
+_Helmut_Version.Major_snapshot.Snapshot_patch_ <br>
 The current version is 4.1.0 and the next snapshot after the following development cycle will be 4.2.0. If a snapshot gets patched there will be a 4.1.X
 
 #### Endpoint (Microservice / docker image) versions:
-These are only relevant if you manually update specific microservices (e.g. via portainer). 
-In release 4.1.0 we switch to semantic versioning for all our microservice endpoints starting with 4.1.0.1 meaning:
-Helmut_Version.Major_change.Minor_change.Patch
-As an example the next bugfix of one of the endpoints (e.g. streams) would lead to a snapshot version of 4.1.0.2, a breaking change that is not downwards compatible (within that endpoint) would result in a 4.2.0.1
+These are only relevant if you manually update specific microservices (e.g. via portainer). <br>
+In release 4.1.0 we switch to semantic versioning for all our microservice endpoints starting with 4.1.0.1 meaning: <br>
+_Helmut_Version.Major_change.Minor_change.Patch_ <br>
+As an example the next bugfix of one of the endpoints (e.g. streams) would lead to a snapshot version of 4.1.0.2, a breaking change that is not downwards  compatible (within that endpoint) would result in a 4.2.0.1
 
 Due to the fact, that we decoupled the microservice versioning from the release (snapshot / product) version, there might be mixed version numbers for a single snapshot. Like a 4.3.0.1 container verion in a 4.5.0 snapshot. In such an environment a snapshot update will not force the update of all microservices, and therefore won't download docker images that are unchanged. This will result in a smaller downtime and fewer untagged/unused but still cached images on the host system.
 
