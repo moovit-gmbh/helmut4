@@ -17,10 +17,12 @@ The versions of the corresponding containers can be found here: Container-Snapsh
 An update can be created within Helmut with no need of any other tools. This task is quite easy & straight forwarded.
 Navigate to the preferences page and click the backup button.
 
+![DataImage81](https://user-images.githubusercontent.com/58689860/148954552-56875a3f-e828-4dc4-9b7d-eeb401898d5e.png)
 
 A window appears in which various parameters can be selected, which are then saved.
 If you are not sure, you can select everything (we do not recommend selecting jobs and license)
 
+![DataImage82](https://user-images.githubusercontent.com/58689860/148954663-8921701e-3878-4ff9-99d9-b7e68cfcaf15.png)
 
 ## IIIa - Sanity backup
 If you want to be on the safe side, you can create a snapshot of your host computer (virtual machine), which can be used to restore the system in no time at all.
@@ -42,7 +44,8 @@ The latest version of the client installer is part of the server update - if you
 Since all clients are running the latest version, we can proceed with updating the server.
 This task is quite simple and straightforward.
 
-#open a ssh session to the server
+
+`#open a ssh session to the server
 ssh username@ip-address
 
 #switch to super user
@@ -59,20 +62,20 @@ helmut-snapshot 4.0.7-release-0
 
 
 #quiet session
-exit
+exit`
 
+![DataImage65](https://user-images.githubusercontent.com/58689860/148955261-6263aed0-6738-4617-9bc3-87e2bbdcdc80.png)
 
 ## Vb - Update process part TWO - server - cluster installation
 The process for a cluster environment is almost identical to that for a standalone environment. The difference is that the update process must be triggered on the server where the portainer instance is running.
 
 This can be identified quite easily - open port 9000 on all servers - if the machine is a slave, this message will be displayed in the stack.
 
-
-image
-
+![DataImage67](https://user-images.githubusercontent.com/58689860/148955348-d4d42768-f773-42c4-aa8f-c4b675388be4.jpg)
 
 The stack on the master has an additional "editor" tab, the configuration of which is as follows:
 
+![DataImage55](https://user-images.githubusercontent.com/58689860/148955389-63dfd968-69b8-4965-8c27-674bb8854dd8.png)
 
 The server on which the current stack configuration is displayed is the one on which the update must be performed.
 
