@@ -33,8 +33,8 @@ We strongly recommend doing a clean uninstall of the client for Windows and Mac.
 
 We have two (basic) scripts, which will help you with this procedure.
 
-    Windows script 
-    Macintosh script
+[Windows script](https://moovit.jitbit.com/helpdesk/KB/View/40622281-windows-batch-script-update-helmut-client)<br>
+[Macintosh script](https://moovit.jitbit.com/helpdesk/KB/View/41460385-mac-shell-script-update-helmut-client)
 
 In general we recommend to remove the extensions from Adobe's CEP & local user temp folder as on windows side to delete the local stream-engine.
 
@@ -44,8 +44,8 @@ The latest version of the client installer is part of the server update - if you
 Since all clients are running the latest version, we can proceed with updating the server.
 This task is quite simple and straightforward.
 
-
-`#open a ssh session to the server
+```
+#open a ssh session to the server
 ssh username@ip-address
 
 #switch to super user
@@ -62,7 +62,8 @@ helmut-snapshot 4.0.7-release-0
 
 
 #quiet session
-exit`
+exit
+```
 
 ![DataImage65](https://user-images.githubusercontent.com/58689860/148955261-6263aed0-6738-4617-9bc3-87e2bbdcdc80.png)
 
