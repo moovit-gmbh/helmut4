@@ -1,7 +1,7 @@
 # Helmut4
 This is a public representation for the private product [Helmut4](https://www.helmut.de/) by [MoovIT GmbH](https://www.moovit.de).
 
-### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUID.md)
+### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 ### Versioning
 #### Release (snapshot/product) versions:
