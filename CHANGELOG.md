@@ -14,10 +14,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
   - https://moovit.jitbit.com/helpdesk/KB/View/42877232-use-custom-self-signed-certificates-for-the-client
 - Add nodes for adding/chaning and deleting asset metadata of existing assets in database (co:4.1.0.1; streams:4.1.0.1)
 - Add multicam sequence support (co:4.1.0.1, hp:4.1.0.1)
-- Premiere and After Effects 2022 support (license:4.1.0.1; client:4.1.0.1; streams:4.1.0.1)
+- Premiere and After Effects 2022 support (license:4.1.0.1; client:4.1.0.1; streams:4.1.0.1) -> **Client update required**
 - Add a GetFilesFromFolder and GetFoldersFromFolder action node that iterates over all found files or folders either on top level or recursive from a given folder path (streams:4.1.0.1)
-- Add option to drop all helmut connections of one single computer (4.1.0 snapshot release)
-  - Can be used to free the client connection if a user locks his windows account without logging out from helmut.
+- Add option to drop all helmut connections of one single computer (4.1.0 snapshot release) -> **Client update required**
+  - Can be used to free the client connection if a user locks his windows account without logging out from helmut. 
 ### Fixed
 - Aurora Submit Job Action (streams: 4.1.0.1)
 - Cosmo Webimport and Webupload are considering metadata (hw:4.1.0.1)
