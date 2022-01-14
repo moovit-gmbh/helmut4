@@ -9,6 +9,14 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Fixed
 ### Changed
 ### Removed
+
+## [4.1.1] (patch release)
+### Added
+- Re-added possibility to decide if a proxy should be autosynced or manual synced by re-introducing a switch into the Add Proxy to Asset node (hp:4.1.1.0; co:4.1.1.0; streams:4.1.1.0)
+### Fixed
+- Metadata with the flag pre-resolve will be added to job created by webexport trigger correctly (hw:4.1.1.2)
+- job.source value is now set correctly (project path) in the job object of a webexport triggered on a sequence object (hw:4.1.1.2)
+
 ## [4.1.0] (stable release)
 ### Added
 - Add adobe project id (nodeId or dynamicLinkGUID or sequenceID) wildcard (streams:4.1.0.1)
