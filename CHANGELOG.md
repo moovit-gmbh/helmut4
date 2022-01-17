@@ -1236,3 +1236,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.7-release-1]: https://www.helmut.de
 [4.0.7-release-2]: https://www.helmut.de
 [4.1.0]: https://www.helmut.de
+[4.1.1]: https://www.helmut.de
