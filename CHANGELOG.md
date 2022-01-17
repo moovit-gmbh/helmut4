@@ -2,7 +2,7 @@
 
 All notable changes for the private product [Helmut4](https://www.helmut.de) will be documented in this file.
 
-### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUID.md)
+### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 ## [development release]
 ### Added
