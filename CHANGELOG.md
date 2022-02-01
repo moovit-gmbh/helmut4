@@ -6,7 +6,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+- Add product version number (snapshot version) into the web (license:4.1.0.3; hw:4.1.3.0)
 ### Fixed
+- Fix $HueLampState warning which is populated on streams container startup (streams:4.1.2.0)
+- All Flow nodes check for module enabled state (streams:4.1.2.0)
+- Optimize node result for every render node, by adding descriptions and set proper node results (streams:4.1.2.0)
+- Avoid having hidden nodes in the streamdesigner node panel menu (streams:4.1.2.0)
 ### Changed
 ### Removed
 
