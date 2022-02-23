@@ -8,12 +8,23 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Added
 - Add product version number (snapshot version) into the web (license:4.1.0.3; hw:4.1.3.0)
 - Add metadata tab to cosmo and housekeeper (hw:4.1.3.3)
+- Add a "Get Asset Metadata" Node (streams:4.1.2.4)
 ### Fixed
 - Fix $HueLampState warning which is populated on streams container startup (streams:4.1.2.0)
 - All Flow nodes check for module enabled state (streams:4.1.2.0)
 - Optimize node result for every render node, by adding descriptions and set proper node results (streams:4.1.2.0)
 - Avoid having hidden nodes in the streamdesigner node panel menu (streams:4.1.2.0)
 - Fix json parse error for CosmoProxyAddActionV6 node (streams:4.1.2.2)
+- Rename a stream that contains the Stream Delete Store Variable Action node will not force streams container to crash anymore (streams:4.1.2.1)
+- Single select asset will now show same options in action menu button as it shows in the corrsponding table row entry (hw:4.1.3.5)
+- Heavily Improve Dashboard view by (hw:4.1.3.5; hp:4.1.3.2 license:4.1.0.6; hc:4.1.0.5)
+  - Reducing object size that will be published via the message bus
+  - Add a queue for jobs update event in io endpoint and remove this logic from the frontend
+  - Add exlusive tag and time to live flag for rabbitmq queues
+  - This could possibly fix
+    - High memory usage of rabbitmq container
+    - Out of sync dashboards of web and panel
+    - Performance improvement of dashboard view
 ### Changed
 - Do not show cron option in watchfolder dialog when HK is not licensed (hw:4.1.3.1)
 - Update rabbitmq message bus to version 3.9.11 (rabbitmq:4.1.0.0)
