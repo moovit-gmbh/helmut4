@@ -26,6 +26,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
     - Out of sync dashboards of web and panel
     - Performance improvement of dashboard view
 - Fix multiselect for all table views (correct row selection for all sort options) (hw:4.1.3.6)
+- Normalized intervall for appear/growing nodes to 1 second (streams:4.1.2.6)
+- AME render job will now be canceled if helmut job gets canceled (streams:4.1.2.6)
 ### Changed
 - Do not show cron option in watchfolder dialog when HK is not licensed (hw:4.1.3.1)
 - Update rabbitmq message bus to version 3.9.11 (rabbitmq:4.1.0.0)
