@@ -17,12 +17,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix json parse error for CosmoProxyAddActionV6 node (streams:4.1.2.2)
 - Rename a stream that contains the Stream Delete Store Variable Action node will not force streams container to crash anymore (streams:4.1.2.1)
 - Single select asset will now show same options in action menu button as it shows in the corrsponding table row entry (hw:4.1.3.5)
-- Heavily Improve Dashboard view by (hw:4.1.3.5; hp:4.1.3.2 license:4.1.0.6; hc:4.1.0.5)
+- Heavily Improve Dashboard view by (hw:4.1.3.5; hp:4.1.3.2; license:4.1.0.6; hc:4.1.0.5)
   - Reducing object size that will be published via the message bus
   - Add a queue for jobs update event in io endpoint and remove this logic from the frontend
   - Add exlusive tag and time to live flag for rabbitmq queues
   - This could possibly fix
-    - High memory usage of rabbitmq container
     - Out of sync dashboards of web and panel
     - Performance improvement of dashboard view
 - Fix multiselect for all table views (correct row selection for all sort options) (hw:4.1.3.6)
