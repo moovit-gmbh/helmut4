@@ -22,19 +22,19 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 
 ### Supported Adobe Version
 4.1.0
-- Premiere: 15.X to 22.1
-- After Effects: 18.X to 22.1
-- AME: 15.X to 22.1
+- Premiere: 15.X to 22.2.0
+- After Effects: 18.X to 22.2.1
+- AME: 15.X to 22.2.0
 
 4.0.7.x:
-- Premiere: 14.0 to 15.4.1
-- After Effects: 17.0 to 18.4.1
-- AME: 14.9 to 15.4.1
+- Premiere: 14.0 to 15.4.x
+- After Effects: 17.0 to 18.4.x
+- AME: 14.9.x to 15.4.x
 
 4.0.5.x:
 - Premiere/AME: <= 15.1 (mcc_license/client:4.0.6.1 required)
 
 4.0.4.x:
-- Premiere/AME: <= 14.9
+- Premiere/AME: <= 14.9.x
 
 ![helmut-family](https://sev.moovit24.de/uploads/TW9vdklUIEdtYkg/OxHA6b6M3JAoqhup7HTVSUgew9Tt0DP66E8JJZSFe0v8xxDoRfxYuOzzl9g5jR3ElGWTcsuu6NQ1xjS3VlpOdRNDco5vmnP1vVbW/Helmut-4-Family-Logo-2.png)
