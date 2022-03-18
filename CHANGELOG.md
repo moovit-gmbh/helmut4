@@ -29,10 +29,22 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Normalized intervall for appear/growing nodes to 1 second (streams:4.1.2.6)
 - AME render job will now be canceled if helmut job gets canceled (streams:4.1.2.6)
 - Fix file upload issues of Job SwatIO Upload Action and limit file size to 1 GiB (streams:4.1.2.4)
+- Fix failing flow nodes that use query string parameters to communicate (streams:4.1.2.11)
+- Enable/disable flag will not longer be overwritten on stream save event of streamdesigner (streams:4.1.2.13)
+- Improved description of Job AME render node (streams:4.1.2.11)
+- Fix test suite failing when threads of old testings stay open (streams:4.1.2.13)
+- Enable live view update of cosmo project panel view after adding an asset via drag & drop (hp:4.1.3.3)
+- Refactored the detection of deprecated nodes of a stream and make attention icon more reliable (streams:4.1.2.13)
+- Fix custom user and fcustom x stream ordering in fx (hw:4.1.3.8)
+- Panel view does not shink with additional sequences selected in export tab of panel (hp:4.1.3.3)
+- Refactored metadata preresolve in export tab of panel (hp:4.1.3.3)
+- Enforce to have the last job update not beeing overwritten by previous update in new backend jobs update queue logic (io:4.1.0.6)
 ### Changed
 - Do not show cron option in watchfolder dialog when HK is not licensed (hw:4.1.3.1)
 - Update rabbitmq message bus to version 3.9.11 (rabbitmq:4.1.0.0)
 - Improve & beautify error message display in StreamDesigner (streams:4.1.2.2)
+- Refactor CosmoAddInfoToSequenceAction Node to avoid failing behavior for missing values (streams:4.1.2.11)
+- Add HTTP return code to the node result of the HTTP request action V3 (streams:4.1.2.13)
 ### Removed
 
 ## [4.1.1] (patch release)
