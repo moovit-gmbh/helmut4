@@ -10,6 +10,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add metadata tab to cosmo and housekeeper (hw:4.1.3.3)
 - Add a "Get Asset Metadata" Node (streams:4.1.2.4)
 - Add new Job SwatIO Upload Action featuring custom date and time (streams:4.1.2.13)
+- Add the two missing options "Render audio clip effects" and "Include clip copies without effects" and "Remove Video Clips before render" to the AAF render node (streams:4.1.2.16; hc:4.1.0.7)
+- Add new cron feature for cleanup of the jobs database (hw:4.1.3.9; cronjob:4.1.0.5; fx:4.1.0.5; io:4.1.0.7)
+  - Cleanup can be made either by defining a max jobs count to keep or by relative date filter and can be setup as a cronjob that runs on a daily basis
 ### Fixed
 - Fix $HueLampState warning which is populated on streams container startup (streams:4.1.2.0)
 - All Flow nodes check for module enabled state (streams:4.1.2.0)
@@ -39,6 +42,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Panel view does not shink with additional sequences selected in export tab of panel (hp:4.1.3.3)
 - Refactored metadata preresolve in export tab of panel (hp:4.1.3.3)
 - Enforce to have the last job update not beeing overwritten by previous update in new backend jobs update queue logic (io:4.1.0.6)
+- Fix missing action button for some assets in cosmo project detail view (hw:4.1.3.9)
+- JobFromJSON node is now able to read job that has been written from the JobAsJSON node (streams:4.1.2.16)
+- Refactor the streams deprecation detection to make the deprecation warning more reliable (streams:4.1.2.16)
+- Import asset via cosmo panel in helmut panel will now import the asset and change the assets name according to the name in the source project (hp:4.1.3.4)
+  - If bin is imported the breadcrumb of the assets are beeing adapted correctly now.
+- Add loop breakup logic for nested wildcards to avoid endless loops that results in 100% cpu usage per stream execution thread (streams:4.1.2.16)
+- Full support of the asset import filechooser dialog for empty DVD drive (hw:4.1.3.9)
+- Fix job dashboard ordering in chromium based browsers (io:4.1.0.7)
+- Remove quotation marks from assetId last result inside the next path of the Cosmo Get Project Assets node (streams:4.1.2.16)
 ### Changed
 - Do not show cron option in watchfolder dialog when HK is not licensed (hw:4.1.3.1)
 - Update rabbitmq message bus to version 3.9.11 (rabbitmq:4.1.0.0)
