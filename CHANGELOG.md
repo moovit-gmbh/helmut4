@@ -52,6 +52,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix job dashboard ordering in chromium based browsers (io:4.1.0.7)
 - Remove quotation marks from assetId last result inside the next path of the Cosmo Get Project Assets node (streams:4.1.2.16)
 - Fix misleading table sorting of dates in several views (hw:4.1.3.11)
+- Fix drag and drop feature when choosing assets from inside a bin (hp:4.1.3.6)
 ### Changed
 - Do not show cron option in watchfolder dialog when HK is not licensed (hw:4.1.3.1)
 - Update rabbitmq message bus to version 3.9.11 (rabbitmq:4.1.0.0)
