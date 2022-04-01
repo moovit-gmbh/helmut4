@@ -44,7 +44,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Enforce to have the last job update not beeing overwritten by previous update in new backend jobs update queue logic (io:4.1.0.6)
 - Fix missing action button for some assets in cosmo project detail view (hw:4.1.3.9)
 - JobFromJSON node is now able to read job that has been written from the JobAsJSON node (streams:4.1.2.16)
-- Refactor the streams deprecation detection to make the deprecation warning more reliable (streams:4.1.2.16)
 - Import asset via cosmo panel in helmut panel will now import the asset and change the assets name according to the name in the source project (hp:4.1.3.4)
   - If bin is imported the breadcrumb of the assets are beeing adapted correctly now.
 - Add loop breakup logic for nested wildcards to avoid endless loops that results in 100% cpu usage per stream execution thread (streams:4.1.2.16)
