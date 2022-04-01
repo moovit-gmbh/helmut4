@@ -39,7 +39,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Enable live view update of cosmo project panel view after adding an asset via drag & drop (hp:4.1.3.3)
 - Refactored the detection of deprecated nodes of a stream and make attention icon more reliable (streams:4.1.2.13)
 - Fix custom user and fcustom x stream ordering in fx (hw:4.1.3.8)
-- Panel view does not shink with additional sequences selected in export tab of panel (hp:4.1.3.3)
+- Panel view does not shrink with additional sequences selected in export tab of panel (hp:4.1.3.3)
 - Refactored metadata preresolve in export tab of panel (hp:4.1.3.3)
 - Enforce to have the last job update not beeing overwritten by previous update in new backend jobs update queue logic (io:4.1.0.6)
 - Fix missing action button for some assets in cosmo project detail view (hw:4.1.3.9)
