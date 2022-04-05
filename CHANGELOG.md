@@ -10,7 +10,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add metadata tab to cosmo and housekeeper (hw:4.1.3.3)
 - Add a "Get Asset Metadata" Node (streams:4.1.2.4)
 - Add new Job SwatIO Upload Action featuring custom date and time (streams:4.1.2.13)
-- Add the two missing options "Render audio clip effects" and "Include clip copies without effects" and "Remove Video Clips before render" to the AAF render node (streams:4.1.2.16; hc:4.1.0.7)
+- Add the two missing options "Render audio clip effects" and "Include clip copies without effects" and add custom "Remove Video Clips before render" option to the AAF render node (streams:4.1.2.16; hc:4.1.0.7)
 - Add new cron feature for cleanup of the jobs database (hw:4.1.3.9; cronjob:4.1.0.5; fx:4.1.0.5; io:4.1.0.7)
   - Cleanup can be made either by defining a max jobs count to keep or by relative date filter and can be setup as a cronjob that runs on a daily basis
 ### Fixed
