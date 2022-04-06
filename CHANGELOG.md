@@ -60,6 +60,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Refactor CosmoAddInfoToSequenceAction Node to avoid failing behavior for missing values (streams:4.1.2.11)
 - Add HTTP return code to the node result of the HTTP request action V3 (streams:4.1.2.13)
 - Project as JSON (Legacy) node is now deprecated (streams:4.1.2.16)
+- Remove fixed .gves filter for autoimports in panel (hp:4.1.3.7)
 ### Removed
 
 ## [4.1.1] (patch release)
