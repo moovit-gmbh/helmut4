@@ -4,28 +4,28 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
-## [development release]
+## [4.2.0] (stable release)
 ### Added
 - Add product version number (snapshot version) into the web (license:4.1.0.3; hw:4.1.3.0)
-- Add metadata tab to cosmo and housekeeper (hw:4.1.3.3)
-- Add a "Get Asset Metadata" Node (streams:4.1.2.4)
-- Add new Job SwatIO Upload Action featuring custom date and time (streams:4.1.2.13)
-- Add the two missing options "Render audio clip effects" and "Include clip copies without effects" and add custom "Delete Video Clips before render" option to the AAF render node (streams:4.1.2.16; hc:4.1.0.7)
+- Add metadata tab to Cosmo and Housekeeper (hw:4.1.3.3)
+- Add a "Cosmo Get Asset Metadata Action" node (streams:4.1.2.4)
+- Add new "Job SwatIO Upload Action" node featuring publication date including custom date and time (streams:4.1.2.13)
+- Add the two missing options "Render audio effects", "Include clip copies" and add custom "Delete video clips before render" option to the "Job Render AAF in Premiere Action" node (streams:4.1.2.16; hc:4.1.0.7)
 - Add new cron feature for cleanup of the jobs database (hw:4.1.3.9; cronjob:4.1.0.5; fx:4.1.0.5; io:4.1.0.7)
   - Cleanup can be made either by defining a max jobs count to keep or by relative date filter and can be setup as a cronjob that runs on a daily basis
 ### Fixed
 - Fix $HueLampState warning which is populated on streams container startup (streams:4.1.2.0)
 - All Flow nodes check for module enabled state (streams:4.1.2.0)
-- Optimize node result for every render node, by adding descriptions and set proper node results (streams:4.1.2.0)
+- Optimize node result for every render node by adding descriptions and set proper node results (streams:4.1.2.0)
 - Avoid having hidden nodes in the streamdesigner node panel menu (streams:4.1.2.0)
 - Fix json parse error for CosmoProxyAddActionV6 node (streams:4.1.2.2)
-- Rename a stream that contains the Stream Delete Store Variable Action node will not force streams container to crash anymore (streams:4.1.2.1)
-- Single select asset will now show same options in action menu button as it shows in the corrsponding table row entry (hw:4.1.3.5)
-- Heavily Improve Dashboard view by (hw:4.1.3.5; hp:4.1.3.2; license:4.1.0.6; hc:4.1.0.5)
+- Rename a stream that contains the "Stream Delete Store Variable Action" node will not force streams container to crash anymore (streams:4.1.2.1)
+- Single select asset will now show same options in action menu button as it shows in the corresponding table row entry (hw:4.1.3.5)
+- Heavily improved Dashboard view by (hw:4.1.3.5; hp:4.1.3.2; license:4.1.0.6; hc:4.1.0.5)
   - Reducing object size that will be published via the message bus
-  - Add a queue for jobs update event in io endpoint and remove this logic from the frontend
+  - Add a queue for jobs update event in IO endpoint and remove this logic from the frontend
   - Add exlusive tag and time to live flag for rabbitmq queues
-  - This could possibly fix
+  - This could be possibly fixed
     - Out of sync dashboards of web and panel
     - Performance improvement of dashboard view
 - Fix multiselect for all table views (correct row selection for all sort options) (hw:4.1.3.6)
