@@ -6,6 +6,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [4.2.0] (stable release)
 ### Added
+### Fixed
+### Changed
+### Removed
+## [4.2.0] (stable release)
+### Added
 - Add product version number (snapshot version) into the web (license:4.1.0.3; hw:4.1.3.0)
 - Add metadata tab to Cosmo and Housekeeper (hw:4.1.3.3)
 - Add a "Cosmo Get Asset Metadata Action" node (streams:4.1.2.4)
@@ -1290,3 +1295,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.0.7-release-2]: https://www.helmut.de
 [4.1.0]: https://www.helmut.de
 [4.1.1]: https://www.helmut.de
+[4.2.0]: https://www.helmut.de
