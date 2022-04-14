@@ -20,11 +20,23 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 ### Known issues
 - Save Project not possible with Premiere Version 15.2 if project has been opend via Helmut4. Please skip this version and use latest 15.4.
 
-### Supported Adobe Version
+### Non-supported Adobe Versions
+development
+- Premiere: 22.3.x
+- After Effects: 22.3.x
+- AME: 22.3.x
+- Beta versions
+
+### Supported Adobe Versions
+4.2.0
+- Premiere: 15.X to 22.2.x
+- After Effects: 18.X to 22.2.x
+- AME: 15.X to 22.2.x
+
 4.1.0
-- Premiere: 15.X to 22.2.0
-- After Effects: 18.X to 22.2.1
-- AME: 15.X to 22.2.0
+- Premiere: 15.X to 22.2.x
+- After Effects: 18.X to 22.2.x
+- AME: 15.X to 22.2.x
 
 4.0.7.x:
 - Premiere: 14.0 to 15.4.x
