@@ -38,7 +38,7 @@ development
 - After Effects: 18.X to 22.2.x
 - AME: 15.X to 22.2.x
 
-4.0.7.x:
+4.0.6.x + 4.0.7.x:
 - Premiere: 14.0 to 15.4.x
 - After Effects: 17.0 to 18.4.x
 - AME: 14.9.x to 15.4.x
