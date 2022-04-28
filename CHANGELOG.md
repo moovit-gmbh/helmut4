@@ -6,9 +6,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
-- API call adjusted to prevent duplicate calls and query time increased to 5 seconds
 ### Fixed
 ### Changed
+- API call adjusted to prevent duplicate calls and query time increased to 5 seconds
 ### Removed
 ## [4.2.0] (stable release)
 ### Added
