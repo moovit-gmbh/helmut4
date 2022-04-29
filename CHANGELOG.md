@@ -7,6 +7,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 ### Fixed
+- Adjustments to the Helmut extension to make it loadable in conjunction with Adobe Media Encoder 22.3.x (Compatible with Adobe Media Encoder CC 21 & 22)
 ### Changed
 - API call adjusted to prevent duplicate calls and query time increased to 5 seconds
 ### Removed
