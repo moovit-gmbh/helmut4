@@ -24,7 +24,7 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 development
 - Premiere: 22.3.x
 - After Effects: 22.3.x
-- AME: 22.3.0 
+- AME: 22.3.0 due to an internal AME issue 
 - - AME 22.3.1 requires Helmut client 4.2.0.6 or above
 - Beta versions
 
