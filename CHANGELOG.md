@@ -6,8 +6,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
+- Add PATCH to http node (streams:4.1.2.24)
 ### Fixed
-- Adjustments to the Helmut extension to make it loadable in conjunction with Adobe Media Encoder 22.3.x (Compatible with Adobe Media Encoder CC 21 & 22)
+- Adjustments to the Helmut extension to make it loadable in conjunction with Adobe Media Encoder 22.3.x (Compatible with Adobe Media Encoder CC 21 & 22) (license:4.1.0.17; hc:4.2.0.6)
+- Add Project dialog is validating category dropdown (hw:4.1.3.14)
+- Preferences will no longer disappear on blur of input field (hw:4.1.3.14)
+- Webupload profile is now assignable to a group (hw:4.1.3.14)
 ### Changed
 - API call adjusted to prevent duplicate calls and query time increased to 5 seconds
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis ()
