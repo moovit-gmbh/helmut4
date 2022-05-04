@@ -75,6 +75,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Remove fixed .gves filter for autoimports in panel (hp:4.1.3.7)
 ### Removed
 
+### Known issues
+- CO: problem when assigning a web upload profile to new groups, as this is not displayed in the frontend
+- FX/IO: metadata reordering does not work within metadata sets
+- using the "send email output" node will result in an error - delete the node from any running stream (regardless of whether it is connected or not)
+- the panel does not work with AME 22.3.x (see development version / supported Adobe version list)
+- when a user is kicked via the FX dashboard, this can sometimes result in an error 500 message
+- messages and notifications are not displayed after a certain time due to a timeout. Temporary solution: reload the web page
+- problem with the upload file paths in the Cosmo settings, as they "disappear" regularly
+
 ## [4.1.1] (patch release)
 ### Added
 - Re-added possibility to decide if a proxy should be autosynced or manual synced by re-introducing a switch into the Add Proxy to Asset node (hp:4.1.1.0; co:4.1.1.0; streams:4.1.1.0)
