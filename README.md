@@ -22,10 +22,10 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 
 ### Non-supported Adobe Versions
 development
-- Premiere: 22.3.x
-- After Effects: 22.3.x
+- Premiere: 22.3.x / 22.4.x
+- After Effects: 22.3.x / 22.4.x
 - AME: 22.3.0 due to an internal AME issue 
-- - AME 22.3.1 requires Helmut client 4.2.0.8 or above
+- - AME 22.3.1+ / 22.4.x requires Helmut client 4.2.0.8 or above
 - Beta versions
 
 ### Supported Adobe Versions
