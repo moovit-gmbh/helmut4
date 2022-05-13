@@ -12,9 +12,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add Project dialog is validating category dropdown (hw:4.1.3.14)
 - Preferences will no longer disappear on blur of input field (hw:4.1.3.14)
 - Web upload profile is now assignable to a group (hw:4.1.3.14)
+- Cancel ffmpeg render job will cancel the ffmpeg execution (streams:4.1.2.25)
+- fix send email node (license:4.2.0.1; hc:4.2.0.9; users:4.1.0.8; co:4.1.3.3; fx:4.1.0.6; hk:4.1.0.5; io:4.1.0.8)
 ### Changed
 - API call adjusted to prevent duplicate calls and query time increased to 5 seconds
-- Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis ()
+- Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
+- All conditions successful outputs will be marked with true and failed outputs with false in debug log (streams:4.1.2.25)
+- Allow carriage return in all adobe prompt nodes plus helmut confirm and helmut input dialog (license:4.2.0.1; hc:4.2.0.9; hw:4.1.3.17; streams:4.1.2.25)
 ### Removed
 ## [4.2.0] (stable release)
 ### Added
