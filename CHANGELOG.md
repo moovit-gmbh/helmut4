@@ -687,7 +687,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Extended descriptions to every input for all Nodes
 - The active project has been added to the project select dropdown in the Helmut Panel
 - FFMPEG Render Node Action to render with ffmpeg
-- FFMPEG to Helmut Linux Client (v4.0.3.7) to /usr/local/bin/ffmpeg
 - Audio Streams Condition to check how many audio streams exist in a file
 - Wildcard {project.locked.status} that returns the status of a lock (LOCKED, HOUSEKEEPER, ARCHIVED, RESTORED)
 - COPY and MOVE Profiles to Housekeeper
