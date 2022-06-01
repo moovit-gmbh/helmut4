@@ -6,29 +6,29 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release]
 ### Added
-- Add PATCH to http node (streams:4.1.2.24)
+- Add PATCH to HTTP Request Action node (streams:4.1.2.24)
 ### Fixed
 - Adjustments to the Helmut extension to make it loadable in conjunction with Adobe Media Encoder 22.3.x (Compatible with Adobe Media Encoder CC 21 & 22) (license:4.2.0.0 hc:4.2.0.8)
 - Add Project dialog is validating category dropdown (hw:4.1.3.14)
 - Preferences will no longer disappear on blur of input field (hw:4.1.3.14)
-- Web upload profile is now assignable to a group (hw:4.1.3.14)
+- Web Upload profile is now assignable to a group (hw:4.1.3.14)
 - Cancel ffmpeg render job will cancel the ffmpeg execution (streams:4.1.2.25)
-- fix send email node (license:4.2.0.1; hc:4.2.0.9; users:4.1.0.8; co:4.1.3.3; fx:4.1.0.6; hk:4.1.0.5; io:4.1.0.8)
+- Fix Send Email Output node (license:4.2.0.1; hc:4.2.0.9; users:4.1.0.8; co:4.1.3.3; fx:4.1.0.6; hk:4.1.0.5; io:4.1.0.8)
 - A combination of a "Job as Json" node with a "Job from Json" node is working now (streams:4.1.2.26)
 - Kicking a user does no longer produce a server error message (users:4.1.0.9)
 - Fix multi exclusive search filter combination in FX (fx:4.1.0.7)
 - Fix functionality of IO button for normal user (hw:4.1.3.18)
 - Fix HK multi select action button (hw:4.1.3.18)
 - Fix broken custom user streams for the case that helmut stays in idle and message bus connection gets terminated by chromium based browsers (hw:4.1.3.18)
-- Fix ui of upload progress für web upload (hw:4.1.3.18)
+- Fix UI of upload progress für web upload (hw:4.1.3.18)
 - Fix unsynced assets count in Panel (hp:4.1.3.8)
 ### Changed
 - API call adjusted to prevent duplicate calls and query time increased to 5 seconds
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
 - All conditions successful outputs will be marked with true and failed outputs with false in debug log (streams:4.1.2.25)
-- Allow carriage return in all adobe prompt nodes plus helmut confirm and helmut input dialog (license:4.2.0.1; hc:4.2.0.9; hw:4.1.3.17; streams:4.1.2.25)
+- Allow carriage return in all Adobe prompt nodes plus Helmut Confirm and Helmut Input Dialog (license:4.2.0.1; hc:4.2.0.9; hw:4.1.3.17; streams:4.1.2.25)
 - Change logic of "Regex Match Condition" node to properly match regex (streams:4.1.2.26)
-- Http Action node is automatically encoding urls now (streams:4.1.2.26)
+- HTTP Reuqest Action node is automatically encoding URLsend now (streams:4.1.2.26)
 - Add Project.Name to IO filters (hw:4.1.3.18)
 ### Removed
 ## [4.2.0] (stable release)
