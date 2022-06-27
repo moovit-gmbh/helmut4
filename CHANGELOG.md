@@ -20,7 +20,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix functionality of IO button for normal user (hw:4.1.3.18)
 - Fix HK multi select action button (hw:4.1.3.18)
 - Fix broken custom user streams for the case that helmut stays in idle and message bus connection gets terminated by chromium based browsers (hw:4.1.3.18)
-- Fix UI of upload progress für web upload (hw:4.1.3.18)
+- Fix UI of upload progress for web upload (hw:4.1.3.18)
 - Fix unsynced assets count in Panel (hp:4.1.3.8)
 ### Changed
 - API call adjusted to prevent duplicate calls and query time increased to 5 seconds
