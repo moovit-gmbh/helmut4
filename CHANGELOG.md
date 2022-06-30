@@ -26,6 +26,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix unsynced assets count in Panel (hp:4.1.3.8)
 - Fix "jump to node" feature in streamdesigner for wildcard condition nodes that now present false/true instead of failed/successful (streams 4.1.2.28)
 - Fix authentication of "Stratus add Asset to Folder Action" node (streams:4.1.2.29)
+- Modify and create dates of streams will remain after the import of streams (hw:4.1.3.31)
 ### Changed
 - API call adjusted to prevent duplicate calls and query time increased to 5 seconds
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
