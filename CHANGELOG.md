@@ -7,6 +7,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 - Add PATCH to HTTP Request Action node (streams:4.1.2.24)
+- Add Elements integration (streams:4.1.2.28)
+- Add Helmut Core (streams:4.1.2.31; license:4.2.0.4; preferences:4.1.0.5; hw:4.1.3.30; metadata:4.1.0.6; users:4.1.0.10; cron:4.1.0.8; fx:4.1.0.8; hk:4.1.0.6; io:4.1.0.9)
 ### Fixed
 - Adjustments to the Helmut extension to make it loadable in conjunction with Adobe Media Encoder 22.3.x (Compatible with Adobe Media Encoder CC 21 & 22) (license:4.2.0.0 hc:4.2.0.8)
 - Add Project dialog is validating category dropdown (hw:4.1.3.14)
@@ -22,6 +24,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix broken custom user streams for the case that helmut stays in idle and message bus connection gets terminated by chromium based browsers (hw:4.1.3.18)
 - Fix UI of upload progress for web upload (hw:4.1.3.18)
 - Fix unsynced assets count in Panel (hp:4.1.3.8)
+- Fix "jump to node" feature in streamdesigner for wildcard condition nodes that now present false/true instead of failed/successful (streams 4.1.2.28)
+- Fix authentication of "Stratus add Asset to Folder Action" node (streams:4.1.2.29)
 ### Changed
 - API call adjusted to prevent duplicate calls and query time increased to 5 seconds
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
@@ -30,6 +34,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Change logic of "Regex Match Condition" node to properly match regex (streams:4.1.2.26)
 - HTTP Reuqest Action node is automatically encoding URLsend now (streams:4.1.2.26)
 - Add Project.Name to IO filters (hw:4.1.3.18)
+- Expose AME panel logs into file that is written into the helmut logs directory (hc:4.2.0.12; license:4.2.0.4; amePanel:2.1.1)
 ### Removed
 ## [4.2.0] (stable release)
 ### Added
