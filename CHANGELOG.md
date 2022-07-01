@@ -28,7 +28,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix authentication of "Stratus add Asset to Folder Action" node (streams:4.1.2.29)
 - Modify and create dates of streams will remain after the import of streams (hw:4.1.3.31)
 ### Changed
-- API call adjusted to prevent duplicate calls and query time increased to 5 seconds
+- Raise Hiscale polling time to 5 seconds and fix duplicate request (streams:4.1.2.23)
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
 - All conditions successful outputs will be marked with true and failed outputs with false in debug log (streams:4.1.2.25)
 - Allow carriage return in all Adobe prompt nodes plus Helmut Confirm and Helmut Input Dialog (license:4.2.0.1; hc:4.2.0.9; hw:4.1.3.17; streams:4.1.2.25)
