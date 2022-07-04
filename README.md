@@ -25,7 +25,7 @@ development
 - Premiere: 22.3.x / 22.4.x / 22.5.x
 - After Effects: 22.3.x / 22.4.x / 22.5.x
 - AME: 22.3.0 due to an internal AME issue 
-- - AME 22.3.1+ / 22.4.x requires Helmut client 4.2.0.8 or above
+- - AME 22.3.1+ / 22.4.x / 22.5.x requires Helmut client 4.2.0.8 or above
 - Beta versions
 
 ### Supported Adobe Versions
