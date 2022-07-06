@@ -9,6 +9,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add PATCH to HTTP Request Action node (streams:4.1.2.24)
 - Add Elements integration (streams:4.1.2.28)
 - Add Helmut Core (streams:4.1.2.31; license:4.2.0.4; preferences:4.1.0.5; hw:4.1.3.30; metadata:4.1.0.6; users:4.1.0.10; cron:4.1.0.8; fx:4.1.0.8; hk:4.1.0.6; io:4.1.0.9)
+- Add "Project Version of Premiere Condition V1" node that checks the version of a given Premiere project (streams:4.1.2.32)
 ### Fixed
 - Adjustments to the Helmut extension to make it loadable in conjunction with Adobe Media Encoder 22.3.x (Compatible with Adobe Media Encoder CC 21 & 22) (license:4.2.0.0 hc:4.2.0.8)
 - Add Project dialog is validating category dropdown (hw:4.1.3.14)
@@ -37,6 +38,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - HTTP Request Action node is automatically encoding URL now (streams:4.1.2.26)
 - Add Project.Name to IO filters (hw:4.1.3.18)
 - Expose AME panel logs into file that is written into the helmut logs directory (hc:4.2.0.12; license:4.2.0.4; amePanel:2.1.1)
+- Optimization of the Helmut4 panel according to scaling columns when the panel is resized (hp:4.1.3.17)
 ### Removed
 ## [4.2.0] (stable release)
 ### Added
