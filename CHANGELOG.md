@@ -29,6 +29,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix authentication of "Stratus add Asset to Folder Action" node (streams:4.1.2.29)
 - Modify and create dates of streams will remain after the import of streams (hw:4.1.3.31)
 - Fix Watchfolder missing to add single jobs into the queue when triggerd by cron (io:4.1.0.10)
+- Fix the pre-resolving of metadata consisting of special characters e.g. font of different languages (hp:4.1.3.18)
 ### Changed
 - Raise Hiscale polling time to 5 seconds and fix duplicate request (streams:4.1.2.23)
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
