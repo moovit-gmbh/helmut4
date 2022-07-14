@@ -30,7 +30,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Modify and create dates of streams will remain after the import of streams (hw:4.1.3.31)
 - Fix Watchfolder missing to add single jobs into the queue when triggerd by cron (io:4.1.0.10)
 - Fix the pre-resolving of metadata consisting of special characters e.g. font of different languages (hp:4.1.3.18)
-- Fix Job Status Update Action does not push job update to the dashboard in case the previous action node also updates the dashboard (io:4.1.0.10)
+- Fix Job Status Update Action does not push job update to IO dashboard in case the previous action node also updates the dashboard (io:4.1.0.10)
 ### Changed
 - Raise Hiscale polling time to 5 seconds and fix duplicate request (streams:4.1.2.23)
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
