@@ -20,7 +20,6 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 ### Known issues
 - Save Project not possible with Premiere Version 15.2 if project has been opend via Helmut4. Please skip this version and use latest 15.4.
 - Conflict to install Media Encoder extension on MacOS Monterey (v12.x) with latest Helmut4 client version 4.2.0.18 -> As a workaround the Media Encoder extension can be installed manually using ExManCmd (corresponding extension can be requested from the Helmut Support Team)
-- Wildcard Condition + Match Multiple Patterns Condition: False matching behavior for negated conditions (e.g. CONTAINS_NOT) in combination with multiple  patterns to match against
 
 ### Non-supported Adobe Versions
 development
