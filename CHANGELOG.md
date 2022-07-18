@@ -22,7 +22,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix multi exclusive search filter combination in FX (fx:4.1.0.7)
 - Fix functionality of IO button for normal user (hw:4.1.3.18)
 - Fix HK multi select action button (hw:4.1.3.18)
-- Fix broken custom user streams for the case that helmut stays in idle and message bus connection gets terminated by chromium based browsers (hw:4.1.3.18)
+- Fix broken custom user streams for the case that Helmut stays in idle and message bus connection gets terminated by chromium based browsers (hw:4.1.3.18)
 - Fix UI of upload progress for web upload (hw:4.1.3.18)
 - Fix unsynced assets count in Panel (hp:4.1.3.8)
 - Fix "jump to node" feature in streamdesigner for wildcard condition nodes that now present false/true instead of failed/successful (streams 4.1.2.28)
@@ -31,6 +31,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Watchfolder missing to add single jobs into the queue when triggerd by cron (io:4.1.0.10)
 - Fix the pre-resolving of metadata consisting of special characters e.g. font of different languages (hp:4.1.3.18)
 - Fix Job Status Update Action does not push job update to IO dashboard in case the previous action node also updates the dashboard (io:4.1.0.10)
+- Fix timeout problem for medialoopster Update Asset Delete Date Action (streams:4.1.2.35)
 ### Changed
 - Raise Hiscale polling time to 5 seconds and fix duplicate request (streams:4.1.2.23)
 - Windows Server was resolved as Windows NT (unknown), which has now been changed to Windows NT to allow use in Store Variables due to the parenthesis (streams:4.1.2.24)
