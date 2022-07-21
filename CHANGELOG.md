@@ -10,6 +10,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add Elements integration (streams:4.1.2.28)
 - Add Helmut Core (streams:4.1.2.33; license:4.2.0.4; preferences:4.1.0.5; hw:4.1.3.34; metadata:4.1.0.6; users:4.1.0.10; cron:4.1.0.8; fx:4.1.0.8; hk:4.1.0.6; io:4.1.0.9)
 - Add "Project Version of Premiere Condition V1" node that checks the version of a given Premiere project (streams:4.1.2.32)
+- Add digital signature to the Helmut4 Windows client (hc:4.2.0.18)
 ### Fixed
 - Adjustments to the Helmut extension to make it loadable in conjunction with Adobe Media Encoder 22.3.x (Compatible with Adobe Media Encoder CC 21 & 22) (license:4.2.0.0 hc:4.2.0.8)
 - Add Project dialog is validating category dropdown (hw:4.1.3.14)
