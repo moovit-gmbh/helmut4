@@ -4,7 +4,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
-## [development release]
+## [4.3.0] (stable release)
 ### Added
 - Add PATCH to HTTP Request Action node (streams:4.1.2.24)
 - Add Elements integration (streams:4.1.2.28)
@@ -1339,3 +1339,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.1.0]: https://www.helmut.de
 [4.1.1]: https://www.helmut.de
 [4.2.0]: https://www.helmut.de
+[4.3.0]: https://www.helmut.de
