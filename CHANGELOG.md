@@ -39,7 +39,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - All conditions successful outputs will be marked with true and failed outputs with false in debug log (streams:4.1.2.25)
 - Allow carriage return in all Adobe prompt nodes plus Helmut Confirm and Helmut Input Dialog (license:4.2.0.1; hc:4.2.0.9; hw:4.1.3.17; streams:4.1.2.25)
 - Change logic of "Regex Match Condition" node to properly match regex (streams:4.1.2.26)
-- HTTP Request Action node is automatically encoding URL now (streams:4.1.2.26)
+- HTTP Request Action node is automatically ASCII encoding URL now - [see w3c reference](https://www.w3schools.com/tags/ref_urlencode.asp) (streams:4.1.2.26)
 - Add Project.Name to IO filters (hw:4.1.3.18)
 - Expose AME panel logs into file that is written into the helmut logs directory (hc:4.2.0.12; license:4.2.0.4; amePanel:2.1.1)
 - Optimization of the Helmut4 panel according to scaling columns when the panel is resized (hp:4.1.3.17)
