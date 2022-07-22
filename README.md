@@ -3,7 +3,8 @@ This is a public representation for the private product [Helmut4](https://www.he
 
 ### Before updating Helmut please consider our [update guideline](https://github.com/moovit-gmbh/helmut4/blob/master/INSTALLATION_GUIDE.md)
 
-#### Helmut3 & 3rd application support cycle
+
+### Helmut4 & 3rd application support cycle
 MoovIT will deliver support on the 3 most current Helmut4 stable releases. Bug fixes will always be applied in the current stable release. Clients are encouraged to keep their installed systems up to date.
 
 Please always refer to our compatibility notes in respect to the Adobe Premiere, After Effects and Audition applications and its versions, before updating Helmut4. The compatibility information can be found under https://github.com/moovit-gmbh/helmut4/blob/master/README.md
