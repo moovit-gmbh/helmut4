@@ -12,7 +12,7 @@ Please always refer to our compatibility notes in respect to the Adobe Premiere,
 
 MoovIT will only support 3rd party application versions, that are actively being maintained and supported by the vendor of the 3rd party product - eg [Adobe](https://helpx.adobe.com/support/programs/cc-support-policy.html#cce)
 
-<br /><br />
+<br />
 
 ### Versioning
 #### Release (snapshot/product) versions:
