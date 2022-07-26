@@ -1,7 +1,7 @@
 # Helmut4
 This is a public representation for the private product [Helmut4](https://www.helmut.de/) by [MoovIT GmbH](https://www.moovit.de).
 
-<br /><br />
+<br />
 ### Helmut4 & 3rd application support cycle
 MoovIT will deliver support on the 3 most current Helmut4 stable releases. Bug fixes will always be applied in the current stable release. Clients are encouraged to keep their installed systems up to date.
 
@@ -11,6 +11,7 @@ MoovIT will only support 3rd party application versions, that are actively being
 
 
 <br />
+
 ### Before updating Helmut please consider our [update guideline](https://github.com/moovit-gmbh/helmut4/blob/master/INSTALLATION_GUIDE.md)
 
 ### Versioning
