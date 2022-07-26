@@ -1,9 +1,6 @@
 # Helmut4
 This is a public representation for the private product [Helmut4](https://www.helmut.de/) by [MoovIT GmbH](https://www.moovit.de).
 
-### Before updating Helmut please consider our [update guideline](https://github.com/moovit-gmbh/helmut4/blob/master/INSTALLATION_GUIDE.md)
-
-
 <br /><br />
 ### Helmut4 & 3rd application support cycle
 MoovIT will deliver support on the 3 most current Helmut4 stable releases. Bug fixes will always be applied in the current stable release. Clients are encouraged to keep their installed systems up to date.
@@ -12,7 +9,9 @@ Please always refer to our compatibility notes in respect to the Adobe Premiere,
 
 MoovIT will only support 3rd party application versions, that are actively being maintained and supported by the vendor of the 3rd party product - eg [Adobe](https://helpx.adobe.com/support/programs/cc-support-policy.html#cce)
 
+
 <br />
+### Before updating Helmut please consider our [update guideline](https://github.com/moovit-gmbh/helmut4/blob/master/INSTALLATION_GUIDE.md)
 
 ### Versioning
 #### Release (snapshot/product) versions:
