@@ -44,9 +44,9 @@ development
 ### Supported Adobe Versions
 
 4.3.0
-- Premiere: 15.X to 22.5.x
-- After Effects: 18.X to 22.5.x
-- AME: 15.X to 22.5.x
+- Premiere: 15.X to 22.6.x
+- After Effects: 18.X to 22.6.x
+- AME: 15.X to 22.6.x
 
 4.2.0
 - Premiere: 15.X to 22.2.x
