@@ -4,6 +4,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
+## [development release]
+### Added
+- Extend Cosmo Sequence Report Action with "mediaInOutPoint" + "sequenceInOutPoint" + "trackNumber" + "trackType" (streams:4.1.2.36; co:4.1.3.4)
+### Fixed
+- Fix Stratus Transfer Asset Action - Jobs cannot be canceled (streams:4.1.2.36)
+- Fix AME state response for offline media - "Don't encode outputs when missing items are detected" (hc:4.2.0.19; license:4.2.0.11, streams:4.1.2.36)
+- Fix using ESC key on "Add a new project" dialog leads to Duplicate issue (hw:4.1.3.37)
+### Changed
+### Removed
+
 ## [4.3.0] (stable release)
 ### Added
 - Add PATCH to HTTP Request Action node (streams:4.1.2.24)
