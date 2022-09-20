@@ -1,4 +1,4 @@
-#MIME-Typ
+# MIME-Typ
 
 Here is a list of all mime types that are recognised by Helmut4.
 The list refers to the most common formats that Adobe supports in After Effects & Premiere Pro.
@@ -7,7 +7,7 @@ Source links
 [Premiere Pro][https://helpx.adobe.com/after-effects/kb/supported-file-formats.html]
 [After Effects][https://helpx.adobe.com/at/premiere-pro/using/supported-file-formats.html]
 
-###VIDEO
+### VIDEO
 - 3gp
 - aegraphic
 - avi
@@ -50,7 +50,7 @@ Source links
 - wmv
 
 
-###AUDIO
+### AUDIO
 - aac
 - aif
 - aiff
@@ -128,12 +128,12 @@ Source links
 - xyze
 
 
-###ADOBE_PREMIERE_TITLE
+### ADOBE_PREMIERE_TITLE
 - ptl
 - prtl
 
 
-###CAPTION
+### CAPTION
 - dfxp
 - mcc
 - scc
@@ -141,20 +141,20 @@ Source links
 - stl
 
 
-###BIN
+### BIN
 - bin
 
 
-###SEQUENCE
+### SEQUENCE
 - sequence
 
 
-###MULTICAM_SEQUENCE
+### MULTICAM_SEQUENCE
 - aepx
 - chproj
 - comp
 - rush
 
 
-###MULTITRACK_SESSION
+### MULTITRACK_SESSION
 - sesx
