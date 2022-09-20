@@ -3,9 +3,9 @@
 Here is a list of all mime types that are recognised by Helmut4.
 The list refers to the most common formats that Adobe supports in After Effects & Premiere Pro.
 
-Source links
-[Premiere Pro][https://helpx.adobe.com/after-effects/kb/supported-file-formats.html]
-[After Effects][https://helpx.adobe.com/at/premiere-pro/using/supported-file-formats.html]
+Source links<br />
+[Premiere Pro](https://helpx.adobe.com/after-effects/kb/supported-file-formats.html)<br />
+[After Effects](https://helpx.adobe.com/at/premiere-pro/using/supported-file-formats.html)
 
 ### VIDEO
 - 3gp
@@ -65,7 +65,7 @@ Source links
 - wma
 
 
-###IMAGE
+### IMAGE
 - 3fr
 - ai
 - ari
