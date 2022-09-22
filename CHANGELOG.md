@@ -7,10 +7,20 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 - Extend Cosmo Sequence Report Action with "mediaInOutPoint" + "sequenceInOutPoint" + "trackNumber" + "trackType" (streams:4.1.2.36; co:4.1.3.4)
+- Add Blackmagic RAW (.braw) file extension to Helmut4 mimetype detection and complete the list according to Adobe supported files list (co:4.1.3.5; streams:4.1.2.39)
+- Add the license usage indicator to license view to make it available for all products and not only in fx (hw:4.1.3.40)
 ### Fixed
 - Fix Stratus Transfer Asset Action - Jobs cannot be canceled (streams:4.1.2.36)
 - Fix AME state response for offline media - "Don't encode outputs when missing items are detected" (hc:4.2.0.19; license:4.2.0.11, streams:4.1.2.36)
 - Fix using ESC key on "Add a new project" dialog leads to Duplicate issue (hw:4.1.3.37)
+- License key from pdf can now be copied into import license dialog (hw:4.1.3.40)
+- Fix broken qscan integration (streams:4.1.2.38, io:4.1.0.11)
+- Force linux client restart whenever he looses connection to message bus (hc:4.2.0.20; license:4.2.0.12)
+- Fix all iterative nodes to just skip an item on error and continue with the next one (streams:4.1.2.38)
+- Fix render in to out for premiere render (streams:4.1.2.39;hc:4.2.0.21;license:4.2.0.13)
+- "Get Asset Metadata" Node sets the result to be empty whenever a node has no metadata field for given key (streams:4.1.2.39)
+- Last selected groups and categories in fx create project dialog gets remembered again (hw:4.1.3.40)
+- Changed metadata in export tab of Helmut4 panel will not be resetted when switching to dashboard tab and back to export (hp:4.1.3.19)
 ### Changed
 ### Removed
 
