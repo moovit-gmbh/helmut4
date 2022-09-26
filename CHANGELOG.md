@@ -64,6 +64,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Expose AME panel logs into file that is written into the helmut logs directory (hc:4.2.0.12; license:4.2.0.4; amePanel:2.1.1)
 - Optimization of the Helmut4 panel according to scaling columns when the panel is resized (hp:4.1.3.17)
 ### Removed
+### Known issues
+- Panel: Metadata values won't be recalled when switching from Dashboard to Export tab
+- FX: The last used category & template is not displayed when a new project is created
 ## [4.2.0] (stable release)
 ### Added
 - Add product version number (snapshot version) into the web (license:4.1.0.3; hw:4.1.3.0)
