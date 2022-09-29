@@ -21,8 +21,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - "Get Asset Metadata" Node sets the result to be empty whenever a node has no metadata field for given key (streams:4.1.2.39)
 - Last selected groups and categories in fx create project dialog gets remembered again (hw:4.1.3.40)
 - Changed metadata in export tab of Helmut4 panel will not be resetted when switching to dashboard tab and back to export (hp:4.1.3.19)
+- All user notification nodes can now be triggered from within the stream designer and being executed in the test suite (streams:4.1.2.40)
+- All iteration nodes will now skip errors for certain element and continue with the next one (streams:4.1.2.40)
+- Profile group attachments will now be cleaned up for deleted groups (streams:4.1.2.40; users:4.1.0.11)
+- Further improve memory handling for stream executive endpoints / program parts (hc:4.2.0.22; streams:4.1.2.40; license:4.2.0.15;co:4.1.3.7; fx:4.1.0.9;hk:4.1.0.7;io:4.1.0.12)
+- Add reconnect logic for message bus connection drops for Windows and MacOS Helmut4 clients and add restart logic for this issue for the linux clients (hc:4.2.0.22; license:4.2.0.15;)
 ### Changed
+- Elements Mount Workspaces On Client Action Node is now able to consume CSV format as input parameter (streams:4.1.2.40)
+- Helmut CORE license owner can now assign fx metadata to groups (hw:4.1.3.41; metadata:4.1.0.7)
 ### Removed
+- Remove delete project option from cosmo tab of Helmut4 panel (hp:4.1.3.20)
 
 ## [4.3.0] (stable release)
 ### Added
