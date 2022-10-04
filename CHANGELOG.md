@@ -11,7 +11,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add the license usage indicator to license view to make it available for all products and not only in fx (hw:4.1.3.40)
 ### Fixed
 - Fix Stratus Transfer Asset Action - Jobs cannot be canceled (streams:4.1.2.36)
-- Fix AME state response for offline media - "Don't encode outputs when missing items are detected" (hc:4.2.0.19; license:4.2.0.11, streams:4.1.2.36)
+- Fix AME state response for offline media - with enabled preference "Don't encode outputs when missing items are detected" (hc:4.2.0.19; license:4.2.0.11, streams:4.1.2.36)
 - Fix using ESC key on "Add a new project" dialog leads to Duplicate issue (hw:4.1.3.37)
 - License key from pdf can now be copied into import license dialog (hw:4.1.3.40)
 - Fix broken qscan integration (streams:4.1.2.38, io:4.1.0.11)
