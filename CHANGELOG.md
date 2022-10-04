@@ -4,7 +4,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
-## [development release]
+## [4.4.0] (stable release)
 ### Added
 - Extend Cosmo Sequence Report Action with "mediaInOutPoint" + "sequenceInOutPoint" + "trackNumber" + "trackType" (streams:4.1.2.36; co:4.1.3.4)
 - Add Blackmagic RAW (.braw) file extension to Helmut4 mimetype detection and complete the list according to Adobe supported files list (co:4.1.3.5; streams:4.1.2.39)
