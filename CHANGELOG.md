@@ -4,6 +4,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
+
 ## [4.4.0] (stable release)
 ### Added
 - Extend Cosmo Sequence Report Action with "mediaInOutPoint" + "sequenceInOutPoint" + "trackNumber" + "trackType" (streams:4.1.2.36; co:4.1.3.4)
