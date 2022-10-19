@@ -36,10 +36,11 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 ### Non-supported Adobe Versions
 development
 - any Beta version (23.x)
-- Premiere: 22.7+
-- After Effects: 22.7+
-- AME: 22.7+
+- Premiere: 23.0+
+- After Effects: 23.0++
+- AME: 23.0+
 
+CC23 is currently on investigation - 29th Oct 2022
 
 ### Supported Adobe Versions
 
