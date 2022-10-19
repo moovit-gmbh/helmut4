@@ -28,7 +28,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix broken qscan integration (streams:4.1.2.38, io:4.1.0.11)
 - Force linux client restart whenever he looses connection to message bus (hc:4.2.0.20; license:4.2.0.12)
 - Fix all iterative nodes to just skip an item on error and continue with the next one (streams:4.1.2.38)
-- Fix render in to out for premiere render (streams:4.1.2.39;hc:4.2.0.21;license:4.2.0.13)
+- Fix render in to out for premiere render (streams:4.1.2.39;hc:4.2.0.24;license:4.2.0.17)
 - "Get Asset Metadata" Node sets the result to be empty whenever a node has no metadata field for given key (streams:4.1.2.39)
 - Last selected groups and categories in fx create project dialog gets remembered again (hw:4.1.3.40)
 - Changed metadata in export tab of Helmut4 panel will not be resetted when switching to dashboard tab and back to export (hp:4.1.3.19)
