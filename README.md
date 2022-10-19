@@ -40,7 +40,7 @@ development
 - After Effects: 23.0++
 - AME: 23.0+
 
-CC23 is currently on investigation - 29th Oct 2022
+CC23 is currently being tested internally - 29th Oct 2022
 
 ### Supported Adobe Versions
 
