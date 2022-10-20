@@ -35,23 +35,20 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 
 ### Non-supported Adobe Versions
 development
-- any Beta version (23.x)
-- Premiere: 23.0+
-- After Effects: 23.0++
-- AME: 23.0+
-
-
-### CC23 is currently being tested internally - 29th Oct 2022
+- any Beta version (23.1+)
 
 
 ### Supported Adobe Versions
 
 4.4.0
-- Premiere: 15.X to 22.6.x
-- After Effects: 18.X to 22.6.x
-- AME: 15.X to 22.6.x
+- Premiere: 15.X to 22.6.x, 23.0
+- After Effects: 18.X to 22.6.x, 23.0
+- AME: 15.X to 22.6.x, 23.0
   - AME: 22.3.0 is not supported due to an internal AME change 
   - AME 22.3.1+ / 22.4.x / 22.5.x requires Helmut client 4.2.0.8 or above
+
+** Please reinstall the client after upgrading to CC23! **
+
 
 4.3.0
 - Premiere: 15.X to 22.6.x
