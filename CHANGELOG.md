@@ -30,6 +30,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 - Elements Mount Workspaces On Client Action Node is now able to consume CSV format as input parameter (streams:4.1.2.40)
 - Helmut CORE license owner can now assign fx metadata to groups (hw:4.1.3.41; metadata:4.1.0.7)
+- Updated the Premiere Version Convert V2 & Project Version of Premiere V1 Nodes to consider Adobe CC23 (streams:4.1.2.40)
 ### Removed
 - Remove delete project option from cosmo tab of Helmut4 panel (hp:4.1.3.20)
 ### Known issues
