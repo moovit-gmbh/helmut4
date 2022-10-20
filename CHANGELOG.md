@@ -32,6 +32,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Helmut CORE license owner can now assign fx metadata to groups (hw:4.1.3.41; metadata:4.1.0.7)
 ### Removed
 - Remove delete project option from cosmo tab of Helmut4 panel (hp:4.1.3.20)
+### Known issues
+- Job Render in Premiere Action V3 is ignoring "in to out" option
+  - fixed with license:4.2.0.17/hc:4.2.0.24
 
 ## [4.3.0] (stable release)
 ### Added
