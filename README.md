@@ -47,7 +47,7 @@ development
   - AME: 22.3.0 is not supported due to an internal AME change 
   - AME 22.3.1+ / 22.4.x / 22.5.x requires Helmut client 4.2.0.8 or above
 
-** Please reinstall the client after upgrading to CC23! **
+**Please reinstall the client after upgrading to CC23!**
 
 
 4.3.0
