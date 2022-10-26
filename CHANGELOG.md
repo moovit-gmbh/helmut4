@@ -5,6 +5,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
+## (development release)
+### Added
+### Fixed
+- Fix AME ignores In to Out marker proceeding via Job Create Job Action (streams:4.1.2.42)
+### Changed
+- EFS Create Mediaspace Action adjustment for Media proxies scheme  (streams:4.1.2.42)
+### Removed
+### Known Issues
+
 ## [4.4.0] (stable release)
 ### Added
 - Extend Cosmo Sequence Report Action with "mediaInOutPoint" + "sequenceInOutPoint" + "trackNumber" + "trackType" (streams:4.1.2.36; co:4.1.3.4)
@@ -36,7 +45,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Known issues
 - Job Render in Premiere Action V3 is ignoring "in to out" option
   - fixed with license:4.2.0.17/hc:4.2.0.24
-
+ 
 ## [4.3.0] (stable release)
 ### Added
 - Add PATCH to HTTP Request Action node (streams:4.1.2.24)
@@ -80,6 +89,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Known issues
 - Panel: Metadata values won't be recalled when switching from Dashboard to Export tab
 - FX: The last used category & template is not displayed when a new project is created
+
 ## [4.2.0] (stable release)
 ### Added
 - Add product version number (snapshot version) into the web (license:4.1.0.3; hw:4.1.3.0)
@@ -89,6 +99,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add the two missing options "Render audio effects", "Include clip copies" and add custom "Delete video clips before render" option to the "Job Render AAF in Premiere Action" node (streams:4.1.2.16; hc:4.1.0.7)
 - Add new cron feature for cleanup of the jobs database (hw:4.1.3.9; cronjob:4.1.0.5; fx:4.1.0.5; io:4.1.0.7)
   - Cleanup can be made either by defining a max jobs count to keep or by relative date filter and can be setup as a cronjob that runs on a daily basis
+
 ### Fixed
 - Fix $HueLampState warning which is populated on streams container startup (streams:4.1.2.0)
 - All Flow nodes check for module enabled state (streams:4.1.2.0)
@@ -129,6 +140,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix misleading table sorting of dates in several views (hw:4.1.3.11)
 - Fix drag and drop feature when choosing assets from inside a bin (hp:4.1.3.6)
 - Set default value "Use cron" of watch folder dialog to false (hw:4.1.3.12)
+- 
 ### Changed
 - Do not show cron option in watch folder dialog when HK is not licensed (hw:4.1.3.1)
 - Update rabbitmq message bus to version 3.9.11 (rabbitmq:4.1.0.0)
