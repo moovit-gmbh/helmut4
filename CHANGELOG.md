@@ -9,6 +9,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Added
 ### Fixed
 - Fix AME ignores In to Out marker proceeding via Job Create Job Action (streams:4.1.2.42)
+- Fix Rclone nodes due to wrong validation of destination path (streams:4.1.2.42)
 ### Changed
 - EFS Create Mediaspace Action adjustment for Media proxies scheme  (streams:4.1.2.42)
 ### Removed
