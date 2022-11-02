@@ -46,6 +46,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Known issues
 - Job Render in Premiere Action V3 is ignoring "in to out" option
   - fixed with license:4.2.0.17/hc:4.2.0.24
+- Start Premiere Panel action not working
+  - stick with license:4.2.0.16/hc:4.2.0.23
  
 ## [4.3.0] (stable release)
 ### Added
