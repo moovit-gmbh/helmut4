@@ -7,10 +7,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## (development release)
 ### Added
+- Add possibility to change order of CUSTOM_IO streams via arrows (hw:4.1.3.43)
 ### Fixed
 - Fix AME ignores In to Out marker proceeding via Job Create Job Action (streams:4.1.2.42)
 - Fix Rclone nodes due to wrong validation of destination path (streams:4.1.2.42)
 - Introduced changes by nodes that change the project (i.e. Project Metadata Changer) which got called by a "Execute Generic Stream" action node will now persist (streams:4.1.2.44)
+- Fix Premiere/After Effects Start Helmut Panel Action (hc:4.2.0.25; license:4.2.0.18)
+- Fix Rclone nodes do not allow service:folderpath in destination (streams:4.1.2.45)
+- Fix 'Contains not' filter is adding an additional "/" to filepath (co:4.1.3.8)
+- Fix missing Export button for Web Export when multiselecting assets in CO (hw:4.1.3.43)
+- Fix missing type for Web Import, -Export and -Upload in filter list of IO/CO dashboard (hw:4.1.3.43, hp:4.1.3.21)
 ### Changed
 - EFS Create Mediaspace Action adjustment for Media proxies scheme  (streams:4.1.2.42)
 ### Removed
