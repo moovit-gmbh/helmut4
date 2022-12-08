@@ -8,6 +8,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## (development release)
 ### Added
 - Add possibility to change order of CUSTOM_IO streams via arrows (hw:4.1.3.43)
+- Add node result to File/Folder exists node that holds the first value where condition was not met (streams:4.1.2.48)
+- Introduce new menu entry where panel import of bins will skip sequences which imports take long period of time and freeze premiere ui (hp:4.1.3.24)
 ### Fixed
 - Fix AME ignores In to Out marker proceeding via Job Create Job Action (streams:4.1.2.42)
 - Fix Rclone nodes due to wrong validation of destination path (streams:4.1.2.42)
@@ -17,8 +19,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix 'Contains not' filter is adding an additional "/" to filepath (co:4.1.3.8)
 - Fix missing Export button for Web Export when multiselecting assets in CO (hw:4.1.3.43)
 - Fix missing type for Web Import, -Export and -Upload in filter list of IO/CO dashboard (hw:4.1.3.43, hp:4.1.3.21)
+- Job as json followed by Job from json now does not override the job id with previous one and also adapts variables of parsed job (streams:4.1.2.48)
 ### Changed
 - EFS Create Mediaspace Action adjustment for Media proxies scheme  (streams:4.1.2.42)
+- Add support for at least one other panel that registers for the Premiere onItemAddedSuccess event listener function (hp:4.1.3.24)
 ### Removed
 ### Known Issues
 
