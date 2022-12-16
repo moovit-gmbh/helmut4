@@ -25,7 +25,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add support for at least one other panel that registers for the Premiere onItemAddedSuccess event listener function (hp:4.1.3.24)
 ### Removed
 ### Known Issues
-- Export via Job Render AAF In Premiere Action taking longer than 20 min and the need to close Premiere Pro afterwards requires Sleep Action in combination with Job Execute Extendscript in Premiere Action additionally
+- Export via Job Render AAF In Premiere Action taking longer than 20 min and the case of closing Premiere Pro afterwards requires Sleep Action in combination with Job Execute Extendscript in Premiere Action additionally
 
 ## [4.4.0] (stable release)
 ### Added
