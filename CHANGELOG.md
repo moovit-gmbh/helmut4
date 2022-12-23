@@ -5,7 +5,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
-## (development release)
+## [4.5.0] (stable release)
 ### Added
 - Add possibility to change order of CUSTOM_IO streams via arrows (hw:4.1.3.43)
 - Add node result to File/Folder exists node that holds the first value where condition was not met (streams:4.1.2.48)
@@ -14,6 +14,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add error response to debugger when Adobe panel extension is not accessible e.g. for Job Render in Premiere Action (streams:4.1.2.50)
 - Add Stratus Change Project Metadata Action node (streams:4.1.2.51)
 - Add support for video subclips while indexing Premiere Pro projects (hp:4.1.3.27; hw:4.1.3.47; co:4.1.3.10)
+- Integration with Vidicore and Vidiflow (streams:4.1.2.53)
 ### Fixed
 - Fix AME ignores In to Out marker proceeding via Job Create Job Action (streams:4.1.2.42)
 - Fix Rclone nodes due to wrong validation of destination path (streams:4.1.2.42)
@@ -1416,3 +1417,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.2.0]: https://www.helmut.de
 [4.3.0]: https://www.helmut.de
 [4.4.0]: https://www.helmut.de
+[4.5.0]: https://www.helmut.de
