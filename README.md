@@ -40,6 +40,15 @@ development
 
 ### Supported Adobe Versions
 
+4.5.0
+- Premiere: 15.X to 22.6.x, 23.1
+- After Effects: 18.X to 22.6.x, 23.1
+- AME: 15.X to 22.6.x, 23.1
+  - AME: 22.3.0 is not supported due to an internal AME change 
+  - AME 22.3.1+ / 22.4.x / 22.5.x requires Helmut client 4.2.0.8 or above
+
+**Please reinstall the client after upgrading to CC23!**
+
 4.4.0
 - Premiere: 15.X to 22.6.x, 23.0
 - After Effects: 18.X to 22.6.x, 23.0
