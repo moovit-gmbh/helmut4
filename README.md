@@ -18,7 +18,7 @@ MoovIT will only support 3rd party application versions, that are actively being
 #### Release (snapshot/product) versions:
 The product version is defined as <br> 
 _Helmut_Version.Major_snapshot.Snapshot_patch_ <br>
-The current version is 4.1.0 and the next snapshot after the following development cycle will be 4.2.0. If a snapshot gets patched there will be a 4.1.X
+The current version is 4.5.0 and the next snapshot after the following development cycle will be 4.6.0. If a snapshot gets patched there will be a 4.5.x
 
 #### Endpoint (microservice/docker image) versions:
 These are only relevant if you manually update specific microservices (e.g. via portainer). <br>
@@ -35,56 +35,55 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 
 ### Non-supported Adobe Versions
 development
-- any Beta version (23.1+)
+- any Beta version (23.2+)
 
 
 ### Supported Adobe Versions
 
-4.5.0
-- Premiere: 15.X to 22.6.x, 23.1
-- After Effects: 18.X to 22.6.x, 23.1
-- AME: 15.X to 22.6.x, 23.1
+#### 4.5.0
+- Premiere: 22.x to 23.1.x
+- After Effects: 22.x to 23.1.x
+- AME: 22.x to 23.1.x // [AME CC22 limitation](https://github.com/moovit-gmbh/helmut4/edit/master/README.md#440)
+
+**Please reinstall the client after upgrading to CC23!**
+
+
+#### 4.4.0
+- Premiere: 15.x to 22.6.x, 23.0
+- After Effects: 18.x to 22.6.x, 23.0
+- AME: 15.x to 22.6.x, 23.0
   - AME: 22.3.0 is not supported due to an internal AME change 
   - AME 22.3.1+ / 22.4.x / 22.5.x requires Helmut client 4.2.0.8 or above
 
 **Please reinstall the client after upgrading to CC23!**
 
-4.4.0
-- Premiere: 15.X to 22.6.x, 23.0
-- After Effects: 18.X to 22.6.x, 23.0
-- AME: 15.X to 22.6.x, 23.0
-  - AME: 22.3.0 is not supported due to an internal AME change 
-  - AME 22.3.1+ / 22.4.x / 22.5.x requires Helmut client 4.2.0.8 or above
 
-**Please reinstall the client after upgrading to CC23!**
-
-
-4.3.0
-- Premiere: 15.X to 22.6.x
-- After Effects: 18.X to 22.6.x
-- AME: 15.X to 22.6.x
+#### 4.3.0
+- Premiere: 15.x to 22.6.x
+- After Effects: 18.x to 22.6.x
+- AME: 15.x to 22.6.x
   - AME: 22.3.0 is not supported due to an internal AME change
   - AME 22.3.1+ / 22.4.x / 22.5.x requires Helmut client 4.2.0.8 or above
 
-4.2.0
-- Premiere: 15.X to 22.2.x
-- After Effects: 18.X to 22.2.x
-- AME: 15.X to 22.2.x
+#### 4.2.0
+- Premiere: 15.x to 22.2.x
+- After Effects: 18.x to 22.2.x
+- AME: 15.x to 22.2.x
 
-4.1.0
-- Premiere: 15.X to 22.2.x
-- After Effects: 18.X to 22.2.x
-- AME: 15.X to 22.2.x
+#### 4.1.0
+- Premiere: 15.x to 22.2.x
+- After Effects: 18.x to 22.2.x
+- AME: 15.x to 22.2.x
 
-4.0.6.x + 4.0.7.x:
+#### 4.0.6.x + 4.0.7.x:
 - Premiere: 14.0 to 15.4.x
 - After Effects: 17.0 to 18.4.x
 - AME: 14.9.x to 15.4.x
 
-4.0.5.x:
+#### 4.0.5.x:
 - Premiere/AME: <= 15.1 (mcc_license/client:4.0.6.1 required)
 
-4.0.4.x:
+#### 4.0.4.x:
 - Premiere/AME: <= 14.9.x
 
 ![helmut-family](https://sev.moovit24.de/uploads/TW9vdklUIEdtYkg/OxHA6b6M3JAoqhup7HTVSUgew9Tt0DP66E8JJZSFe0v8xxDoRfxYuOzzl9g5jR3ElGWTcsuu6NQ1xjS3VlpOdRNDco5vmnP1vVbW/Helmut-4-Family-Logo-2.png)
