@@ -32,6 +32,7 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 - Save Project not possible with Premiere Version 15.2 if project has been opend via Helmut4. Please skip this version and use latest 15.4.
 - Possible conflict to install Media Encoder extension (de.moovit.AME_WS) properly on MacOS with Helmut4 client versions >4.2.0.18 -> As a workaround the Media Encoder extension can be installed manually using Upier (or ExManCmd). Corresponding extension can be requested from the Helmut Support Team.
 - Wildcard Condition + Match Multiple Patterns Condition: False matching behavior for negated conditions (e.g. CONTAINS_NOT) in combination with multiple patterns to match against
+- Not using any metadata while creating a project may cause a corrupted document in the database (mongoDB). As a consequence it is not possible to open that kind of project
 
 ### Non-supported Adobe Versions
 development
