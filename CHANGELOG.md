@@ -5,6 +5,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
+## [development release]
+### Added
+### Fixed
+- Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
+- Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
+### Changed
+### Removed
+### Known Issues
+
 ## [4.5.0] (stable release)
 ### Added
 - Add possibility to change order of CUSTOM_IO streams via arrows (hw:4.1.3.43)
@@ -127,7 +136,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add the two missing options "Render audio effects", "Include clip copies" and add custom "Delete video clips before render" option to the "Job Render AAF in Premiere Action" node (streams:4.1.2.16; hc:4.1.0.7)
 - Add new cron feature for cleanup of the jobs database (hw:4.1.3.9; cronjob:4.1.0.5; fx:4.1.0.5; io:4.1.0.7)
   - Cleanup can be made either by defining a max jobs count to keep or by relative date filter and can be setup as a cronjob that runs on a daily basis
-
 ### Fixed
 - Fix $HueLampState warning which is populated on streams container startup (streams:4.1.2.0)
 - All Flow nodes check for module enabled state (streams:4.1.2.0)
@@ -168,7 +176,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix misleading table sorting of dates in several views (hw:4.1.3.11)
 - Fix drag and drop feature when choosing assets from inside a bin (hp:4.1.3.6)
 - Set default value "Use cron" of watch folder dialog to false (hw:4.1.3.12)
-- 
 ### Changed
 - Do not show cron option in watch folder dialog when HK is not licensed (hw:4.1.3.1)
 - Update rabbitmq message bus to version 3.9.11 (rabbitmq:4.1.0.0)
@@ -178,7 +185,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Project as JSON (Legacy) node is now deprecated (streams:4.1.2.16)
 - Remove fixed .gves filter for auto imports in panel (hp:4.1.3.7)
 ### Removed
-
 ### Known issues
 - CO: problem when assigning a web upload profile to new groups, as this is not displayed in the frontend
 - FX/IO: metadata reordering does not work within metadata sets
@@ -194,7 +200,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Fixed
 - Metadata with the flag pre-resolve will be added to job created by web export trigger correctly (hw:4.1.1.2)
 - job.source value is now set correctly (project path) in the job object of a web export triggered on a sequence object (hw:4.1.1.2)
-
 ## [4.1.0] (stable release)
 ### Added
 - Add adobe project id (nodeId or dynamicLinkGUID or sequenceID) wildcard (streams:4.1.0.1)
