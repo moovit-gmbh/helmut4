@@ -10,6 +10,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Fixed
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
 - Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
+- Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 ### Changed
 ### Removed
 ### Known Issues
