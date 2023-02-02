@@ -49,7 +49,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Removed
 ### Known Issues
 - Export via Job Render AAF In Premiere Action taking longer than 20 min and the case of closing Premiere Pro afterwards requires Sleep Action in combination with Job Execute Extendscript in Premiere Action additionally
-- Particular metadata of a profile (e.g. Type Select) in Helmut panel's may not be send with the Export stream
+- Particular metadata of a profile (e.g. Type Select) in Helmut panel may not be send to the Export stream due to tab switches (frequently reloading panel is recommended)
 
 ## [4.4.0] (stable release)
 ### Added
