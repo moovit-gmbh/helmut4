@@ -8,8 +8,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 ### Fixed
-- Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
-- Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 ### Changed
 ### Removed
@@ -43,12 +41,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Cosmo throws error message if project name contains an apostrofe (hw:4.1.3.46; hp:4.1.3.25; co:4.1.3.10)
 - Improve performance of the Cosmo import asset file chooser when folders contain huge amount of files (hc:4.2.0.26; hw:4.1.3.46)
 - Fix Media Enocder Export via After Effects including corrupted .aepx render files (streams:4.1.2.52, hp:4.1.3.27)
+- Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
+- Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
 ### Changed
 - EFS Create Mediaspace Action adjustment for Media proxies scheme  (streams:4.1.2.42)
 - Add support for at least one other panel that registers for the Premiere onItemAddedSuccess event listener function (hp:4.1.3.24)
 ### Removed
 ### Known Issues
 - Export via Job Render AAF In Premiere Action taking longer than 20 min and the case of closing Premiere Pro afterwards requires Sleep Action in combination with Job Execute Extendscript in Premiere Action additionally
+- Default metadata of a profile (e.g. Type Select) in Helmut panel's Export tab can be removed due to switching tabs
 
 ## [4.4.0] (stable release)
 ### Added
