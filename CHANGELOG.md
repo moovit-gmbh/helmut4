@@ -48,7 +48,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - EFS Create Mediaspace Action adjustment for Media proxies scheme  (streams:4.1.2.42)
 - Add support for at least one other panel that registers for the Premiere onItemAddedSuccess event listener function (hp:4.1.3.24)
 ### Removed
-- hp:4.1.3.29 has been downgraded to hp:4.1.3.27 due to possible metadata loss during export (Date of change: 8th February 2023)
+- UPDATE: hp:4.1.3.29 has been downgraded to hp:4.1.3.27 in the corresponding snapshot due to possible metadata loss during export (Date of change: 8th February 2023)
 ### Known Issues
 - Export via Job Render AAF In Premiere Action taking longer than 20 min and the case of closing Premiere Pro afterwards requires Sleep Action in combination with Job Execute Extendscript in Premiere Action additionally
 
