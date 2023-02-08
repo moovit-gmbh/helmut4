@@ -9,9 +9,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Added
 ### Fixed
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
+- Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
+- Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
 ### Changed
 ### Removed
 ### Known Issues
+- Particular metadata of a profile (e.g. Type Select) in Helmut panel may not be send to the Export stream due to tab switches (hp:4.1.3.28 + hp:4.1.3.29) - frequently reloading panel is recommended
 
 ## [4.5.0] (stable release)
 ### Added
@@ -41,15 +44,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Cosmo throws error message if project name contains an apostrofe (hw:4.1.3.46; hp:4.1.3.25; co:4.1.3.10)
 - Improve performance of the Cosmo import asset file chooser when folders contain huge amount of files (hc:4.2.0.26; hw:4.1.3.46)
 - Fix Media Enocder Export via After Effects including corrupted .aepx render files (streams:4.1.2.52, hp:4.1.3.27)
-- Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
-- Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
 ### Changed
 - EFS Create Mediaspace Action adjustment for Media proxies scheme  (streams:4.1.2.42)
 - Add support for at least one other panel that registers for the Premiere onItemAddedSuccess event listener function (hp:4.1.3.24)
 ### Removed
+- hp:4.1.3.29 has been downgraded to hp:4.1.3.27 due to possible metadata loss during export (Date of change: 8th February 2023)
 ### Known Issues
 - Export via Job Render AAF In Premiere Action taking longer than 20 min and the case of closing Premiere Pro afterwards requires Sleep Action in combination with Job Execute Extendscript in Premiere Action additionally
-- Particular metadata of a profile (e.g. Type Select) in Helmut panel may not be send to the Export stream due to tab switches (frequently reloading panel is recommended)
 
 ## [4.4.0] (stable release)
 ### Added
