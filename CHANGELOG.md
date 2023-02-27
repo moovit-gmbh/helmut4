@@ -11,6 +11,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
 - Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
+- Fix of canceling or deleting a job in status "running" can cancel a different job (io:4.1.0.14; hw:4.1.3.50; hp:4.1.3.31)
 ### Changed
 ### Removed
 ### Known Issues
