@@ -15,7 +15,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 ### Removed
 ### Known Issues
-- Particular metadata of a profile in Helmut panel may not be send to the Export stream due to tab switches (hp:4.1.3.28 + hp:4.1.3.29) - frequently reloading panel is recommended
+- Particular metadata of a profile in Helmut panel may not be send to the Export stream due to tab switches (hp:4.1.3.28 + hp:4.1.3.29 and above) - frequently reloading panel is recommended
 
 ## [4.5.0] (stable release)
 ### Added
