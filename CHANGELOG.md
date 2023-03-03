@@ -8,12 +8,19 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release]
 ### Added
 - Added language entry for 'Import skip sequences' in Helmut4 panel (hp:4.1.3.30; hw:4.1.3.49)
+- Added compability of nginx container for disabled IPv6 on server (hw:4.1.3.49; hp:4.1.3.30)
+- Added backslashes to escape for JSON formatting (hp:4.1.3.36)
+- Added scroll bar into Web Upload mask in Cosmo for better view of metadata (hw:4.1.3.52)
 ### Fixed
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
 - Fix of non existing project.metadata (in $reducedProjectObject util funciton) field that avoids job creation on autoimport and export in panel (hp:4.1.3.29)
 - Fix of canceling or deleting a job in status "running" can cancel a different job (io:4.1.0.14; hw:4.1.3.50; hp:4.1.3.31)
 - Fix editing or adding cron job is not possible without refreshing the page (hw:4.1.3.48)
+- Fix Custom Helmut Client Certificat will not be used with existing Helmut4.p12 (hc:4.2.0.28; license:4.2.0.21)
+- Fix Cosmo Change Asset Metadata Action node regarding supported POST method for server stream (co:4.1.3.12)
+- Fix escaping ' in JSON to prevent evalscript error (hp:4.1.3.36)
+- Fix eval script error caused by carriage return in default value metadata of an Export profile (hp:4.1.3.36)
 ### Changed
 ### Removed
 ### Known Issues
