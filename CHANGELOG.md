@@ -21,6 +21,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Cosmo Change Asset Metadata Action node regarding supported POST method for server stream (co:4.1.3.12)
 - Fix escaping ' in JSON to prevent evalscript error (hp:4.1.3.36)
 - Fix eval script error caused by carriage return in default value metadata of an Export profile (hp:4.1.3.36)
+- Fix carriage return ignoring additional default values for Multiselect metadata (hp:4.1.3.32; hw:4.1.3.51)
+- Fix new path information of unsynced asset get lost when indexing the project (co:4.1.3.11)
+- Fix loading overlay does not disappear after canceling Premiere Open Choose Dialog (hp:4.1.3.35)
 ### Changed
 ### Removed
 ### Known Issues
