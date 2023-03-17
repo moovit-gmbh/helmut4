@@ -11,6 +11,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added compability of nginx container for disabled IPv6 on server (hw:4.1.3.49; hp:4.1.3.30)
 - Added backslashes to escape for JSON formatting (hp:4.1.3.36)
 - Added scroll bar into Web Upload mask in Cosmo for better view of metadata (hw:4.1.3.52)
+- Added date to Panel log for AME (hc:4.2.0.29, license:4.2.0.22)
 ### Fixed
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
