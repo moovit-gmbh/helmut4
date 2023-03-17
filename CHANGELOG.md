@@ -25,10 +25,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix new path information of unsynced asset get lost when indexing the project (co:4.1.3.11)
 - Fix loading overlay does not disappear after canceling Premiere Open Choose Dialog (hp:4.1.3.35)
 - Fix job status update re-setting progress to runnning (e.g. during async path after split stream action) (io:4.1.0.15)
+- Fix loose of metadata of type Select and Autocomplete during tab switches in Helmut panel (hp:4.1.3.37)
 ### Changed
 ### Removed
 ### Known Issues
-- Particular metadata of a profile in Helmut panel may not be send to the Export stream due to tab switches - frequently reloading panel is recommended
 
 ## [4.5.0] (stable release)
 ### Added
