@@ -27,6 +27,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix loading overlay does not disappear after canceling Premiere Open Choose Dialog (hp:4.1.3.35)
 - Fix job status update re-setting progress to runnning (e.g. during async path after split stream action) (io:4.1.0.15)
 - Fix loose of metadata of type Select and Autocomplete during tab switches in Helmut panel (hp:4.1.3.37)
+- Fix Manage users tab according to "Select all" option incl. auto reloading of users (hw:4.1.3.53)
+- Fix not accessible Cosmo Web Upload window (hw:4.1.3.53)
+- Fix Helmut Confirm Dialog Action node not responding after a long period of time (hw:4.1.3.53)
+- Fix Helmut Input Dialog Action node not responding after a long period of time (hw:4.1.3.53)
+- Fix Job Render in AME Action node error "Running and is timed out: true" (streams:4.1.2.57)
 ### Changed
 ### Removed
 ### Known Issues
