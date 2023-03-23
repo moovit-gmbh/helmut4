@@ -12,6 +12,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added backslashes to escape for JSON formatting (hp:4.1.3.36)
 - Added scroll bar into Web Upload mask in Cosmo for better view of metadata (hw:4.1.3.52)
 - Added date to Panel log for AME (hc:4.2.0.29, license:4.2.0.22)
+- Added CO indexing logic to the client (co:4.1.3.13; hc:4.2.0.29; streams:4.1.2.57; hk:4.1.0.8; users:4.1.0.12)
 ### Fixed
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
