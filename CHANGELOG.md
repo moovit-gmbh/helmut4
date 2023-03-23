@@ -35,6 +35,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 ### Removed
 ### Known Issues
+- Updating the system to streams:4.1.2.57 and above requires the replacement of all deprecated Cosmo Project File Index Action V2 nodes with the newer node version V3
 
 ## [4.5.0] (stable release)
 ### Added
