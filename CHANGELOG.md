@@ -6,6 +6,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 
 ## [development release]
+### Needed
+- Updating the system to streams:4.1.2.57 and above requires the replacement of all deprecated Cosmo Project File Index Action V2 nodes with the newer node version V3
 ### Added
 - Added language entry for 'Import skip sequences' in Helmut4 panel (hp:4.1.3.30; hw:4.1.3.49)
 - Added compability of nginx container for disabled IPv6 on server (hw:4.1.3.49; hp:4.1.3.30)
@@ -35,7 +37,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 ### Removed
 ### Known Issues
-- Updating the system to streams:4.1.2.57 and above requires the replacement of all deprecated Cosmo Project File Index Action V2 nodes with the newer node version V3
 
 ## [4.5.0] (stable release)
 ### Added
