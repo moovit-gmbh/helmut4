@@ -37,6 +37,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 ### Removed
 ### Known Issues
+- Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
 
 ## [4.5.0] (stable release)
 ### Added
