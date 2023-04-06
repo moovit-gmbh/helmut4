@@ -34,6 +34,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix not accessible Cosmo Web Upload window (hw:4.1.3.53)
 - Fix Helmut Confirm Dialog Action node not responding after a long period of time (hw:4.1.3.53)
 - Fix Helmut Input Dialog Action node not responding after a long period of time (hw:4.1.3.53)
+- Fix date parse error in helmut web (hw:4.1.3.54)
+- Fix translation error for "Show in Source Monitor" in Cosmo tab of the Panel (hp:4.1.3.38)
 ### Changed
 ### Removed
 ### Known Issues
