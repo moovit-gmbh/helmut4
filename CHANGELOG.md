@@ -37,6 +37,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix date parse error in helmut web (hw:4.1.3.54)
 - Fix translation error for "Show in Source Monitor" in Cosmo tab of the Panel (hp:4.1.3.38)
 ### Changed
+- Improve usability of the VidiCore nodes (streams:4.1.2.60)
 ### Removed
 ### Known Issues
 - Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
