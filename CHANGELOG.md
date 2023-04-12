@@ -6,15 +6,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 
 ## [development release]
-### Needed
-- Updating the system to streams:4.1.2.57 and above requires the replacement of all deprecated Cosmo Project File Index Action V2 nodes with the newer node version V3
 ### Added
 - Added language entry for 'Import skip sequences' in Helmut4 panel (hp:4.1.3.30; hw:4.1.3.49)
 - Added compability of nginx container for disabled IPv6 on server (hw:4.1.3.49; hp:4.1.3.30)
 - Added backslashes to escape for JSON formatting (hp:4.1.3.36)
 - Added scroll bar into Web Upload mask in Cosmo for better view of metadata (hw:4.1.3.52)
 - Added date to Panel log for AME (hc:4.2.0.29, license:4.2.0.22)
-- Added CO indexing logic to the client (co:4.1.3.13; hc:4.2.0.29; streams:4.1.2.57; hk:4.1.0.8; users:4.1.0.12)
+- Added CO indexing logic to the client (co:4.1.3.13; hc:4.2.0.30; license: 4.2.0.23; streams:4.1.2.61; hk:4.1.0.8; users:4.1.0.12)
 ### Fixed
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
@@ -36,6 +34,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix Helmut Input Dialog Action node not responding after a long period of time (hw:4.1.3.53)
 - Fix date parse error in helmut web (hw:4.1.3.54)
 - Fix translation error for "Show in Source Monitor" in Cosmo tab of the Panel (hp:4.1.3.38)
+- Fix loss of metadata when switching tabs in Helmut panel (hp:4.1.3.39)
+- Fix jumping job order in dashboard when clicking jobs (hw:4.1.3.55)
 ### Changed
 - Improve usability of the VidiCore nodes (streams:4.1.2.60)
 ### Removed
