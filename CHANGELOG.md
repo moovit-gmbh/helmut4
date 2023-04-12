@@ -12,7 +12,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added backslashes to escape for JSON formatting (hp:4.1.3.36)
 - Added scroll bar into Web Upload mask in Cosmo for better view of metadata (hw:4.1.3.52)
 - Added date to Panel log for AME (hc:4.2.0.29, license:4.2.0.22)
-- Added CO indexing logic to the client (co:4.1.3.13; hc:4.2.0.30; license: 4.2.0.23; streams:4.1.2.61; hk:4.1.0.8; users:4.1.0.12)
+- Added CO indexing logic to the client (co:4.1.3.13; hc:4.2.0.30; license:4.2.0.23; streams:4.1.2.61; hk:4.1.0.8; users:4.1.0.12)
+- Added DIVA Core integration (streams:4.1.2.61; hc:4.2.0.30; io:4.1.0.16; fx:4.1.0.10; co:4.1.3.14; hk:4.1.0.9; license:4.2.0.23)
 ### Fixed
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
@@ -36,8 +37,10 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix translation error for "Show in Source Monitor" in Cosmo tab of the Panel (hp:4.1.3.38)
 - Fix loss of metadata when switching tabs in Helmut panel (hp:4.1.3.39)
 - Fix jumping job order in dashboard when clicking jobs (hw:4.1.3.55)
+- Fix canceling/ deleting a job in status "running" can cancel a different job (io:4.1.0.16; hw:4.1.3.55; hp:4.1.3.39; streams:4.1.2.61)
 ### Changed
 - Improve usability of the VidiCore nodes (streams:4.1.2.60)
+- Reworked VidiCore Import File Into New Item Action node (streams:4.1.2.61)
 ### Removed
 ### Known Issues
 - Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
