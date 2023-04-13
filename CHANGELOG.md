@@ -36,7 +36,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix date parse error in helmut web (hw:4.1.3.54)
 - Fix translation error for "Show in Source Monitor" in Cosmo tab of the Panel (hp:4.1.3.38)
 - Fix loss of metadata when switching tabs in Helmut panel (hp:4.1.3.39)
-- Fix jumping job order in dashboard when clicking jobs (hw:4.1.3.55)
+- Fix jumping job and project order in dashboard views (hw:4.1.3.56)
 - Fix canceling/ deleting a job in status "running" can cancel a different job (io:4.1.0.16; hw:4.1.3.55; hp:4.1.3.39; streams:4.1.2.61)
 ### Changed
 - Improve usability of the VidiCore nodes (streams:4.1.2.60)
