@@ -14,6 +14,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added date to Panel log for AME (hc:4.2.0.29, license:4.2.0.22)
 - Added CO indexing logic to the client (co:4.1.3.13; hc:4.2.0.30; license:4.2.0.24; streams:4.1.2.61; hk:4.1.0.8; users:4.1.0.12)
 - Added DIVA Core integration (streams:4.1.2.61; hc:4.2.0.30; io:4.1.0.16; fx:4.1.0.10; co:4.1.3.14; hk:4.1.0.9; license:4.2.0.24)
+- Added polling for jobs in the dashboard every 10 sec (hw:4.1.3.58)
 ### Fixed
 - Fix VidiFlow Trigger Workflow V1 exception due to failed authorization (streams:4.1.2.56)
 - Fix of the "this.getToken is not a function error" when switching tabs in panel (hp:4.1.3.28)
@@ -36,15 +37,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix date parse error in helmut web (hw:4.1.3.54)
 - Fix translation error for "Show in Source Monitor" in Cosmo tab of the Panel (hp:4.1.3.38)
 - Fix loss of metadata when switching tabs in Helmut panel (hp:4.1.3.39)
-- Fix jumping job and project order in dashboard views (hw:4.1.3.56)
-- Fix canceling/ deleting a job in status "running" can cancel a different job (io:4.1.0.16; hw:4.1.3.55; hp:4.1.3.39; streams:4.1.2.61)
+- Fix jumping job order in dashboard views (hw:4.1.3.56)
+- Fix canceling/ deleting a job in status "running" can cancel a different job (io:4.1.0.17; hw:4.1.3.57; hp:4.1.3.40; streams:4.1.2.62)
+- Fix jumping project order in FX dashboard when indexing a project (hw:4.1.3.57)
+- Fix disappearing creator when setting filter in FX dashboard (hw:4.1.3.57)
 ### Changed
 - Improve usability of the VidiCore nodes (streams:4.1.2.60)
 - Reworked VidiCore Import File Into New Item Action node (streams:4.1.2.61)
 ### Removed
 ### Known Issues
 - Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
-- After project index the related project may slightly change the order in the dashboard
 
 ## [4.5.0] (stable release)
 ### Added
