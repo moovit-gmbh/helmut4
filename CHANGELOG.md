@@ -5,7 +5,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
-## [development release]
+## [4.6.0] (stable release)
 ### Added
 - Added language entry for 'Import skip sequences' in Helmut4 panel (hp:4.1.3.30; hw:4.1.3.49)
 - Added compability of nginx container for disabled IPv6 on server (hw:4.1.3.49; hp:4.1.3.30)
@@ -1458,3 +1458,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.3.0]: https://www.helmut.de
 [4.4.0]: https://www.helmut.de
 [4.5.0]: https://www.helmut.de
+[4.6.0]: https://www.helmut.de
