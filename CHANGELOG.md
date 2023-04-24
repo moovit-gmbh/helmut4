@@ -47,6 +47,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Removed
 ### Known Issues
 - Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
+- Any successful pre-stream in profile which should call the main stream without using a job create job action is aborted
 
 ## [4.5.0] (stable release)
 ### Added
