@@ -36,7 +36,8 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 
 ### Non-supported Adobe Versions
 development
-- any Beta version (23.3+)
+- any Beta version (23.4/5+)
+- 23.3 is evaluated internally at the moment
 
 
 ### Supported Adobe Versions
