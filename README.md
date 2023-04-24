@@ -37,10 +37,19 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 ### Non-supported Adobe Versions
 development
 - any Beta version (23.4/5+)
-- 23.3 is evaluated internally at the moment
+- 23.3 is evaluated internally and not supported at the moment
 
 
 ### Supported Adobe Versions
+
+
+#### 4.6.0
+- Premiere: 22.x to 23.2.x
+- After Effects: 22.x to 23.2.x
+- AME: 22.x to 23.2.x // [AME CC22 limitation](https://github.com/moovit-gmbh/helmut4#440)
+
+**Please reinstall the client after upgrading to CC23!**
+
 
 #### 4.5.0
 - Premiere: 22.x to 23.2.x
