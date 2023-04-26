@@ -5,6 +5,17 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
+## [4.6.1] (patch release)
+### Added
+### Fixed
+- Fix successful pre-stream in profile which should call the main stream without using a job create job action is aborted (hp:4.1.3.42; hw:4.1.3.59; io: 4.1.0.19)
+### Changed
+
+### Removed
+### Known Issues
+- Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
+- Canceling a job in synchronous path (during running status) and restarting the job afterwards via Action button does not proceed with the stream ("Stream has been canceled")
+
 ## [4.6.0] (stable release)
 ### Added
 - Added language entry for 'Import skip sequences' in Helmut4 panel (hp:4.1.3.30; hw:4.1.3.49)
@@ -47,7 +58,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Removed
 ### Known Issues
 - Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
-- Any successful pre-stream in profile which should call the main stream without using a job create job action is aborted
+- Any successful pre-stream in profile which should call the main stream without using a job create job action is aborted (fixed in 4.6.1 patch release)
 
 ## [4.5.0] (stable release)
 ### Added
@@ -1460,3 +1471,4 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.4.0]: https://www.helmut.de
 [4.5.0]: https://www.helmut.de
 [4.6.0]: https://www.helmut.de
+[4.6.1]: https://www.helmut.de
