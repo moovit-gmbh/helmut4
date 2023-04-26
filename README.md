@@ -33,6 +33,8 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 - Possible conflict to install Media Encoder extension (de.moovit.AME_WS) properly on MacOS with Helmut4 client versions >4.2.0.18 -> As a workaround the Media Encoder extension can be installed manually using Upier (or ExManCmd). Corresponding extension can be requested from the Helmut Support Team.
 - Wildcard Condition + Match Multiple Patterns Condition: False matching behavior for negated conditions (e.g. CONTAINS_NOT) in combination with multiple patterns to match against
 - Not using any metadata while creating a project may cause a corrupted document in the database (mongoDB). As a consequence it is not possible to open that kind of project
+- Indexing via client/server - Failed indexing of huge projects (unzip process) can cause a corrupted file when container dies
+- Canceling a job in synchronous path (during running status) and restarting the job afterwards does not proceed with the stream ("Stream has been canceled")
 
 ### Non-supported Adobe Versions
 development
