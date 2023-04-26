@@ -13,7 +13,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Removed
 ### Known Issues
-- Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
 - Canceling a job in synchronous path (during running status) and restarting the job afterwards via Action button does not proceed with the stream ("Stream has been canceled")
 
 ## [4.6.0] (stable release)
@@ -57,7 +56,6 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Reworked VidiCore Import File Into New Item Action node (streams:4.1.2.61)
 ### Removed
 ### Known Issues
-- Indexing via client - Failed indexing (unzip process) can cause a corrupted file when container dies
 - Any successful pre-stream in profile which should call the main stream without using a job create job action is aborted (fixed in 4.6.1 patch release)
 
 ## [4.5.0] (stable release)
