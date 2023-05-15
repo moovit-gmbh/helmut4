@@ -22,7 +22,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Added backslashes to escape for JSON formatting (hp:4.1.3.36)
 - Added scroll bar into Web Upload mask in Cosmo for better view of metadata (hw:4.1.3.52)
 - Added date to Panel log for AME (hc:4.2.0.29, license:4.2.0.22)
-- Added CO indexing logic to the client (co:4.1.3.13; hc:4.2.0.30; license:4.2.0.24; streams:4.1.2.61; hk:4.1.0.8; users:4.1.0.12)
+- Added [CO indexing logic to the client](https://docs.helmut.de/v4.6.1/helmut4-components/streamdesigner/nodes/actions/cosmo/cosmo-project-file-index-action) (co:4.1.3.13; hc:4.2.0.30; license:4.2.0.24; streams:4.1.2.61; hk:4.1.0.8; users:4.1.0.12)
 - Added DIVA Core integration (streams:4.1.2.61; hc:4.2.0.30; io:4.1.0.16; fx:4.1.0.10; co:4.1.3.14; hk:4.1.0.9; license:4.2.0.24)
 - Added polling for jobs in the dashboard every 10 sec (hw:4.1.3.58)
 ### Fixed
