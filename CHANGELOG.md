@@ -20,6 +20,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 - Change missing lockout mechanism to lock an account after x amount of failed login attempts (hw:4.1.3.65; users:4.1.0.13)
 - Change "Could not send Stream to client - client not reachable" error message (amqp:4.1.0.8) 
+- Improved security issues and removed vulnerability (hw:4.1.3.65; users:4.1.0.13)
 
 ### Removed
 ### Known Issues
