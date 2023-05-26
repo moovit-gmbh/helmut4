@@ -5,7 +5,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
-## [development release] (development)
+## [development release] (dev)
 ### Added
 ### Fixed
 - Fix password validation while creating a user shows incorrect mismatch (hw:4.1.3.61)
