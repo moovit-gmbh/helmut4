@@ -7,6 +7,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release] (dev)
 ### Added
+- Add Autosync option to Cosmo Change Asset Metadata Action node (streams:4.1.2.72; co:4.1.3.16)
 ### Fixed
 - Fix password validation while creating a user shows incorrect mismatch (hw:4.1.3.61)
 - Fix not displayed last project in CO tab of Helmut4 panel (hp:4.1.3.44)
