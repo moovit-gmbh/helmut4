@@ -16,6 +16,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix HTTP Request node overrides Content-Type (streams:4.1.2.69)
 - Fix ascending/descending sorting of date format and file size (hw:4.1.3.60; hp:4.1.3.44)
 - Fix metadata parent issue (hw:4.1.3.66)
+- Fix polling intervall issue while switching between Helmut4 products (hw:4.1.3.66)
+- Fix refresh button disappears on panel resize (hp:4.1.3.46)
+- Fix \n escaped within file path - Hiscale (streams:4.1.2.70)
 
 ### Changed
 - Change missing lockout mechanism to lock an account after x amount of failed login attempts (hw:4.1.3.65; users:4.1.0.13)
