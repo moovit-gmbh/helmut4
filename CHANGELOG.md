@@ -5,6 +5,25 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
+## [development release] (development)
+### Added
+### Fixed
+- Fix password validation while creating a user shows incorrect mismatch (hw:4.1.3.61)
+- Fix not displayed last project in CO tab of Helmut4 panel (hp:4.1.3.44)
+- Fix unresolved notification when renaming a user (hw:4.1.3.62)
+- Fix not possible to change project after cosmo asset sync (hp:4.1.3.45)
+- Fix Premiere Open Choose Dialog Action node does not recognize cancel event and runs into timeout (hc:4.2.0.31; license:4.2.0.25)
+- Fix HTTP Request node overrides Content-Type (streams:4.1.2.69)
+- Fix ascending/descending sorting of date format and file size (hw:4.1.3.60; hp:4.1.3.44)
+- Fix metadata parent issue (hw:4.1.3.66)
+
+### Changed
+- Change missing lockout mechanism to lock an account after x amount of failed login attempts (hw:4.1.3.65; users:4.1.0.13)
+- Change "Could not send Stream to client - client not reachable" error message (amqp:4.1.0.8) 
+
+### Removed
+### Known Issues
+
 ## [4.6.1] (patch release)
 ### Added
 ### Fixed
