@@ -7,6 +7,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release] (dev)
 ### Added
+### Fixed
+### Changed
+### Removed
+### Known Issues
+
+## [4.6.2](https://www.helmut.de) (patch release)
+### Added
 - Add Autosync option to Cosmo Change Asset Metadata Action node (streams:4.1.2.72; co:4.1.3.16)
 ### Fixed
 - Fix password validation while creating a user shows incorrect mismatch (hw:4.1.3.61)
@@ -20,6 +27,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix polling intervall issue while switching between Helmut4 products (hw:4.1.3.66)
 - Fix refresh button disappears on panel resize (hp:4.1.3.46)
 - Fix \n escaped within file path - Hiscale (streams:4.1.2.70)
+- Fix error for special characters in metadata and folder file/directory names (hp:4.1.3.48)
+- Fix metadata order loss on project save/update (hw:4.1.3.68)
 
 ### Changed
 - Change missing lockout mechanism to lock an account after x amount of failed login attempts (hw:4.1.3.65; users:4.1.0.13)
@@ -28,6 +37,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Removed
 ### Known Issues
+- Project access (read/write) may be limited due to a client issue for users of macOS Ventura and hc:4.2.0.31 or later versions
 
 ## [4.6.1] (patch release)
 ### Added
