@@ -38,7 +38,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Removed
 ### Known Issues
 - ~~Project access (read/write) may be limited due to a client issue for users of macOS Ventura and hc:4.2.0.31 or later versions~~
-- Windows paths will cause issues if the path contains special characters combinations like \b \f \n \r \t \" - revert image to hp:4.1.3.47
+- Windows paths will cause issues if the path containing special characters combinations like \b \f \n \r \t \" - revert image to hp:4.1.3.47
 
 ## [4.6.1] (patch release)
 ### Added
