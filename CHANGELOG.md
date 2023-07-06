@@ -7,7 +7,9 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release] (dev)
 ### Added
+- Add language entry for panel switch message global.secondPanel (hw:4.1.3.67; hp:4.1.3.47)
 ### Fixed
+- Fix API call DELETE /assets (co:4.1.3.18)
 ### Changed
 ### Removed
 ### Known Issues
