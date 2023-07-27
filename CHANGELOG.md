@@ -8,9 +8,20 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ## [development release] (dev)
 ### Added
 - Add language entry for panel switch message global.secondPanel (hw:4.1.3.67; hp:4.1.3.47)
+- Add reduced project for rendering process during After Effects export (hp:4.1.3.50)
 ### Fixed
 - Fix API call DELETE /assets (co:4.1.3.18)
+- Fix VidiCore Get Item ID By File Path Action returns the fileID instead of the itemID (streams:4.1.2.78)
+- Fix Client Project Index on Windows will not delete prproj in temp folder (streams:4.1.2.78)
+- Fix wildcards for project variables resolved as null in UNINDEXED_ASSET trigger (co:4.1.3.19, streams:4.1.2.78)
+- Fix two indexing streams running simultaneously on same client or container and mixing up assets (streams:4.1.2.78)
+- Fix "user name is already in use" error in combination of blocking a license (users:4.1.0.14)
+- Fix reordering CustomIO streams leads to error message (hw:4.1.3.72)
+- Fix refresh button disappears on panel resize in Helmut4 panel (hp:4.1.3.50)
 ### Changed
+- Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
+- Change EFS nodes to consider Multisite (streams:4.1.2.78)
+- Shrink metadata object in job, project and asset objects (fx:4.1.0.11; io:4.1.0.20)
 ### Removed
 ### Known Issues
 
