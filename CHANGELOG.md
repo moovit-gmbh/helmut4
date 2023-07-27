@@ -9,6 +9,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Added
 - Add language entry for panel switch message global.secondPanel (hw:4.1.3.67; hp:4.1.3.47)
 - Add reduced project for rendering process during After Effects export (hp:4.1.3.50)
+- Add variable timeout for operation in DIVA nodes (streams:4.1.2.78)
 ### Fixed
 - Fix API call DELETE /assets (co:4.1.3.18)
 - Fix VidiCore Get Item ID By File Path Action returns the fileID instead of the itemID (streams:4.1.2.78)
@@ -18,10 +19,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix "user name is already in use" error in combination of blocking a license (users:4.1.0.14)
 - Fix reordering CustomIO streams leads to error message (hw:4.1.3.72)
 - Fix refresh button disappears on panel resize in Helmut4 panel (hp:4.1.3.50)
+- Fix missing HK trigger and webupload/import in user/group access presets (hw:4.1.3.72; fx:4.1.0.11)
+- Fix error for renaming streams (hw:4.1.3.72)
+- Fix Project File Index error for bigger projects >30MB - requires Client stream (streams:4.1.2.79)
+- Fix escaping issue for UNC paths after syncing process (hp:4.1.3.50)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Multisite (streams:4.1.2.78)
 - Shrink metadata object in job, project and asset objects (fx:4.1.0.11; io:4.1.0.20)
+- Review and adopt DIVA nodes descriptions (streams:4.1.2.74)
 ### Removed
 ### Known Issues
 
