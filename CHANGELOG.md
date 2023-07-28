@@ -30,6 +30,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Review and adopt DIVA nodes descriptions (streams:4.1.2.74)
 ### Removed
 ### Known Issues
+- Task filters using project metadata (eg date) aren't showing correct results - downgrade to fx:4.1.0.10)
 
 ## [4.6.2](https://www.helmut.de) (patch release)
 ### Added
