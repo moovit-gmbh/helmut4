@@ -23,6 +23,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix error for renaming streams (hw:4.1.3.72)
 - Fix Project File Index error for bigger projects >30MB - requires Client stream (streams:4.1.2.79)
 - Fix escaping issue for UNC paths after syncing process (hp:4.1.3.50)
+- Fix HTTP Request Action ignores content-type in response header (streams:4.1.2.81)
+- Fix duplicated sequence with projectItem null (hp:4.1.3.49)
+- Fix character encoding and umlaute issue while indexing projects on Windows Client (streams:4.1.2.81)
+- Fix umlaute in Helmut Input Dialog Action causes timeout failure (hw:4.1.3.73)
+- Fix triggering Copy profile in HK will not create a job (hw:4.1.3.73)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
