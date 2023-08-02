@@ -74,6 +74,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Removed
 ### Known Issues
 - Canceling a job in synchronous path (during running status) and restarting the job afterwards via Action button does not proceed with the stream ("Stream has been canceled")
+- UNLOCK_PROJECT stream will not be triggered
 
 ## [4.6.0] (stable release)
 ### Added
