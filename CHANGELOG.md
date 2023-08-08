@@ -31,12 +31,12 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
-- Shrink metadata object in job, project and asset objects (fx:4.1.0.11; io:4.1.0.20)
+- Shrink metadata object in job, project and asset objects (fx:~~4.1.0.11~~ 4.1.0.12; io:4.1.0.20)
 - Review and adopt DIVA nodes descriptions (streams:4.1.2.74)
 ### Removed
 ### Known Issues
-- Task filters using project metadata (eg date) aren't showing correct results - downgrade to fx:4.1.0.10)
-  - Downgrading to fx:4.1.0.10 will make Cosmo Web Import/Upload not accessibale for non admins
+- Task filters using project metadata (eg date) aren't showing correct results - upgrade to fx:4.1.0.12)
+  - ~~Downgrading to fx:4.1.0.10 will make Cosmo Web Import/Upload not accessibale for non admins~~
 
 ## [4.6.2](https://www.helmut.de) (patch release)
 ### Added
