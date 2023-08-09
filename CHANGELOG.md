@@ -28,6 +28,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix character encoding and umlaute issue while indexing projects on Windows Client (streams:4.1.2.81)
 - Fix umlaute in Helmut Input Dialog Action causes timeout failure (hw:4.1.3.73)
 - Fix triggering Copy profile in HK will not create a job (hw:4.1.3.73)
+- Fix indexing assets with characters > < % used in asset metadata (streams:4.1.2.82)
+- Fix syncing issue with carriage return in markers (hp:4.1.3.51)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
