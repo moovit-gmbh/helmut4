@@ -10,7 +10,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add language entry for panel event listener message global.secondPanel (hw:4.1.3.67; hp:4.1.3.47)
 - Add reduced HelmutIO project for rendering process during After Effects export (hp:4.1.3.50)
 - Extended timeout and DIVA status check for operation in DIVA nodes (streams:4.1.2.78)
-- Add method "PATCH" to "HTTP Request Action (streams:4.1.2.83; fx:4.1.0.13; io:4.1.0.21; co:4.1.3.20; hk:4.1.0.10; users:4.1.0.15; hc:4.2.0.33 ; license:4.2.0.26)
+- Add method "PATCH" to "HTTP Request Action (streams:4.1.2.83; fx:4.1.0.13; io:4.1.0.21; co:4.1.3.20; hk:4.1.0.10; users:4.1.0.15; hc:4.2.0.34; license:4.2.0.27)
 ### Fixed
 - Fix API call DELETE /assets (co:4.1.3.18)
 - Fix VidiCore Get Item ID By File Path Action returns the fileID instead of the itemID (streams:4.1.2.78)
@@ -31,7 +31,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix triggering Copy profile in HK will not create a job (hw:4.1.3.73)
 - Fix indexing assets with characters > < % used in asset metadata (streams:4.1.2.82)
 - Fix syncing issue with carriage return in markers (hp:4.1.3.51)
-- Fix multiple helmut tabs/webstomps cause multiple execution of jobs (hc:4.2.0.33 ; license:4.2.0.26)
+- Fix multiple helmut tabs/webstomps cause multiple execution of jobs (hc:4.2.0.34 ; license:4.2.0.27)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
