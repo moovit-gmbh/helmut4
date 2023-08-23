@@ -32,11 +32,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix indexing assets with characters > < % used in asset metadata (streams:4.1.2.82)
 - Fix syncing issue with carriage return in markers (hp:4.1.3.51)
 - Fix multiple helmut tabs/webstomps cause multiple execution of jobs (hc:4.2.0.34 ; license:4.2.0.27)
+- Fix filtering project metadata from type date in HK tasks do not match (fx:4.1.0.12)
+- Fix toggle store variable protect mode is affecting protect mode of other variables (streams:4.1.2.85)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
 - Shrink metadata object in job, project and asset objects (fx:~~4.1.0.11~~ 4.1.0.12; io:4.1.0.20)
 - Review and adopt DIVA nodes descriptions (streams:4.1.2.74)
+- Updated description terms in Premiere Path Settings Action node (streams:4.1.2.85)
+- Optimization of MongoDB CPU utilization (io:4.1.0.22)
 ### Removed
 ### Known Issues
 - Task filters using project metadata (eg date) aren't showing correct results - upgrade to fx:4.1.0.12)
