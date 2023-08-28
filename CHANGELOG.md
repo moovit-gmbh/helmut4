@@ -34,6 +34,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix multiple helmut tabs/webstomps cause multiple execution of jobs (hc:4.2.0.34 ; license:4.2.0.27)
 - Fix filtering project metadata from type date in HK tasks do not match (fx:4.1.0.12)
 - Fix toggle store variable protect mode is affecting protect mode of other variables (streams:4.1.2.85)
+- Fixed issue with metadata keys using umlauts and - (streams:4.1.2.89)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
