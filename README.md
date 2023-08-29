@@ -42,9 +42,9 @@ development
 
 
 #### 4.6.0 | 4.6.1 | 4.6.2
-- Premiere: 22.x to 23.3.x
-- After Effects: 22.x to 23.3.x
-- AME: 22.x to 23.3.x // [AME CC22 limitation](https://github.com/moovit-gmbh/helmut4#440)
+- Premiere: 22.x to 23.6.x
+- After Effects: 22.x to 23.6.x
+- AME: 22.x to 23.6.x // [AME CC22 limitation](https://github.com/moovit-gmbh/helmut4#440)
 
 **Please reinstall the client after upgrading to CC23!**
 
