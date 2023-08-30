@@ -26,8 +26,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix escaping issue for UNC paths after syncing process (hp:4.1.3.50)
 - Fix HTTP Request Action ignores content-type in response header (streams:4.1.2.81)
 - Fix duplicated sequence with projectItem null (hp:4.1.3.49)
-- Fix character encoding and umlaute issue while indexing projects on Windows Client (streams:4.1.2.81)
-- Fix umlaute in Helmut Input Dialog Action causes timeout failure (hw:4.1.3.73)
+- Fix character encoding and umlauts issue while indexing projects on Windows Client (streams:4.1.2.81)
+- Fix umlauts in Helmut Input Dialog Action causes timeout failure (hw:4.1.3.73)
 - Fix triggering Copy profile in HK will not create a job (hw:4.1.3.73)
 - Fix indexing assets with characters > < % used in asset metadata (streams:4.1.2.82)
 - Fix syncing issue with carriage return in markers (hp:4.1.3.51)
@@ -38,15 +38,13 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
-- Shrink metadata object in job, project and asset objects (fx:~~4.1.0.11~~ 4.1.0.12; io:4.1.0.20)
+- Shrink metadata object in job, project and asset objects (fx:4.1.0.12; io:4.1.0.20)
 - Review and adopt DIVA nodes descriptions (streams:4.1.2.74)
 - Updated description terms in Premiere Path Settings Action node (streams:4.1.2.85)
 - Optimization of MongoDB CPU utilization (io:4.1.0.22)
 - Implemented Skip metadata sync & Skip markers sync switch in Cosmo Change Asset Action + Cosmo Add Proxy To Project Action + Cosmo Change Project Asset Action for higher synchronisation performance (streams:4.1.2.85; co:4.1.3.21; hp:4.1.3.52)
 ### Removed
 ### Known Issues
-- Task filters using project metadata (eg date) aren't showing correct results - upgrade to fx:4.1.0.12)
-  - ~~Downgrading to fx:4.1.0.10 will make Cosmo Web Import/Upload not accessibale for non admins~~
 
 ## [4.6.2](https://www.helmut.de) (patch release)
 ### Added
