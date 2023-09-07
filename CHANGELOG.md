@@ -10,7 +10,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add language entry for panel event listener message global.secondPanel (hw:4.1.3.67; hp:4.1.3.47)
 - Add reduced HelmutIO project for rendering process during After Effects export (hp:4.1.3.50)
 - Extended timeout and DIVA status check for operation in DIVA nodes (streams:4.1.2.78)
-- Add method "PATCH" to "HTTP Request Action (streams:4.1.2.83; fx:4.1.0.13; io:4.1.0.21; co:4.1.3.20; hk:4.1.0.10; users:4.1.0.15; hc:4.2.0.34; license:4.2.0.27)
+- Add method "PATCH" to "HTTP Request Action (streams:4.1.2.92; fx:4.1.0.13; io:4.1.0.21; co:4.1.3.20; hk:4.1.0.10; users:4.1.0.15; hc:4.2.0.34; license:4.2.0.27)
 ### Fixed
 - Fix API call DELETE /assets (co:4.1.3.18)
 - Fix VidiCore Get Item ID By File Path Action returns the fileID instead of the itemID (streams:4.1.2.78)
@@ -24,7 +24,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix error for renaming streams (hw:4.1.3.72)
 - Fix Project File Index error for bigger projects >30MB - requires Client stream (streams:4.1.2.79)
 - Fix escaping issue for UNC paths after syncing process (hp:4.1.3.50)
-- Fix HTTP Request Action ignores content-type in response header (streams:4.1.2.81)
+- Fix HTTP Request Action ignores content-type in response header (streams:4.1.2.92)
 - Fix duplicated sequence with projectItem null (hp:4.1.3.49)
 - Fix character encoding and umlauts issue while indexing projects on Windows Client (streams:4.1.2.81)
 - Fix umlauts in Helmut Input Dialog Action causes timeout failure (hw:4.1.3.73)
