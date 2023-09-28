@@ -38,6 +38,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix AME node error "Running and is timed out: true" when exporting long sequences (streams:4.1.2.90)
 - Fix issue within Cosmo Add Proxy Action where the Asset ID hasn't been interpreted correctly (co:4.1.3.22)
 - Fix incomplete project indexation that required repetetive indexing for empty directories (streams:4.1.2.94)
+- Fix bin assets view sorting in CO project detail view of web (hw:4.1.3.75)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
