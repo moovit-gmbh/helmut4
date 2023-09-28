@@ -11,6 +11,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add reduced HelmutIO project for rendering process during After Effects export (hp:4.1.3.50)
 - Extended timeout and DIVA status check for operation in DIVA nodes (streams:4.1.2.78)
 - Add method "PATCH" to "HTTP Request Action (streams:4.1.2.92; fx:4.1.0.13; io:4.1.0.21; co:4.1.3.20; hk:4.1.0.10; users:4.1.0.15; hc:4.2.0.34; license:4.2.0.27)
+- Add boolean field "Vidispine Wildcard" in VidiCore Get Item ID By Relative File Path Action V3 to allow file name searches regardless of the file's location (streams:4.1.2.95)
 ### Fixed
 - Fix API call DELETE /assets (co:4.1.3.18)
 - Fix VidiCore Get Item ID By File Path Action returns the fileID instead of the itemID (streams:4.1.2.78)
@@ -39,7 +40,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Fix issue within Cosmo Add Proxy Action where the Asset ID hasn't been interpreted correctly (co:4.1.3.22)
 - Fix incomplete project indexation that required repetetive indexing for empty directories (streams:4.1.2.94)
 - Fix bin assets view sorting in CO project detail view of web (hw:4.1.3.75)
-- Fix logic issue for boolean "Use existing VidiCore file if present" in VidiCore Import File Into New Item Action node (streams:4.1.2.95)
+- Fix logic issue for boolean "Use existing VidiCore file if present" in VidiCore Import File Into New Item Action V2 (streams:4.1.2.95)
 ### Changed
 - Modification and optimization of Stratus Change Project Metadata Action node (streams:4.1.2.78)
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
