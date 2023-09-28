@@ -11,7 +11,8 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Add reduced HelmutIO project for rendering process during After Effects export (hp:4.1.3.50)
 - Extended timeout and DIVA status check for operation in DIVA nodes (streams:4.1.2.78)
 - Add method "PATCH" to "HTTP Request Action (streams:4.1.2.92; fx:4.1.0.13; io:4.1.0.21; co:4.1.3.20; hk:4.1.0.10; users:4.1.0.15; hc:4.2.0.34; license:4.2.0.27)
-- Add boolean field "Vidispine Wildcard" in VidiCore Get Item ID By Relative File Path Action V3 to allow file name searches regardless of the file's location and enabling wildcard query (streams:4.1.2.95)
+- Add boolean field "Vidispine Wildcard" to VidiCore Get Item ID By Relative File Path Action V3 to allow file name searches regardless of the file's location and enabling wildcard query (streams:4.1.2.95)
+- Add string field "Storage ID" (optional) to VidiCore Get Item ID By Relative File Path Action V3 to reference specified storage for corresponding file (streams:4.1.2.96)
 ### Fixed
 - Fix API call DELETE /assets (co:4.1.3.18)
 - Fix VidiCore Get Item ID By File Path Action returns the fileID instead of the itemID (streams:4.1.2.78)
