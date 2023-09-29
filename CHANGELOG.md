@@ -47,10 +47,11 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Change EFS nodes to consider Editshare Multisite Service (streams:4.1.2.78)
 - Shrink metadata object in job, project and asset objects (fx:4.1.0.12; io:4.1.0.20)
 - Review and adopt DIVA nodes descriptions (streams:4.1.2.74)
-- Updated description terms in Premiere Path Settings Action node (streams:4.1.2.85)
+- Update description terms in Premiere Path Settings Action node (streams:4.1.2.85)
 - Optimization of MongoDB CPU utilization (io:4.1.0.22)
-- Implemented Skip metadata sync & Skip markers sync switch in Cosmo Change Asset Action + Cosmo Add Proxy To Project Action + Cosmo Change Project Asset Action for higher synchronisation performance (streams:4.1.2.85; co:4.1.3.21; hp:4.1.3.52)
-- Made SSL check optional for HTTP Action (streams:4.1.2.93)
+- Implement Skip metadata sync & Skip markers sync switch in Cosmo Change Asset Action + Cosmo Add Proxy To Project Action + Cosmo Change Project Asset Action for higher synchronisation performance (streams:4.1.2.85; co:4.1.3.21; hp:4.1.3.52)
+- Make SSL check optional for HTTP Action (streams:4.1.2.93)
+- FX Frontend preresolve for Template path (fx:4.1.0.15)
 ### Removed
 ### Known Issues
 
