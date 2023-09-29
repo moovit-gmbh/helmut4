@@ -51,7 +51,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Optimization of MongoDB CPU utilization (io:4.1.0.22)
 - Implement Skip metadata sync & Skip markers sync switch in Cosmo Change Asset Action + Cosmo Add Proxy To Project Action + Cosmo Change Project Asset Action for higher synchronisation performance (streams:4.1.2.85; co:4.1.3.21; hp:4.1.3.52)
 - Make SSL check optional for HTTP Action (streams:4.1.2.93)
-- FX Frontend preresolve for Template path (fx:4.1.0.15)
+- FX frontend pre-resolve for helmut templates path in preferences (fx:4.1.0.16)
 ### Removed
 ### Known Issues
 
