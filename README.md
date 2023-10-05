@@ -29,9 +29,9 @@ As an example the next bugfix of one of the endpoints (e.g. streams) would lead 
 Due to the fact, that we decoupled the microservice versioning from the release (snapshot / product) version, there might be mixed version numbers for a single snapshot. Like a 4.3.0.1 container verion in a 4.5.0 snapshot. In such an environment a snapshot update will not force the update of all microservices, and therefore won't download docker images that are unchanged. This will result in a smaller downtime and fewer untagged/unused but still cached images on the host system.
 
 ### Known issues
-- Not using any metadata while creating a project may cause a corrupted document in the database (mongoDB). As a consequence it is not possible to open that kind of project
-- Indexing via client/server - Failed indexing of huge projects (unzip process) can cause a corrupted file when container dies
+- Creating a project without attaching any metadata may corrupt the project in the database. If this occurs, there will no longer be an option to open the project using HelmutFX
 - Canceling a job in synchronous path (during running status) and restarting the job afterwards does not proceed with the stream ("Stream has been canceled")
+- The Helmut4 Windows client 4.2.0.35 shipped with stable release 4.7.0 is not signed yet. The conformation of this will be made soon. You will be updated once the client customizations have been finished. 
 
 ### Non-supported Adobe Versions
 development
