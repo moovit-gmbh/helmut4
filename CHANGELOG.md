@@ -54,6 +54,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - FX frontend pre-resolve for helmut templates path in preferences (fx:4.1.0.16)
 ### Removed
 ### Known Issues
+The Helmut4 Windows client 4.2.0.35 shipped with stable release 4.7.0 is not signed yet. The conformation of this will be made soon. You will be updated once the client customizations have been finished. 
 
 ## [4.6.2](https://www.helmut.de) (patch release)
 ### Added
