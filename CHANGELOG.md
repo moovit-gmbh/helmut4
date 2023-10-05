@@ -5,7 +5,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
 
-## [development release] (dev)
+## [4.7.0] (stable release)
 ### Added
 - Add language entry for panel event listener message global.secondPanel (hw:4.1.3.67; hp:4.1.3.47)
 - Add reduced HelmutIO project for rendering process during After Effects export (hp:4.1.3.50)
@@ -1549,3 +1549,5 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.5.0]: https://www.helmut.de
 [4.6.0]: https://www.helmut.de
 [4.6.1]: https://www.helmut.de
+[4.6.2]: https://www.helmut.de
+[4.7.0]: https://www.helmut.de
