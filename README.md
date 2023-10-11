@@ -40,6 +40,8 @@ development
 
 ### Supported Adobe Versions
 
+- Adobe CC24 is tested internally at the moment (Wed, 11th Oct 2023)
+
 #### 4.7.0
 - Premiere: 22.x to 23.6.x
 - After Effects: 22.x to 23.6.x
