@@ -52,6 +52,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 - Implement Skip metadata sync & Skip markers sync switch in Cosmo Change Asset Action + Cosmo Add Proxy To Project Action + Cosmo Change Project Asset Action for higher synchronisation performance (streams:4.1.2.85; co:4.1.3.21; hp:4.1.3.52)
 - Make SSL check optional for HTTP Action (streams:4.1.2.93)
 - FX frontend pre-resolve for helmut templates path in preferences (fx:4.1.0.16)
+- Updated the Premiere Version Convert V2 & Project Version of Premiere V1 Nodes to consider Adobe CC24 (streams:4.1.2.79)
 ### Removed
 ### Known Issues
 - The Helmut4 Windows client 4.2.0.35 shipped with stable release 4.7.0 is not signed yet. The conformation of this will be made soon. You will be updated once the client customizations have been finished. 
