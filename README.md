@@ -7,7 +7,7 @@ MoovIT will deliver support on the 3 most current Helmut4 stable releases. Bug f
 
 Please always refer to our compatibility notes in respect to the Adobe Premiere, After Effects and Audition applications and its versions, before updating Helmut4. The compatibility information can be found under https://github.com/moovit-gmbh/helmut4/blob/master/README.md
 
-MoovIT will only support 3rd party application versions, that are actively being maintained and supported by the vendor of the 3rd party product - eg [Adobe](https://helpx.adobe.com/support/programs/cc-support-policy.html#cce)
+MoovIT will only support 3rd party application versions, that are actively being maintained and supported by the vendor of the 3rd party product - [Please have a look at the vendors support policy.](https://helpx.adobe.com/support/programs/cc-support-policy.html#cce)
 
 
 <br />
@@ -40,14 +40,24 @@ development
 
 ### Supported Adobe Versions
 
-- Adobe CC24 is tested internally at the moment (Wed, 11th Oct 2023)
 
 #### 4.7.0
-- Premiere: 22.x to 23.6.x
-- After Effects: 22.x to 23.6.x
-- AME: 22.x to 23.6.x // [AME CC22 limitation](https://github.com/moovit-gmbh/helmut4#440)
+- Premiere: 22.x to 23.4
+- After Effects: 22.x to 23.4
+- AME: 22.x to 23.4 // [AME CC22 limitation](https://github.com/moovit-gmbh/helmut4#440)
 
-**Please reinstall the client after upgrading to CC23!**
+**Please reinstall the client after upgrading to CC24!**
+
+**Before updating any Adobe application to CC 2024, make sure you checked the "known issues" of the corresponding application**
+- Premiere Pro
+  - [known issues](https://helpx.adobe.com/premiere-pro/kb/known-issues.html)
+  - [fixed issues](https://helpx.adobe.com/premiere-pro/kb/fixed-issues.html)
+- After Effects
+  - [known issues](https://helpx.adobe.com/after-effects/kb/known-issues-after-effects.html)
+  - [fixed issues](https://helpx.adobe.com/after-effects/kb/fixed-issues.html)
+- Media Encoder
+  - [known issues](https://helpx.adobe.com/media-encoder/kb/known-issues.html)
+  - [fixed issues](https://helpx.adobe.com/media-encoder/kb/list-of-bug-fixes.html)
 
 #### 4.6.0 | 4.6.1 | 4.6.2
 - Premiere: 22.x to 23.6.x
