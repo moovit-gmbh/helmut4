@@ -4,6 +4,17 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
+## [development release]
+### Added
+- Add a traffic light indicator in Helmut4 panel for invisible panel, enhancing visibility and providing status cues (hp:4.1.3.55)
+### Fixed
+- Fix discrepancies in display results between Helmut panel and Helmut web in Cosmo have been resolved for consistent display (hp:4.1.3.55)
+- Fix the issue of the client executing the same stream twice for streamlined execution (hc:4.2.0.36)
+- Fix issue with incorrect propagation of job status updates, ensuring accurate tracking and reliable notifications (io:4.1.0.23)
+### Changed
+- Add new code sign certificate for Helmut4 Windows client (license:4.2.0.28; hc:4.2.0.36)
+### Removed
+### Known Issues
 
 ## [4.7.0] (stable release)
 ### Added
