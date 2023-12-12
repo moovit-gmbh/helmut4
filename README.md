@@ -41,7 +41,7 @@ development
 ### Supported Adobe Versions
 
 
-#### 4.7.0
+#### 4.7.0 | 4.7.1
 - Premiere: 22.x to 24.0
 - After Effects: 22.x to 24.0
 - AME: 22.x to 24.0 // [AME CC22 limitation](https://github.com/moovit-gmbh/helmut4#440)
