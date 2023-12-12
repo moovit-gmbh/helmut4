@@ -18,7 +18,7 @@ MoovIT will only support 3rd party application versions, that are actively being
 #### Release (snapshot/product) versions:
 The product version is defined as <br> 
 _Helmut_Version.Major_snapshot.Snapshot_patch_ <br>
-The current version is 4.6.0 and the next snapshot after the following development cycle will be 4.7.0. If a snapshot gets patched there will be a 4.6.x
+The current version is 4.7.1 and the next snapshot after the following development cycle will be 4.8.0. If a snapshot gets patched there will be a 4.7.x
 
 #### Endpoint (microservice/docker image) versions:
 These are only relevant if you manually update specific microservices (e.g. via portainer). <br>
