@@ -31,7 +31,6 @@ Due to the fact, that we decoupled the microservice versioning from the release 
 ### Known issues
 - Creating a project without attaching any metadata may corrupt the project in the database. If this occurs, there will no longer be an option to open the project using HelmutFX
 - Canceling a job in synchronous path (during running status) and restarting the job afterwards does not proceed with the stream ("Stream has been canceled")
-- The Helmut4 Windows client 4.2.0.35 shipped with stable release 4.7.0 is not signed yet. The conformation of this will be made soon. You will be updated once the client customizations have been finished. 
 
 ### Non-supported Adobe Versions
 development
