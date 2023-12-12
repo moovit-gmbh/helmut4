@@ -4,7 +4,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
-## [development release]
+## [4.7.1](https://www.helmut.de) (patch release)
 ### Added
 - Add a traffic light indicator in Helmut4 panel for invisible panel, enhancing visibility and providing status cues (hp:4.1.3.55)
 ### Fixed
