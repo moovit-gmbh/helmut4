@@ -6,11 +6,16 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release](https://www.helmut.de)
 ### Added
-- 
+- Add functionalty to multi select assets in CO and import into project (co:4.1.3.23)
+- Extend "Cosmo Change Asset Metadata Action" including field "Asset Path" to update metadata of all instances in CO DB (co:4.1.3.23, streams:4.1.2.101, hw:4.1.3.76)
+- Add "Cosmo Update Asset Size and Date Action" to update related properties in CO DB in real time (co:4.1.3.23, streams:4.1.2.101)
+- Add new patch method to update assets by "id" or "filepath" (co:4.1.3.23)
 ### Fixed
-- 
+- Fix minor issues of Okta integration (streams:4.1.2.101)
 ### Changed
-- 
+- Lock projects in CO panel that are proceeded by HK (hw:4.1.3.76, hp:4.1.3.56)
+- Extend PANEL_IMPORT and AUTOIMPORT triggers to include the assetID + nodeID (co:4.1.3.23)
+- Expand Social Media Downloader to "Job Download Web Content Action" (streams:4.1.2.101)
 ### Removed
 ### Known Issues
 
