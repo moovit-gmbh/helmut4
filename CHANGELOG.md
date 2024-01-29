@@ -6,7 +6,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release](https://www.helmut.de)
 ### Added
-- Added functionalty to import multiple assets from the Cosmo panel into the project (co:4.1.3.24)
+- Added functionality to import multiple assets from the Cosmo panel into the project (co:4.1.3.24)
 - Added a new node "Cosmo Update Asset Size and Date Action" to update the date-time stamp and file size of an asset in Cosmo (co:4.1.3.24, streams:4.1.2.102)
 - Added a new patch method to update an assets by its "nodeID" or "filepath" (co:4.1.3.24)
 - Added a new node "Job Download Web Content Action" (streams:4.1.2.102)
