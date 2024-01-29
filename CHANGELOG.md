@@ -6,15 +6,15 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ## [development release](https://www.helmut.de)
 ### Added
-- Added functionalty to import multiple assets from the Cosmo panel into the project (co:4.1.3.23)
-- Added a new node "Cosmo Update Asset Size and Date Action" to update the date-time stamp and file size of an asset in Cosmo (co:4.1.3.23, streams:4.1.2.101)
-- Added a new patch method to update an assets by its "nodeID" or "filepath" (co:4.1.3.23)
-- Added a new node "Job Download Web Content Action" (streams:4.1.2.101)
+- Added functionalty to import multiple assets from the Cosmo panel into the project (co:4.1.3.24)
+- Added a new node "Cosmo Update Asset Size and Date Action" to update the date-time stamp and file size of an asset in Cosmo (co:4.1.3.24, streams:4.1.2.102)
+- Added a new patch method to update an assets by its "nodeID" or "filepath" (co:4.1.3.24)
+- Added a new node "Job Download Web Content Action" (streams:4.1.2.102)
 ### Fixed
 - Projects view in the Cosmo panel will now reflect the project's lock status (Archived, Restored, Housekeeper, Locked) (hw:4.1.3.76, hp:4.1.3.56)
 ### Changed
-- Extended the node "Cosmo Change Asset Metadata Action" to update metadata of all instances in Cosmo by using the assetID or asset file path (prioritised) (co:4.1.3.23, streams:4.1.2.101, hw:4.1.3.76)
-- Extended the triggers PANEL_IMPORT and AUTOIMPORT to include the assetID and nodeID (accessible as wildcards) (co:4.1.3.23)
+- Extended the node "Cosmo Change Asset Metadata Action" to update metadata of all instances in Cosmo by using the assetID or asset file path (prioritised) (co:4.1.3.24, streams:4.1.2.102, hw:4.1.3.76)
+- Extended the triggers PANEL_IMPORT and AUTOIMPORT to include the assetID and nodeID (accessible as wildcards) (co:4.1.3.24)
 ### Removed
 ### Known Issues
 
