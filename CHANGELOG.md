@@ -4,7 +4,7 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 
 ### Before updating Helmut please consider our [update guideline](./INSTALLATION_GUIDE.md)
 
-## [development release](https://www.helmut.de)
+## [4.7.2](https://www.helmut.de) (patch release)
 ### Added
 - Added functionality to import multiple assets from the Cosmo panel into the project (co:4.1.3.24)
 - Added a new node "Cosmo Update Asset Size and Date Action" to update the date-time stamp and file size of an asset in Cosmo (co:4.1.3.24, streams:4.1.2.102)
@@ -1578,3 +1578,5 @@ All notable changes for the private product [Helmut4](https://www.helmut.de) wil
 [4.6.1]: https://www.helmut.de
 [4.6.2]: https://www.helmut.de
 [4.7.0]: https://www.helmut.de
+[4.7.1]: https://www.helmut.de
+[4.7.2]: https://www.helmut.de
